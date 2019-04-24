@@ -4,9 +4,35 @@
 
 ## Synopsys ##
 
-## Hypothesis ##
+These models are used to study...
+
+## Background ##
+
+Performance compliance may encourage designers to increase solar gains through windows as a low-cost means to reduce energy consumption. If designers do not consider the implications of adverse gains in summer, these homes may require significant cooling loads, and may be uncomfortable in summer. 
+
+#### Hypothesis ####
 
 *By comparing the peak cooling loads between the proposed design and the reference house, a future code requirement can limit the likelihood that designers will use excessive solar gains to meet higher energy tiers.* 
+
+#### Objectives:  ####
+
+1. Propose a requirement limiting a designer's ability to trade-off reduced heating for increased cooling loads as a means to meet upper tiers
+2. Develop evidence supporting that requirement, and identifying how the requirement is likely to limit home design. 
+
+#### Guiding principles: ####
+
+-  **The code will not mandate air conditioning.** The metric for the proposed requirement shall be the increase in cooling load that would be observed *if* an air conditioner were to be installed. Builders will not be required to install air conditioning to comply with this requirement.
+-  **The metric will be computed using the reference house approach**. We recognize that housing design tools predict cooling with different degrees of accuracy. As part of this with the requirement, the designer must compare the cooling loads for the proposed design to those of the reference house. If the the proposed design's predicted cooling loads do not exceed the reference house by more than ==X%==, then the home will be deemed to comply with this requirement. 
+-  **The requirement shall not restrict appropriate passive solar design.** The metric (and threshold ==X%==) will be chosen to permit designers enough flexibility to design a home to well-known passive solar principles (south glazing =~ 4-6% of floor area, windows are protected by appropriate overhangs, N/E/W glazing is limited).
+
+#### Possible language for the proposed requirement ####
+
+1. For the purposes of demonstrating the proposed design does not increase risks of overheating, models for both the reference house and proposed design shall be equipped with space cooling equipment that serve all occupied spaces within the  dwelling. 
+2. The setpoints for cooling shall as provided in table X ==(AKA ERS)==
+3. The peak cooling load in the proposed design shall not exceed the peak cooling load in the reference house by more than ==X%==.
+     
+
+
 
 ## Method: ##
 
@@ -20,14 +46,16 @@
 
    
 
-## Findings ##
+## Findings: ##
 
-##  HTAP instructions ##
+
+
+##  HTAP instructions: ##
 
 Example run:
 
-```powershell
-C:\HTAP-projects\NBC-tiered-code\solar-threshold-study> C:\htap\htap-prm.rb -r .\example.run -o C:\htap\HTAP-options.json -v -j -t 2- -c
+```
+C:\HTAP-projects\NBC-tiered-code\solar-threshold-study> C:\htap\htap-prm.rb -r .\example.run -o C:\htap\HTAP-options.json -v -j -t 2 -c
 ```
 
  
