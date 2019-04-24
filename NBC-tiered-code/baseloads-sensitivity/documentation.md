@@ -1,63 +1,92 @@
-# Solar Threshold Study #
+# Examining the effect of occupancy assumptions on absolute energy metrics (such as TEDI, MEUI) #
 
->  Date, Author?
+>  Alex Ferguson, Natural Resources Canada. 
+>
+>  March 13, 2019
 
 ## Synopsys ##
 
-These models are used to study...
+These models are used to study the effect of different baseloads on TEDI, MEUI metrics. 
 
 ## Background ##
 
-Performance compliance may encourage designers to increase solar gains through windows as a low-cost means to reduce energy consumption. If designers do not consider the implications of adverse gains in summer, these homes may require significant cooling loads, and may be uncomfortable in summer. 
+Electrical and hot water use affect compliance under performance codes: 
 
-#### Hypothesis ####
+-  Site electrical consumption
 
-*By comparing the peak cooling loads between the proposed design and the reference house, a future code requirement can limit the likelihood that designers will use excessive solar gains to meet higher energy tiers.* 
+-  Energy use by water heating equipment
 
-#### Objectives:  ####
+-  Heat gains from electrical equipment, water use,  and occupants.
 
-1. Propose a requirement limiting a designer's ability to trade-off reduced heating for increased cooling loads as a means to meet upper tiers
-2. Develop evidence supporting that requirement, and identifying how the requirement is likely to limit home design. 
+The impact of these assumptions are mitigated somewhat in the reference building approach, which compares results for two buildings with the same assumptions. 
 
-#### Guiding principles: ####
+But getting these assumptions right is critical for codes based on absolute consumption metrics, like the TEDI and MEUI used in the step code. That’s because the benchmark metrics are not sensitive to the assumptions used.
 
--  **The code will not mandate air conditioning.** The metric for the proposed requirement shall be the increase in cooling load that would be observed *if* an air conditioner were to be installed. Builders will not be required to install air conditioning to comply with this requirement.
--  **The metric will be computed using the reference house approach**. We recognize that housing design tools predict cooling with different degrees of accuracy. As part of this with the requirement, the designer must compare the cooling loads for the proposed design to those of the reference house. If the the proposed design's predicted cooling loads do not exceed the reference house by more than ==X%==, then the home will be deemed to comply with this requirement. 
--  **The requirement shall not restrict appropriate passive solar design.** The metric (and threshold ==X%==) will be chosen to permit designers enough flexibility to design a home to well-known passive solar principles (south glazing =~ 4-6% of floor area, windows are protected by appropriate overhangs, N/E/W glazing is limited).
+#### Hypothesis: ####
 
-#### Possible language for the proposed requirement ####
-
-1. For the purposes of demonstrating the proposed design does not increase risks of overheating, models for both the reference house and proposed design shall be equipped with space cooling equipment that serve all occupied spaces within the  dwelling. 
-2. The setpoints for cooling shall as provided in table X ==(AKA ERS)==
-3. The peak cooling load in the proposed design shall not exceed the peak cooling load in the reference house by more than ==X%==.
-     
-
-
+Compliance paths under absolute metrics (such as TEDI, MEUI) will be more sensitive to assumptions about occupancy, appliance and lighting use than reference building approaches. This is because the intensity target in the does not change to reflect different occupancy assumptions. Furthermore, the current occupancy/appliance and lighting assumptions stipulated in 9.36 are out of date — they will provide easier and less-expensive compliance pathways than if more realistic assumptions are used.
 
 ## Method: ##
 
-1. Using archetype homes, compare peak cooling loads for the reference house, for  the same house designed to well-known passive solar guidelines, and to worst case scenarios (E/W orientations, excessive, unshaded glazing). 
+1. ==To be documented.==
 
-2. Propose a maximum ‘permitted increase in cooling loads’ threshold (e.g. 25%), which affords enough flexibility to design passive solar homes, but restricts ‘worst-case scenario’ homes. 
-
-3. Verify that the threshold produces similar results across different building simulation software
-
-4. Examine impact of the proposed metric using 240 archetypes in a variety of locations. For those that could not meet proposed requirements, identify characteristics that prevent the archetypes from meeting the requirement. 
-
-   
 
 ## Findings: ##
 
+Hypothesis was confirmed. 
 
+#### 1) Effect of baseloads on TEDI ####
 
-##  HTAP instructions: ##
+This graph examines how assumptions about
+occupancy affect TEDI results for a house in Toronto. Heat gains from the
+baseloads offset heating requirements; Higher baseload assumptions produce
+lower TEDI results. Depicted are the current NBC assumptions, standard ERS
+assumptions, and reduced ERS assumptions that are available to NZE homes. 
 
-Example run:
+![1556125396102](C:\HTAP-projects\NBC-tiered-code\baseloads-sensitivity\imgs\baseload-comparisons.png)
+
+#### 2) Effect of baseloads on costs to meet TEDI target ####
+
+Not surprisingly, the costs to achieve a
+given TEDI step are also affected by baseload assumptions.  If
+EESHB assumes higher baseloads, cost-benefit analysis will show lower upgrade
+costs and more attractive outcomes. 
+More
+realistic assumptions are likely to produce more pessimistic scenarios. 
+
+![1556125470088](C:\HTAP-projects\NBC-tiered-code\baseloads-sensitivity\imgs\baseloads&Costs.png)
+
+#### 3) Effect of baseloads on TEDI, by heated floor area ####
+
+These effects are not uniform across all homes. This graph examines the effect baseload assumptions on estimated TEDIs for 50 different homes.  Switching from the current NBC loads to more realistic estimates dramatically increases TEDI in smaller homes.
+
+![1556125559376](C:\HTAP-projects\NBC-tiered-code\baseloads-sensitivity\imgs\baseloads-by-house-size.png)
+
+#### Recommendations ####
+
+Before the costs and impacts of an intensity-based code can be understood, current assumptions about occupancy and internal gains must be examined, and updated reflect more recent data on Canadian households. 
+
+This assessment will be essential for any work on absolute energy metrics —like the TEDI and MEUI —because these metrics are much more sensitive to baseload and internal gain assumptions. 
+
+##  Instructions for reproducing these results in HTAP ##
+
+###### 1) Effect of baseloads on TEDI ######
 
 ```
-C:\HTAP-projects\NBC-tiered-code\solar-threshold-study> C:\htap\htap-prm.rb -r .\example.run -o C:\htap\HTAP-options.json -v -j -t 2 -c
+> C:\htap\htap-prm.rb -r .\TEDI-base-load.run -o C:\htap\HTAP-options.json -v -j -t 3 -c
 ```
 
- 
+######  2) Effect of baseloads on costs to meet TEDI target ######
 
-<!-- more here-->
+```
+> C:\htap\htap-prm.rb -r .\TEDI-base-load.run -o C:\htap\HTAP-options.json -v -j -t 3 -c
+```
+
+###### 3) Effect of baseloads on TEDI, by heated floor area ######
+
+First ensure that NRCan's new housing archetypes are installed at `C:/HTAP/Archetypes/NewHouseArch` (or edit the `archetype-dir` entry in file.\TEDI-by-floor-area.run to reflect the appropraiate location )
+
+```
+> C:\htap\htap-prm.rb -r .\TEDI-by-floor-area.run -o C:\htap\HTAP-options.json -v -j -t 3 -c
+```
+
