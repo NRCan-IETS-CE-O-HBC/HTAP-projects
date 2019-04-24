@@ -43,7 +43,7 @@ baseloads offset heating requirements; Higher baseload assumptions produce
 lower TEDI results. Depicted are the current NBC assumptions, standard ERS
 assumptions, and reduced ERS assumptions that are available to NZE homes. 
 
-![1556125396102](C:\HTAP-projects\NBC-tiered-code\baseloads-sensitivity\imgs\baseload-comparisons.png)
+![1556125396102](imgs/baseload-comparisons.png)
 
 #### 2) Effect of baseloads on costs to meet TEDI target ####
 
@@ -54,13 +54,13 @@ costs and more attractive outcomes.
 More
 realistic assumptions are likely to produce more pessimistic scenarios. 
 
-![1556125470088](C:\HTAP-projects\NBC-tiered-code\baseloads-sensitivity\imgs\baseloads&Costs.png)
+![1556125470088](imgs/baseloads&Costs.png)
 
 #### 3) Effect of baseloads on TEDI, by heated floor area ####
 
 These effects are not uniform across all homes. This graph examines the effect baseload assumptions on estimated TEDIs for 50 different homes.  Switching from the current NBC loads to more realistic estimates dramatically increases TEDI in smaller homes.
 
-![1556125559376](C:\HTAP-projects\NBC-tiered-code\baseloads-sensitivity\imgs\baseloads-by-house-size.png)
+![1556125559376](imgs/baseloads-by-house-size.png)
 
 #### Recommendations ####
 
