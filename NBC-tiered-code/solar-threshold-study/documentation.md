@@ -1,10 +1,12 @@
 # Solar Threshold Study #
 
->  Date, Author?
+>  Julia Purdy, Natural Resources Canada. Contact: julia.purdy@canada.ca
+>
+>  April 25, 2019
 
 ## Synopsys ##
 
-These models are used to study...
+These models are used to study the impact of overheating in Part 9 buildings.
 
 ## Background ##
 
@@ -37,6 +39,10 @@ Performance compliance may encourage designers to increase solar gains through w
 ## Method: ##
 
 1. Using archetype homes, compare peak cooling loads for the reference house, for  the same house designed to well-known passive solar guidelines, and to worst case scenarios (E/W orientations, excessive, unshaded glazing). 
+- starting with Arch-1-NZEH-detached-2-story.h2k
+- modify window distribution to equal in each cardinal direction; this is the base case
+- modify to have 6% window area (to heated floor area) on the south side of the house with the same overall window to heated floor area; this is the passive solar case
+- modify archetype to maximize window area on east and west sides with same overall window to heated floor area; this is the worst case scenario
 
 2. Propose a maximum ‘permitted increase in cooling loads’ threshold (e.g. 25%), which affords enough flexibility to design passive solar homes, but restricts ‘worst-case scenario’ homes. 
 
