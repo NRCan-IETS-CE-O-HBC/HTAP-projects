@@ -84,6 +84,14 @@ Compare Cooling requirements for an archetype with different window to wall rati
 
 A single archetype will be used for this work. 
 
+Archetype specifications in HOT2000:
+
+|                                    |                                                        |
+| ---------------------------------- | ------------------------------------------------------ |
+| Heated Floor Area                  | 216.3 m²                                               |
+| Wall Area                          | 272.67 m²                                              |
+| Total Window Area: 35.38 m² (12.0) | Front: 13.67 m²<br />Side: 2.68 m²<br />Rear: 19.03 m² |
+
 <!--Need to insert some statistics about hhe archetypes.-->
 
 ![1556553895186](imgs/1556553895186.png)
@@ -94,12 +102,12 @@ A single archetype will be used for this work.
 
 **==Archetype oriented north (front) / south (rear), mid-gain windows (SHGC:  0.26)==**
 
-| Scenario      | Proposed house                                               | Reference house                                |
-| ------------- | ------------------------------------------------------------ | ---------------------------------------------- |
-| Typical       | **[pro-A-NS]**AZNEH Archetype 1, as is (12% FWDH?). no change to overhangs | **[ref-A]** 17% FWDH. equal glass distribution |
-| Passive solar | **[pro-B-NS]**AZNEH Archetype 1, south glass = 6% of heated floor area, north glass limited, appropriate overhangs (distribution changes relative to original ANZEH) | **[ref-A]**17% FWHR, equal glass distribution  |
-| Mid glazing   | **[pro-C-NS]**AZNEH Archetype 1, glass increased to 20% FWDH, glass distribution proportional to original design | **[ref-C]** 20% FWHR, equal glass distribution |
-| High glazing  | **[pro-D-NS] **AZNEH Archetype 1, glass increased to 25+% FWDH, glass distribution glass distribution proportional to original design | **[ref-D]** 22% FWHR, equal glass distribution |
+| Scenario      | Proposed house                                               | Reference house                                              |
+| ------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| Typical       | **[pro-A-NS]**AZNEH Archetype 1, as is (12% FWDH?). no change to overhangs<br />Front Window (N): 13.67 m²<br />Side Window (E): 2.68 m²<br />Rear Window (S): 19.03 m² | **[ref-A]** 17% FWDH. equal glass distribution<br />All windows (N, E, S, W): 11.59 m² |
+| Passive solar | **[pro-B-NS]**AZNEH Archetype 1, south glass = 6% of heated floor area, north glass limited, appropriate overhangs (distribution changes relative to original ANZEH) | **[ref-A]**17% FWHR, equal glass distribution                |
+| Mid glazing   | **[pro-C-NS]**AZNEH Archetype 1, glass increased to 20% FWDH, glass distribution proportional to original design | **[ref-C]** 20% FWHR, equal glass distribution               |
+| High glazing  | **[pro-D-NS] **AZNEH Archetype 1, glass increased to 25+% FWDH, glass distribution glass distribution proportional to original design | **[ref-D]** 22% FWHR, equal glass distribution               |
 
 
 
