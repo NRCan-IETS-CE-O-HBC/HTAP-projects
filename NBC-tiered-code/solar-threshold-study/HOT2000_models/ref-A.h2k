@@ -163,7 +163,7 @@
                         <French>Construction récente (3.57 CAH @ 50 Pa)</French>
                     </AirTightnessTest>
                 </House>
-                <BlowerTest airChangeRate="3.57" leakageArea="1037.5017" isCgsbTest="true" isCalculated="true" />
+                <BlowerTest airChangeRate="3.57" leakageArea="1037.5038" isCgsbTest="true" isCalculated="true" />
                 <BuildingSite highestCeiling="6.2789">
                     <Terrain code="7">
                         <English>Suburban, forest</English>
@@ -331,14 +331,14 @@
                         </CentralType>
                     </Equipment>
                     <Specifications sizingFactor="1">
-                        <RatedCapacity code="2" value="8.4025" uiUnits="kW">
+                        <RatedCapacity code="2" value="9.0356" uiUnits="kW">
                             <English>Calculated</English>
                             <French>Calculé</French>
                         </RatedCapacity>
                         <Efficiency isCop="false" value="14.5" />
                     </Specifications>
                     <CoolingParameters sensibleHeatRatio="0.76" openableWindowArea="15">
-                        <FansAndPump flowRate="566.9704" hasEnergyEfficientMotor="false">
+                        <FansAndPump flowRate="609.6923" hasEnergyEfficientMotor="false">
                             <Mode code="2">
                                 <English>Continuous</English>
                                 <French>Continu</French>
@@ -433,17 +433,6 @@
                             <French>Est</French>
                         </FacingDirection>
                     </Window>
-                    <FloorHeader adjacentEnclosedSpace="false" id="42">
-                        <Label>Ground floor</Label>
-                        <Construction>
-                            <Type idref="Code 10" rValue="4.9602" nominalInsulation="4.4014">R20 Batt +1" XPS + Brick</Type>
-                        </Construction>
-                        <Measurements height="0.2408" perimeter="36.4297" />
-                        <FacingDirection code="1">
-                            <English>N/A</English>
-                            <French>S/O</French>
-                        </FacingDirection>
-                    </FloorHeader>
                     <Window number="1" er="19.6552" shgc="0.5727" frameHeight="71" frameAreaFraction="0.1113" edgeOfGlassFraction="0.0966" centreOfGlassFraction="0.7921" adjacentEnclosedSpace="false" id="49">
                         <Label>Side Window 2</Label>
                         <Construction energyStar="false">
@@ -461,6 +450,17 @@
                             <French>Ouest</French>
                         </FacingDirection>
                     </Window>
+                    <FloorHeader adjacentEnclosedSpace="false" id="42">
+                        <Label>Ground floor</Label>
+                        <Construction>
+                            <Type idref="Code 10" rValue="4.9602" nominalInsulation="4.4014">R20 Batt +1" XPS + Brick</Type>
+                        </Construction>
+                        <Measurements height="0.2408" perimeter="36.4297" />
+                        <FacingDirection code="1">
+                            <English>N/A</English>
+                            <French>S/O</French>
+                        </FacingDirection>
+                    </FloorHeader>
                 </Components>
             </Wall>
             <Wall adjacentEnclosedSpace="false" id="34">
@@ -474,29 +474,12 @@
                     <French>S/O</French>
                 </FacingDirection>
                 <Components>
-                    <Window number="1" er="19.6552" shgc="0.5727" frameHeight="71" frameAreaFraction="0.1113" edgeOfGlassFraction="0.0966" centreOfGlassFraction="0.7921" adjacentEnclosedSpace="false" id="20">
-                        <Label>Rear Window</Label>
-                        <Construction energyStar="false">
-                            <Type idref="Code 7" rValue="0.584">casement</Type>
-                        </Construction>
-                        <Measurements height="1500.12" width="7725.0298" headerHeight="0.3" overhangWidth="0.61">
-                            <Tilt code="1" value="90">
-                                <English>Vertical</English>
-                                <French>Verticale</French>
-                            </Tilt>
-                        </Measurements>
-                        <Shading curtain="1" shutterRValue="0" />
-                        <FacingDirection code="1">
-                            <English>South</English>
-                            <French>Sud</French>
-                        </FacingDirection>
-                    </Window>
                     <Window number="1" er="19.6552" shgc="0.5727" frameHeight="71" frameAreaFraction="0.1113" edgeOfGlassFraction="0.0966" centreOfGlassFraction="0.7921" adjacentEnclosedSpace="false" id="36">
                         <Label>Front Window</Label>
                         <Construction energyStar="false">
                             <Type idref="Code 7" rValue="0.584">casement</Type>
                         </Construction>
-                        <Measurements height="1500.12" width="7725.0298" headerHeight="0.3" overhangWidth="0.61">
+                        <Measurements height="1500.12" width="7725.0298" headerHeight="0" overhangWidth="0">
                             <Tilt code="1" value="90">
                                 <English>Vertical</English>
                                 <French>Verticale</French>
@@ -506,6 +489,23 @@
                         <FacingDirection code="5">
                             <English>North</English>
                             <French>Nord</French>
+                        </FacingDirection>
+                    </Window>
+                    <Window number="1" er="19.6552" shgc="0.5727" frameHeight="71" frameAreaFraction="0.1113" edgeOfGlassFraction="0.0966" centreOfGlassFraction="0.7921" adjacentEnclosedSpace="false" id="20">
+                        <Label>Rear Window</Label>
+                        <Construction energyStar="false">
+                            <Type idref="Code 7" rValue="0.584">casement</Type>
+                        </Construction>
+                        <Measurements height="1500.12" width="7725.0298" headerHeight="0" overhangWidth="0">
+                            <Tilt code="1" value="90">
+                                <English>Vertical</English>
+                                <French>Verticale</French>
+                            </Tilt>
+                        </Measurements>
+                        <Shading curtain="1" shutterRValue="0" />
+                        <FacingDirection code="1">
+                            <English>South</English>
+                            <French>Sud</French>
                         </FacingDirection>
                     </Window>
                     <FloorHeader adjacentEnclosedSpace="false" id="43">
@@ -1123,28 +1123,28 @@
         </Wood>
     </FuelCosts>
     <AllResults>
-        <Results sha256="4C73F550F927D88A341355CCBE8CB6E4AE92B10E01174254D00BEE2E7CB4C54E">
+        <Results sha256="3F3EFAE77A6CD29CF817BE3E7114C44C9ED07998C5F94C6B93A03B45AE401E2B">
             <Labels>
                 <English>House</English>
                 <French xml:lang="fr">House</French>
             </Labels>
             <Annual>
-                <Consumption total="127.614143372">
-                    <Electrical baseload="31.536000000" airConditioning="3.738328369" appliance="18.395985283" lighting="3.941996846" heatPump="0.000000000" spaceHeating="0.279142681" spaceCooling="4.265671392" ventilation="2.365142517" total="41.185042833">
+                <Consumption total="127.280075073">
+                    <Electrical baseload="31.536000000" airConditioning="3.917722900" appliance="18.395985283" lighting="3.941996846" heatPump="0.000000000" spaceHeating="0.273623539" spaceCooling="4.478271173" ventilation="2.365142517" total="41.605050700">
                         <HotWater dhw="0.000000000" primary="0.000000000" secondary="0.000000000" />
                     </Electrical>
-                    <NaturalGas baseload="0.000000000" appliance="0.000000000" hotWater="22.683743837" spaceHeating="63.745161578" total="86.428903141" />
+                    <NaturalGas baseload="0.000000000" appliance="0.000000000" hotWater="22.684794474" spaceHeating="62.990031401" total="85.674828149" />
                     <Oil baseload="0.000000000" hotWater="0.000000000" spaceHeating="0.000000000" total="0.000000000" />
                     <Propane baseload="0.000000000" appliance="0.000000000" hotWater="0.000000000" spaceHeating="0.000000000" total="0.000000000" />
                     <Wood baseload="0.000000000" hotWater="0.000000000" spaceHeating="0.000000000" total="0.000000000" />
-                    <SpaceHeating primary="63.745281250" secondary="0.000000000" total="64.024425781" />
-                    <HotWater primary="22.683785156" secondary="0.000000000" total="22.683785156" />
+                    <SpaceHeating primary="62.990148437" secondary="0.000000000" total="63.263773437" />
+                    <HotWater primary="22.684835938" secondary="0.000000000" total="22.684835938" />
                     <SupplementalHeating system1="0.000000000" system2="0.000000000" system3="0.000000000" system4="0.000000000" system5="0.000000000" />
                 </Consumption>
-                <HotWaterDemand base="15.374010742" primary="22.683785156" secondary="0.000000000" />
-                <Load basementHeating="0.000000000" basementCooling="0.000000000" grossHeating="118.296742188" auxiliaryEnergy="61292.640625000" />
-                <HeatLoss total="118.296741943" ceiling="4.213929688" mainWalls="22.505480469" windows="34.180183594" doors="3.129571777" exposedFloors="2.722453369" crawlspace="0.000000000" slab="0.000000000" basementBelowGradeWall="16.741427734" basementAboveGradeWall="5.704578125" basementFloorHeaders="0.000000000" ponyWall="0.000000000" floorsAboveBasement="7.568889648" airLeakageAndNaturalVentilation="29.099117187">
-                    <MainFloor door="3.129571777">
+                <HotWaterDemand base="15.374012695" primary="22.684835938" secondary="0.000000000" />
+                <Load basementHeating="0.000000000" basementCooling="0.000000000" grossHeating="118.287437500" auxiliaryEnergy="60564.273437500" />
+                <HeatLoss total="118.287432861" ceiling="4.213929199" mainWalls="22.505476563" windows="34.180183594" doors="3.129571289" exposedFloors="2.722452881" crawlspace="0.000000000" slab="0.000000000" basementBelowGradeWall="16.734154297" basementAboveGradeWall="5.702725586" basementFloorHeaders="0.000000000" ponyWall="0.000000000" floorsAboveBasement="7.604044922" airLeakageAndNaturalVentilation="29.098939453">
+                    <MainFloor door="3.129571289">
                         <Windows south="8.545" southEast="0" east="8.545" northEast="0" north="8.545" northWest="0" west="8.545" southWest="0" />
                     </MainFloor>
                     <Basement door="0.000000000">
@@ -1154,23 +1154,23 @@
                         <Windows south="0" southEast="0" east="0" northEast="0" north="0" northWest="0" west="0" southWest="0" />
                     </Crawlspace>
                 </HeatLoss>
-                <AirChangeRate natural="0.136594683" total="0.394603819" />
-                <UtilizedSolarGains value="26.904380859" />
-                <ActualFuelCosts electrical="1212.015258789" naturalGas="1384.075439453" oil="0.000000000" propane="0.000000000" wood="0.000000000" />
+                <AirChangeRate natural="0.136594504" total="0.394603670" />
+                <UtilizedSolarGains value="27.623199219" />
+                <ActualFuelCosts electrical="1223.868896484" naturalGas="1373.557495117" oil="0.000000000" propane="0.000000000" wood="0.000000000" />
             </Annual>
             <Monthly>
-                <FractionOfTimeHeatingSystemNotOperating january="0.55562" february="0.60967" march="0.73706" april="0.86654" may="0.97494" june="0.99941" july="1.00000" august="0.99989" september="0.99686" october="0.92055" november="0.76703" december="0.62434" />
+                <FractionOfTimeHeatingSystemNotOperating january="0.55948" february="0.61426" march="0.74194" april="0.87018" may="0.97452" june="0.99920" july="1.00000" august="0.99989" september="0.99609" october="0.92215" november="0.76976" december="0.62756" />
                 <SolarHotWaterEnergyContribution january="0.00000" february="0.00000" march="0.00000" april="0.00000" may="0.00000" june="0.00000" july="0.00000" august="0.00000" september="0.00000" october="0.00000" november="0.00000" december="0.00000" />
                 <ElectricalConsumption>
                     <ImsOrP9HeatingHours january="0.00000" february="0.00000" march="0.00000" april="0.00000" may="0.00000" june="0.00000" july="0.00000" august="0.00000" september="0.00000" october="0.00000" november="0.00000" december="0.00000" />
                     <Gross january="0.00000" february="0.00000" march="0.00000" april="0.00000" may="0.00000" june="0.00000" july="0.00000" august="0.00000" september="0.00000" october="0.00000" november="0.00000" december="0.00000" />
                 </ElectricalConsumption>
                 <Gains>
-                    <UtilizedInternal january="2809.36631" february="2533.75910" march="2813.07428" april="2737.93352" may="2847.50833" june="2303.82889" july="406.01738" august="1584.61036" september="2717.78382" october="2875.41934" november="2759.10648" december="2826.77950" />
-                    <UtilizedSolar january="3387.41420" february="3933.96501" march="4529.83288" april="3490.79815" may="2169.28543" june="297.79510" july="0.00000" august="14.81457" september="1056.37123" october="2915.79478" november="2389.30668" december="2719.00316" />
+                    <UtilizedInternal january="2809.47518" february="2533.91562" march="2813.29563" april="2738.10755" may="2847.47989" june="2303.54476" july="406.01705" august="1584.58829" september="2717.44305" october="2875.49225" november="2759.20014" december="2826.87072" />
+                    <UtilizedSolar january="3511.49880" february="4066.49683" march="4685.02282" april="3602.43070" may="2156.18687" june="291.59237" july="0.00000" august="14.58963" september="1033.27500" october="2966.33323" november="2473.60917" december="2822.16162" />
                     <CrawlspaceSolar january="0.00000" february="0.00000" march="0.00000" april="0.00000" may="0.00000" june="0.00000" july="0.00000" august="0.00000" september="0.00000" october="0.00000" november="0.00000" december="0.00000" />
                 </Gains>
-                <UtilizedAuxiliaryHeatRequired january="14370.03188" february="11392.32465" march="8484.03406" april="4160.88963" may="805.90668" june="18.35030" july="0.00000" august="0.45458" september="97.80107" october="2557.47132" november="7270.10564" december="12135.27066" />
+                <UtilizedAuxiliaryHeatRequired january="14244.56166" february="11257.90903" march="8326.17913" april="4047.16785" may="819.37118" june="24.96793" july="0.00000" august="0.69932" september="121.71883" october="2506.06219" november="7184.64621" december="12030.99353" />
                 <Temperatures>
                     <CrawlSpace january="0.00000" february="0.00000" march="0.00000" april="0.00000" may="0.00000" june="0.00000" july="0.00000" august="0.00000" september="0.00000" october="0.00000" november="0.00000" december="0.00000" />
                     <Attic january="-3.83426" february="-2.17636" march="3.47909" april="10.89870" may="18.43238" june="23.88172" july="26.79044" august="24.85255" september="19.26709" october="11.70877" november="5.07597" december="-0.91907" />
@@ -1180,35 +1180,35 @@
                     <PhotoVoltaicAvailable january="0.00000" february="0.00000" march="0.00000" april="0.00000" may="0.00000" june="0.00000" july="0.00000" august="0.00000" september="0.00000" october="0.00000" november="0.00000" december="0.00000" />
                     <WindUtilized january="0.00000" february="0.00000" march="0.00000" april="0.00000" may="0.00000" june="0.00000" july="0.00000" august="0.00000" september="0.00000" october="0.00000" november="0.00000" december="0.00000" />
                     <WindAvailable january="0.00000" february="0.00000" march="0.00000" april="0.00000" may="0.00000" june="0.00000" july="0.00000" august="0.00000" september="0.00000" october="0.00000" november="0.00000" december="0.00000" />
-                    <GrossThermal january="20566.81239" february="17860.04876" march="15826.94155" april="10389.62130" may="5822.70036" june="2619.97411" july="406.01738" august="1599.87973" september="3871.95599" october="8348.68593" november="12418.51880" december="17681.05349" />
+                    <GrossThermal january="20565.53466" february="17858.32059" march="15824.49725" april="10387.70641" may="5823.03777" june="2620.10542" july="406.01705" august="1599.87711" september="3872.43661" october="8347.88751" november="12417.45567" december="17680.02555" />
                     <Basement>
-                        <Heating january="1428.20743" february="1132.04429" march="842.91319" april="413.30214" may="80.20069" june="1.82474" july="0.00000" august="0.04008" september="9.72821" october="253.97968" november="722.41298" december="1205.88478" />
+                        <Heating january="1422.10616" february="1123.69832" march="830.91050" april="403.76973" may="81.90649" june="2.49403" july="0.00000" august="0.06193" september="12.16215" october="249.97148" november="717.12504" december="1200.89302" />
                         <Cooling january="0.00000" february="0.00000" march="0.00000" april="0.00000" may="0.00000" june="0.00000" july="0.00000" august="0.00000" september="0.00000" october="0.00000" november="0.00000" december="0.00000" />
                     </Basement>
                 </Load>
                 <HeatLoss>
-                    <Ceiling january="938.58319" february="791.15791" march="662.18319" april="369.45223" may="97.04045" june="-105.39797" july="-218.84305" august="-145.60291" september="63.38085" october="351.15158" november="582.41725" december="828.40677" />
-                    <MainWalls january="3952.16981" february="3423.49580" march="3022.43773" april="1987.17854" may="1054.47769" june="370.17755" july="76.35866" august="175.46373" september="728.66160" october="1711.18340" november="2515.97596" december="3487.89834" />
-                    <Doors january="522.43472" february="458.06236" march="412.78625" april="276.91349" may="160.12420" june="73.07546" july="36.35119" august="46.67508" september="113.52856" october="236.14067" november="333.59316" december="459.88679" />
-                    <ExposedFloors january="454.47240" february="398.47409" march="359.08784" april="240.89046" may="139.29402" june="63.56924" july="31.62234" august="40.60323" september="98.75989" october="205.42166" november="290.19680" december="400.06119" />
+                    <Ceiling january="938.58319" february="791.15784" march="662.18315" april="369.45215" may="97.04038" june="-105.39804" july="-218.84313" august="-145.60299" september="63.38078" october="351.15154" november="582.41717" december="828.40677" />
+                    <MainWalls january="3952.16949" february="3423.49550" march="3022.43741" april="1987.17822" may="1054.47745" june="370.17728" july="76.35866" august="175.46373" september="728.66137" october="1711.18323" november="2515.97580" december="3487.89801" />
+                    <Doors january="522.43472" february="458.06232" march="412.78621" april="276.91347" may="160.12417" june="73.07543" july="36.35119" august="46.67508" september="113.52853" october="236.14063" november="333.59312" december="459.88675" />
+                    <ExposedFloors january="454.47236" february="398.47405" march="359.08784" april="240.89044" may="139.29399" june="63.56921" july="31.62234" august="40.60323" september="98.75986" october="205.42164" november="290.19678" december="400.06115" />
                     <Crawlspace january="0.00000" february="0.00000" march="0.00000" april="0.00000" may="0.00000" june="0.00000" july="0.00000" august="0.00000" september="0.00000" october="0.00000" november="0.00000" december="0.00000" />
                     <Slab january="0.00000" february="0.00000" march="0.00000" april="0.00000" may="0.00000" june="0.00000" july="0.00000" august="0.00000" september="0.00000" october="0.00000" november="0.00000" december="0.00000" />
                     <Basement>
-                        <AboveGrade january="969.31294" february="841.45701" march="746.62950" april="492.33509" may="276.21245" june="120.20101" july="50.47069" august="80.83651" september="211.17236" october="438.85896" november="620.86310" december="856.22828" />
-                        <BelowGrade january="2114.57261" february="1932.60710" march="1968.33743" april="1598.36651" may="1292.14826" june="985.21945" july="894.19980" august="785.78042" september="786.89689" october="1072.40854" november="1440.11529" december="1870.77461" />
+                        <AboveGrade january="969.05882" february="841.11334" march="746.14218" april="491.95263" may="276.28027" june="120.22755" july="50.47066" august="80.83736" september="211.26906" october="438.69933" november="620.65071" december="856.02344" />
+                        <BelowGrade january="2113.57540" february="1931.25767" march="1966.42475" april="1596.86532" may="1292.41448" june="985.32363" july="894.19971" august="785.78386" september="787.27634" october="1071.78193" november="1439.28141" december="1869.96982" />
                         <AboveGradeWall january="0.00000" february="0.00000" march="0.00000" april="0.00000" may="0.00000" june="0.00000" july="0.00000" august="0.00000" september="0.00000" october="0.00000" november="0.00000" december="0.00000" />
                         <FloorHeaders january="0.00000" february="0.00000" march="0.00000" april="0.00000" may="0.00000" june="0.00000" july="0.00000" august="0.00000" september="0.00000" october="0.00000" november="0.00000" december="0.00000" />
                         <PonyWall january="0.00000" february="0.00000" march="0.00000" april="0.00000" may="0.00000" june="0.00000" july="0.00000" august="0.00000" september="0.00000" october="0.00000" november="0.00000" december="0.00000" />
-                        <FloorsAbove january="1071.08626" february="1103.24741" march="1215.34705" april="969.73762" may="691.91545" june="301.23785" july="64.73377" august="15.56678" september="171.38194" october="456.69826" november="632.20607" december="875.73079" />
-                        <AirLeakageAndMechanicalVentilation january="5909.40244" february="5011.98410" march="4147.16106" april="2400.12397" may="1054.57799" june="315.02261" july="23.36880" august="106.35321" september="629.63317" october="1754.46774" november="2991.95965" december="4755.06206" />
+                        <FloorsAbove january="1075.77844" february="1109.67887" march="1224.64470" april="977.15465" may="690.58058" june="300.71315" july="64.73363" august="15.54928" september="169.47543" october="459.82724" november="636.32235" december="879.58654" />
+                        <AirLeakageAndMechanicalVentilation january="5909.37628" february="5011.94984" march="4147.11725" april="2400.09360" may="1054.58207" june="315.02371" july="23.36868" august="106.34665" september="629.63843" october="1754.45679" november="2991.94256" december="4755.04343" />
                     </Basement>
                 </HeatLoss>
                 <Factors>
                     <MainFloors>
-                        <SolarUtilization january="0.95184" february="0.87591" march="0.75997" april="0.69450" may="0.38205" june="0.05016" july="0.00000" august="0.00261" september="0.21745" october="0.70807" november="0.93808" december="0.96367" />
-                        <GainLoadRatio january="0.21794" february="0.31642" march="0.48974" april="0.69441" may="1.96134" june="18.88791" july="0.00000" august="372.93835" september="4.24478" october="0.78898" november="0.28500" december="0.20673" />
-                        <MassGainRatio january="3.03660" february="2.17329" march="1.81303" april="2.08063" may="1.90323" june="1.76155" july="0.00000" august="1.90275" september="2.15279" october="2.62430" november="4.10600" december="3.83009" />
-                        <InternalGainsUtilization january="14.82505" february="13.46677" march="12.83707" april="13.99667" may="15.65267" june="19.35523" july="18.59099" august="20.92711" september="16.95419" october="14.12908" november="15.85917" december="16.17956" />
+                        <SolarUtilization january="0.94665" february="0.86017" march="0.73255" april="0.65053" may="0.34497" june="0.04502" july="0.00000" august="0.00233" september="0.19525" october="0.68001" november="0.93104" december="0.95892" />
+                        <GainLoadRatio january="0.22710" february="0.33291" march="0.52507" april="0.76426" may="2.16004" june="20.62078" july="0.00000" august="411.88803" september="4.63063" october="0.83528" november="0.29715" december="0.21557" />
+                        <MassGainRatio january="2.91333" february="2.06467" march="1.68972" april="1.88851" may="1.72896" june="1.61482" july="0.00000" august="1.72305" september="1.97619" october="2.47736" november="3.93630" december="3.67190" />
+                        <InternalGainsUtilization january="14.65662" february="13.26232" march="12.61686" april="13.58636" may="15.67408" june="19.36674" july="18.59098" august="20.92745" september="16.99451" october="14.04949" november="15.72607" december="16.03338" />
                     </MainFloors>
                     <Basement>
                         <SolarUtilization january="0.00000" february="0.00000" march="0.00000" april="0.00000" may="0.00000" june="0.00000" july="0.00000" august="0.00000" september="0.00000" october="0.00000" november="0.00000" december="0.00000" />
@@ -1221,17 +1221,17 @@
                     <Total january="0.48028" february="0.47085" march="0.44747" april="0.41281" may="0.36302" june="0.33233" july="0.31754" august="0.31458" september="0.34125" october="0.38208" november="0.42226" december="0.45591" />
                 </AirChangeRate>
             </Monthly>
-            <Other designHeatLossRate="11768.645507813" designCoolLossRate="7332.974121094" seasonalHeatEfficiency="95.733129978">
-                <Ventilation roomCountCapacity="50.000000000" noLimitCapacity="50.000000000" minimumAirChangeRate="0.219485044" equivalentLeakageArea="0.103750391" />
+            <Other designHeatLossRate="11768.645507813" designCoolLossRate="7820.004394531" seasonalHeatEfficiency="95.732837915">
+                <Ventilation roomCountCapacity="50.000000000" noLimitCapacity="50.000000000" minimumAirChangeRate="0.219485059" equivalentLeakageArea="0.103750378" />
                 <FanEnergyConsumption>
                     <Hrv heatingHours="2.060993896" neitherHours="0.084978394" coolingHours="0.219171967" />
-                    <Heating heatingHours="0.279142883" neitherHours="0.000000000" coolingHours="0.000000000" />
-                    <AirConditioning heatingHours="0.000000000" neitherHours="2.739114014" coolingHours="0.527346497" />
+                    <Heating heatingHours="0.273623749" neitherHours="0.000000000" coolingHours="0.000000000" />
+                    <AirConditioning heatingHours="0.000000000" neitherHours="2.952041016" coolingHours="0.560551331" />
                     <HrvOrExhaust heatingHours="2.060992199" neitherHours="0.084978329" coolingHours="0.219171797" total="2.365142297" />
-                    <SpaceHeating heatingHours="0.279142681" neitherHours="0.000000000" coolingHours="0.000000000" total="0.279142681" />
-                    <SpaceCooling heatingHours="0.000000000" neitherHours="2.739111993" coolingHours="0.527346075" total="3.266458178" />
+                    <SpaceHeating heatingHours="0.273623539" neitherHours="0.000000000" coolingHours="0.000000000" total="0.273623539" />
+                    <SpaceCooling heatingHours="0.000000000" neitherHours="2.952038727" coolingHours="0.560550907" total="3.512589524" />
                 </FanEnergyConsumption>
-                <GrossArea ceiling="129.117599487" doors="7.122566700" exposedFloors="34.590000153" slab="0.000000000" ponyWall="0.000000000" buildingSurfaceArea="637.941101074" houseVolumeWithoutCrawlspace="820.101440430">
+                <GrossArea ceiling="129.117599487" doors="7.122566700" exposedFloors="34.590000153" slab="0.000000000" ponyWall="0.000000000" buildingSurfaceArea="637.941101074" houseVolumeWithoutCrawlspace="820.101379395">
                     <MainFloors mainWalls="272.561981201">
                         <Windows>
                             <South grossArea="11.588472366" rsiValue="0.583964288" />
