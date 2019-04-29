@@ -78,7 +78,9 @@ Compare Cooling requirements for an archetype with different window to wall rati
 *QUESTIONS:* 
 
 -  Should we use high-gain for this work? Passive solar results may be wonky otherwise.
--  What should passive solar overhangs be set to? Does HOT2000's window header height do what we think?
+-  What should passive solar overhangs be set to? Does HOT2000's window header height do what we think? 
+   *ANSWER: Based on a very quick analysis and information from HOT2000 help, header height seems to be the overhang height above window*
+   ![1556561906708](C:\HTAP-projects\NBC-tiered-code\solar-threshold-study\1556561906708.png)
 
 ###### Scenarios ######
 
