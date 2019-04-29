@@ -1,12 +1,17 @@
-# Solar Threshold Study #
+# Proposed metrics to control risks of overheating in future residential energy codes #
 
->  Julia Purdy, Natural Resources Canada. Contact: julia.purdy@canada.ca
+>  Julia Purdy, Chris Kirney & Alex Ferguson, <br />
+>  CanmetENERGY Ottawa, Natural Resources Canada
+>
+>  Contact: julia.purdy@canada.ca
 >
 >  April 25, 2019
 
+[TOC]
+
 ## Synopsys ##
 
-These models are used to study the impact of overheating in Part 9 buildings.
+These files are part of an investigation into overheating in residential housing. The goal of this study is to propose a metric for evaluating the likelihood of a home to overheat relative to the reference house. Results from this study will also demonstrate how code requirements based on that metric would affect home design. 
 
 ## Background ##
 
@@ -14,7 +19,7 @@ Performance compliance may encourage designers to increase solar gains through w
 
 #### Hypothesis ####
 
-*By comparing the peak cooling loads between the proposed design and the reference house, a future code requirement can limit the likelihood that designers will use excessive solar gains to meet higher energy tiers.* 
+*By comparing the **a) peak cooling loads** and/or **b) seasonal cooling requirements** between the proposed design and the reference house, a future code requirement can limit the likelihood that designers will use excessive solar gains to meet higher energy tiers.* 
 
 #### Objectives:  ####
 
@@ -23,18 +28,39 @@ Performance compliance may encourage designers to increase solar gains through w
 
 #### Guiding principles: ####
 
--  **The code will not mandate air conditioning.** The metric for the proposed requirement shall be the increase in cooling load that would be observed *if* an air conditioner were to be installed. Builders will not be required to install air conditioning to comply with this requirement.
+-  **The scope of this study is limited to home design** (orientation, glazing areas, overhangs), glazing specifications (solar heat gain coefficient), and operable windows. 
+-  If proposed requirement stipulates the home be modelled with cooling, **these modelling procedures shall only be required for the purposes of assessing overheating risks**. They shall not be interpreted to mean that the code requires homes be equipped with air conditioners, or that the home shall
+
+>  **NOTE**: The scope of this study specifically excludes examining whether or not a home will require cooling, or appropriate performance levels for cooling equipment. The metrics proposed in this study, and the data collected to support them will be inadequate to examine these other issues. If they are important for future codes, additional studies will be required.
+
 -  **The metric will be computed using the reference house approach**. We recognize that housing design tools predict cooling with different degrees of accuracy. As part of this with the requirement, the designer must compare the cooling loads for the proposed design to those of the reference house. If the the proposed design's predicted cooling loads do not exceed the reference house by more than ==X%==, then the home will be deemed to comply with this requirement. 
 -  **The requirement shall not restrict appropriate passive solar design.** The metric (and threshold ==X%==) will be chosen to permit designers enough flexibility to design a home to well-known passive solar principles (south glazing =~ 4-6% of floor area, windows are protected by appropriate overhangs, N/E/W glazing is limited).
 
 #### Possible language for the proposed requirement ####
 
-1. For the purposes of demonstrating the proposed design does not increase risks of overheating, models for both the reference house and proposed design shall be equipped with space cooling equipment that serve all occupied spaces within the  dwelling. 
-2. The setpoints for cooling shall as provided in table X ==(AKA ERS)==
-3. The peak cooling load in the proposed design shall not exceed the peak cooling load in the reference house by more than ==X%==.
-     
+1. The reference house and proposed design shall be modelled in accordance with 9.36.5
 
+2. For the purposes of demonstrating the proposed design does not increase risks of overheating, models for both the reference house and proposed design shall be equipped with appropriately-sized[^1] space cooling equipment that serves all occupied spaces within the building.[^2]
 
+3. The relative difference in cooling requirements between the reference house and the proposed design shall be calculated as follows: 
+   $$
+   \delta QC = \frac{QC_{proposed}-QC_{reference}}{QC_{reference}}\cdot 100
+   $$
+   Where:
+   
+   $\delta{}QC$ is the  relative difference in the cooling requirements between the reference and proposed houses
+   
+   $QC_{proposed}$ is the  cooling requirement of the proposed house
+   
+   $QC_{reference}$ is the  cooling requirement of the reference house
+   
+
+<!-- Note that QC to be explicitly defined as Peak cooling load (W) or seasonal cooling requrement (GJ), based on findings from this study -->
+
+4. The peak cooling load in the proposed design shall not exceed the peak cooling load in the reference house by more than ==X%==.
+
+[^1]: Do we need to reference F280 here?
+[^2]: The performance of the cooling equipment should be unimportant, because the requirement focuses on the peak cooling load, or seasonal cooling requirement.
 
 ## Method: ##
 
@@ -67,3 +93,4 @@ C:\HTAP-projects\NBC-tiered-code\solar-threshold-study> C:\htap\htap-prm.rb -r .
  
 
 <!-- more here-->
+
