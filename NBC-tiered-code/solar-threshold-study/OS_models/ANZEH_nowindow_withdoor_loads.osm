@@ -2172,7 +2172,7 @@ OS:Space,
   0,                                      !- Y Origin {m}
   0,                                      !- Z Origin {m}
   ,                                       !- Building Story Name
-  ,                                       !- Thermal Zone Name
+  {db3f238f-8b25-4453-93bf-a77dbbcc4429}, !- Thermal Zone Name
   ,                                       !- Part of Total Floor Area
   ,                                       !- Design Specification Outdoor Air Object Name
   ;                                       !- Building Unit Name
@@ -2638,7 +2638,7 @@ OS:Space,
   0,                                      !- Y Origin {m}
   2.7432,                                 !- Z Origin {m}
   ,                                       !- Building Story Name
-  ,                                       !- Thermal Zone Name
+  {2993b931-2c52-4b54-9030-f41dea24b993}, !- Thermal Zone Name
   Yes,                                    !- Part of Total Floor Area
   ,                                       !- Design Specification Outdoor Air Object Name
   ;                                       !- Building Unit Name
@@ -3049,8 +3049,8 @@ OS:Space,
   1.1938,                                 !- Y Origin {m}
   2.7432,                                 !- Z Origin {m}
   ,                                       !- Building Story Name
-  ,                                       !- Thermal Zone Name
-  ,                                       !- Part of Total Floor Area
+  {af167a41-8d3e-441a-83ea-6db9ab7d8ab5}, !- Thermal Zone Name
+  No,                                     !- Part of Total Floor Area
   ,                                       !- Design Specification Outdoor Air Object Name
   ;                                       !- Building Unit Name
 
@@ -3235,8 +3235,8 @@ OS:Space,
   0,                                      !- Y Origin {m}
   0,                                      !- Z Origin {m}
   ,                                       !- Building Story Name
-  ,                                       !- Thermal Zone Name
-  ,                                       !- Part of Total Floor Area
+  {c8c5600d-77c5-40a3-9bf5-d1942b5383db}, !- Thermal Zone Name
+  No,                                     !- Part of Total Floor Area
   ,                                       !- Design Specification Outdoor Air Object Name
   ;                                       !- Building Unit Name
 
@@ -3455,7 +3455,7 @@ OS:Space,
   0,                                      !- Y Origin {m}
   8.2296,                                 !- Z Origin {m}
   ,                                       !- Building Story Name
-  ,                                       !- Thermal Zone Name
+  {ce8fee78-1fb9-4a5a-a58c-aaf6de2ddd8f}, !- Thermal Zone Name
   ,                                       !- Part of Total Floor Area
   ,                                       !- Design Specification Outdoor Air Object Name
   ;                                       !- Building Unit Name
@@ -5812,4 +5812,412 @@ OS:Rendering:Color,
   135,                                    !- Rendering Red Value
   206,                                    !- Rendering Green Value
   235;                                    !- Rendering Blue Value
+
+OS:Schedule:Ruleset,
+  {5471acb9-18e2-430a-9106-53e7fd0ad086}, !- Handle
+  Infiltration_schedule,                  !- Name
+  {c50de33e-2a31-403b-929e-8d1c42a993ef}, !- Schedule Type Limits Name
+  {a563cd71-510f-4cd4-92c3-99d7c466a401}; !- Default Day Schedule Name
+
+OS:Schedule:Day,
+  {a563cd71-510f-4cd4-92c3-99d7c466a401}, !- Handle
+  Schedule Day 7,                         !- Name
+  {c50de33e-2a31-403b-929e-8d1c42a993ef}, !- Schedule Type Limits Name
+  ,                                       !- Interpolate to Timestep
+  24,                                     !- Hour 1
+  0,                                      !- Minute 1
+  0.3;                                    !- Value Until Time 1
+
+OS:Schedule:Rule,
+  {03741349-c7a7-4129-9f43-b59abf556c97}, !- Handle
+  Dec,                                    !- Name
+  {5471acb9-18e2-430a-9106-53e7fd0ad086}, !- Schedule Ruleset Name
+  11,                                     !- Rule Order
+  {8294c9bc-4b9a-426a-8f4d-bac4e687fe39}, !- Day Schedule Name
+  ,                                       !- Apply Sunday
+  ,                                       !- Apply Monday
+  ,                                       !- Apply Tuesday
+  ,                                       !- Apply Wednesday
+  ,                                       !- Apply Thursday
+  ,                                       !- Apply Friday
+  ,                                       !- Apply Saturday
+  ,                                       !- Apply Holiday
+  DateRange,                              !- Date Specification Type
+  12,                                     !- Start Month
+  1,                                      !- Start Day
+  12,                                     !- End Month
+  31;                                     !- End Day
+
+OS:Schedule:Day,
+  {8294c9bc-4b9a-426a-8f4d-bac4e687fe39}, !- Handle
+  Schedule Day 8,                         !- Name
+  {c50de33e-2a31-403b-929e-8d1c42a993ef}, !- Schedule Type Limits Name
+  ,                                       !- Interpolate to Timestep
+  24,                                     !- Hour 1
+  0,                                      !- Minute 1
+  0.888000011444092;                      !- Value Until Time 1
+
+OS:Schedule:Rule,
+  {5c07b185-085c-4845-8ca1-3f5190d74cb2}, !- Handle
+  Nov,                                    !- Name
+  {5471acb9-18e2-430a-9106-53e7fd0ad086}, !- Schedule Ruleset Name
+  10,                                     !- Rule Order
+  {9fae5e68-a5af-43c8-8ddd-f089127a3551}, !- Day Schedule Name
+  ,                                       !- Apply Sunday
+  ,                                       !- Apply Monday
+  ,                                       !- Apply Tuesday
+  ,                                       !- Apply Wednesday
+  ,                                       !- Apply Thursday
+  ,                                       !- Apply Friday
+  ,                                       !- Apply Saturday
+  ,                                       !- Apply Holiday
+  DateRange,                              !- Date Specification Type
+  11,                                     !- Start Month
+  1,                                      !- Start Day
+  11,                                     !- End Month
+  30;                                     !- End Day
+
+OS:Schedule:Day,
+  {9fae5e68-a5af-43c8-8ddd-f089127a3551}, !- Handle
+  Schedule Day 9,                         !- Name
+  {c50de33e-2a31-403b-929e-8d1c42a993ef}, !- Schedule Type Limits Name
+  ,                                       !- Interpolate to Timestep
+  24,                                     !- Hour 1
+  0,                                      !- Minute 1
+  0.740000009536743;                      !- Value Until Time 1
+
+OS:Schedule:Rule,
+  {2b99b552-30d4-446b-80af-ff19d0b5d2c4}, !- Handle
+  Oct,                                    !- Name
+  {5471acb9-18e2-430a-9106-53e7fd0ad086}, !- Schedule Ruleset Name
+  9,                                      !- Rule Order
+  {0a553b37-7d85-492d-89ea-506aee88e71a}, !- Day Schedule Name
+  ,                                       !- Apply Sunday
+  ,                                       !- Apply Monday
+  ,                                       !- Apply Tuesday
+  ,                                       !- Apply Wednesday
+  ,                                       !- Apply Thursday
+  ,                                       !- Apply Friday
+  ,                                       !- Apply Saturday
+  ,                                       !- Apply Holiday
+  DateRange,                              !- Date Specification Type
+  10,                                     !- Start Month
+  1,                                      !- Start Day
+  10,                                     !- End Month
+  31;                                     !- End Day
+
+OS:Schedule:Day,
+  {0a553b37-7d85-492d-89ea-506aee88e71a}, !- Handle
+  Schedule Day 10,                        !- Name
+  {c50de33e-2a31-403b-929e-8d1c42a993ef}, !- Schedule Type Limits Name
+  ,                                       !- Interpolate to Timestep
+  24,                                     !- Hour 1
+  0,                                      !- Minute 1
+  0.555999994277954;                      !- Value Until Time 1
+
+OS:Schedule:Rule,
+  {b0de9c24-a746-4209-b5af-de2d8f073f56}, !- Handle
+  Sep,                                    !- Name
+  {5471acb9-18e2-430a-9106-53e7fd0ad086}, !- Schedule Ruleset Name
+  8,                                      !- Rule Order
+  {fd59a190-8957-4172-b2a4-89690142ed40}, !- Day Schedule Name
+  ,                                       !- Apply Sunday
+  ,                                       !- Apply Monday
+  ,                                       !- Apply Tuesday
+  ,                                       !- Apply Wednesday
+  ,                                       !- Apply Thursday
+  ,                                       !- Apply Friday
+  ,                                       !- Apply Saturday
+  ,                                       !- Apply Holiday
+  DateRange,                              !- Date Specification Type
+  9,                                      !- Start Month
+  1,                                      !- Start Day
+  9,                                      !- End Month
+  30;                                     !- End Day
+
+OS:Schedule:Day,
+  {fd59a190-8957-4172-b2a4-89690142ed40}, !- Handle
+  Schedule Day 11,                        !- Name
+  {c50de33e-2a31-403b-929e-8d1c42a993ef}, !- Schedule Type Limits Name
+  ,                                       !- Interpolate to Timestep
+  24,                                     !- Hour 1
+  0,                                      !- Minute 1
+  0.372000008821487;                      !- Value Until Time 1
+
+OS:Schedule:Rule,
+  {6c386775-2d3e-4bf7-b53c-26f556080732}, !- Handle
+  Aug,                                    !- Name
+  {5471acb9-18e2-430a-9106-53e7fd0ad086}, !- Schedule Ruleset Name
+  7,                                      !- Rule Order
+  {0c74170c-bc0f-4da0-a09a-f741707c6182}, !- Day Schedule Name
+  ,                                       !- Apply Sunday
+  ,                                       !- Apply Monday
+  ,                                       !- Apply Tuesday
+  ,                                       !- Apply Wednesday
+  ,                                       !- Apply Thursday
+  ,                                       !- Apply Friday
+  ,                                       !- Apply Saturday
+  ,                                       !- Apply Holiday
+  DateRange,                              !- Date Specification Type
+  8,                                      !- Start Month
+  1,                                      !- Start Day
+  8,                                      !- End Month
+  31;                                     !- End Day
+
+OS:Schedule:Day,
+  {0c74170c-bc0f-4da0-a09a-f741707c6182}, !- Handle
+  Schedule Day 12,                        !- Name
+  {c50de33e-2a31-403b-929e-8d1c42a993ef}, !- Schedule Type Limits Name
+  ,                                       !- Interpolate to Timestep
+  24,                                     !- Hour 1
+  0,                                      !- Minute 1
+  0.256000012159348;                      !- Value Until Time 1
+
+OS:Schedule:Rule,
+  {65d165a8-0e57-4cc7-ab1f-c5588e19e85f}, !- Handle
+  Jul,                                    !- Name
+  {5471acb9-18e2-430a-9106-53e7fd0ad086}, !- Schedule Ruleset Name
+  6,                                      !- Rule Order
+  {d5e40b16-ea0a-4f66-991d-a98d41860f62}, !- Day Schedule Name
+  ,                                       !- Apply Sunday
+  ,                                       !- Apply Monday
+  ,                                       !- Apply Tuesday
+  ,                                       !- Apply Wednesday
+  ,                                       !- Apply Thursday
+  ,                                       !- Apply Friday
+  ,                                       !- Apply Saturday
+  ,                                       !- Apply Holiday
+  DateRange,                              !- Date Specification Type
+  7,                                      !- Start Month
+  1,                                      !- Start Day
+  7,                                      !- End Month
+  31;                                     !- End Day
+
+OS:Schedule:Day,
+  {d5e40b16-ea0a-4f66-991d-a98d41860f62}, !- Handle
+  Schedule Day 13,                        !- Name
+  {c50de33e-2a31-403b-929e-8d1c42a993ef}, !- Schedule Type Limits Name
+  ,                                       !- Interpolate to Timestep
+  24,                                     !- Hour 1
+  0,                                      !- Minute 1
+  0.268999993801117;                      !- Value Until Time 1
+
+OS:Schedule:Rule,
+  {89072771-361a-454e-95f8-42bd9b0964bb}, !- Handle
+  Jun,                                    !- Name
+  {5471acb9-18e2-430a-9106-53e7fd0ad086}, !- Schedule Ruleset Name
+  5,                                      !- Rule Order
+  {2f691f4a-8ffe-4378-935b-a792d31b88b3}, !- Day Schedule Name
+  ,                                       !- Apply Sunday
+  ,                                       !- Apply Monday
+  ,                                       !- Apply Tuesday
+  ,                                       !- Apply Wednesday
+  ,                                       !- Apply Thursday
+  ,                                       !- Apply Friday
+  ,                                       !- Apply Saturday
+  ,                                       !- Apply Holiday
+  DateRange,                              !- Date Specification Type
+  6,                                      !- Start Month
+  1,                                      !- Start Day
+  6,                                      !- End Month
+  30;                                     !- End Day
+
+OS:Schedule:Day,
+  {2f691f4a-8ffe-4378-935b-a792d31b88b3}, !- Handle
+  Schedule Day 14,                        !- Name
+  {c50de33e-2a31-403b-929e-8d1c42a993ef}, !- Schedule Type Limits Name
+  ,                                       !- Interpolate to Timestep
+  24,                                     !- Hour 1
+  0,                                      !- Minute 1
+  0.335999995470047;                      !- Value Until Time 1
+
+OS:Schedule:Rule,
+  {50deb1ad-d52d-4078-91ec-2af8eb7b0d63}, !- Handle
+  May,                                    !- Name
+  {5471acb9-18e2-430a-9106-53e7fd0ad086}, !- Schedule Ruleset Name
+  4,                                      !- Rule Order
+  {04376fb5-cc02-4660-983e-628cb4804523}, !- Day Schedule Name
+  ,                                       !- Apply Sunday
+  ,                                       !- Apply Monday
+  ,                                       !- Apply Tuesday
+  ,                                       !- Apply Wednesday
+  ,                                       !- Apply Thursday
+  ,                                       !- Apply Friday
+  ,                                       !- Apply Saturday
+  ,                                       !- Apply Holiday
+  DateRange,                              !- Date Specification Type
+  5,                                      !- Start Month
+  1,                                      !- Start Day
+  5,                                      !- End Month
+  31;                                     !- End Day
+
+OS:Schedule:Day,
+  {04376fb5-cc02-4660-983e-628cb4804523}, !- Handle
+  Schedule Day 15,                        !- Name
+  {c50de33e-2a31-403b-929e-8d1c42a993ef}, !- Schedule Type Limits Name
+  ,                                       !- Interpolate to Timestep
+  24,                                     !- Hour 1
+  0,                                      !- Minute 1
+  0.470999985933304;                      !- Value Until Time 1
+
+OS:Schedule:Rule,
+  {684956d0-0e26-4f19-92fa-3e418e7267ab}, !- Handle
+  Apr,                                    !- Name
+  {5471acb9-18e2-430a-9106-53e7fd0ad086}, !- Schedule Ruleset Name
+  3,                                      !- Rule Order
+  {5dcac8d1-f163-402c-9868-0d4e9b135047}, !- Day Schedule Name
+  ,                                       !- Apply Sunday
+  ,                                       !- Apply Monday
+  ,                                       !- Apply Tuesday
+  ,                                       !- Apply Wednesday
+  ,                                       !- Apply Thursday
+  ,                                       !- Apply Friday
+  ,                                       !- Apply Saturday
+  ,                                       !- Apply Holiday
+  DateRange,                              !- Date Specification Type
+  4,                                      !- Start Month
+  1,                                      !- Start Day
+  4,                                      !- End Month
+  30;                                     !- End Day
+
+OS:Schedule:Day,
+  {5dcac8d1-f163-402c-9868-0d4e9b135047}, !- Handle
+  Schedule Day 16,                        !- Name
+  {c50de33e-2a31-403b-929e-8d1c42a993ef}, !- Schedule Type Limits Name
+  ,                                       !- Interpolate to Timestep
+  24,                                     !- Hour 1
+  0,                                      !- Minute 1
+  0.694999992847443;                      !- Value Until Time 1
+
+OS:Schedule:Rule,
+  {4c4abac5-d710-4290-82e8-6b2258bafbcb}, !- Handle
+  Mar,                                    !- Name
+  {5471acb9-18e2-430a-9106-53e7fd0ad086}, !- Schedule Ruleset Name
+  2,                                      !- Rule Order
+  {59641b3d-1b14-4db3-b0ff-ae5c21d07677}, !- Day Schedule Name
+  ,                                       !- Apply Sunday
+  ,                                       !- Apply Monday
+  ,                                       !- Apply Tuesday
+  ,                                       !- Apply Wednesday
+  ,                                       !- Apply Thursday
+  ,                                       !- Apply Friday
+  ,                                       !- Apply Saturday
+  ,                                       !- Apply Holiday
+  DateRange,                              !- Date Specification Type
+  3,                                      !- Start Month
+  1,                                      !- Start Day
+  3,                                      !- End Month
+  31;                                     !- End Day
+
+OS:Schedule:Day,
+  {59641b3d-1b14-4db3-b0ff-ae5c21d07677}, !- Handle
+  Schedule Day 17,                        !- Name
+  {c50de33e-2a31-403b-929e-8d1c42a993ef}, !- Schedule Type Limits Name
+  ,                                       !- Interpolate to Timestep
+  24,                                     !- Hour 1
+  0,                                      !- Minute 1
+  0.851999998092651;                      !- Value Until Time 1
+
+OS:Schedule:Rule,
+  {1944f55b-8406-4afa-bb13-c5d7d7c7a95c}, !- Handle
+  Feb,                                    !- Name
+  {5471acb9-18e2-430a-9106-53e7fd0ad086}, !- Schedule Ruleset Name
+  1,                                      !- Rule Order
+  {4ba5572b-f0ed-484a-bdd3-d57e2ff200c4}, !- Day Schedule Name
+  ,                                       !- Apply Sunday
+  ,                                       !- Apply Monday
+  ,                                       !- Apply Tuesday
+  ,                                       !- Apply Wednesday
+  ,                                       !- Apply Thursday
+  ,                                       !- Apply Friday
+  ,                                       !- Apply Saturday
+  ,                                       !- Apply Holiday
+  DateRange,                              !- Date Specification Type
+  2,                                      !- Start Month
+  1,                                      !- Start Day
+  2,                                      !- End Month
+  28;                                     !- End Day
+
+OS:Schedule:Day,
+  {4ba5572b-f0ed-484a-bdd3-d57e2ff200c4}, !- Handle
+  Schedule Day 18,                        !- Name
+  {c50de33e-2a31-403b-929e-8d1c42a993ef}, !- Schedule Type Limits Name
+  ,                                       !- Interpolate to Timestep
+  24,                                     !- Hour 1
+  0,                                      !- Minute 1
+  0.954999983310699;                      !- Value Until Time 1
+
+OS:Schedule:Rule,
+  {ba6f3d0b-177a-4488-b9cb-895e211f1adc}, !- Handle
+  Jan,                                    !- Name
+  {5471acb9-18e2-430a-9106-53e7fd0ad086}, !- Schedule Ruleset Name
+  0,                                      !- Rule Order
+  {7bedc898-75d7-4f49-b158-46ad2874f5c6}, !- Day Schedule Name
+  ,                                       !- Apply Sunday
+  ,                                       !- Apply Monday
+  ,                                       !- Apply Tuesday
+  ,                                       !- Apply Wednesday
+  ,                                       !- Apply Thursday
+  ,                                       !- Apply Friday
+  ,                                       !- Apply Saturday
+  ,                                       !- Apply Holiday
+  DateRange,                              !- Date Specification Type
+  1,                                      !- Start Month
+  1,                                      !- Start Day
+  1,                                      !- End Month
+  31;                                     !- End Day
+
+OS:Schedule:Day,
+  {7bedc898-75d7-4f49-b158-46ad2874f5c6}, !- Handle
+  Schedule Day 19,                        !- Name
+  {c50de33e-2a31-403b-929e-8d1c42a993ef}, !- Schedule Type Limits Name
+  ,                                       !- Interpolate to Timestep
+  24,                                     !- Hour 1
+  0,                                      !- Minute 1
+  1;                                      !- Value Until Time 1
+
+OS:SpaceInfiltration:DesignFlowRate,
+  {ffcc0868-c89d-4c97-aae6-5dc210e6b700}, !- Handle
+  Basement_iinfiltration,                 !- Name
+  {85ce93cc-4229-4f9c-9db0-54ec44724a51}, !- Space or SpaceType Name
+  {5471acb9-18e2-430a-9106-53e7fd0ad086}, !- Schedule Name
+  AirChanges/Hour,                        !- Design Flow Rate Calculation Method
+  0,                                      !- Design Flow Rate {m3/s}
+  0,                                      !- Flow per Space Floor Area {m3/s-m2}
+  0,                                      !- Flow per Exterior Surface Area {m3/s-m2}
+  0.0508,                                 !- Air Changes per Hour {1/hr}
+  ,                                       !- Constant Term Coefficient
+  ,                                       !- Temperature Term Coefficient
+  ,                                       !- Velocity Term Coefficient
+  ;                                       !- Velocity Squared Term Coefficient
+
+OS:SpaceInfiltration:DesignFlowRate,
+  {6bd179a8-08ef-4bf3-89f5-437051731c4b}, !- Handle
+  House_Infiltration,                     !- Name
+  {1d45e478-e84e-4513-b0b9-f9556f5ceb00}, !- Space or SpaceType Name
+  {5471acb9-18e2-430a-9106-53e7fd0ad086}, !- Schedule Name
+  AirChanges/Hour,                        !- Design Flow Rate Calculation Method
+  0,                                      !- Design Flow Rate {m3/s}
+  0,                                      !- Flow per Space Floor Area {m3/s-m2}
+  0,                                      !- Flow per Exterior Surface Area {m3/s-m2}
+  0.0508,                                 !- Air Changes per Hour {1/hr}
+  ,                                       !- Constant Term Coefficient
+  ,                                       !- Temperature Term Coefficient
+  ,                                       !- Velocity Term Coefficient
+  ;                                       !- Velocity Squared Term Coefficient
+
+OS:SpaceInfiltration:DesignFlowRate,
+  {bb4a0268-cd9c-47c5-8bd7-37a9e48f4d38}, !- Handle
+  Cold_room_iinfiltration,                !- Name
+  {7f6db8ca-81ac-47fb-bef5-fc74df032cb4}, !- Space or SpaceType Name
+  {5471acb9-18e2-430a-9106-53e7fd0ad086}, !- Schedule Name
+  AirChanges/Hour,                        !- Design Flow Rate Calculation Method
+  0,                                      !- Design Flow Rate {m3/s}
+  0,                                      !- Flow per Space Floor Area {m3/s-m2}
+  0,                                      !- Flow per Exterior Surface Area {m3/s-m2}
+  0.0508,                                 !- Air Changes per Hour {1/hr}
+  ,                                       !- Constant Term Coefficient
+  ,                                       !- Temperature Term Coefficient
+  ,                                       !- Velocity Term Coefficient
+  ;                                       !- Velocity Squared Term Coefficient
 
