@@ -3473,9 +3473,9 @@ OS:Surface,
   ,                                       !- View Factor to Ground
   ,                                       !- Number of Vertices
   1.82880000000001, 2.98983977272727, 1.75006, !- X,Y,Z Vertex 1 {m}
-  2.48373036337161e-016, 1.18560994318182, 0.544195, !- X,Y,Z Vertex 2 {m}
-  -1.49023821802297e-016, -2.02578402098702e-032, 0.544194999999999, !- X,Y,Z Vertex 3 {m}
-  1.82880000000001, 1.35052268065801e-032, 1.75006; !- X,Y,Z Vertex 4 {m}
+  -5.81969813176094e-031, 1.18560994318182, 0.544195, !- X,Y,Z Vertex 2 {m}
+  0, 0, 0.544194999999999,                !- X,Y,Z Vertex 3 {m}
+  1.82880000000001, 0, 1.75006;           !- X,Y,Z Vertex 4 {m}
 
 OS:Surface,
   {e2291fcc-3bf8-4914-a4f4-b076092dbcb9}, !- Handle
@@ -3509,7 +3509,7 @@ OS:Surface,
   12.8016, 6.60399999999999, 4.1656,      !- X,Y,Z Vertex 1 {m}
   12.8016, 12.6238, 0.142240000000001,    !- X,Y,Z Vertex 2 {m}
   -1.67326414836995e-033, 12.6238, 0.142240000000001, !- X,Y,Z Vertex 3 {m}
-  6.21615718936862e-031, 6.60399999999999, 4.1656; !- X,Y,Z Vertex 4 {m}
+  6.48428267919576e-031, 6.60399999999999, 4.1656; !- X,Y,Z Vertex 4 {m}
 
 OS:Surface,
   {f50991f6-69bf-474b-aac9-085d01161b5a}, !- Handle
@@ -3558,12 +3558,12 @@ OS:Surface,
   WindExposed,                            !- Wind Exposure
   ,                                       !- View Factor to Ground
   ,                                       !- Number of Vertices
-  5.84201126962509e-031, 6.60399999999999, 4.1656, !- X,Y,Z Vertex 1 {m}
-  -1.21105271335477e-033, 12.6238, 0.142240000000001, !- X,Y,Z Vertex 2 {m}
-  -2.53364320423152e-032, 12.6238, 3.49210285863943e-063, !- X,Y,Z Vertex 3 {m}
-  -2.28731914352938e-031, 3.68534340211726e-063, 3.87953051068888e-062, !- X,Y,Z Vertex 4 {m}
-  -1.36430797902408e-031, 2.19818184234409e-063, 0.544194999999999, !- X,Y,Z Vertex 5 {m}
-  -1.17328173793523e-031, 1.18560994318182, 0.544195; !- X,Y,Z Vertex 6 {m}
+  6.48428267919576e-031, 6.60399999999999, 4.1656, !- X,Y,Z Vertex 1 {m}
+  -1.67326414836995e-033, 12.6238, 0.142240000000001, !- X,Y,Z Vertex 2 {m}
+  -4.74746206841665e-033, 12.6238, 0,     !- X,Y,Z Vertex 3 {m}
+  0, 0, 0,                                !- X,Y,Z Vertex 4 {m}
+  0, 0, 0.544194999999999,                !- X,Y,Z Vertex 5 {m}
+  -5.81969813176094e-031, 1.18560994318182, 0.544195; !- X,Y,Z Vertex 6 {m}
 
 OS:Surface,
   {940e332f-5bf2-4e8e-bf79-951aa9e60968}, !- Handle
@@ -3578,12 +3578,12 @@ OS:Surface,
   ,                                       !- View Factor to Ground
   ,                                       !- Number of Vertices
   12.8016, 6.60399999999999, 4.1656,      !- X,Y,Z Vertex 1 {m}
-  6.75240816902291e-031, 6.60399999999999, 4.1656, !- X,Y,Z Vertex 2 {m}
-  -5.75782301872391e-031, 1.18560994318182, 0.544195, !- X,Y,Z Vertex 3 {m}
+  6.48428267919576e-031, 6.60399999999999, 4.1656, !- X,Y,Z Vertex 2 {m}
+  -5.81969813176094e-031, 1.18560994318182, 0.544195, !- X,Y,Z Vertex 3 {m}
   1.82880000000001, 2.98983977272727, 1.75006, !- X,Y,Z Vertex 4 {m}
-  3.65760000000002, 1.18560994318182, 0.544195, !- X,Y,Z Vertex 5 {m}
-  3.65760000000002, 0.584200000000001, 0.142239999999999, !- X,Y,Z Vertex 6 {m}
-  12.8016, 0.584200000000001, 0.14224;    !- X,Y,Z Vertex 7 {m}
+  3.65760000000002, 1.18560994318182, 0.544194999999999, !- X,Y,Z Vertex 5 {m}
+  3.65760000000002, 0.5842, 0.142240000000001, !- X,Y,Z Vertex 6 {m}
+  12.8016, 0.5842, 0.142240000000001;     !- X,Y,Z Vertex 7 {m}
 
 OS:Surface,
   {a9d35a31-9303-44ca-8f04-190967d32b6d}, !- Handle
@@ -3597,8 +3597,8 @@ OS:Surface,
   WindExposed,                            !- Wind Exposure
   ,                                       !- View Factor to Ground
   ,                                       !- Number of Vertices
-  1.82880000000001, 1.35052268065801e-032, 1.75006, !- X,Y,Z Vertex 1 {m}
-  3.65760000000002, 1.35052268065801e-032, 0.544194999999999, !- X,Y,Z Vertex 2 {m}
+  1.82880000000001, 0, 1.75006,           !- X,Y,Z Vertex 1 {m}
+  3.65760000000002, 0, 0.544194999999999, !- X,Y,Z Vertex 2 {m}
   3.65760000000002, 1.18560994318182, 0.544194999999999, !- X,Y,Z Vertex 3 {m}
   1.82880000000001, 2.98983977272727, 1.75006; !- X,Y,Z Vertex 4 {m}
 
@@ -3882,8 +3882,8 @@ OS:ShadingSurface,
   ,                                       !- Transmittance Schedule Name
   ,                                       !- Number of Vertices
   0, 6.01980000000001, 4.1656,            !- X,Y,Z Vertex 1 {m}
-  0, -9.65256206213685e-016, 0.142240000000002, !- X,Y,Z Vertex 2 {m}
-  0.609599999999998, -9.65256206213685e-016, 0.142240000000002, !- X,Y,Z Vertex 3 {m}
+  0, -8.77505642012441e-016, 0.142240000000002, !- X,Y,Z Vertex 2 {m}
+  0.609599999999998, -8.77505642012441e-016, 0.142240000000002, !- X,Y,Z Vertex 3 {m}
   0.609599999999998, 6.01980000000001, 4.1656; !- X,Y,Z Vertex 4 {m}
 
 OS:ShadingSurface,
@@ -3929,8 +3929,8 @@ OS:ShadingSurface,
   ,                                       !- Transmittance Schedule Name
   ,                                       !- Number of Vertices
   -0.6096, 7.21911419532262e-016, 0.142239999999999, !- X,Y,Z Vertex 1 {m}
-  -0.6096, 1.20222401955682e-031, -6.1016538846602e-046, !- X,Y,Z Vertex 2 {m}
-  0, 1.20222401955682e-031, -6.1016538846602e-046, !- X,Y,Z Vertex 3 {m}
+  -0.6096, 1.20222401955682e-031, -6.10165388466021e-046, !- X,Y,Z Vertex 2 {m}
+  0, 1.20222401955682e-031, -6.10165388466021e-046, !- X,Y,Z Vertex 3 {m}
   0, 7.21911419532262e-016, 0.142239999999999; !- X,Y,Z Vertex 4 {m}
 
 OS:ShadingSurface,
@@ -3941,8 +3941,8 @@ OS:ShadingSurface,
   ,                                       !- Transmittance Schedule Name
   ,                                       !- Number of Vertices
   -0.6096, 6.0198, 4.1656,                !- X,Y,Z Vertex 1 {m}
-  -0.6096, 9.35019932592424e-016, 0.142239999999999, !- X,Y,Z Vertex 2 {m}
-  0, 9.35019932592424e-016, 0.142239999999999, !- X,Y,Z Vertex 3 {m}
+  -0.6096, 9.0994834282064e-016, 0.142239999999999, !- X,Y,Z Vertex 2 {m}
+  0, 9.0994834282064e-016, 0.142239999999999, !- X,Y,Z Vertex 3 {m}
   0, 6.0198, 4.1656;                      !- X,Y,Z Vertex 4 {m}
 
 OS:ShadingSurfaceGroup,
@@ -3965,7 +3965,7 @@ OS:ShadingSurface,
   ,                                       !- Number of Vertices
   2.48373036337163e-016, 1.18560994318182, 0.544195, !- X,Y,Z Vertex 1 {m}
   -0.6096, 0.584200000000001, 0.14224,    !- X,Y,Z Vertex 2 {m}
-  -0.609599999999999, -8.46272938315539e-031, 0.14224, !- X,Y,Z Vertex 3 {m}
+  -0.609599999999999, -9.81226762365857e-031, 0.14224, !- X,Y,Z Vertex 3 {m}
   2.48373036337163e-016, 4.65309539173492e-031, 0.544194999999999; !- X,Y,Z Vertex 4 {m}
 
 OS:ShadingSurface,
@@ -3987,10 +3987,10 @@ OS:ShadingSurface,
   {a671d575-6577-491e-a23c-d7f687916b4b}, !- Shading Surface Group Name
   ,                                       !- Transmittance Schedule Name
   ,                                       !- Number of Vertices
-  -0.6096, 0, 0.142240000000001,          !- X,Y,Z Vertex 1 {m}
-  -0.6096, 0.584200000000001, 0.142239999999999, !- X,Y,Z Vertex 2 {m}
-  -0.6096, 0.5842, 0,                     !- X,Y,Z Vertex 3 {m}
-  -0.6096, 0, 0;                          !- X,Y,Z Vertex 4 {m}
+  -0.6096, 0.584200000000001, 0.142239999999999, !- X,Y,Z Vertex 1 {m}
+  -0.6096, 0.5842, 0,                     !- X,Y,Z Vertex 2 {m}
+  -0.6096, 0, 0,                          !- X,Y,Z Vertex 3 {m}
+  -0.6096, 0, 0.142240000000001;          !- X,Y,Z Vertex 4 {m}
 
 OS:ShadingSurfaceGroup,
   {3408a10b-e119-4c9b-93ac-c002eec8e8f9}, !- Handle
@@ -4118,8 +4118,8 @@ OS:ShadingSurface,
   ,                                       !- Transmittance Schedule Name
   ,                                       !- Number of Vertices
   -2.43839999999999, -0.6096, 1.75006,    !- X,Y,Z Vertex 1 {m}
-  -1.3660516998544e-016, -0.6096, 0.142240000000001, !- X,Y,Z Vertex 2 {m}
-  -1.3660516998544e-016, 0, 0.142240000000001, !- X,Y,Z Vertex 3 {m}
+  -2.7321033997088e-016, -0.6096, 0.142240000000001, !- X,Y,Z Vertex 2 {m}
+  -2.7321033997088e-016, 0, 0.142240000000001, !- X,Y,Z Vertex 3 {m}
   -2.43839999999999, 0, 1.75006;          !- X,Y,Z Vertex 4 {m}
 
 OS:SimulationControl,
@@ -6442,7 +6442,7 @@ OS:ThermostatSetpoint:DualSetpoint,
 OS:Construction,
   {03acc3a9-ef5b-4692-96c7-c97d4e887b4d}, !- Handle
   Base_window,                            !- Name
-  ,                                       !- Surface Rendering Name
+  {123742e4-4a96-4f94-8857-e9452eb02eb3}, !- Surface Rendering Name
   {f2e38078-0a00-47e3-91b2-4d38e3f49d30}; !- Layer 1
 
 OS:StandardsInformation:Construction,
@@ -6506,4 +6506,108 @@ OS:DefaultSubSurfaceConstructions,
   ,                                       !- Skylight Construction Name
   ,                                       !- Tubular Daylight Dome Construction Name
   ;                                       !- Tubular Daylight Diffuser Construction Name
+
+OS:Rendering:Color,
+  {123742e4-4a96-4f94-8857-e9452eb02eb3}, !- Handle
+  Rendering Color 91,                     !- Name
+  123,                                    !- Rendering Red Value
+  104,                                    !- Rendering Green Value
+  238;                                    !- Rendering Blue Value
+
+OS:SubSurface,
+  {d01e3075-f7f2-41b2-b16f-c9211c335b18}, !- Handle
+  Window_left,                            !- Name
+  FixedWindow,                            !- Sub Surface Type
+  ,                                       !- Construction Name
+  {a8c4ea9a-8fc4-4fa6-8f48-d79b600c4833}, !- Surface Name
+  ,                                       !- Outside Boundary Condition Object
+  ,                                       !- View Factor to Ground
+  ,                                       !- Shading Control Name
+  ,                                       !- Frame and Divider Name
+  ,                                       !- Multiplier
+  ,                                       !- Number of Vertices
+  0, 6.90035, 1.50012,                    !- X,Y,Z Vertex 1 {m}
+  0, 6.90035, 0,                          !- X,Y,Z Vertex 2 {m}
+  0, 5.11385, 0,                          !- X,Y,Z Vertex 3 {m}
+  0, 5.11385, 1.50012;                    !- X,Y,Z Vertex 4 {m}
+
+OS:SubSurface,
+  {dc060caa-585f-48eb-babe-947554379e0a}, !- Handle
+  Window_front,                           !- Name
+  FixedWindow,                            !- Sub Surface Type
+  ,                                       !- Construction Name
+  {42e4ccd5-90ac-46e8-a805-e697427a892d}, !- Surface Name
+  ,                                       !- Outside Boundary Condition Object
+  ,                                       !- View Factor to Ground
+  ,                                       !- Shading Control Name
+  ,                                       !- Frame and Divider Name
+  ,                                       !- Multiplier
+  ,                                       !- Number of Vertices
+  7.33635, 1.1938, 4.54812,               !- X,Y,Z Vertex 1 {m}
+  7.33635, 1.1938, 3.048,                 !- X,Y,Z Vertex 2 {m}
+  9.12285, 1.1938, 3.048,                 !- X,Y,Z Vertex 3 {m}
+  9.12285, 1.1938, 4.54812;               !- X,Y,Z Vertex 4 {m}
+
+OS:SubSurface,
+  {0d474c73-2acc-4c9a-9347-c49405ed239a}, !- Handle
+  Window_back,                            !- Name
+  FixedWindow,                            !- Sub Surface Type
+  ,                                       !- Construction Name
+  {c3045ab8-cefd-4159-914b-a838248a1cce}, !- Surface Name
+  ,                                       !- Outside Boundary Condition Object
+  ,                                       !- View Factor to Ground
+  ,                                       !- Shading Control Name
+  ,                                       !- Frame and Divider Name
+  ,                                       !- Multiplier
+  ,                                       !- Number of Vertices
+  12.48825, 12.0142, 1.50012,             !- X,Y,Z Vertex 1 {m}
+  12.48825, 12.0142, 0,                   !- X,Y,Z Vertex 2 {m}
+  0.313350000000001, 12.0142, 0,          !- X,Y,Z Vertex 3 {m}
+  0.313350000000001, 12.0142, 1.50012;    !- X,Y,Z Vertex 4 {m}
+
+OS:ShadingSurfaceGroup,
+  {312fafa9-66eb-4a43-8eb6-ff2cc4b23666}, !- Handle
+  Window_front_shade,                     !- Name
+  Building,                               !- Shading Surface Type
+  ,                                       !- Space Name
+  ,                                       !- Direction of Relative North {deg}
+  7.33635,                                !- X Origin {m}
+  1.1938,                                 !- Y Origin {m}
+  7.59132,                                !- Z Origin {m}
+  ;                                       !- Shaded Object Name
+
+OS:ShadingSurface,
+  {11654c09-ee6e-4758-bed1-e496cb22f69f}, !- Handle
+  Window_front_shading_surface,           !- Name
+  {b7fba399-55a1-49e5-b405-b89d313a4636}, !- Construction Name
+  {312fafa9-66eb-4a43-8eb6-ff2cc4b23666}, !- Shading Surface Group Name
+  ,                                       !- Transmittance Schedule Name
+  ,                                       !- Number of Vertices
+  1.7865, -0.61, 0,                       !- X,Y,Z Vertex 1 {m}
+  1.7865, 0, 0,                           !- X,Y,Z Vertex 2 {m}
+  -1.44382283906452e-015, 0, 0,           !- X,Y,Z Vertex 3 {m}
+  -1.44382283906452e-015, -0.61, 0;       !- X,Y,Z Vertex 4 {m}
+
+OS:ShadingSurfaceGroup,
+  {24ef0056-2089-4429-98fc-ffc9a30fc738}, !- Handle
+  Shading Surface Group 1,                !- Name
+  Building,                               !- Shading Surface Type
+  ,                                       !- Space Name
+  ,                                       !- Direction of Relative North {deg}
+  12.48825,                               !- X Origin {m}
+  12.0142,                                !- Y Origin {m}
+  5.36332,                                !- Z Origin {m}
+  ;                                       !- Shaded Object Name
+
+OS:ShadingSurface,
+  {436c1427-5284-4925-906e-d17ae5c04f3d}, !- Handle
+  Shading Surface 1,                      !- Name
+  ,                                       !- Construction Name
+  {24ef0056-2089-4429-98fc-ffc9a30fc738}, !- Shading Surface Group Name
+  ,                                       !- Transmittance Schedule Name
+  ,                                       !- Number of Vertices
+  -1.44382283906452e-015, 0, 0,           !- X,Y,Z Vertex 1 {m}
+  -1.44382283906452e-015, 1.5, 0,         !- X,Y,Z Vertex 2 {m}
+  -12.1749, 1.5, 0,                       !- X,Y,Z Vertex 3 {m}
+  -12.1749, 0, 0;                         !- X,Y,Z Vertex 4 {m}
 
