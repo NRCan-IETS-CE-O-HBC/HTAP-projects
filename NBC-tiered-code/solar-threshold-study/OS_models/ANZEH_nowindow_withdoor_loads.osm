@@ -19,13 +19,13 @@ OS:ScheduleTypeLimits,
 
 OS:DesignSpecification:OutdoorAir,
   {275b2507-2551-4c6b-9576-0694f401735c}, !- Handle
-  189.1-2009 - Office - BreakRoom - CZ1-3 Ventilation, !- Name
+  HRV_Air,                                !- Name
   Sum,                                    !- Outdoor Air Method
-  0.007079211648,                         !- Outdoor Air Flow per Person {m3/s-person}
+  0,                                      !- Outdoor Air Flow per Person {m3/s-person}
   ,                                       !- Outdoor Air Flow per Floor Area {m3/s-m2}
   ,                                       !- Outdoor Air Flow Rate {m3/s}
-  ,                                       !- Outdoor Air Flow Air Changes per Hour {1/hr}
-  ;                                       !- Outdoor Air Flow Rate Fraction Schedule Name
+  0.25,                                   !- Outdoor Air Flow Air Changes per Hour {1/hr}
+  {d03095d9-0aa5-45cf-a800-83c314c4ceb2}; !- Outdoor Air Flow Rate Fraction Schedule Name
 
 OS:ScheduleTypeLimits,
   {115aba64-18e9-477b-9f56-bc49f71a3d65}, !- Handle
@@ -2164,17 +2164,17 @@ OS:Rendering:Color,
 OS:Space,
   {85ce93cc-4229-4f9c-9db0-54ec44724a51}, !- Handle
   Basement,                               !- Name
-  ,                                       !- Space Type Name
+  {7253f426-620b-4085-aae4-44c85c220399}, !- Space Type Name
   ,                                       !- Default Construction Set Name
   ,                                       !- Default Schedule Set Name
   -0,                                     !- Direction of Relative North {deg}
   0,                                      !- X Origin {m}
   0,                                      !- Y Origin {m}
   0,                                      !- Z Origin {m}
-  ,                                       !- Building Story Name
+  {1670b3ff-adad-435d-8236-5ee13acd2c18}, !- Building Story Name
   {db3f238f-8b25-4453-93bf-a77dbbcc4429}, !- Thermal Zone Name
   ,                                       !- Part of Total Floor Area
-  ,                                       !- Design Specification Outdoor Air Object Name
+  {275b2507-2551-4c6b-9576-0694f401735c}, !- Design Specification Outdoor Air Object Name
   ;                                       !- Building Unit Name
 
 OS:Surface,
@@ -2630,17 +2630,17 @@ OS:Surface,
 OS:Space,
   {1d45e478-e84e-4513-b0b9-f9556f5ceb00}, !- Handle
   House,                                  !- Name
-  ,                                       !- Space Type Name
+  {b059f8ac-4e40-464f-ae1e-23584c886f23}, !- Space Type Name
   ,                                       !- Default Construction Set Name
   ,                                       !- Default Schedule Set Name
   -0,                                     !- Direction of Relative North {deg}
   0,                                      !- X Origin {m}
   0,                                      !- Y Origin {m}
   2.7432,                                 !- Z Origin {m}
-  ,                                       !- Building Story Name
+  {8604ed00-a389-4610-a709-ee52a7acc9e2}, !- Building Story Name
   {2993b931-2c52-4b54-9030-f41dea24b993}, !- Thermal Zone Name
   Yes,                                    !- Part of Total Floor Area
-  ,                                       !- Design Specification Outdoor Air Object Name
+  {275b2507-2551-4c6b-9576-0694f401735c}, !- Design Specification Outdoor Air Object Name
   ;                                       !- Building Unit Name
 
 OS:Surface,
@@ -3048,7 +3048,7 @@ OS:Space,
   7.4295,                                 !- X Origin {m}
   1.1938,                                 !- Y Origin {m}
   2.7432,                                 !- Z Origin {m}
-  ,                                       !- Building Story Name
+  {8604ed00-a389-4610-a709-ee52a7acc9e2}, !- Building Story Name
   {af167a41-8d3e-441a-83ea-6db9ab7d8ab5}, !- Thermal Zone Name
   No,                                     !- Part of Total Floor Area
   ,                                       !- Design Specification Outdoor Air Object Name
@@ -3234,10 +3234,10 @@ OS:Space,
   3.6576,                                 !- X Origin {m}
   0,                                      !- Y Origin {m}
   0,                                      !- Z Origin {m}
-  ,                                       !- Building Story Name
+  {1670b3ff-adad-435d-8236-5ee13acd2c18}, !- Building Story Name
   {c8c5600d-77c5-40a3-9bf5-d1942b5383db}, !- Thermal Zone Name
-  No,                                     !- Part of Total Floor Area
-  ,                                       !- Design Specification Outdoor Air Object Name
+  Yes,                                    !- Part of Total Floor Area
+  {275b2507-2551-4c6b-9576-0694f401735c}, !- Design Specification Outdoor Air Object Name
   ;                                       !- Building Unit Name
 
 OS:Surface,
@@ -3454,9 +3454,9 @@ OS:Space,
   0,                                      !- X Origin {m}
   0,                                      !- Y Origin {m}
   8.2296,                                 !- Z Origin {m}
-  ,                                       !- Building Story Name
+  {479155cb-51ad-4928-98d3-22abd27dca41}, !- Building Story Name
   {ce8fee78-1fb9-4a5a-a58c-aaf6de2ddd8f}, !- Thermal Zone Name
-  ,                                       !- Part of Total Floor Area
+  No,                                     !- Part of Total Floor Area
   ,                                       !- Design Specification Outdoor Air Object Name
   ;                                       !- Building Unit Name
 
@@ -4166,7 +4166,7 @@ OS:Lights:Definition,
   {c2c8a1b5-2521-46fd-a961-da13b9f107d9}, !- Handle
   House_Lights,                           !- Name
   LightingLevel,                          !- Design Level Calculation Method
-  2.083333,                               !- Lighting Level {W}
+  125,                                    !- Lighting Level {W}
   ,                                       !- Watts per Space Floor Area {W/m2}
   ;                                       !- Watts per Person {W/person}
 
@@ -4183,7 +4183,7 @@ OS:ElectricEquipment:Definition,
   {0c868e34-067e-487f-8e5e-8f28d044732d}, !- Handle
   House_Appliances,                       !- Name
   EquipmentLevel,                         !- Design Level Calculation Method
-  9.722222,                               !- Design Level {W}
+  583.3,                                  !- Design Level {W}
   ,                                       !- Watts per Space Floor Area {W/m2}
   ;                                       !- Watts per Person {W/person}
 
@@ -4191,7 +4191,7 @@ OS:ElectricEquipment:Definition,
   {acd1cee2-c5bc-447b-883a-b5258cdfac57}, !- Handle
   House_Other_Elec,                       !- Name
   EquipmentLevel,                         !- Design Level Calculation Method
-  2.083333,                               !- Design Level {W}
+  125,                                    !- Design Level {W}
   ,                                       !- Watts per Space Floor Area {W/m2}
   ;                                       !- Watts per Person {W/person}
 
@@ -4409,20 +4409,6 @@ OS:Schedule:Day,
   0,                                      !- Minute 1
   0.150000005960464;                      !- Value Until Time 1
 
-OS:WeatherFile,
-  {5489c7b9-c390-45ab-b7b9-4c6d5f98f666}, !- Handle
-  Toronto Int'l,                          !- City
-  ON,                                     !- State Province Region
-  CAN,                                    !- Country
-  WYEC2-B-04714,                          !- Data Source
-  716240,                                 !- WMO Number
-  43.67,                                  !- Latitude {deg}
-  -79.63,                                 !- Longitude {deg}
-  -5,                                     !- Time Zone {hr}
-  173,                                    !- Elevation {m}
-  file:CAN_ON_Toronto.716240_CWEC.epw,    !- Url
-  3537CA94;                               !- Checksum
-
 OS:SizingPeriod:DesignDay,
   {61097ec4-b0de-4165-bf72-b63256db89bc}, !- Handle
   Toronto Int'l Ann Htg 99.6% Condns DB,  !- Name
@@ -4620,21 +4606,6 @@ OS:DefaultScheduleSet,
   ,                                       !- Infiltration Schedule Name
   ,                                       !- Steam Equipment Schedule Name
   ;                                       !- Other Equipment Schedule Name
-
-OS:Schedule:Ruleset,
-  {c07cb09a-3dab-4d3d-ab3b-46db023d4270}, !- Handle
-  Main_Floor_Infiltration,                !- Name
-  {303d5295-7125-4473-b7eb-922f33dd3922}, !- Schedule Type Limits Name
-  {e7f9d449-4867-4a0d-8faf-9618310633bb}; !- Default Day Schedule Name
-
-OS:Schedule:Day,
-  {e7f9d449-4867-4a0d-8faf-9618310633bb}, !- Handle
-  Schedule Day 6,                         !- Name
-  {303d5295-7125-4473-b7eb-922f33dd3922}, !- Schedule Type Limits Name
-  ,                                       !- Interpolate to Timestep
-  24,                                     !- Hour 1
-  0,                                      !- Minute 1
-  1;                                      !- Value Until Time 1
 
 OS:WindowMaterial:SimpleGlazingSystem,
   {f2e38078-0a00-47e3-91b2-4d38e3f49d30}, !- Handle
@@ -4979,15 +4950,6 @@ OS:StandardsInformation:Construction,
   {ee81cb11-2cda-4787-bc12-0011f2e97567}, !- Handle
   {4311e40b-8860-440a-900e-81188da0edd7}; !- Construction Name
 
-OS:BuildingStory,
-  {105f2855-b895-417b-880d-54a905fb3adb}, !- Handle
-  Basement 1,                             !- Name
-  0,                                      !- Nominal Z Coordinate {m}
-  2.7432,                                 !- Nominal Floor to Floor Height {m}
-  ,                                       !- Default Construction Set Name
-  ,                                       !- Default Schedule Set Name
-  {c8fd4e3c-b565-4a2a-bef4-7718a262d3a9}; !- Group Rendering Name
-
 OS:Rendering:Color,
   {c8fd4e3c-b565-4a2a-bef4-7718a262d3a9}, !- Handle
   Rendering Color 59,                     !- Name
@@ -5015,8 +4977,8 @@ OS:ThermalZone,
   ,                                       !- Fraction of Zone Controlled by Secondary Daylighting Control
   ,                                       !- Illuminance Map Name
   {8bdf401b-2d81-4735-884a-061f468a090c}, !- Group Rendering Name
-  ,                                       !- Thermostat Name
-  No;                                     !- Use Ideal Air Loads
+  {c220b5af-29b4-4c43-9c26-1cff7cc4ac8b}, !- Thermostat Name
+  Yes;                                    !- Use Ideal Air Loads
 
 OS:Node,
   {d6586585-eadd-47c3-ba79-459971b4b1eb}, !- Handle
@@ -5097,7 +5059,7 @@ OS:ThermalZone,
   ,                                       !- Fraction of Zone Controlled by Secondary Daylighting Control
   ,                                       !- Illuminance Map Name
   {c2805ef9-def3-4dd6-bb8a-bef519fb3762}, !- Group Rendering Name
-  ,                                       !- Thermostat Name
+  {7a386fc7-1c6f-49f6-9a82-7f19e32273d7}, !- Thermostat Name
   No;                                     !- Use Ideal Air Loads
 
 OS:Node,
@@ -5343,8 +5305,8 @@ OS:ThermalZone,
   ,                                       !- Fraction of Zone Controlled by Secondary Daylighting Control
   ,                                       !- Illuminance Map Name
   {95f9b99f-62bd-4a5b-851e-02737416896a}, !- Group Rendering Name
-  ,                                       !- Thermostat Name
-  No;                                     !- Use Ideal Air Loads
+  {7c16a3e8-56e1-4dfa-a9a4-a07624d868bb}, !- Thermostat Name
+  Yes;                                    !- Use Ideal Air Loads
 
 OS:Node,
   {c40e35b3-cac4-4885-8aff-5dc09b1168ac}, !- Handle
@@ -6178,14 +6140,14 @@ OS:Schedule:Day,
 
 OS:SpaceInfiltration:DesignFlowRate,
   {ffcc0868-c89d-4c97-aae6-5dc210e6b700}, !- Handle
-  Basement_iinfiltration,                 !- Name
+  Basement_infiltration,                  !- Name
   {85ce93cc-4229-4f9c-9db0-54ec44724a51}, !- Space or SpaceType Name
   {5471acb9-18e2-430a-9106-53e7fd0ad086}, !- Schedule Name
   AirChanges/Hour,                        !- Design Flow Rate Calculation Method
   0,                                      !- Design Flow Rate {m3/s}
   0,                                      !- Flow per Space Floor Area {m3/s-m2}
   0,                                      !- Flow per Exterior Surface Area {m3/s-m2}
-  0.0508,                                 !- Air Changes per Hour {1/hr}
+  0.223,                                  !- Air Changes per Hour {1/hr}
   ,                                       !- Constant Term Coefficient
   ,                                       !- Temperature Term Coefficient
   ,                                       !- Velocity Term Coefficient
@@ -6200,7 +6162,7 @@ OS:SpaceInfiltration:DesignFlowRate,
   0,                                      !- Design Flow Rate {m3/s}
   0,                                      !- Flow per Space Floor Area {m3/s-m2}
   0,                                      !- Flow per Exterior Surface Area {m3/s-m2}
-  0.0508,                                 !- Air Changes per Hour {1/hr}
+  0.223,                                  !- Air Changes per Hour {1/hr}
   ,                                       !- Constant Term Coefficient
   ,                                       !- Temperature Term Coefficient
   ,                                       !- Velocity Term Coefficient
@@ -6208,16 +6170,294 @@ OS:SpaceInfiltration:DesignFlowRate,
 
 OS:SpaceInfiltration:DesignFlowRate,
   {bb4a0268-cd9c-47c5-8bd7-37a9e48f4d38}, !- Handle
-  Cold_room_iinfiltration,                !- Name
+  Cold_room_infiltration,                 !- Name
   {7f6db8ca-81ac-47fb-bef5-fc74df032cb4}, !- Space or SpaceType Name
   {5471acb9-18e2-430a-9106-53e7fd0ad086}, !- Schedule Name
   AirChanges/Hour,                        !- Design Flow Rate Calculation Method
   0,                                      !- Design Flow Rate {m3/s}
   0,                                      !- Flow per Space Floor Area {m3/s-m2}
   0,                                      !- Flow per Exterior Surface Area {m3/s-m2}
-  0.0508,                                 !- Air Changes per Hour {1/hr}
+  0.223,                                  !- Air Changes per Hour {1/hr}
   ,                                       !- Constant Term Coefficient
   ,                                       !- Temperature Term Coefficient
   ,                                       !- Velocity Term Coefficient
   ;                                       !- Velocity Squared Term Coefficient
+
+OS:BuildingStory,
+  {1670b3ff-adad-435d-8236-5ee13acd2c18}, !- Handle
+  Basement_floor,                         !- Name
+  ,                                       !- Nominal Z Coordinate {m}
+  ,                                       !- Nominal Floor to Floor Height {m}
+  ,                                       !- Default Construction Set Name
+  ,                                       !- Default Schedule Set Name
+  {7afc0a11-f1ad-4264-8d73-edf103475d1a}; !- Group Rendering Name
+
+OS:Rendering:Color,
+  {7afc0a11-f1ad-4264-8d73-edf103475d1a}, !- Handle
+  Rendering Color 86,                     !- Name
+  100,                                    !- Rendering Red Value
+  149,                                    !- Rendering Green Value
+  237;                                    !- Rendering Blue Value
+
+OS:BuildingStory,
+  {8604ed00-a389-4610-a709-ee52a7acc9e2}, !- Handle
+  Main_floor,                             !- Name
+  ,                                       !- Nominal Z Coordinate {m}
+  ,                                       !- Nominal Floor to Floor Height {m}
+  ,                                       !- Default Construction Set Name
+  ,                                       !- Default Schedule Set Name
+  {b67e351e-509b-4e54-bc09-a8db33dadf2e}; !- Group Rendering Name
+
+OS:Rendering:Color,
+  {b67e351e-509b-4e54-bc09-a8db33dadf2e}, !- Handle
+  Rendering Color 87,                     !- Name
+  173,                                    !- Rendering Red Value
+  216,                                    !- Rendering Green Value
+  230;                                    !- Rendering Blue Value
+
+OS:BuildingStory,
+  {479155cb-51ad-4928-98d3-22abd27dca41}, !- Handle
+  Attic_floor,                            !- Name
+  ,                                       !- Nominal Z Coordinate {m}
+  ,                                       !- Nominal Floor to Floor Height {m}
+  ,                                       !- Default Construction Set Name
+  ,                                       !- Default Schedule Set Name
+  {572f169d-3014-406b-bb17-c07946c292c9}; !- Group Rendering Name
+
+OS:Rendering:Color,
+  {572f169d-3014-406b-bb17-c07946c292c9}, !- Handle
+  Rendering Color 88,                     !- Name
+  46,                                     !- Rendering Red Value
+  139,                                    !- Rendering Green Value
+  87;                                     !- Rendering Blue Value
+
+OS:Schedule:Ruleset,
+  {d03095d9-0aa5-45cf-a800-83c314c4ceb2}, !- Handle
+  Ventilation,                            !- Name
+  {4c15a3d7-eca7-41e7-825b-800d60ced70c}, !- Schedule Type Limits Name
+  {4388c3fc-4e35-433e-ab7b-f4128ea0af20}; !- Default Day Schedule Name
+
+OS:Schedule:Day,
+  {4388c3fc-4e35-433e-ab7b-f4128ea0af20}, !- Handle
+  Schedule Day 20,                        !- Name
+  {4c15a3d7-eca7-41e7-825b-800d60ced70c}, !- Schedule Type Limits Name
+  ,                                       !- Interpolate to Timestep
+  24,                                     !- Hour 1
+  0,                                      !- Minute 1
+  1;                                      !- Value Until Time 1
+
+OS:SpaceInfiltration:DesignFlowRate,
+  {238a8fba-63e2-49f1-9851-129e6e3bce36}, !- Handle
+  Garage_infiltration,                    !- Name
+  {00b9d8d0-a9fc-4bdc-8bf2-934be488405f}, !- Space or SpaceType Name
+  {d03095d9-0aa5-45cf-a800-83c314c4ceb2}, !- Schedule Name
+  AirChanges/Hour,                        !- Design Flow Rate Calculation Method
+  0,                                      !- Design Flow Rate {m3/s}
+  0,                                      !- Flow per Space Floor Area {m3/s-m2}
+  0,                                      !- Flow per Exterior Surface Area {m3/s-m2}
+  0.5,                                    !- Air Changes per Hour {1/hr}
+  ,                                       !- Constant Term Coefficient
+  ,                                       !- Temperature Term Coefficient
+  ,                                       !- Velocity Term Coefficient
+  ;                                       !- Velocity Squared Term Coefficient
+
+OS:SpaceInfiltration:DesignFlowRate,
+  {d50cc2b7-f798-4b57-b99b-e3c39f78efe5}, !- Handle
+  Roof_infiltration,                      !- Name
+  {42a2253b-12d6-4341-8b31-dbd9ca1e9f87}, !- Space or SpaceType Name
+  {d03095d9-0aa5-45cf-a800-83c314c4ceb2}, !- Schedule Name
+  AirChanges/Hour,                        !- Design Flow Rate Calculation Method
+  0,                                      !- Design Flow Rate {m3/s}
+  0,                                      !- Flow per Space Floor Area {m3/s-m2}
+  0,                                      !- Flow per Exterior Surface Area {m3/s-m2}
+  0.5,                                    !- Air Changes per Hour {1/hr}
+  ,                                       !- Constant Term Coefficient
+  ,                                       !- Temperature Term Coefficient
+  ,                                       !- Velocity Term Coefficient
+  ;                                       !- Velocity Squared Term Coefficient
+
+OS:SpaceType,
+  {b059f8ac-4e40-464f-ae1e-23584c886f23}, !- Handle
+  Main_type,                              !- Name
+  ,                                       !- Default Construction Set Name
+  {93aff58d-7257-4a44-8d3b-d6c269ad7894}, !- Default Schedule Set Name
+  {0eb13b3b-7499-4008-a31b-0d1b5e5d843d}; !- Group Rendering Name
+
+OS:Rendering:Color,
+  {0eb13b3b-7499-4008-a31b-0d1b5e5d843d}, !- Handle
+  Rendering Color 89,                     !- Name
+  188,                                    !- Rendering Red Value
+  143,                                    !- Rendering Green Value
+  143;                                    !- Rendering Blue Value
+
+OS:SpaceType,
+  {7253f426-620b-4085-aae4-44c85c220399}, !- Handle
+  Basement_type,                          !- Name
+  ,                                       !- Default Construction Set Name
+  {98dbd4fa-2046-49f0-8c13-83495b424889}, !- Default Schedule Set Name
+  {db274281-242c-43bd-925c-4e6c1303b08f}; !- Group Rendering Name
+
+OS:Rendering:Color,
+  {db274281-242c-43bd-925c-4e6c1303b08f}, !- Handle
+  Rendering Color 90,                     !- Name
+  139,                                    !- Rendering Red Value
+  0,                                      !- Rendering Green Value
+  0;                                      !- Rendering Blue Value
+
+OS:People,
+  {29254691-f4e6-4da7-9005-e83ebb65d9d1}, !- Handle
+  Basement_People,                        !- Name
+  {2fea7b8c-f1b1-480e-a601-3fa7fabf7d9c}, !- People Definition Name
+  {7253f426-620b-4085-aae4-44c85c220399}, !- Space or SpaceType Name
+  ,                                       !- Number of People Schedule Name
+  ,                                       !- Activity Level Schedule Name
+  ,                                       !- Surface Name/Angle Factor List Name
+  ,                                       !- Work Efficiency Schedule Name
+  ,                                       !- Clothing Insulation Schedule Name
+  ,                                       !- Air Velocity Schedule Name
+  1;                                      !- Multiplier
+
+OS:Lights,
+  {e1705698-aede-49cd-9296-631685fffc97}, !- Handle
+  Basement_Lights,                        !- Name
+  {c2c8a1b5-2521-46fd-a961-da13b9f107d9}, !- Lights Definition Name
+  {7253f426-620b-4085-aae4-44c85c220399}, !- Space or SpaceType Name
+  ,                                       !- Schedule Name
+  1,                                      !- Fraction Replaceable
+  ,                                       !- Multiplier
+  General;                                !- End-Use Subcategory
+
+OS:ElectricEquipment,
+  {6e6b6807-32e0-49b7-bad8-a3d6a5559799}, !- Handle
+  Basement_other_elec,                    !- Name
+  {0c868e34-067e-487f-8e5e-8f28d044732d}, !- Electric Equipment Definition Name
+  {7253f426-620b-4085-aae4-44c85c220399}, !- Space or SpaceType Name
+  ,                                       !- Schedule Name
+  ,                                       !- Multiplier
+  General;                                !- End-Use Subcategory
+
+OS:ElectricEquipment,
+  {e6a73bc5-494c-4169-ae62-c7e5c10dda0b}, !- Handle
+  Basement_Electric,                      !- Name
+  {acd1cee2-c5bc-447b-883a-b5258cdfac57}, !- Electric Equipment Definition Name
+  {7253f426-620b-4085-aae4-44c85c220399}, !- Space or SpaceType Name
+  ,                                       !- Schedule Name
+  ,                                       !- Multiplier
+  General;                                !- End-Use Subcategory
+
+OS:People,
+  {dccce83e-d19d-489e-937b-fc63238b6480}, !- Handle
+  Main_People,                            !- Name
+  {2fea7b8c-f1b1-480e-a601-3fa7fabf7d9c}, !- People Definition Name
+  {b059f8ac-4e40-464f-ae1e-23584c886f23}, !- Space or SpaceType Name
+  ,                                       !- Number of People Schedule Name
+  ,                                       !- Activity Level Schedule Name
+  ,                                       !- Surface Name/Angle Factor List Name
+  ,                                       !- Work Efficiency Schedule Name
+  ,                                       !- Clothing Insulation Schedule Name
+  ,                                       !- Air Velocity Schedule Name
+  1;                                      !- Multiplier
+
+OS:Lights,
+  {d72ce081-83e0-4e89-b71f-76b3fed121a4}, !- Handle
+  Main_Lights,                            !- Name
+  {c2c8a1b5-2521-46fd-a961-da13b9f107d9}, !- Lights Definition Name
+  {b059f8ac-4e40-464f-ae1e-23584c886f23}, !- Space or SpaceType Name
+  ,                                       !- Schedule Name
+  1,                                      !- Fraction Replaceable
+  ,                                       !- Multiplier
+  General;                                !- End-Use Subcategory
+
+OS:ElectricEquipment,
+  {c54e2463-c289-478c-adda-d308a172add3}, !- Handle
+  Main_Electric,                          !- Name
+  {0c868e34-067e-487f-8e5e-8f28d044732d}, !- Electric Equipment Definition Name
+  {b059f8ac-4e40-464f-ae1e-23584c886f23}, !- Space or SpaceType Name
+  ,                                       !- Schedule Name
+  ,                                       !- Multiplier
+  General;                                !- End-Use Subcategory
+
+OS:ElectricEquipment,
+  {1af5f72f-0556-40e3-b292-5e3d6be4a94b}, !- Handle
+  Main_other_electric,                    !- Name
+  {acd1cee2-c5bc-447b-883a-b5258cdfac57}, !- Electric Equipment Definition Name
+  {b059f8ac-4e40-464f-ae1e-23584c886f23}, !- Space or SpaceType Name
+  ,                                       !- Schedule Name
+  ,                                       !- Multiplier
+  General;                                !- End-Use Subcategory
+
+OS:WeatherFile,
+  {5850ebce-fe20-434e-b878-da7c4ed01b46}, !- Handle
+  Toronto Int'l,                          !- City
+  ON,                                     !- State Province Region
+  CAN,                                    !- Country
+  WYEC2-B-04714,                          !- Data Source
+  716240,                                 !- WMO Number
+  43.67,                                  !- Latitude {deg}
+  -79.63,                                 !- Longitude {deg}
+  -5,                                     !- Time Zone {hr}
+  173,                                    !- Elevation {m}
+  file:CAN_ON_Toronto.716240_CWEC.epw,    !- Url
+  3537CA94;                               !- Checksum
+
+OS:Schedule:Ruleset,
+  {b4e68704-1223-4ce2-97f0-d11b8d2c336e}, !- Handle
+  Heating_Setpoint,                       !- Name
+  {53148dd4-84bd-4672-a23f-d1e6e10976bd}, !- Schedule Type Limits Name
+  {ccdfca8b-4ed5-43c8-9b70-e896620d10b5}; !- Default Day Schedule Name
+
+OS:Schedule:Day,
+  {ccdfca8b-4ed5-43c8-9b70-e896620d10b5}, !- Handle
+  Schedule Day 6,                         !- Name
+  {53148dd4-84bd-4672-a23f-d1e6e10976bd}, !- Schedule Type Limits Name
+  ,                                       !- Interpolate to Timestep
+  24,                                     !- Hour 1
+  0,                                      !- Minute 1
+  21;                                     !- Value Until Time 1
+
+OS:Schedule:Ruleset,
+  {8e41d2e6-3de0-47c1-a852-1b218dfde08d}, !- Handle
+  Cooling_Setpoint,                       !- Name
+  {53148dd4-84bd-4672-a23f-d1e6e10976bd}, !- Schedule Type Limits Name
+  {b3e24464-cfcb-4409-9697-495d37757d45}; !- Default Day Schedule Name
+
+OS:Schedule:Day,
+  {b3e24464-cfcb-4409-9697-495d37757d45}, !- Handle
+  Schedule Day 21,                        !- Name
+  {53148dd4-84bd-4672-a23f-d1e6e10976bd}, !- Schedule Type Limits Name
+  ,                                       !- Interpolate to Timestep
+  24,                                     !- Hour 1
+  0,                                      !- Minute 1
+  25.5999984741211;                       !- Value Until Time 1
+
+OS:Schedule:Ruleset,
+  {83e341b5-89c5-495d-a684-daa723429296}, !- Handle
+  Basement_Heating,                       !- Name
+  {53148dd4-84bd-4672-a23f-d1e6e10976bd}, !- Schedule Type Limits Name
+  {9fa2256a-757c-42e3-8eaa-6f03c9d7d429}; !- Default Day Schedule Name
+
+OS:Schedule:Day,
+  {9fa2256a-757c-42e3-8eaa-6f03c9d7d429}, !- Handle
+  Schedule Day 22,                        !- Name
+  {53148dd4-84bd-4672-a23f-d1e6e10976bd}, !- Schedule Type Limits Name
+  ,                                       !- Interpolate to Timestep
+  24,                                     !- Hour 1
+  0,                                      !- Minute 1
+  20;                                     !- Value Until Time 1
+
+OS:ThermostatSetpoint:DualSetpoint,
+  {c220b5af-29b4-4c43-9c26-1cff7cc4ac8b}, !- Handle
+  Thermostat Setpoint Dual Setpoint 1,    !- Name
+  {83e341b5-89c5-495d-a684-daa723429296}; !- Heating Setpoint Temperature Schedule Name
+
+OS:ThermostatSetpoint:DualSetpoint,
+  {7c16a3e8-56e1-4dfa-a9a4-a07624d868bb}, !- Handle
+  Thermostat Setpoint Dual Setpoint 2,    !- Name
+  {b4e68704-1223-4ce2-97f0-d11b8d2c336e}, !- Heating Setpoint Temperature Schedule Name
+  {8e41d2e6-3de0-47c1-a852-1b218dfde08d}; !- Cooling Setpoint Temperature Schedule Name
+
+OS:ThermostatSetpoint:DualSetpoint,
+  {7a386fc7-1c6f-49f6-9a82-7f19e32273d7}, !- Handle
+  Thermostat Setpoint Dual Setpoint 3,    !- Name
+  ;                                       !- Heating Setpoint Temperature Schedule Name
 
