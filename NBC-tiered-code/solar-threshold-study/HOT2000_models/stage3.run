@@ -32,7 +32,7 @@ Upgrades_START
 
    Opt-ACH              = NA !,  New-Const-air_seal_to_1.50_ach, New-Const-air_seal_to_1.00_ach,
 
-   Opt-CasementWindows  = 2gl-u1.6-0.55! NA,NBC-zone5-window, NC-2g-HG-u1.82, NC-2g-MG-u1.65, NC-3g-MG-u1.36, NC-3g-LG-u1.14, NC-3g-MG-u1.08
+   Opt-CasementWindows  = NA,NBC-zone5-window, NC-2g-HG-u1.82, NC-2g-MG-u1.65, NC-3g-MG-u1.36, NC-3g-LG-u1.14, NC-3g-MG-u1.08
    Opt-Skylights        = NA
    Opt-DoorWindows      = NA
    Opt-Doors            = NA
