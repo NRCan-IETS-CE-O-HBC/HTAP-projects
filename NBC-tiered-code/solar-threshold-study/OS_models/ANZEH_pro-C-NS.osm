@@ -4611,7 +4611,7 @@ OS:WindowMaterial:SimpleGlazingSystem,
   {f2e38078-0a00-47e3-91b2-4d38e3f49d30}, !- Handle
   Base_window,                            !- Name
   1.72,                                   !- U-Factor {W/m2-K}
-  0.57,                                   !- Solar Heat Gain Coefficient
+  0.26,                                   !- Solar Heat Gain Coefficient
   0.45;                                   !- Visible Transmittance
 
 OS:StandardsInformation:Material,
