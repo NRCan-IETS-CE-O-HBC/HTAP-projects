@@ -11,6 +11,30 @@
 
 These files are part of an investigation into overheating in residential housing. The goal of this study is to propose a metric for evaluating the likelihood of a home to overheat relative to the reference house. Results from this study will also demonstrate how code requirements based on that metric would affect home design. 
 
+## Summary of Findings ##
+
+CanmetENERGY-Ottawa (CE-O) researchers investigated potential metrics for evaluating the risk of overheating in residential homes. CE-O's objective was to examine how changes to orientation, window specification and window area would effect a home's likelihood of overheating in the summer. 
+
+#### Key findings: ####
+
+-  Both the **peak cooling load** and the **seasonal cooling requirement** are useful metrics for evaluating the risk of overheating
+
+-  The **peak cooling load ** appears to be the more suitable of the two metrics because it approximates  
+
+-  This 
+
+-  By requiring proposed designs demonstrate peak cooling loads are ==equal-to or lower-than those of the reference house==, future performance codes will reduce the likelihood that homes complying with the performance compliance pathway. 
+
+-  Such a requirement is unlikely to affect typical or passive-solar-optimized home design.
+
+-  This requirement will affect design choices in homes with high window areas.  In such homes, the requirement can be met by choosing low-solar gain windows.  Reducing window area, relocating east and west facing windows to north and south facades, and installing overhangs will also help homes comply.  
+
+
+#### Recommendations: ####
+
+-  NBC section 9.36.5 should require that proposed designs demonstrate peak cooling loads equal-to or lower-than those of the reference house. 
+-  CE-O recommends against permitting builders to install air-conditioning as an alternate means of compliance. 
+
 ## Background ##
 
 Performance compliance may encourage designers to increase solar gains through windows as a low-cost means to reduce energy consumption. If designers do not consider the implications of adverse gains in summer, these homes may require significant cooling loads, and may be uncomfortable in summer. 
@@ -153,6 +177,33 @@ Examine cooling requirements thresholds for these archetypes with another progra
 Using NRCan's 240 new housing archetypes, assess how these archetypes would be affected by the requirement. Identify which houses would comply, which would fail. Report on common characteristics of homes not complying. 
 
 ## Findings: ##
+
+### 1. Suitability of the reference house for performance codes ###
+
+CE-O's analysis suggests that the 9.36.5 reference house does not represent current construction practices. There are two key differences between the reference house's window specifications and practice in market home building:
+
+1. The reference house window-to-wall ratio range (17-22%) is much higher than the typical housing archetype used in this study (12%).  When the home was redesigned according to passive-solar principles, the window-to-wall ratio was X%. These inconsistencies mean that the reference home will consistently exhibit higher heat loss, and higher solar gains than proposed homes. 
+2. The reference house distributes windows equally in N/E/W/S orientations, while many contemporary homes locate windows predominately on the front and back. By redistributing windows to east and west locations, the reference house may effectively increase cooling budgets for highly-glazed homes with predominately south-facing glass. 
+
+CE-O did not contemplate potential improvements to the reference house in the current scope, but such changes should be examined in the future. Any changes to the reference house will also affect 
+
+Based on these differences, CE-O suggests that the suitability of the reference house be reexamined at a later date. 
+
+### 1. Metrics for overheating ###
+
+The **peak cooling load** and the **seasonal cooling requirement** correlate well when compared for different window specifications, orientations and glass ratios. Figure 2 compares these two metrics for the various combinations examined in this study. Generally, increases in peak load area accompanied by increases in seasonal cooling requirement, and vice-versa. However, the results from the typical and passive solar scenarios show that in some cases, reductions in peak cooling load can be accompanied by increases in seasonal cooling requirement. These observations are limited to the typical design and passive solar scenarios, and only when the windows are equipped with high-gain (SHGC 0.51) windows. 
+
+| Figure 2: Correlation between peak cooling load and seasonal cooling requirement, by scenario |
+| :----------------------------------------------------------: |
+|           ![1557428306256](imgs/1557428306256.png)           |
+
+CE-O assessed the suitability of these metrics by examining how a hypothetical overheating-limit requirement based on each metric would affect proposed designs. In each case, a proposed design was deemed to comply if its estimated peak cooling load or seasonal cooling requirement was less than or equal to the reference case. 
+
+The results are depicted in Figure 3. Green blocks indicate scenarios that complied with both hypothetical metrics; while red blocks indicate scenarios that complied with neither. Yellow blocks indicate scenarios that comply with peak cooling requirement metrics, but which do not comply with the seasonal cooling requirements. 
+
+| Figure 3: Scenario compliance with metrics based on peak cooling load and seasonal cooling requirement |
+| :----------------------------------------------------------: |
+|           ![1557429353439](imgs/1557429353439.png)           |
 
 
 

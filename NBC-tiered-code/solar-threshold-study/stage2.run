@@ -1,0 +1,65 @@
+! Definitions file for HTAP-PRM RUN
+
+! Run-Mode: Parameters that affect how htap-prm is configured.
+RunParameters_START
+  run-mode                           = parametric
+  archetype-dir                      = HOT2000_models
+RunParameters_END
+
+
+! Parameters controlling archetypes, locations, reference rulests. (these will always be
+! run in mesh, even if an optimization mode is added in the future.
+RunScope_START
+
+  archetypes                        = pro-A-EW.h2k ,pro-B-EW.h2k,pro-C-EW.h2k,pro-D-EW.h2k,pro-A-NS.h2k,pro-B-NS.h2k,pro-C-NS.h2k,pro-D-NS.h2k,ref-A.h2k,ref-B.h2k,ref-C.h2k,ref-D.h2k
+  locations = TORONTO, VANCOUVER, HALIFAX , CALGARY, PRINCEGEORGE ,  EDMONTON, OTTAWA, KAMLOOPS !, WHITEHORSE, EDMONTON, OTTAWA, KAMLOOPS
+  ! locations                         = TORONTO, KAMLOOPS, VANCOUVER, HALIFAX, CALGARY, WHITEHORSE, YELLOWKNIFE ! MONTREAL, WINNIPEG, YELLOWKNIFE, REGINA, OTTAWA
+  rulesets                          = NBC9_36[fuel>elect;vent>HRV]
+
+
+RunScope_END
+
+! Parameters controlling the design of the building
+Upgrades_START
+
+   Opt-FuelCost         = NA
+
+   Opt-ResultHouseCode  = NA
+
+   Opt-Specifications   = NA
+
+   Opt-Baseloads        = NA !
+   Opt-Temperatures     = NA
+
+   Opt-ACH              = NA !,  New-Const-air_seal_to_1.50_ach, New-Const-air_seal_to_1.00_ach,
+
+   Opt-CasementWindows  = NA , NC-2g-HG-u1.65, NC-2g-MG-u1.65, NC-2g-LG-u1.65
+   Opt-Skylights        = NA
+   Opt-DoorWindows      = NA
+   Opt-Doors            = NA
+
+   Opt-MainWall         = NA
+   Opt-GenericWall_1Layer_definitions = NA
+   Opt-FloorHeaderIntIns      = NA
+
+   Opt-FoundationWallExtIns =      NA
+   Opt-FoundationWallIntIns =      NA
+   Opt-FoundationSlabBelowGrade =  NA
+   Opt-FoundationSlabOnGrade =     NA
+
+   Opt-ExposedFloor     = NA
+
+   Opt-Ceilings         = NA
+   Opt-AtticCeilings    = NA
+   Opt-CathCeilings     = NA
+   Opt-FlatCeilings     = NA
+
+   Opt-HRVonly          = NA
+   Opt-HRVspec          = NA
+   Opt-DHWSystem        = NA
+   Opt-HVACSystem       = elec-baseboard+AC
+   Opt-DWHRSystem       = NA
+   Opt-H2K-PV           = NA
+
+
+Upgrades_END
