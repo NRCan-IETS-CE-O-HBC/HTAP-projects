@@ -1,9 +1,9 @@
 # Proposed metrics to control overheating risks <br />in future residential energy codes #
 
->  Julia Purdy (julia.purdy@canada.ca), Chris Kirney & Alex Ferguson, <br />
->  CanmetENERGY Ottawa, Natural Resources Canada
+>  Julia Purdy (julia.purdy@canada.ca), Chris Kirney, Rasoul Asaee & Alex Ferguson, <br />
+>  CanmetENERGY-Ottawa, Natural Resources Canada
 >
->  Version of April 29, 2019. <br />This is a draft document, and reflects interim findings from a ongoing study. <br />Documentation and relevant project files are maintained at https://github.com/NRCan-IETS-CE-O-HBC/HTAP-projects
+>  Version of May 13, 2019. <br />This is a draft document, and reflects interim findings from a ongoing study. <br />Documentation and relevant project files are maintained at https://github.com/NRCan-IETS-CE-O-HBC/HTAP-projects
 
 [TOC]
 
@@ -78,104 +78,65 @@ CE-O researchers used an archetype home to examine how solar gains compared to t
 
 ### Single Family Housing Archetype  ###
 
-The archetype represents common single-detached market housing product. It has 304 m² of heated floor area (216 m² above grade).  As designed, the windows are predominately located on the front and back.  Figure 1 depicts its front and rear elevations.
+The archetype represents common single-detached market housing product. It has 304 m² of heated floor area (216 m² above grade).  As designed, the windows are predominately located on the front and back.  Figure 1 depicts its front and rear elevations. 
 
 
 | Figure 1: Single detached housing archetype — front and rear elevations. |
 | ------------------------------------------------------------ |
 | ![1556553895186](imgs/1556553895186.png)                     |
 
-**Table 1: Window areas**
+For the purposes of this study, we modified the archetype home to create the following four variants. 
 
-|                                          |     Typical | Passive Solar | Highly Glazed | Very Highly Glazed |
-| ---------------------------------------- | ----------: | ------------: | ------------: | -----------------: |
-| Front window area                        |     13.6 m² |        2.7 m² |          20.0 |            24.9 m² |
-| Left window area                         |      2.7 m² |        2.7 m² |        4.1 m² |             5.1 m² |
-| Right window area                        |           – |             – |             – |                  – |
-| Rear window area                         |     19.0 m² |       18.3 m² |       29.3 m² |            36.6 m² |
-| **TOTAL**                                | **35.3 m²** |   **23.6 m²** |   **53.4 m²** |        **66.8 m²** |
-| Ratio: FDWR                              |      12.9 % |         8.6 % |        19.6 % |             24.5 % |
-| Ratio: South window to heated floor area |       6.2 % |         6.0 % |         9.6 % |               12 % |
+-  **Typical**: Home as is, with no changes to windows or overhangs.
+-  **Passive solar:** Home reconfigured to concentrate windows on rear facade. Window areas adjusted to achieve 6% south-facing window to heated floor ratio. Appropriate overhangs added to all rear windows.[^2]
+-  **Highly glazed**: Home reconfigured to increase overall window to wall ratio to 20%. Window distribution as per original (typical) archetype. 
+-  **Very highly glazed:** Home reconfigured to increase overall window to wall ratio to 20%. Window distribution as per original (typical) archetype. 
 
+[^2]:  Window overhang widths set to 1.5 m, window overhang spacing (vertical distance from upper edge of the window to the overhang) set to 1.1 m
 
+Table 1 presents the window areas of each of these archetypes.  Each of these archetypes was compared a reference house of the same design, but with window areas and distributions as prescribed in NBC 9.36.5.15.[^3] Note that the window-to-wall ratio of the typical and passive solar variants are much lower than that of the NBC reference house. The minimum FDWR (17%) for the reference house implies 11 m² more window area than the typical market house, and nearly twice as much window area as the passive solar design. 
 
-### Part a) Proposing the metric ###
+**Table 1: Window areas for archetype variants**
 
-#### STAGE 1: Effect of FDWR ####
+| Metric                                  |     Typical | Passive Solar | Highly Glazed | Very Highly Glazed |
+| --------------------------------------- | ----------: | ------------: | ------------: | -----------------: |
+| Front window area                       |     13.6 m² |        2.7 m² |          20.0 |            24.9 m² |
+| Left window area                        |      2.7 m² |        2.7 m² |        4.1 m² |             5.1 m² |
+| Right window area                       |           – |             – |             – |                  – |
+| Rear window area                        |     19.0 m² |       18.3 m² |       29.3 m² |            36.6 m² |
+| **TOTAL WINDOW AREA**                   | **35.3 m²** |   **23.6 m²** |   **53.4 m²** |        **66.8 m²** |
+| Window-to-Wall Ratio                    |      12.9 % |         8.6 % |        19.6 % |             24.5 % |
+| South window to heated floor area ratio |       6.2 % |         6.0 % |         9.6 % |               12 % |
 
-Compare Cooling requirements for an archetype with different window to wall ratios. 
+[^3]: As per section 9.36.5.15 10): The Fenestration and door area to gross wall area ratio (FDWR) of the reference house shall be:  **i)** as per the proposed house, where its FDWR is between 17% and 22%, **ii)** 17%, where FDWR of the proposed house is less than 17%, or iii)  22%, where FDWR of the proposed house is greater than 22%. 
 
-1. Run scenarios in Toronto; 
-2. use results to propose a maximum ‘permitted increase in cooling loads’ threshold (e.g. 25%), which affords enough flexibility to design passive solar homes, but restricts ‘worst-case scenario’ homes. 
-3. examine how that requirement would affect mid/high glazing scenarios. 
-4. Run scenarios in other locations (suggested: Halifax, Winnipeg, Calgary, Edmonton, Kamloops, Vancouver, Yellowknife), and examine trends.
+### Scenarios: Orientation  ###
 
-*QUESTIONS:* 
+We examined each of these four archetype variantsin two orientations: 
 
--  Should we use high-gain for this work? Passive solar results may be wonky otherwise.
--  What should passive solar overhangs be set to? Does HOT2000's window header height do what we think? 
-   *ANSWER: Based on a very quick analysis and information from HOT2000 help, header height seems to be the overhang height above window*
-   ![1556561906708](C:\HTAP-projects\NBC-tiered-code\solar-threshold-study\1556561906708.png)
+-  **North-South**, in which the front of the house was oriented north, and the rear faced south.
+-  **East-West**, in which the front of the home was oriented east, and the rear faced west.
 
-###### Scenarios ######
+Orienting the passive solar archetype east-west contravenes long-understood guidelines on solar design. Even so, the scenario is useful in this study as a means to understand overheating potential and consequences of the proposed metric.  In each case, the archetype variant was compared to the reference house, with windows equally distributed in N/S/E/W orientations. 
 
-A single archetype will be used for this work. 
+### Scenarios: Window specification ###
 
-Archetype specifications in HOT2000:
+Each archetype variant was examined with three different window packages:
 
-**Figure 1:** Front and rear elevations
+-  **High-solar-gain:** U-value: 1.6 W/m²K, SHGC: 0.51
+-  **Mid-solar-gain**: U-value: 1.6 W/m²K , SHGC: 0.26
+-  **Low-solar-gain**: U-value: 1.6 W/m²K , SHGC: 0.19
 
-
-
-**==Archetype oriented north (front) / south (rear), mid-gain windows (SHGC:  0.26)==**
-
-| Scenario      | Proposed house                                               | Reference house                                              |
-| ------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| Typical       | **[pro-A-NS]**AZNEH Archetype 1, as is (12% FWDH?). no change to overhangs<br />Front Window (N): 13.67 m² (<br />Side Window (E): 2.68 m²<br />Rear Window (S): 19.03 m² | **[ref-A]** 17% FWDH. equal glass distribution (overhangs set to 0 as per 9.36)<br />All windows (N, E, S, W): 11.59 m² |
-| Passive solar | **[pro-B-NS]**AZNEH Archetype 1, south glass = 6% of heated floor area, north glass limited, appropriate overhangs (distribution changes relative to original ANZEH)<br />Front Window (N): 2.68 m²<br />Side Window (E): 2.68 m²<br />Rear Window (S): 18.26 m²<br />Rear Overhang Width: 1.5 m²<br />Rear Overhang Spacing: 1.12 m² <!--https://susdesign.com/overhang_annual/index.php--> | **[ref-A]**17% FWHR, equal glass distribution                |
-| Mid glazing   | **[pro-C-NS]**AZNEH Archetype 1, glass increased to 20% FWDH, glass distribution proportional to original design. no change to original overhangs.<br />Front Window (N): 19.96 m²<br />Side Window (E): 4.14 m²<br />Rear Window (S): 29.33 m²<br /> | **[ref-C]** 20% FWHR, equal glass distribution<br />All windows (N, E, S, W): 13.63 m² |
-| High glazing  | **[pro-D-NS] **AZNEH Archetype 1, glass increased to 25+% FWDH, glass distribution glass distribution proportional to original design. no change to original overhangs.<br />Front Window (N): 24.95 m²<br />Side Window (E): 5.18 m²<br />Rear Window (S): 36.67 m² | **[ref-D]** 22% FWHR, equal glass distribution<br />All windows (N, E, S, W): 15 m² |
+In each case, the archetype variants were compared to the reference house with a window meeting the U-value requirements of NBC table 9.36.2.7-A, and a SHGC of 0.26.
 
 
+### Consistency across building simulation software ###
 
-#### STAGE 2: Effect of of orientation ####
+==To be completed== Examine cooling requirements thresholds for these archetypes with another program (EnergyPlus). Assess whether the proposed requirement will produce consistent outcomes across software. 
 
-Compare Cooling requirements for an archetype with different window to wall ratios. 
+### Impact on home design ###
 
-1. Rotate archetypes as noted, run scenarios in all locations. 
-2. examine suitability of proposed metric in discouraging homes with wrong orientation. 
-
-###### Scenarios ######
-
-**==Archetype rotated to east (front) / west (rear)  mid-gain windows (SHGC:  0.26)==**
-
-| Scenario                         | Proposed house                                              | Reference house                                |
-| -------------------------------- | ----------------------------------------------------------- | ---------------------------------------------- |
-| Typical EW                       | **[pro-A-EW]** AZNEH Archetype 1, pro-A variant rotated E/W | **[ref-A]** 17% FWDH. equal glass distribution |
-| Passive solar, wrong orientation | **[pro-B-EW]** AZNEH Archetype 1, pro-B variant rotated E/W | **[ref-A]**17% FWHR, equal glass distribution  |
-| Mid glazing, E/W                 | **[pro-C-EW]** AZNEH Archetype 1, pro-D variant rotated E/W | **[ref-C]** 20% FWHR, equal glass distribution |
-| High glazing, E/W                | **[pro-D-EW] **AZNEH Archetype 1, pro-D variant rotated E/W | **[ref-D]** 22% FWHR, equal glass distribution |
-
-#### STAGE 3: Effect of SHGC ####
-
-Compare Cooling requirements for archetypes with window scenarios. - Run all archetypes:
-
-- modify window distribution to equal in each cardinal direction; this is the base case
-- modify to have 6% window area (to heated floor area) on the south side of the house with the same overall window to heated floor area; this is the passive solar case
-- modify archetype to maximize window area on east and west sides with same overall window to heated floor area; this is the worst case scenario
-
-2. Propose a maximum ‘permitted increase in cooling loads’ threshold (e.g. 25%), which affords enough flexibility to design passive solar homes, but restricts ‘worst-case scenario’ homes. 
-3. Verify that the threshold produces similar results across different building simulation software
-4. Examine impact of the proposed metric using 240 archetypes in a variety of locations. For those that could not meet proposed requirements, identify characteristics that prevent the archetypes from meeting the requirement. 
-
-
-### Part B) Comparing results across software ###
-
-Examine cooling requirements thresholds for these archetypes with another program (EnergyPlus). Assess whether the proposed requirement will produce consistent outcomes across software. 
-
-### Part C) Evaluate impact on home design ###
-
-Using NRCan's 240 new housing archetypes, assess how these archetypes would be affected by the requirement. Identify which houses would comply, which would fail. Report on common characteristics of homes not complying. 
+==To be completed== Using NRCan's 240 new housing archetypes, assess how these archetypes would be affected by the requirement. Identify which houses would comply, which would fail. Report on common characteristics of homes not complying. 
 
 ## Findings: ##
 
@@ -229,7 +190,11 @@ As mentioned earlier, the reference house should be reexamined for alignment wit
 
 ### 3. Comparison across building simulation software ###
 
+==To be completed==
+
 ### 4. Impact on home design.  ###
+
+==To be completed==
 
 ## Expected outcomes ##
 
@@ -244,13 +209,28 @@ We expect the requirement will have the following outcomes if adopted in code:
 
 ##  HTAP instructions: ##
 
-Example run:
+The working files used in this analysis are stored in the HTAP-Projects Github repository: https://github.com/NRCan-IETS-CE-O-HBC/HTAP-projects/ . The path `NBC-tiered-code\solar-threshold-study`contains the relevant HTAP and HOT2000 files. 
 
-```
-C:\HTAP-projects\NBC-tiered-code\solar-threshold-study> C:\htap\htap-prm.rb -r .\example.run -o C:\htap\HTAP-options.json -v -j -t 2 -c
+```shell
+C:\HTAP-projects\NBC-tiered-code\solar-threshold-study> C:\htap\htap-prm.rb -r .\htap-overheating-analysis.run -o C:\htap\HTAP-options.json -v -j -t 2 -c
 ```
 
- 
+
+
+HOT2000 archetypes can be found in the `HOT2000_models`folder. The HOT2000 files are sumarized in Table ==X==:
+
+
+
+**Table ==X==: HOT2000 Archetype Files**
+
+| Archetype Variant                                            | Proposed house .h2k files                                    | Reference house .h2k file                                    |
+| ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| **Typical:** <br />12.9 % FDWR, overhangs as per original model soffit. | `pro-A-NS.h2k`:   rear oriented south<br />`pro-A-EW.h2k`:  rear oriented west | `ref-A.h2k`: 17% FWDH, equal glass distribution (N,E,W,S), overhangs set to 0 as per 9.36 |
+| **Passive solar:** <br />8.6 % FDWR, overhangs as per passive solar guidelines | `pro-B-NS.h2k`:   rear oriented south<br />`pro-B-EW.h2k`:  rear oriented west | `ref-A.h2k`: as above                                        |
+| **Mid glazing:**<br />19.6 % FDWR, overhangs as per original model soffit. | `pro-C-NS.h2k`:   rear oriented south<br />`pro-C-EW.h2k`:  rear oriented west | `ref-C.h2k`: 19.6% FWDH, equal glass distribution (N,E,W,S), overhangs set to 0 as per 9.36 |
+| **High glazing:**<br />25.4% FDWR, overhangs as per original model soffit. | `pro-D-NS.h2k`:   rear oriented south<br />`pro-D-EW.h2k`:  rear oriented west | `ref-D.h2k`: 19.6% FWDH, equal glass distribution (N,E,W,S), overhangs set to 0 as per 9.36 |
+
+
 
 ## Working notes ##
 
@@ -258,11 +238,7 @@ C:\HTAP-projects\NBC-tiered-code\solar-threshold-study> C:\htap\htap-prm.rb -r .
 
 ###### ARCHETYPES: ######
 
-1. Base case - Equal windows on all facades, same window area as ANZEH
-2. Scenario - 1: Passive solar: 6% window distribution, overhangs on south side, north windows smaller. 
-3. Scenario 3: Worst case: area moved to east/ west. 
-
-##### FDWR: (Fenestration & Door to Wall area ratio) -  #####
+##### FDWR: (Fenestration & Door to gross wall area ratio) -  #####
 
 
 $$
