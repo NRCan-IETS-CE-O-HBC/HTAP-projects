@@ -9,11 +9,14 @@
 
 ## Synopsys ##
 
-These files are part of an investigation into overheating in residential housing. The goal of this study is to propose a metric for evaluating the likelihood of a home to overheat relative to the reference house. Results from this study will also demonstrate how code requirements based on that metric would affect home design. 
+These files are part of CE-O's investigation into  the risks of overheating in residential housing. The goal of this study is to propose a metric for evaluating the likelihood of a home to overheat relative to the reference house. Results from this study will also demonstrate how code requirements based on that metric would affect home design. 
 
 ## Summary of Findings ##
 
-CanmetENERGY-Ottawa (CE-O) researchers investigated potential metrics for evaluating the risk of overheating in residential homes. CE-O's objective was to examine how changes to orientation, window specification and window area would effect a home's likelihood of overheating in the summer. 
+CanmetENERGY-Ottawa (CE-O) researchers investigated potential metrics for evaluating the risk of overheating in residential homes. Our objectives were to: 
+
+- examine how changes to orientation, window specification and window area would effect a home's likelihood of overheating in the summer, and 
+- to propose metrics for performance codes that would limit these risks of overheating. 
 
 #### Key findings: ####
 
@@ -45,8 +48,10 @@ Performance compliance may encourage designers to increase solar gains through w
 
 #### Objectives:  ####
 
-1. Propose a requirement limiting a designer's ability to trade-off reduced heating for increased cooling loads as a means to meet upper tiers
+1. Propose a performance compliance requirement that will reduce the risks of overheating in homes, by limiting design chocies that are well understood to contribute to overheating.[^1].
 2. Develop evidence supporting that requirement, and identifying how the requirement is likely to limit home design. 
+
+[^1]: These features include high-gain windows, high window-to-floor-area ratios, and windows oriented east and west. 
 
 #### Guiding principles: ####
 
@@ -55,8 +60,8 @@ Performance compliance may encourage designers to increase solar gains through w
 
 >  **NOTE**: The scope of this study specifically excludes examining whether or not a home will require cooling, or appropriate performance levels for cooling equipment. The metrics proposed in this study, and the data collected to support them will be inadequate to examine these other issues. If they are important for future codes, additional studies will be required.
 
--  **The metric will be computed using the reference house approach**. We recognize that housing design tools predict cooling with different degrees of accuracy. As part of this with the requirement, the designer must compare the cooling loads for the proposed design to those of the reference house. If the the proposed design's predicted cooling loads do not exceed the reference house by more than ==X%==, then the home will be deemed to comply with this requirement. 
--  **The requirement shall not restrict appropriate passive solar design.** The metric (and threshold ==X%==) will be chosen to permit designers enough flexibility to design a home to well-known passive solar principles (south glazing =~ 4-6% of floor area, windows are protected by appropriate overhangs, N/E/W glazing is limited).
+-  **The metric will be computed using the reference house approach**. We recognize that housing design tools predict cooling with different degrees of accuracy. As part of this with the requirement, the designer must compare the cooling loads for the proposed design to those of the reference house. If the the proposed design's predicted cooling loads do not exceed the reference house then the home will be deemed to comply with this requirement. 
+-  **The requirement shall not restrict appropriate passive solar design.** The metric will be chosen to permit designers enough flexibility to design a home to well-known passive solar principles (south glazing =~ 4-6% of floor area, windows are protected by appropriate overhangs, N/E/W glazing is limited).
 
 #### Possible language for the proposed requirement ####
 
@@ -185,9 +190,7 @@ CE-O's analysis suggests that the 9.36.5 reference house does not represent curr
 1. The reference house window-to-wall ratio range (17-22%) is much higher than the typical housing archetype used in this study (12%).  When the home was redesigned according to passive-solar principles, the window-to-wall ratio was X%. These inconsistencies mean that the reference home will consistently exhibit higher heat loss, and higher solar gains than proposed homes. 
 2. The reference house distributes windows equally in N/E/W/S orientations, while many contemporary homes locate windows predominately on the front and back. By redistributing windows to east and west locations, the reference house may effectively increase cooling budgets for highly-glazed homes with predominately south-facing glass. 
 
-CE-O did not contemplate potential improvements to the reference house in the current scope, but such changes should be examined in the future. Any changes to the reference house will also affect 
-
-Based on these differences, CE-O suggests that the suitability of the reference house be reexamined at a later date. 
+CE-O did not contemplate potential improvements to the reference house in the current scope, but such changes should be examined in the future. 
 
 ### 1. Metrics for overheating ###
 
@@ -197,13 +200,26 @@ The **peak cooling load** and the **seasonal cooling requirement** correlate wel
 | :----------------------------------------------------------: |
 |           ![1557428306256](imgs/1557428306256.png)           |
 
-CE-O assessed the suitability of these metrics by examining how a hypothetical overheating-limit requirement based on each metric would affect proposed designs. In each case, a proposed design was deemed to comply if its estimated peak cooling load or seasonal cooling requirement was less than or equal to the reference case. 
+We assessed the suitability of these metrics by examining how a hypothetical overheating-limit requirement based on each metric would affect proposed designs. In each case, a proposed design was deemed to comply if its estimated peak cooling load or seasonal cooling requirement was less than or equal to the reference case. 
 
 The results are depicted in Figure 3. Green blocks indicate scenarios that complied with both hypothetical metrics; while red blocks indicate scenarios that complied with neither. Yellow blocks indicate scenarios that comply with peak cooling requirement metrics, but which do not comply with the seasonal cooling requirements. 
 
 | Figure 3: Scenario compliance with metrics based on peak cooling load and seasonal cooling requirement |
 | :----------------------------------------------------------: |
 |           ![1557429353439](imgs/1557429353439.png)           |
+
+The results show that the proposed requirements effectively restrict use of high-gain windows on the very highly and very-highly glazed archetypes. Those same archetypes would be required to use low-gain windows when oriented east-west, but could meet the requirement with mid-glazed windows when oriented North-South. These results align with the intention of the proposed requirement: to limit use of high-gain glass in highly-glazed homes, and to encourage use of low gain glass in homes oriented east-west.
+
+The results for the typical and passive-solar archetypes are especially interesting. Homes using low-gain and mid-gain windows comply with the requirement in all scenarios. Requirements based on both metrics also limit use of high-gain windows on the typical design archetype, when oriented east-west. The yellow squares indicate scenarios where the proposed design would comply if the requirement were based on peak cooling metric, but not the on the seasonal cooling metric.
+
+The analysis shows that neither metric is perfectly suited to control risks of overheating:
+
+- A requirement based on the seasonal cooling energy metric effectively restricts use of high-gain glass, in  all scenarios, including the passive-solar scenario with appropriate window orientation, window-to-floor-area ratios, and overhangs.
+- A requirement based on the peak cooling load effectively permits high-gain windows on the appropriately-designed passive solar archetype. It also permits high-gain windows on the passive-solar archetype on the east-west scenario, and the typical design. Anecdotal evidence suggests that such homes are in fact at risk of overheating.    
+
+At the outset of this study, we sought to identify a metric that would permit use of high-gain windows as part of appropriate passive solar design, but which would restrict use of those windows on east-west orientations. Neither metric exactly accomplishes this objective; the seasonal metric restricts all use of high-gain windows, while the peak cooling metric permits use of high-gain windows in the passive solar archetype, even when that archetype is oriented east-west. 
+
+
 
 
 
