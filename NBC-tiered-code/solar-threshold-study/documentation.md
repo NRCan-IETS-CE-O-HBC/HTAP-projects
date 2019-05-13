@@ -7,22 +7,15 @@
 
 [TOC]
 
-## Synopsys ##
-
-These files are part of CE-O's investigation into the risks of overheating in residential housing. The goal of this study is to propose a metric for evaluating the likelihood of a home to overheat relative to the reference house. Results from this study will also demonstrate how code requirements based on that metric would affect home design. 
-
 ## Summary of Findings ##
 
-CanmetENERGY-Ottawa (CE-O) researchers investigated potential metrics for evaluating the risk of overheating in residential homes. Our objectives were to: 
-
-- examine how changes to orientation, window specification and window area would effect a home's likelihood of overheating in the summer, and 
-- to propose metrics for performance codes that would limit these risks of overheating. 
+These files are part of CE-O's investigation into the risks of overheating in residential housing. The goal of this study is to propose a metric for evaluating the likelihood of a home to overheat relative to the reference house. Results from this study will also demonstrate how code requirements based on that metric would affect home design. 
 
 #### Key findings: ####
 
 -  Both the **peak cooling load** and the **seasonal cooling requirement** are useful metrics for evaluating the risk of overheating
 
--  The **peak cooling load ** appears to be the more suitable of the two metrics because it permits traditional passive solar design. 
+-  The **peak cooling load** appears to be the more suitable of the two metrics because it permits traditional passive solar design. 
 
 -  By requiring proposed designs demonstrate peak cooling loads are ==equal-to or lower-than those of the reference house==, future performance codes will reduce the likelihood that homes complying with the performance compliance pathway. 
 
@@ -88,7 +81,7 @@ The archetype represents common single-detached market housing product. It has 3
 For the purposes of this study, we modified the archetype home to create the following four variants. 
 
 -  **Typical**: Home as is, with no changes to windows or overhangs.
--  **Passive solar:** Home reconfigured to concentrate windows on rear facade. Window areas adjusted to achieve 6% south-facing window to heated floor ratio. Appropriate overhangs added to all rear windows.[^2]
+-  **Passive solar:** Home reconfigured to concentrate windows on rear façade. Window areas adjusted to achieve 6% south-facing window to heated floor ratio. Appropriate overhangs added to all rear windows.[^2]
 -  **Highly glazed**: Home reconfigured to increase overall window to wall ratio to 20%. Window distribution as per original (typical) archetype. 
 -  **Very highly glazed:** Home reconfigured to increase overall window to wall ratio to 20%. Window distribution as per original (typical) archetype. 
 
@@ -209,17 +202,18 @@ We expect the requirement will have the following outcomes if adopted in code:
 
 ##  HTAP instructions: ##
 
-The working files used in this analysis are stored in the HTAP-Projects Github repository: https://github.com/NRCan-IETS-CE-O-HBC/HTAP-projects/ . The path `NBC-tiered-code\solar-threshold-study`contains the relevant HTAP and HOT2000 files. 
+The working files used in this analysis are stored in the HTAP-Projects Github repository: https://github.com/NRCan-IETS-CE-O-HBC/HTAP-projects/ . The path `NBC-tiered-code\solar-threshold-study`contains the relevant HTAP and HOT2000 files. 
 
-```shell
-C:\HTAP-projects\NBC-tiered-code\solar-threshold-study> C:\htap\htap-prm.rb -r .\htap-overheating-analysis.run -o C:\htap\HTAP-options.json -v -j -t 2 -c
+HTAP users can recreate this analysis via the following command:
+
+```powershell
+C:\HTAP-projects\NBC-tiered-code\solar-threshold-study> C:\htap\htap-prm.rb `
+                                                          -r .\htap-overheating-analysis.run `
+                                                          -o C:\htap\HTAP-options.json `
+                                                          -v -j -t 2 -c `
 ```
 
-
-
-HOT2000 archetypes can be found in the `HOT2000_models`folder. The HOT2000 files are sumarized in Table ==X==:
-
-
+HOT2000 archetypes can be found in the `HOT2000_models`folder. The HOT2000 files are summarized in Table ==X==:
 
 **Table ==X==: HOT2000 Archetype Files**
 
