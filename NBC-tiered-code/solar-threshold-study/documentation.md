@@ -40,54 +40,64 @@ CanmetENERGY-Ottawa (CE-O) researchers investigated potential metrics for evalua
 
 Performance compliance may encourage designers to increase solar gains through windows as a low-cost means to reduce energy consumption. If designers do not consider the implications of adverse gains in summer, these homes may require significant cooling loads, and may be uncomfortable in summer. 
 
-#### Hypothesis ####
-
-*By comparing the **a) peak cooling loads** and/or **b) seasonal cooling requirements** between the proposed design and the reference house, a future code requirement can limit the likelihood that designers will use excessive solar gains to meet higher energy tiers.* 
-
 #### Objectives:  ####
 
-1. Propose a performance compliance requirement that will reduce the risks of overheating in homes, by limiting design chocies that are well understood to contribute to overheating.[^1].
+1. Propose a performance compliance requirement that will reduce the risks of overheating in homes, by limiting design choices that are well understood to contribute to overheating.[^1].
 2. Develop evidence supporting that requirement, and identifying how the requirement is likely to limit home design. 
 
-[^1]: These features include high-gain windows, high window-to-floor-area ratios, and windows oriented east and west. 
+[^1]: These features include combinations of high-gain windows, high window-to-floor-area ratios, and windows oriented east and west. 
 
 #### Guiding principles: ####
 
--  **The scope of this study is limited to home design** (orientation, glazing areas, overhangs), glazing specifications (solar heat gain coefficient), and operable windows. 
--  If proposed requirement stipulates the home be modelled with cooling, **these modelling procedures shall only be required for the purposes of assessing overheating risks**. They shall not be interpreted to mean that the code requires homes be equipped with air conditioners, or that the home shall
-
->  **NOTE**: The scope of this study specifically excludes examining whether or not a home will require cooling, or appropriate performance levels for cooling equipment. The metrics proposed in this study, and the data collected to support them will be inadequate to examine these other issues. If they are important for future codes, additional studies will be required.
-
+-  **The scope of this study is limited to home design** (orientation, glazing areas, overhangs) and **glazing specifications** (solar heat gain coefficient).
+-  **The requirement shall not prescribe cooling.** The intent of this requirement is to reduce the risk of overheating from excessive solar gains.  Likewise, installation of air-conditioning equipment is not an alternate compliance pathway. Builders shall shall comply with this requirement by changing window orientations, areas and glazing specifications to reduce overheating potential.
+-  If proposed requirement stipulates the home be modelled with cooling, **these modelling procedures shall only be required for the purposes of assessing overheating risks**. They shall not be interpreted to mean that the code requires homes be equipped with air conditioners.
 -  **The metric will be computed using the reference house approach**. We recognize that housing design tools predict cooling with different degrees of accuracy. As part of this with the requirement, the designer must compare the cooling loads for the proposed design to those of the reference house. If the the proposed design's predicted cooling loads do not exceed the reference house then the home will be deemed to comply with this requirement. 
 -  **The requirement shall not restrict appropriate passive solar design.** The metric will be chosen to permit designers enough flexibility to design a home to well-known passive solar principles (south glazing =~ 4-6% of floor area, windows are protected by appropriate overhangs, N/E/W glazing is limited).
+
+>**NOTE**: The scope of this study specifically excludes examining whether or not a home will require cooling.  Nor does it consider appropriate performance levels for cooling equipment. Such requirements would require more investigation. 
 
 #### Possible language for the proposed requirement ####
 
 1. The reference house and proposed design shall be modelled in accordance with 9.36.5
 
-2. For the purposes of demonstrating the proposed design does not increase risks of overheating, models for both the reference house and proposed design shall be equipped with appropriately-sized[^1] space cooling equipment that serves all occupied spaces within the building.[^2]
+2. For the purposes of demonstrating the proposed design does not increase risks of overheating, models for both the reference house and proposed design shall be equipped with appropriately-sized space cooling equipment that serves all conditioned spaces within the building.
 
-3. The relative difference in cooling requirements between the reference house and the proposed design shall be calculated as follows: 
-   $$
-   \delta QC = \frac{QC_{proposed}-QC_{reference}}{QC_{reference}}\cdot 100
-   $$
-   Where:
-   
-   $\delta{}QC$ is the  relative difference in the cooling requirements between the reference and proposed houses
-   
-   $QC_{proposed}$ is the  cooling requirement of the proposed house
-   
-   $QC_{reference}$ is the  cooling requirement of the reference hous
-   
+3. The cooling requirement in the proposed design shall not exceed the cooling requirement of in the reference house. 
 
-4. The peak cooling load in the proposed design shall not exceed the peak cooling load in the reference house by more than ==X%==.
+TG-EEHSB directed us to consider two possible metrics for estimated the cooling requirement:
 
-[^1]: Do we need to reference F280 here?
-[^2]: The performance of the cooling equipment should be unimportant, because the requirement focuses on the peak cooling load, or seasonal cooling requirement.
+1. The **peak cooling load** (kW), which describes the maximum rate of cooling required to maintain the house's conditioned spaces at constant set points within the summer season.
+2. The **seasonal cooling requirement** (kWh), which describes the total amount of cooling that must be delivered to maintain the house's conditioned spaces at constant set points throughout the summer season.
+
+Note that both the peak cooling load and seasonal cooling requirement focus on the cooling delivered to the house, and not the power demand or energy use of the cooling equipment. While some building simulation software may require that a model include cooling to compute these metrics, the performance of the cooling equipment has no impact on their calculation. 
 
 ## Method: ##
 
-Using archetype homes, compare cooling requirements (peak loads, seasonal cooling requirements s for the reference house, for  the same house designed to well-known passive solar guidelines, and to worst case scenarios (E/W orientations, excessive, unshaded glazing). 
+CE-O researchers used an archetype home to examine how solar gains compared to the NBC reference house for different glazing areas, different orientations, and different specifications for window gains. 
+
+### Single Family Housing Archetype  ###
+
+The archetype represents common single-detached market housing product. It has 304 m² of heated floor area (216 m² above grade).  As designed, the windows are predominately located on the front and back.  Figure 1 depicts its front and rear elevations.
+
+
+| Figure 1: Single detached housing archetype — front and rear elevations. |
+| ------------------------------------------------------------ |
+| ![1556553895186](imgs/1556553895186.png)                     |
+
+**Table 1: Window areas**
+
+|                                          |     Typical | Passive Solar | Highly Glazed | Very Highly Glazed |
+| ---------------------------------------- | ----------: | ------------: | ------------: | -----------------: |
+| Front window area                        |     13.6 m² |        2.7 m² |          20.0 |            24.9 m² |
+| Left window area                         |      2.7 m² |        2.7 m² |        4.1 m² |             5.1 m² |
+| Right window area                        |           – |             – |             – |                  – |
+| Rear window area                         |     19.0 m² |       18.3 m² |       29.3 m² |            36.6 m² |
+| **TOTAL**                                | **35.3 m²** |   **23.6 m²** |   **53.4 m²** |        **66.8 m²** |
+| Ratio: FDWR                              |      12.9 % |         8.6 % |        19.6 % |             24.5 % |
+| Ratio: South window to heated floor area |       6.2 % |         6.0 % |         9.6 % |               12 % |
+
+
 
 ### Part a) Proposing the metric ###
 
@@ -112,16 +122,6 @@ Compare Cooling requirements for an archetype with different window to wall rati
 A single archetype will be used for this work. 
 
 Archetype specifications in HOT2000:
-
-|                             |                                                              |
-| --------------------------- | ------------------------------------------------------------ |
-| Heated Floor Area           | 216.3 m²                                                     |
-| Wall Area                   | 272.67 m²                                                    |
-| Total Window Area: 35.38 m² | Front: 13.67 m² (38.6 % of total window area on this facade)<br />Side: 2.68 m² (7.6% of total window area)<br />Rear: 19.03 m² (53.8 % of total window area) |
-
-<!--Need to insert some statistics about hhe archetypes.-->
-
-![1556553895186](imgs/1556553895186.png)
 
 **Figure 1:** Front and rear elevations
 
@@ -235,17 +235,12 @@ As mentioned earlier, the reference house should be reexamined for alignment wit
 
 We expect the requirement will have the following outcomes if adopted in code:
 
--  Fewer homes will experience overheating. 
-
--  Builders will still be able to construct highly-glazed and very highly-glazed homes, provided they continue to comply with all other parts of the NBC. Builders of these homes will no longer be able to use high-solar-gain glass. If these homes feature significant amounts of windows facing east and west, builders will be required to install low-solar-gain windows.
-
+-  Fewer homes will be prone to overheating due to excessive solar gains in the summer. However, some homes will still overheat — in part because of internal gains and humidity loads that are beyond the scope of this requirement. 
+-  Builders will still be able to construct highly-glazed and very highly-glazed homes, provided they continue to comply with all other parts of the NBC. But builders of these homes will no longer be able to use high-solar-gain glass. If these homes feature significant amounts of windows facing east and west, builders will be required to install low-solar-gain windows.
 -  Builders of typical, market-housing will no longer be able to use high-gain windows if those homes have predominate east or west facing glazing; they will have to opt for a mid-gain or low-gain instead. 
-
 -  Appropriate passive solar design will not be restricted. Builders can continue to use high-gain windows provided that window areas are consistent with passive solar design principles, and they are protected by appropriate overhangs. 
-
+-  Builders will have several measures that they can use to meet this requirement: reducing window area, re-locating east and west facing windows to south, and using low-solar-gain windows. 
 -  Builders will not be required to install air-conditioning as an outcome of this requirement.  Builders will not be permitted to install air-conditioning as an alternate means to comply with this requirement. 
-
-   
 
 ##  HTAP instructions: ##
 
@@ -256,10 +251,6 @@ C:\HTAP-projects\NBC-tiered-code\solar-threshold-study> C:\htap\htap-prm.rb -r .
 ```
 
  
-
-<!-- more here-->
-
-
 
 ## Working notes ##
 
