@@ -105,7 +105,7 @@ Table 1 presents the window areas of each of these archetypes.  Each of these ar
 
 ### Scenarios: Orientation  ###
 
-We examined each of these four archetype variantsin two orientations: 
+We examined each of these four archetype variants in two orientations: 
 
 -  **North-South**, in which the front of the house was oriented north, and the rear faced south.
 -  **East-West**, in which the front of the home was oriented east, and the rear faced west.
@@ -183,7 +183,16 @@ As mentioned earlier, the reference house should be reexamined for alignment wit
 
 ### 3. Comparison across building simulation software ###
 
-==To be completed==
+We assessed the peak cooling using HOT2000 (v11.6) and OpenStudio(EnergyPlus) for the each of the four variant scenarios identified in *Single Family Archetype* as well as the two orientations identified in *Scenarios: Orientation*.
+
+- **Typical**: reference, N-S, E-W
+- **Passive solar:** reference, N-S, E-W
+- **Highly glazed**:reference, N-S, E-W 
+- **Very highly glazed:** reference, N-S, E-W 
+
+Each reference house has the same design, but with window areas and equal distribution (N/E/S/W) as prescribed in NBC 9.36.5.15.[^3]. Each orientation (N-S and E-W) identifies the direction of the front and back of the house. The archetype chosen has windows predominantly on the front and back of the house. 
+
+
 
 ### 4. Impact on home design.  ###
 

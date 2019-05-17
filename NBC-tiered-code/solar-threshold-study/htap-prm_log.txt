@@ -1,0 +1,176 @@
+
+_______________________________________________________________________________
+= htap-prm: LOG FILE. =========================================================
+Run started at 2019-05-16 14:22:42 -0400
+htap-prm location: C:/HTAP
+Parsing configuration file[to-term]= htap-prm: A simple parallel run manager for HTAP ====================================================================
+[to-term] Initialization: 
+[to-term]    - Reading HTAP run definition from .\stage2.run...  done.
+[to-term]
+[to-term]          * 8           { # of options for Location }
+[to-term]          * 1           { # of options for Archetypes }
+[to-term]          * 1           { # of options for Rulesets }
+[to-term]          *   (    1          { base option for all choices }
+[to-term]                +  3          { additional options for Opt-CasementWindows }
+[to-term]               )
+[to-term]          ----------------------------------------------------------
+[to-term]
+[to-term]    - Creating parametric run for 32 combinations --- 0 combos created.    - Creating parametric run for 32 combinations --- 32 combos created.
+[to-term]    - Guesstimated time requirements ~ 2 minutes (including pre- & post-processing)
+[to-term]    ? Continue with run ? [yes] [to-term]
+Waited for 5 seconds
+[to-term]    - Deleting prior HTAP-work directories...  done.
+[to-term]    - Deleting prior HTAP-sim directories...  done.
+[to-term]
+[to-term]= htap-prm: Begin Runs ================================================================================================
+[to-term]
+[to-term]   + Batch 1 ( 0.0% done, 0/32 files processed so far ...) 
+[to-term]     - Starting thread 1/5 for sim #1 (PID 12652)... done. 
+[to-term]     - Starting thread 2/5 for sim #2 (PID 19568)... done. 
+[to-term]     - Starting thread 3/5 for sim #3 (PID 14804)... done. 
+[to-term]     - Starting thread 4/5 for sim #4 (PID 15544)... done. 
+[to-term]     - Starting thread 5/5 for sim #5 (PID 16688)... done. 
+[to-term]     - Waiting on PID: 12652 (1/5)... done.
+[to-term]     - Waiting on PID: 19568 (2/5)... done.
+[to-term]     - Waiting on PID: 14804 (3/5)... done.
+[to-term]     - Waiting on PID: 15544 (4/5)... done.
+[to-term]     - Waiting on PID: 16688 (5/5)... done.
+[to-term]     - Reading results files from PID: 12652 (1/5)... done.
+[to-term]     - Reading results files from PID: 19568 (2/5)... done.
+[to-term]     - Reading results files from PID: 14804 (3/5)... done.
+[to-term]     - Reading results files from PID: 15544 (4/5)... done.
+[to-term]     - Reading results files from PID: 16688 (5/5)... done.
+[to-term]     - Post-processing results:
+[to-term]        -> Writing csv output output to HTAP-prm-output.csv ... done.
+[to-term]        -> Writing JSON output to HTAP-prm-output.json... done.
+[to-term]
+[to-term]   + Batch 2 ( 15.625% done, 5/32 files processed so far, ~55 seconds remaining ...) 
+[to-term]     - Starting thread 1/5 for sim #6 (PID 5116)... done. 
+[to-term]     - Starting thread 2/5 for sim #7 (PID 15812)... done. 
+[to-term]     - Starting thread 3/5 for sim #8 (PID 672)... done. 
+[to-term]     - Starting thread 4/5 for sim #9 (PID 18484)... done. 
+[to-term]     - Starting thread 5/5 for sim #10 (PID 15552)... done. 
+[to-term]     - Waiting on PID: 5116 (1/5)... done.
+[to-term]     - Waiting on PID: 15812 (2/5)... done.
+[to-term]     - Waiting on PID: 672 (3/5)... done.
+[to-term]     - Waiting on PID: 18484 (4/5)... done.
+[to-term]     - Waiting on PID: 15552 (5/5)... done.
+[to-term]     - Reading results files from PID: 5116 (1/5)... done.
+[to-term]     - Reading results files from PID: 15812 (2/5)... done.
+[to-term]     - Reading results files from PID: 672 (3/5)... done.
+[to-term]     - Reading results files from PID: 18484 (4/5)... done.
+[to-term]     - Reading results files from PID: 15552 (5/5)... done.
+[to-term]     - Post-processing results:
+[to-term]        -> Writing csv output output to HTAP-prm-output.csv ... done.
+[to-term]        -> Writing JSON output to HTAP-prm-output.json... done.
+[to-term]
+[to-term]   + Batch 3 ( 31.25% done, 10/32 files processed so far, ~35 seconds remaining ...) 
+[to-term]     - Starting thread 1/5 for sim #11 (PID 16048)... done. 
+[to-term]     - Starting thread 2/5 for sim #12 (PID 5260)... done. 
+[to-term]     - Starting thread 3/5 for sim #13 (PID 15084)... done. 
+[to-term]     - Starting thread 4/5 for sim #14 (PID 13948)... done. 
+[to-term]     - Starting thread 5/5 for sim #15 (PID 19320)... done. 
+[to-term]     - Waiting on PID: 16048 (1/5)... done.
+[to-term]     - Waiting on PID: 5260 (2/5)... done.
+[to-term]     - Waiting on PID: 15084 (3/5)... done.
+[to-term]     - Waiting on PID: 13948 (4/5)... done.
+[to-term]     - Waiting on PID: 19320 (5/5)... done.
+[to-term]     - Reading results files from PID: 16048 (1/5)... done.
+[to-term]     - Reading results files from PID: 5260 (2/5)... done.
+[to-term]     - Reading results files from PID: 15084 (3/5)... done.
+[to-term]     - Reading results files from PID: 13948 (4/5)... done.
+[to-term]     - Reading results files from PID: 19320 (5/5)... done.
+[to-term]     - Post-processing results:
+[to-term]        -> Writing csv output output to HTAP-prm-output.csv ... done.
+[to-term]        -> Writing JSON output to HTAP-prm-output.json... done.
+[to-term]
+[to-term]   + Batch 4 ( 46.875% done, 15/32 files processed so far, ~25 seconds remaining ...) 
+[to-term]     - Starting thread 1/5 for sim #16 (PID 12276)... done. 
+[to-term]     - Starting thread 2/5 for sim #17 (PID 13116)... done. 
+[to-term]     - Starting thread 3/5 for sim #18 (PID 14340)... done. 
+[to-term]     - Starting thread 4/5 for sim #19 (PID 2560)... done. 
+[to-term]     - Starting thread 5/5 for sim #20 (PID 17636)... done. 
+[to-term]     - Waiting on PID: 12276 (1/5)... done.
+[to-term]     - Waiting on PID: 13116 (2/5)... done.
+[to-term]     - Waiting on PID: 14340 (3/5)... done.
+[to-term]     - Waiting on PID: 2560 (4/5)... done.
+[to-term]     - Waiting on PID: 17636 (5/5)... done.
+[to-term]     - Reading results files from PID: 12276 (1/5)... done.
+[to-term]     - Reading results files from PID: 13116 (2/5)... done.
+[to-term]     - Reading results files from PID: 14340 (3/5)... done.
+[to-term]     - Reading results files from PID: 2560 (4/5)... done.
+[to-term]     - Reading results files from PID: 17636 (5/5)... done.
+[to-term]     - Post-processing results:
+[to-term]        -> Writing csv output output to HTAP-prm-output.csv ... done.
+[to-term]        -> Writing JSON output to HTAP-prm-output.json... done.
+[to-term]
+[to-term]   + Batch 5 ( 62.5% done, 20/32 files processed so far, ~17 seconds remaining ...) 
+[to-term]     - Starting thread 1/5 for sim #21 (PID 19776)... done. 
+[to-term]     - Starting thread 2/5 for sim #22 (PID 16408)... done. 
+[to-term]     - Starting thread 3/5 for sim #23 (PID 15816)... done. 
+[to-term]     - Starting thread 4/5 for sim #24 (PID 13544)... done. 
+[to-term]     - Starting thread 5/5 for sim #25 (PID 16772)... done. 
+[to-term]     - Waiting on PID: 19776 (1/5)... done.
+[to-term]     - Waiting on PID: 16408 (2/5)... done.
+[to-term]     - Waiting on PID: 15816 (3/5)... done.
+[to-term]     - Waiting on PID: 13544 (4/5)... done.
+[to-term]     - Waiting on PID: 16772 (5/5)... done.
+[to-term]     - Reading results files from PID: 19776 (1/5)... done.
+[to-term]     - Reading results files from PID: 16408 (2/5)... done.
+[to-term]     - Reading results files from PID: 15816 (3/5)... done.
+[to-term]     - Reading results files from PID: 13544 (4/5)... done.
+[to-term]     - Reading results files from PID: 16772 (5/5)... done.
+[to-term]     - Post-processing results:
+[to-term]        -> Writing csv output output to HTAP-prm-output.csv ... done.
+[to-term]        -> Writing JSON output to HTAP-prm-output.json... done.
+[to-term]
+[to-term]   + Batch 6 ( 78.125% done, 25/32 files processed so far, ~10 seconds remaining ...) 
+[to-term]     - Starting thread 1/5 for sim #26 (PID 4040)... done. 
+[to-term]     - Starting thread 2/5 for sim #27 (PID 7756)... done. 
+[to-term]     - Starting thread 3/5 for sim #28 (PID 19532)... done. 
+[to-term]     - Starting thread 4/5 for sim #29 (PID 13472)... done. 
+[to-term]     - Starting thread 5/5 for sim #30 (PID 15008)... done. 
+[to-term]     - Waiting on PID: 4040 (1/5)... done.
+[to-term]     - Waiting on PID: 7756 (2/5)... done.
+[to-term]     - Waiting on PID: 19532 (3/5)... done.
+[to-term]     - Waiting on PID: 13472 (4/5)... done.
+[to-term]     - Waiting on PID: 15008 (5/5)... done.
+[to-term]     - Reading results files from PID: 4040 (1/5)... done.
+[to-term]     - Reading results files from PID: 7756 (2/5)... done.
+[to-term]     - Reading results files from PID: 19532 (3/5)... done.
+[to-term]     - Reading results files from PID: 13472 (4/5)... done.
+[to-term]     - Reading results files from PID: 15008 (5/5)... done.
+[to-term]     - Post-processing results:
+[to-term]        -> Writing csv output output to HTAP-prm-output.csv ... done.
+[to-term]        -> Writing JSON output to HTAP-prm-output.json... done.
+[to-term]
+[to-term]   + Batch 7 ( 93.75% done, 30/32 files processed so far, ~3 seconds remaining ...) 
+[to-term]     - Starting thread 1/2 for sim #31 (PID 3800)... done. 
+[to-term]     - Starting thread 2/2 for sim #32 (PID 3136)... done. 
+[to-term]     - Waiting on PID: 3800 (1/2)... done.
+[to-term]     - Waiting on PID: 3136 (2/2)... done.
+[to-term]     - Reading results files from PID: 3800 (1/2)... done.
+[to-term]     - Reading results files from PID: 3136 (2/2)... done.
+[to-term]     - Post-processing results:
+[to-term]        -> Writing csv output output to HTAP-prm-output.csv ... done.
+[to-term]        -> Writing JSON output to HTAP-prm-output.json... done.
+[to-term]
+[to-term]
+[to-term] - Deleting working directories... done.
+
+[to-term]
+[to-term]
+[to-term]    + 0 files failed to run 
+[to-term]= htap-prm: Run Summary ===============================================================================================
+[to-term]
+[to-term] Total processing time: 50.76 seconds
+[to-term]
+[to-term]
+[to-term]
+[to-term]
+ -> Error messages:
+
+[to-term]
+[to-term] STATUS: Task completed successfully 
+[to-term]=======================================================================================================================
+[to-term]
