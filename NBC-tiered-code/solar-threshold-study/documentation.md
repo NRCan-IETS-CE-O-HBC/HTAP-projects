@@ -192,6 +192,18 @@ We assessed the peak cooling using HOT2000 (v11.6) and OpenStudio(EnergyPlus) fo
 
 Each reference house has the same design, but with window areas and equal distribution (N/E/S/W) as prescribed in NBC 9.36.5.15.[^3]. Each orientation (N-S and E-W) identifies the direction of the front and back of the house. The archetype chosen has windows predominantly on the front and back of the house. 
 
+![](C:\HTAP-projects\NBC-tiered-code\solar-threshold-study\imgs\cooling comparison between H2K and E+.png)
+
+The results of the analysis show that both HOT2000 and OS/E+ 
+
+In addition to the base case window analysis, the analysis was completed with high gain, mid gain and low gain windows.
+
+![](C:\HTAP-projects\NBC-tiered-code\solar-threshold-study\imgs\map of compatibility - H2K and E+.png)
+
+Green blocks indicate scenarios where the peak cooling predicted is less than the peak cooling predicted by the simulation tool for the 9.36 reference house. The side-by-side comparison of HOT2000 (H2K) and OS/E+ show that both tools show alignment for the scenarios considered.
+
+
+
 
 
 ### 4. Impact on home design.  ###
