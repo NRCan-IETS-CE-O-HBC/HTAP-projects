@@ -42,8 +42,8 @@ Performance compliance may encourage designers to increase solar gains through w
 
 #### Guiding principles: ####
 
--  **The scope of this study is limited to home design** (orientation, glazing areas, overhangs) and **glazing specifications** (solar heat gain coefficient).
--  **The requirement shall not prescribe cooling.** The intent of this requirement is to reduce the risk of overheating from excessive solar gains.  Likewise, installation of air-conditioning equipment is not an alternate compliance pathway. Builders shall shall comply with this requirement by changing window orientations, areas and glazing specifications to reduce overheating potential.
+-  **The scope of this study is limited to home design** (orientation, glazing areas, overhangs) and glazing specifications (solar heat gain coefficient).
+-  **The requirement shall not prescribe cooling.** The intent of this requirement is to reduce the risk of overheating from excessive solar gains.  Likewise, installation of air-conditioning equipment is not recommended an alternate compliance pathway. Builders shall  comply with this requirement by changing window orientations, areas and glazing specifications to reduce overheating potential.
 -  If proposed requirement stipulates the home be modelled with cooling, **these modelling procedures shall only be required for the purposes of assessing overheating risks**. They shall not be interpreted to mean that the code requires homes be equipped with air conditioners.
 -  **The metric will be computed using the reference house approach**. We recognize that housing design tools predict cooling with different degrees of accuracy. As part of this with the requirement, the designer must compare the cooling loads for the proposed design to those of the reference house. If the the proposed design's predicted cooling loads do not exceed the reference house then the home will be deemed to comply with this requirement. 
 -  **The requirement shall not restrict appropriate passive solar design.** The metric will be chosen to permit designers enough flexibility to design a home to well-known passive solar principles (south glazing =~ 4-6% of floor area, windows are protected by appropriate overhangs, N/E/W glazing is limited).
@@ -83,7 +83,7 @@ For the purposes of this study, we modified the archetype home to create the fol
 -  **Typical**: Home as is, with no changes to windows or overhangs.
 -  **Passive solar:** Home reconfigured to concentrate windows on rear façade. Window areas adjusted to achieve 6% south-facing window to heated floor ratio. Appropriate overhangs added to all rear windows.[^2]
 -  **Highly glazed**: Home reconfigured to increase overall window to wall ratio to 20%. Window distribution as per original (typical) archetype. 
--  **Very highly glazed:** Home reconfigured to increase overall window to wall ratio to 20%. Window distribution as per original (typical) archetype. 
+-  **Very highly glazed:** Home reconfigured to increase overall window to wall ratio to 25%. Window distribution as per original (typical) archetype. 
 
 [^2]:  Window overhang widths set to 1.5 m, window overhang spacing (vertical distance from upper edge of the window to the overhang) set to 1.1 m
 
@@ -137,7 +137,7 @@ In each case, the archetype variants were compared to the reference house with a
 
 CE-O's analysis suggests that the 9.36.5 reference house does not represent current construction practices. There are two key differences between the reference house's window specifications and practice in market home building:
 
-1. The reference house window-to-wall ratio range (17-22%) is much higher than the typical housing archetype used in this study (12%).  When the home was redesigned according to passive-solar principles, the window-to-wall ratio was X%. These inconsistencies mean that the reference home will consistently exhibit higher heat loss, and higher solar gains than proposed homes. 
+1. The reference house window-to-wall ratio range (17-22%) is much higher than the typical housing archetype used in this study (12%).  When the home was redesigned according to passive-solar principles, the window-to-wall ratio was 8.6%. These inconsistencies mean that the reference home will consistently exhibit higher heat loss, and higher solar gains than proposed homes. 
 2. The reference house distributes windows equally in N/E/W/S orientations, while many contemporary homes locate windows predominately on the front and back. By redistributing windows to east and west locations, the reference house may effectively increase cooling budgets for highly-glazed homes with predominately south-facing glass. 
 
 These discrepancies reflect the fact that the current 9.36.5 reference house was designed as a benchmark for seasonal heating requirements, without consideration of its use in overheating analysis. CE-O did not contemplate potential improvements to the reference house in the current scope, but such changes should be examined in the future. 
