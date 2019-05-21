@@ -194,7 +194,7 @@ Each reference house has the same design, but with window areas and equal distri
 
 ![](C:\HTAP-projects\NBC-tiered-code\solar-threshold-study\imgs\cooling comparison between H2K and E+.png)
 
-The results of the analysis show that both HOT2000 and OS/E+ 
+The results of the analysis show that HOT2000 and OS/E+ both report the same trends in peak cooling, with "high glazing" and "very high glazing" cases with the majority of the windows on the East-West faces leading to the potential for overheating.
 
 In addition to the base case window analysis, the analysis was completed with high gain, mid gain and low gain windows.
 
