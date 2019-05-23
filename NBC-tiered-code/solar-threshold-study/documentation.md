@@ -125,7 +125,9 @@ In each case, the archetype variants were compared to the reference house with a
 
 ### Consistency across building simulation software ###
 
-==To be completed== Examine cooling requirements thresholds for these archetypes with another program (EnergyPlus). Assess whether the proposed requirement will produce consistent outcomes across software. 
+Examine cooling requirements thresholds for these archetypes with another program (EnergyPlus). Assess whether the proposed requirement will produce consistent outcomes across software. 
+
+The peak cooling for each archetype, for both orientation and window specification, with each program was compared to its reference house.
 
 ### Impact on home design ###
 
@@ -150,7 +152,7 @@ The **peak cooling load** and the **seasonal cooling requirement** correlate wel
 
 | Figure 2: Correlation between peak cooling load and seasonal cooling requirement, by scenario |
 | :----------------------------------------------------------: |
-|           ![1557428306256](imgs/1557431737072.png)           |
+| ![](C:\HTAP-projects\NBC-tiered-code\solar-threshold-study\imgs\%change in peak load vs % change in seasonal cooling.png) |
 
 We assessed the suitability of these metrics by examining how a hypothetical overheating-limit requirement based on each metric would affect proposed designs. In each case, a proposed design was deemed to comply if its estimated peak cooling load or seasonal cooling requirement was less than or equal to the reference case. 
 
@@ -158,15 +160,17 @@ The results are depicted in Figure 3. Green blocks indicate scenarios that compl
 
 | Figure 3: Scenario compliance with metrics based on peak cooling load and seasonal cooling requirement |
 | :----------------------------------------------------------: |
-|           ![1557429353439](imgs/1557429353439.png)           |
+| ![](C:\HTAP-projects\NBC-tiered-code\solar-threshold-study\imgs\map of compatability.png) |
 
 The results show that the proposed requirements effectively restrict use of high-gain windows on the very highly and very-highly glazed archetypes. Those same archetypes would be required to use low-gain windows when oriented east-west, but could meet the requirement with mid-glazed windows when oriented North-South. These results align with the intention of the proposed requirement: to limit use of high-gain glass in highly-glazed homes, and to encourage use of low gain glass in homes oriented east-west.
 
-The results for the typical and passive-solar archetypes are especially interesting. Homes using low-gain and mid-gain windows comply with the requirement in all scenarios. Requirements based on both metrics also limit use of high-gain windows on the typical design archetype, when oriented east-west. The yellow squares indicate scenarios where the proposed design would comply if the requirement were based on peak cooling metric, but not the on the seasonal cooling metric.
+The results for the typical and passive-solar archetypes are especially interesting. Homes using low-gain and mid-gain windows comply with the requirement in all scenarios. Requirements based on both metrics also limit use of high-gain windows on the typical design archetype, when oriented east-west. 
+
+The yellow squares indicate scenarios where the proposed design would comply if the requirement were based on peak cooling metric, but not the on the seasonal cooling metric.
 
 The analysis shows that neither metric is perfectly suited to control risks of overheating:
 
-- A requirement based on the seasonal cooling energy metric effectively restricts use of high-gain glass, in  all scenarios, including the passive-solar scenario with appropriate window orientation, window-to-floor-area ratios, and overhangs.
+- A requirement based on the seasonal cooling energy metric effectively restricts use of high-gain glass, in all scenarios, including the passive-solar scenario with appropriate window orientation, window-to-floor-area ratios, and overhangs.
 - A requirement based on the peak cooling load effectively permits high-gain windows on the appropriately-designed passive solar archetype. It also permits high-gain windows on the passive-solar archetype on the east-west scenario, and the typical design. Anecdotal evidence suggests that such homes are in fact at risk of overheating.    
 
 At the outset of this study, we sought to identify a metric that would permit use of high-gain windows as part of appropriate passive solar design, but which would restrict use of those windows on east-west orientations. Neither metric exactly accomplishes this objective; the seasonal metric restricts all use of high-gain windows and the peak cooling metric permits use of high-gain windows in the passive solar archetype, even when that archetype is oriented east-west. 
@@ -183,26 +187,36 @@ As mentioned earlier, the reference house should be reexamined for alignment wit
 
 ### 3. Comparison across building simulation software ###
 
-We assessed the peak cooling using HOT2000 (v11.6) and OpenStudio(EnergyPlus) for the each of the four variant scenarios identified in *Single Family Archetype* as well as the two orientations identified in *Scenarios: Orientation*.
+We assessed the peak cooling using HOT2000 (H2K) and EnergyPlus/OpenStudio (OS/E+) for the each of the four variant scenarios identified in *Single Family Archetype* as well as the two orientations identified in *Scenarios: Orientation*. Each house was simulated for one location (Toronto) and one window (NBC 9.36 reference window)
 
-- **Typical**: reference, N-S, E-W
-- **Passive solar:** reference, N-S, E-W
-- **Highly glazed**:reference, N-S, E-W 
-- **Very highly glazed:** reference, N-S, E-W 
+- **Typical**: reference, North-South, East-West
+- **Passive solar:** reference, North-South, East-West
+- **Highly glazed**:reference, North-South, East-West 
+- **Very highly glazed:** reference, North-South, East-West 
 
-Each reference house has the same design, but with window areas and equal distribution (N/E/S/W) as prescribed in NBC 9.36.5.15.[^3]. Each orientation (N-S and E-W) identifies the direction of the front and back of the house. The archetype chosen has windows predominantly on the front and back of the house. 
+Figure ==x== shows the evaluation of the recommendation: *"The peak cooling requirement of the proposed design shall not exceed that of the reference house"* for each simulation tool. The % difference in peak cooling from the reference case is compared for both HOT2000 and OS/E+.
 
-![](C:\HTAP-projects\NBC-tiered-code\solar-threshold-study\imgs\cooling comparison between H2K and E+.png)
+The green blocks indicate that the predicted peak cooling is *less than the reference house*; red blocks indicate the predicted peak cooling is *exceeds the reference house*.  
 
-The results of the analysis show that HOT2000 and OS/E+ both report the same trends in peak cooling, with "high glazing" and "very high glazing" cases with the majority of the windows on the East-West faces leading to the potential for overheating.
+![](C:\HTAP-projects\NBC-tiered-code\solar-threshold-study\imgs\difference from reference case between h2k and E+.png)
 
-In addition to the base case window analysis, the analysis was completed with high gain, mid gain and low gain windows.
+The results of the analysis show that HOT2000 and OS/E+ predict alignment in peak cooling for all North-South facing houses modelled, i.e. both H2K and OS/E+ predict peak cooling lower than the reference house.  
+
+The results also show that HOT2000 and OS/E+ report the same trends in peak cooling for East-West "high glazing" and "very high glazing" cases; peak cooling that exceeds the reference. The tools predict that highly and very highly glazed houses with the majority of their windows on the East-West sides have the potential for overheating.
+
+The typical and passive solar scenarios for East-West orientation don't show the same clear alignment; OS/E+ predicts a slight increase in peak cooling from the reference house whereas HOT2000 predicts a slight decrease in peak cooling. A shown in the previous section: the results for the typical and passive-solar archetype homes using mid-gain windows comply with the requirement in all scenarios.  
+
+
+
+
+
+In addition to the base case window analysis presented above, the analysis was completed with high gain, mid gain and low gain windows.
 
 ![](C:\HTAP-projects\NBC-tiered-code\solar-threshold-study\imgs\map of compatibility - H2K and E+.png)
 
-Green blocks indicate scenarios where the peak cooling predicted is less than the peak cooling predicted by the simulation tool for the 9.36 reference house. The side-by-side comparison of HOT2000 (H2K) and OS/E+ show that both tools show alignment for the scenarios considered.
+Green blocks indicate scenarios where the peak cooling predicted is less than the peak cooling predicted by the simulation tool for the 9.36 reference house. 
 
-
+![](C:\HTAP-projects\NBC-tiered-code\solar-threshold-study\imgs\low mid high comparison between h2k and e+.png)
 
 
 
