@@ -11,7 +11,7 @@ RunParameters_END
 ! run in mesh, even if an optimization mode is added in the future.
 RunScope_START
 
-  archetypes                        = pro-B-EW-corrected.h2k! pro-A-EW.h2k ,pro-B-EW.h2k,pro-C-EW.h2k,pro-D-EW.h2k,pro-A-NS.h2k,pro-B-NS.h2k,pro-C-NS.h2k,pro-D-NS.h2k,ref-A.h2k,ref-B.h2k,ref-C.h2k,ref-D.h2k
+  archetypes                        = pro-A-EW.h2k ,pro-B-EW.h2k,pro-C-EW.h2k,pro-D-EW.h2k,pro-A-NS.h2k,pro-B-NS.h2k,pro-C-NS.h2k,pro-D-NS.h2k,ref-A.h2k,ref-B.h2k,ref-C.h2k,ref-D.h2k
   locations = TORONTO, VANCOUVER, HALIFAX , CALGARY, PRINCEGEORGE ,  EDMONTON, OTTAWA, KAMLOOPS !, WHITEHORSE, EDMONTON, OTTAWA, KAMLOOPS
   ! locations                         = TORONTO, KAMLOOPS, VANCOUVER, HALIFAX, CALGARY, WHITEHORSE, YELLOWKNIFE ! MONTREAL, WINNIPEG, YELLOWKNIFE, REGINA, OTTAWA
   rulesets                          = NBC9_36[fuel>elect;vent>HRV]
