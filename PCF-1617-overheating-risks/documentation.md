@@ -152,7 +152,7 @@ The **peak cooling load** and the **seasonal cooling requirement** correlate wel
 
 | Figure 2: Correlation between peak cooling load and seasonal cooling requirement, by scenario |
 | :----------------------------------------------------------: |
-| ![](C:\HTAP-projects\NBC-tiered-code\solar-threshold-study\imgs\%change in peak load vs % change in seasonal cooling.png) |
+| ![](imgs/%change in peak load vs % change in seasonal cooling.png) |
 
 We assessed the suitability of these metrics by examining how a hypothetical overheating-limit requirement based on each metric would affect proposed designs. In each case, a proposed design was deemed to comply if its estimated peak cooling load or seasonal cooling requirement was less than or equal to the reference case. 
 
@@ -160,7 +160,7 @@ The results are depicted in Figure 3. Green blocks indicate scenarios that compl
 
 | Figure 3: Scenario compliance with metrics based on peak cooling load and seasonal cooling requirement |
 | :----------------------------------------------------------: |
-| ![](C:\HTAP-projects\NBC-tiered-code\solar-threshold-study\imgs\map of compatability.png) |
+|              ![](imgs\map of compatability.png)              |
 
 The results show that the proposed requirements effectively restrict use of high-gain windows on the very highly and very-highly glazed archetypes. Those same archetypes would be required to use low-gain windows when oriented east-west, but could meet the requirement with mid-glazed windows when oriented North-South. These results align with the intention of the proposed requirement: to limit use of high-gain glass in highly-glazed homes, and to encourage use of low gain glass in homes oriented east-west.
 
@@ -194,11 +194,13 @@ We assessed the peak cooling using HOT2000 (H2K) and EnergyPlus/OpenStudio (OS/E
 - **Highly glazed**:reference, North-South, East-West 
 - **Very highly glazed:** reference, North-South, East-West 
 
-Figure ==x== shows the evaluation of the recommendation: *"The peak cooling requirement of the proposed design shall not exceed that of the reference house"* for each simulation tool. The % difference in peak cooling from the reference case is compared for both HOT2000 and OS/E+.
+Figure 4 shows the evaluation of the recommendation: *"The peak cooling requirement of the proposed design shall not exceed that of the reference house"* for each simulation tool. The % difference in peak cooling from the reference case is compared for both HOT2000 and OS/E+.
 
 The green blocks indicate that the predicted peak cooling is *less than the reference house*; red blocks indicate the predicted peak cooling is *exceeds the reference house*.  
 
-![](C:\HTAP-projects\NBC-tiered-code\solar-threshold-study\imgs\difference from reference case between h2k and E+.png)
+| Figure 4: Comparisons of metric outcomes between HOT2000 and OS/E+ |
+| :----------------------------------------------------------: |
+| ![](imgs\difference from reference case between h2k and E+.png) |
 
 The results of the analysis show that HOT2000 and OS/E+ predict alignment in peak cooling for all North-South facing houses modelled, i.e. both H2K and OS/E+ predict peak cooling lower than the reference house.  
 
@@ -212,11 +214,11 @@ The typical and passive solar scenarios for East-West orientation don't show the
 
 In addition to the base case window analysis presented above, the analysis was completed with high gain, mid gain and low gain windows.
 
-![](C:\HTAP-projects\NBC-tiered-code\solar-threshold-study\imgs\map of compatibility - H2K and E+.png)
+![](imgs\map of compatibility - H2K and E+.png)
 
 Green blocks indicate scenarios where the peak cooling predicted is less than the peak cooling predicted by the simulation tool for the 9.36 reference house. 
 
-![](C:\HTAP-projects\NBC-tiered-code\solar-threshold-study\imgs\low mid high comparison between h2k and e+.png)
+![](imgs\low mid high comparison between h2k and e+.png)
 
 
 
