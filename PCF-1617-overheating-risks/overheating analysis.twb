@@ -23,7 +23,7 @@
       <connection class='federated'>
         <named-connections>
           <named-connection caption='HTAP-prm-output' name='textscan.1enk1qc1k8ejw51glrhk70441d9c'>
-            <connection class='textscan' directory='C:/HTAP-projects/NBC-tiered-code/solar-threshold-study' filename='HTAP-prm-output.csv' password='' server='' />
+            <connection class='textscan' directory='C:/HTAP-projects/PCF-1617-overheating-risks' filename='HTAP-prm-output.csv' password='' server='' />
           </named-connection>
         </named-connections>
         <relation connection='textscan.1enk1qc1k8ejw51glrhk70441d9c' name='stage2-HTAP-prm-output.csv' table='[stage2-HTAP-prm-output#csv]' type='table'>
