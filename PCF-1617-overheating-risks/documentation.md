@@ -200,7 +200,7 @@ The green blocks indicate that the predicted peak cooling is *less than the refe
 
 | Figure 4: Comparisons of metric outcomes between HOT2000 and OS/E+ |
 | :----------------------------------------------------------: |
-| ![](imgs\difference from reference case between h2k and E+.png) |
+| ![difference](imgs/difference from reference case between h2k and E+.png) |
 
 The results of the analysis show that HOT2000 and OS/E+ predict alignment in peak cooling for all North-South facing houses modelled, i.e. both H2K and OS/E+ predict peak cooling lower than the reference house.  
 
@@ -214,11 +214,11 @@ The typical and passive solar scenarios for East-West orientation don't show the
 
 In addition to the base case window analysis presented above, the analysis was completed with high gain, mid gain and low gain windows.
 
-![](imgs\map of compatibility - H2K and E+.png)
+![](imgs/map of compatibility - H2K and E+.png)
 
 Green blocks indicate scenarios where the peak cooling predicted is less than the peak cooling predicted by the simulation tool for the 9.36 reference house. 
 
-![](imgs\low mid high comparison between h2k and e+.png)
+![](imgs/low mid high comparison between h2k and e+.png)
 
 
 
