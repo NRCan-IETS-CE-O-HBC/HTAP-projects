@@ -1,0 +1,65 @@
+! Definitions file for HTAP-PRM RUN
+
+! Run-Mode: Parameters that affect how htap-prm is configured.
+RunParameters_START
+  run-mode                           = parametric
+  archetype-dir                      = C:/HTAP/Archetypes
+  unit-costs-db                      = C:/HTAP/HTAPUnitCosts.json
+RunParameters_END
+
+
+! Parameters controlling archetypes, locations, reference rulests. (these will always be
+! run in mesh, even if an optimization mode is added in the future.
+RunScope_START
+
+  archetypes                        = NRCan-arch4_2100sf_2storey_fullBsmt.h2k
+  locations                         = VANCOUVER
+  rulesets                          = NBC9_36[fuel>gas;vent>HRV]
+
+RunScope_END
+
+! Parameters controlling the design of the building
+Upgrades_START
+
+   Opt-FuelCost         = rates2016
+
+   Opt-ResultHouseCode  = General
+
+   Opt-Specifications   = NA
+
+   Opt-Baseloads        = NA
+   Opt-Temperatures     = NA
+
+   Opt-ACH              = *
+
+   Opt-CasementWindows  = *
+   Opt-Skylights        = *
+   Opt-DoorWindows      = *
+   Opt-Doors            = *
+
+   Opt-MainWall         = NA
+   Opt-GenericWall_1Layer_definitions = *
+
+   Opt-FoundationWallExtIns =      *
+   Opt-FoundationWallIntIns =      *
+   Opt-FoundationSlabBelowGrade =  *
+   Opt-FoundationSlabOnGrade =     *
+
+
+   Opt-ExposedFloor      = *
+
+
+
+   Opt-Ceilings         = *
+   Opt-AtticCeilings    = NA
+   Opt-CathCeilings     = NA
+   Opt-FlatCeilings     = NA
+
+   Opt-HRVonly          = *
+   Opt-HRVspec          = *
+   Opt-DHWSystem        = *
+   Opt-HVACSystem       = *
+   Opt-DWHRSystem       = *
+   Opt-H2K-PV           = NA
+
+Upgrades_END
