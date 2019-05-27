@@ -1,14 +1,29 @@
-# HTAP-projects
->  A repository of HTAP models developed by NRCan / CanmetENERGY, and partners.
+# HTAP Project: Default Template
+>  This repository contains files and documentation for various HTAP projects. Most of the project files contained here are intended for use with the Housing Technology Assessment Platform (HTAP). HTAP source code and documentation is maintained separately on github at https://github.com/NRCan-IETS-CE-O-HBC/HTAP
+>
+>  The files in this repository represent analysis undertaken by: 
+>
+>  -  Natural Resources Canada / CanmetENERGY-Ottawa (Contact: Alex.Ferguson@canada.ca)
+>
+>  -  National Research Council / High Performance Buildings Group (Contact: Adam Wills)
+>
+>      
+>
+>  **Note that each project is stored on a unique branch. To inspect those branches, use the command `git checkout <project_name> `**
 
-## Contents:  ##
+## Default Template:   ##
 
-### NBC-tiered-code:  ###
+This project template contains the following folders:
 
-Models and analysis supporting changes to NBC 9.36:
+-  [example_folder](example_folder/): an example of an HTAP-project folder.
 
--  **[baseloads-sensitivity](NBC-tiered-code/baseloads-sensitivity/documentation.md)**: Examines how occupancy and baseload assumptions affect TEDI metrics
--  **[Risks-of-overheating](NBC-tiered-code/solar-threshold-study/documentation.md)**: Proposes a new metric to limit risks of overheating in performance compliance. 
+## Project branch listing: ##
 
-### (Other folders to be added.) ###
+Each of the following projects are stored as unique braches 
+
+| Name                     | Description                                                  | Contact                                 |
+| ------------------------ | ------------------------------------------------------------ | --------------------------------------- |
+| `NBC-Code-Analysis-2020` | Project files related to feasibility and impact analysis for the 2020 NBC | Alex Ferguson (NRCan), Adam Wills (NRC) |
+|                          |                                                              |                                         |
+|                          |                                                              |                                         |
 
