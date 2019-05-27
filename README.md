@@ -21,9 +21,9 @@ This project template contains the following folders:
 
 Each of the following projects are stored as unique braches 
 
-| Name                     | Description                                                  | Contact                                 |
-| ------------------------ | ------------------------------------------------------------ | --------------------------------------- |
-| `NBC-Code-Analysis-2020` | Project files related to feasibility and impact analysis for the 2020 NBC | Alex Ferguson (NRCan), Adam Wills (NRC) |
-|                          |                                                              |                                         |
-|                          |                                                              |                                         |
+| Name&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Description                                                  | Contact                                 |
+| ------------------------------------------------------------ | ------------------------------------------------------------ | --------------------------------------- |
+| `master`                                                     | Template for future projects                                 |                                         |
+| `NBC-Code-Analysis-2020`                                     | Project files related to feasibility and impact analysis for the 2020 NBC | Alex Ferguson (NRCan), Adam Wills (NRC) |
+| `testing_general`                                            | Test cases used to exercise HTAP files. May one day be used in a regression testger | Alex Ferguson (NRCan)                   |
 
