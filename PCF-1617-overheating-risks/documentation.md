@@ -76,7 +76,7 @@ The archetype represents common single-detached market housing product. It has 3
 
 | Figure 1: Single detached housing archetype — front and rear elevations. |
 | ------------------------------------------------------------ |
-| ![1556553895186](imgs/1556553895186.png)                     |
+| ![1556553895186](imgs/ArhcetypeElevations.png)               |
 
 For the purposes of this study, we modified the archetype home to create the following four variants. 
 
@@ -152,7 +152,7 @@ The **peak cooling load** and the **seasonal cooling requirement** correlate wel
 
 | Figure 2: Correlation between peak cooling load and seasonal cooling requirement, by scenario |
 | :----------------------------------------------------------: |
-| ![](imgs/%change in peak load vs % change in seasonal cooling.png) |
+|         ![](imgs/PercentChangeInLoadvsSeasonal.png)          |
 
 We assessed the suitability of these metrics by examining how a hypothetical overheating-limit requirement based on each metric would affect proposed designs. In each case, a proposed design was deemed to comply if its estimated peak cooling load or seasonal cooling requirement was less than or equal to the reference case. 
 
@@ -160,7 +160,7 @@ The results are depicted in Figure 3. Green blocks indicate scenarios that compl
 
 | Figure 3: Scenario compliance with metrics based on peak cooling load and seasonal cooling requirement |
 | :----------------------------------------------------------: |
-|              ![](imgs\map of compatability.png)              |
+|              ![](imgs\MapOfRequirementsH2K.png)              |
 
 The results show that the proposed requirements effectively restrict use of high-gain windows on the very highly and very-highly glazed archetypes. Those same archetypes would be required to use low-gain windows when oriented east-west, but could meet the requirement with mid-glazed windows when oriented North-South. These results align with the intention of the proposed requirement: to limit use of high-gain glass in highly-glazed homes, and to encourage use of low gain glass in homes oriented east-west.
 
@@ -200,7 +200,7 @@ The green blocks indicate that the predicted peak cooling is *less than the refe
 
 | Figure 4: Comparisons of metric outcomes between HOT2000 and OS/E+ |
 | :----------------------------------------------------------: |
-| ![difference](imgs/difference from reference case between h2k and E+.png) |
+|      ![difference](imgs/diffFromReferenceH2KandOS.png)       |
 
 The results of the analysis show that HOT2000 and OS/E+ predict alignment in peak cooling for all North-South facing houses modelled, i.e. both H2K and OS/E+ predict peak cooling lower than the reference house.  
 
@@ -208,19 +208,17 @@ The results also show that HOT2000 and OS/E+ report the same trends in peak cool
 
 The typical and passive solar scenarios for East-West orientation don't show the same clear alignment; OS/E+ predicts a slight increase in peak cooling from the reference house whereas HOT2000 predicts a slight decrease in peak cooling. A shown in the previous section: the results for the typical and passive-solar archetype homes using mid-gain windows comply with the requirement in all scenarios.  
 
-
-
-
-
 In addition to the base case window analysis presented above, the analysis was completed with high gain, mid gain and low gain windows.
 
-![](imgs/map of compatibility - H2K and E+.png)
+| Figure 5: Comparison of outcomes, Hot2000 and OS |
+| :----------------------------------------------: |
+|     ![](imgs/MapOfRequirementsH2KandOS.png)      |
 
 Green blocks indicate scenarios where the peak cooling predicted is less than the peak cooling predicted by the simulation tool for the 9.36 reference house. 
 
-![](imgs/low mid high comparison between h2k and e+.png)
-
-
+| Figure 6: Comparisons of results, by window type |
+| ------------------------------------------------ |
+| ![](imgs/LowMidHighComparisonH2kvsOS.png)        |
 
 ### 4. Impact on home design.  ###
 
@@ -260,24 +258,6 @@ HOT2000 archetypes can be found in the `HOT2000_models`folder. The HOT2000 files
 | **Passive solar:** <br />8.6 % FDWR, overhangs as per passive solar guidelines | `pro-B-NS.h2k`:   rear oriented south<br />`pro-B-EW.h2k`:  rear oriented west | `ref-A.h2k`: as above                                        |
 | **Mid glazing:**<br />19.6 % FDWR, overhangs as per original model soffit. | `pro-C-NS.h2k`:   rear oriented south<br />`pro-C-EW.h2k`:  rear oriented west | `ref-C.h2k`: 19.6% FWDH, equal glass distribution (N,E,W,S), overhangs set to 0 as per 9.36 |
 | **High glazing:**<br />25.4% FDWR, overhangs as per original model soffit. | `pro-D-NS.h2k`:   rear oriented south<br />`pro-D-EW.h2k`:  rear oriented west | `ref-D.h2k`: 19.6% FWDH, equal glass distribution (N,E,W,S), overhangs set to 0 as per 9.36 |
-
-
-
-## Working notes ##
-
-### Details from April 29 call.  ###
-
-###### ARCHETYPES: ######
-
-##### FDWR: (Fenestration & Door to gross wall area ratio) -  #####
-
-
-$$
-FDWR = \frac{Window~area + wall~area}{gross~area~ofall~walls~attached~to~conditioned~spaces}
-$$
-
-
-
 
 
 
