@@ -220,11 +220,9 @@ In addition to the base case window analysis presented above, the analysis was c
 | :----------------------------------------------: |
 |     ![](imgs/MapOfRequirementsH2KandOS.png)      |
 
-Green blocks indicate scenarios where the peak cooling predicted is less than the peak cooling predicted by the simulation tool for the 9.36 reference house. 
+In Figure 5, the gray blocks indicate scenarios where HOT2000 and EnergyPlus are in alignment and the blue blocks are scenarios where they aren't.  
 
-These results confirm alignment between HOT2000 and EnergyPlus for all scenarios and all windows for archetype variants facing North-South.
-
-For archetype variants facing East-West, alignment between the two tools is shown for *low-gain windows with lower FDWR* and *mid- and high-gain windows with large FDWR*. 
+These results confirm alignment between HOT2000 and EnergyPlus for all scenarios for archetype variants facing North-South. For archetype variants facing East-West, alignment between the two tools is shown for *low-gain windows with lower FDWR* and *mid- and high-gain windows with large FDWR*. 
 
 There is evidence that homes with *mid-gain windows with lower FDWR* and *low-gain windows with high FDWR* do not show the same compliance with the proposed recommendation: *"The peak cooling requirement of the proposed design shall not exceed that of the reference house"*. HOT2000 predicts those homes would meet the requirement and EnergyPlus predicts that they would not.
 
