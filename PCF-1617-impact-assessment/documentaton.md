@@ -65,4 +65,15 @@
 
 ## Findings
 
-## HTAP Implementation
+#### 1) Contribution of air-tightness on overall energy savings ####
+
+CE-O examined the energy savings achieved by increasing air-tightness from 2.5 ACH to 0.6. This analysis considered 2 archetypes in ==X== locations.
+
+| File                                                  |
+| ----------------------------------------------------- |
+| HTAP Run: `feasibility-ACH-2-archetypes.run`          |
+| Results:  `feasibility-ACH-2-archetypes.json`         |
+| Tableau analysis:  `feasibility-ACH-2-archetypes.twb` |
+
+
+
