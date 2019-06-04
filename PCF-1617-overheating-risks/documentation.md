@@ -162,7 +162,7 @@ The results are depicted in Figure 3. Green blocks indicate scenarios that compl
 
 | Figure 3: Scenario compliance with metrics based on peak cooling load and seasonal cooling requirement |
 | :----------------------------------------------------------: |
-|              ![](imgs\MapOfRequirementsH2K.png)              |
+|              ![](imgs/MapOfRequirementsH2K.png)              |
 
 The results show that the proposed requirements effectively restrict use of high-gain windows on the very highly and very-highly glazed archetypes. Those same archetypes would be required to use low-gain windows when oriented east-west, but could meet the requirement with mid-glazed windows when oriented North-South. These results align with the intention of the proposed requirement: to limit use of high-gain glass in highly-glazed homes, and to encourage use of low gain glass in homes oriented east-west.
 
