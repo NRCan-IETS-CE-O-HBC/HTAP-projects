@@ -258,7 +258,7 @@ Archetypes that have higher windows area are less likely to comply with the over
 
 |      Figure 7: Archetypes compliance, by FDWR and SHGC       |
 | :----------------------------------------------------------: |
-| ![1559667409222](C:\HTAP-projects\PCF-1617-overheating-risks\imgs\ComplianceRatio.png) |
+| ![](imgs/ComplianceRatio.png) |
 
 We examined a scenario where the existing window package is replaced with a low gain one in the archetypes that failed to meet the overheating requirement. Results of this analysis are shown in Figure 8. Green columns show the number of archetypes that can pass the overheating requirement with their current design options. Orange columns represent a scenario where the proposed design would comply if the window packages are replaced with a low gain window. Red columns show the number of archetypes that cannot comply even with low gain window package. About 29%, 64%, and 7% of archetypes would be in green, orange, and red group respectively. 
 
@@ -266,7 +266,7 @@ Results show that the overheating measure allow the current design options for a
 
 |   Figure 8: Number of compliant archetypes, by window type   |
 | :----------------------------------------------------------: |
-| ![1559667356191](C:\HTAP-projects\PCF-1617-overheating-risks\imgs\HistogramComplianceRate.png) |
+| ![](imgs/HistogramComplianceRate.png) |
 
 The incremental cost of replacing existing windows with a low gain one for archetypes that can comply with this upgrade are shown in Figure 9. Results indicate that the average incremental cost associated with this measure is about $250.
 
@@ -274,7 +274,7 @@ The lower cooling load due to this measure will likely reduce the size or elimin
 
 | Figure 9: Cost of upgrading windows to low gain glass in archetypes that comply if window is switched to low gain glass |
 | :----------------------------------------------------------: |
-| ![1559668093954](C:\HTAP-projects\PCF-1617-overheating-risks\imgs\CostofUpgrade2LGWindow.png) |
+| ![](imgs/CostofUpgrade2LGWindow.png) |
 
 These results indicate that overheating measure will:
 
