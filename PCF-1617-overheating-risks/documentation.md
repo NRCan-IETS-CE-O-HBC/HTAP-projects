@@ -150,7 +150,7 @@ These discrepancies reflect the fact that the current 9.36.5 reference house was
 
 ### 2. Metrics for overheating ###
 
-The **peak cooling load** and the **seasonal cooling requirement** correlate well when compared for different window specifications, orientations and glass ratios. Figure 2 compares these two metrics for the various combinations examined in this study. Generally, increases in peak load area accompanied by increases in seasonal cooling requirement, and vice-versa. However, the results from the typical and passive solar scenarios show that in some cases, reductions in peak cooling load can be accompanied by increases in seasonal cooling requirement. These observations are limited to the typical design and passive solar scenarios, and only when the windows are equipped with high-gain (SHGC 0.51) windows. 
+The **peak cooling load** and the **seasonal cooling requirement** correlate well when compared for different window specifications, orientations and glass ratios. Figure 2 compares these two metrics for the various combinations examined in this study. Generally, increases in peak load are accompanied by increases in seasonal cooling requirement, and vice-versa. However, the results from the typical and passive solar scenarios show that in some cases, reductions in peak cooling load can be accompanied by increases in seasonal cooling requirement. These observations are limited to the typical design and passive solar scenarios, and only when the windows are equipped with high-gain (SHGC 0.51) windows. 
 
 | Figure 2: Correlation between peak cooling load and seasonal cooling requirement, by scenario |
 | :----------------------------------------------------------: |
@@ -181,7 +181,7 @@ We suspect that these contrary results may be attributable to the definition of 
 
 Based on available information, we recommend that the overheating metric be based on the peak cooling load, because this approach will not restrict appropriate passive solar design. While this approach may not effectively control overheating risks in two scenarios considered (typical homes with high gain windows, and passive solar homes with high-gain windows and east-west orientation), we feel this compromise is better than a seasonal metric that may prohibit all high-gain windows. 
 
-As mentioned earlier, the reference house should be reexamined for alignment with contemporary housing. Based on our analysis, we believe revising the reference  best way of improving the effectiveness of this requirement in for remaining scenarios with high risks of overheating. 
+As mentioned earlier, the reference house should be reexamined for alignment with contemporary housing. Based on our analysis, we believe revising the reference is the best way of improving the effectiveness of this requirement for remaining scenarios with high risks of overheating. 
 
 >  **Recommendation:** Codes Canada should add a requirement to the national building code to the effect of:
 >
@@ -189,55 +189,67 @@ As mentioned earlier, the reference house should be reexamined for alignment wit
 
 ### 3. Comparison across building simulation software ###
 
-We assessed the peak cooling using HOT2000 (H2K) and EnergyPlus/OpenStudio (OS/E+) for the each of the four variant scenarios identified in *Single Family Archetype* as well as the two orientations identified in *Scenarios: Orientation*. Each house was simulated for one location (Toronto) and one window (NBC 9.36 reference window)
+We assessed the peak cooling using HOT2000 (H2K) and EnergyPlus/OpenStudio (OS/E+) for the each of the four variant scenarios identified in *Single Family Archetype* as well as the two orientations identified in *Scenarios: Orientation*. Each house was simulated for one location (Toronto) and one window (the appropriate NBC 9.36 reference window)
 
 - **Typical**: reference, North-South, East-West
 - **Passive solar:** reference, North-South, East-West
 - **Highly glazed**:reference, North-South, East-West 
 - **Very highly glazed:** reference, North-South, East-West 
 
-Figure 4 shows the evaluation of the recommendation: *"The peak cooling requirement of the proposed design shall not exceed that of the reference house"* for each simulation tool. The % difference in peak cooling from the reference case is compared for both HOT2000 and OS/E+.
+Figure 4 shows the evaluation of the recommendation: *"The peak cooling requirement of the proposed design shall not exceed that of the reference house"* for each simulation tool. 
 
-The green blocks indicate that the predicted peak cooling is *less than the reference house*; red blocks indicate the predicted peak cooling is *exceeds the reference house*.  
+The % difference in peak cooling from the reference case is compared for each archetype variant and orientation with HOT2000 and OS/E+. The green blocks indicate that the predicted peak cooling is *less than the reference house*; red blocks indicate the predicted peak cooling is *exceeds the reference house*.  
 
 | Figure 4: Comparisons of metric outcomes between HOT2000 and OS/E+ |
 | :----------------------------------------------------------: |
 |      ![difference](imgs/diffFromReferenceH2KandOS.png)       |
 
-The results of the analysis show that HOT2000 and OS/E+ predict alignment in peak cooling for all North-South facing houses modelled, i.e. both H2K and OS/E+ predict peak cooling lower than the reference house.  
+The results show that HOT2000 and OS/E+ predict alignment in peak cooling for all North-South facing houses modelled, i.e. both H2K and OS/E+ predict peak cooling lower than the reference house.  
 
 The results also show that HOT2000 and OS/E+ report the same trends in peak cooling for East-West "high glazing" and "very high glazing" cases; peak cooling that exceeds the reference. Both tools predict that highly and very highly glazed houses with the majority of their windows on the East-West sides have the potential for overheating.
 
-The typical and passive solar scenarios for East-West orientation don't show the same clear alignment; OS/E+ predicts a slight increase in peak cooling from the reference house whereas HOT2000 predicts a slight decrease in peak cooling. 
+The typical and passive solar scenarios for East-West orientation do not show the same clear alignment; OS/E+ predicts a slight <u>increase</u> in peak cooling from the reference house whereas HOT2000 predicts a slight <u>decrease</u> in peak cooling. 
 
 The result of this analysis indicates that homes with lower total glazing (typical and passive solar) with the majority of those windows facing East-West could *meet* the target if modelled in HOT2000 and *not meet* the target if modelled in EnergyPlus.
 
  
 
-In addition to the base case window analysis presented above, the analysis was completed with high gain, mid gain and low gain windows.
+In addition to the base case window analysis presented above, the analysis was completed with high gain, mid gain and low gain windows. The results of this analysis are shown in Figure 5; where the gray blocks indicate scenarios where HOT2000 and EnergyPlus are in alignment and the blue blocks are scenarios where they aren't.  
 
 | Figure 5: Comparison of outcomes, Hot2000 and OS |
 | :----------------------------------------------: |
 |     ![](imgs/MapOfRequirementsH2KandOS.png)      |
 
-In Figure 5, the gray blocks indicate scenarios where HOT2000 and EnergyPlus are in alignment and the blue blocks are scenarios where they aren't.  
+
 
 These results confirm alignment between HOT2000 and EnergyPlus for all scenarios for archetype variants facing North-South. For archetype variants facing East-West, alignment between the two tools is shown for *low-gain windows with lower FDWR* and *mid- and high-gain windows with large FDWR*. 
 
 There is evidence that homes with *mid-gain windows with lower FDWR* and *low-gain windows with high FDWR* do not show the same compliance with the proposed recommendation: *"The peak cooling requirement of the proposed design shall not exceed that of the reference house"*. HOT2000 predicts those homes would meet the requirement and EnergyPlus predicts that they would not.
 
-One additional difference between the two tools is for the prediction for *high-gain, passive solar scenario facing East-West*. Figure 6 further examines the differences predicted by HOT2000 and EnergyPlus, expressed as % difference in peak cooling size from the reference house.
+One additional difference between the two tools is for the prediction for *high-gain, passive solar scenario facing East-West*. 
+
+
+
+Figure 6 further examines the differences predicted by HOT2000 and EnergyPlus, expressed as % difference in peak cooling size from the reference house.
 
 | Figure 6: Comparisons of results, by window type |
 | ------------------------------------------------ |
 | ![](imgs/LowMidHighComparisonH2kvsOS.png)        |
 
-Two observations can be made of these results: 
+Three observations can be made from these results: 
 
-1. HOT2000 and EnergyPlus show very close alignment in all cases for the North-South facing scenarios and 
-2. HOT2000 and EnergyPlus show closer alignment of results for low-gain windows and larger differences in predicted peak cooling for high gain windows; as well as larger differences with increasing glazing %.
+1. HOT2000 and EnergyPlus show very close alignment in all cases for the North-South facing scenarios 
+2. HOT2000 and EnergyPlus show less alignment for East-West facing scenarios; with HOT2000 consistently predicting lower peak cooling than EnergyPlus
+3. HOT2000 and EnergyPlus show closer alignment of results for low-gain windows and larger differences in predicted peak cooling for high gain windows; as well as larger differences with increasing glazing %.
 
-The possible impact of these differences is that a home modelled in one tool meets the target overheating requirements where the exact same home modelled in the other does not.
+The possible impact of these differences is that a home modelled in HOT2000 meets the target overheating requirements where the exact same home modelled in EnergyPlus does not. Currently, HOT2000 is the primary tool for code compliance in Canadian housing. If EnergyPlus becomes more prevalent, this could impact code compliance and impose unintended design limitations to meet codes.
+
+In evaluating the proposed NBC 9.36.5 code requirements for highly or very highly glazed homes facing East-West, 
+
+- the compliance path for HOT2000 would steer designers towards low-gain windows; whereas 
+- there is no compliance path for EnergyPlus, thereby steering designers towards less glazing on East-West facing homes.
+
+This analysis shows that the proposed peak cooling metric and the reference house design have potential design impact depending on the software tool used for code compliance. It is therefore recommended that  the reference house design be reviewed to reflect the desired outcomes; i.e, is limiting highly glazed homes facing East-West the intended code outcome?
 
 ### 4. Impact on home design  ###
 
