@@ -30,9 +30,9 @@ Our investigation into the feasibility of PCF-1617 included:
 
 ## Proposed Requirements for a tiered energy code
 
-PCF 1617 proposes five energy tiers. The lowest tier — tier 1— aligns with the minimum requirements of NBC 9.36.  Each of the subsequent tiers sets forward performance requirements  
+PCF 1617 proposes five energy tiers. The lowest tier aligns with the minimum requirements of NBC 9.36.  Each of the subsequent tiers sets forward performance requirements  
 
-1. *Airtightness levels:* - specific air-tightness targets that must be verified through a blower-door test.
+1. *Airtightness levels:* specific air-tightness targets that must be verified through a blower-door test.
 2. *Envelope performance improvement:*Energy efficiency savings that must be achieved through envelope improvements alone (air-tightness, insulation, glazing, solar design), and demonstrated through performance modelling.
 3. *Overall Performance improvement:* Energy efficiency savings that must be achieved through envelope and mechanical system improvements (excluding renewable energy systems), and demonstrated through performance modelling.
 
@@ -40,19 +40,26 @@ To comply with a given tier, a home must meet all of the requirements for that t
 
 ### Airtightness levels ###
 
-A separate proposed change form (PCF 1610) defines 5 air-tightness performance levels, with ACH, NLA and NLR evaluation methods. For detached buildings, or for attached buildings/zones evaluated using guarded testing, the Air-tightness levels are defined as follows: 
+A separate proposed change form (PCF 1610) defines 5 air-tightness performance levels, with ACH, NLA and NLR evaluation methods. For detached buildings, or for attached buildings/zones evaluated using guarded testing, the Air-tightness levels are defined as in Table 1.
 
-| Air-Tightness Level - Single zone & Guarded testing | ACH  | NLA(10)  | NLR(50)     |
-| --------------------------------------------------: | ---- | -------- | ----------- |
-|                                                   1 | 2.5  | 1.20 cm² | 0.89 l/s/m² |
-|                                                   2 | 2.0  | 0.96     | 0.71        |
-|                                                   3 | 1.5  | 0.72     | 0.53        |
-|                                                   4 | 1.0  | 0.48     | 0.35        |
-|                                                   5 | 0.6  | 0.29     | 0.21        |
+###### Table 1: Air-tightness level definitions, single zones & attached zones tested using the guarded blower door test method. ######
 
-For attached zones evaluated using unguarded testing, the Air-tightness levels are defined as follows: 
-| Air-Tightness Level - Attached zone & unguarded testing | ACH  | NLA(10)  | NLR(50)     |
-| ------------------------------------------------------: | ---- | -------- | ----------- |
+| Air-Tightness Level | ACH @ 50 PA | NLA(10)  | NLR(50)     |
+| :------------------ | :---------- | -------- | ----------- |
+| 1                   | 2.5         | 1.20 cm² | 0.89 l/s/m² |
+| 2                   | 2.0         | 0.96     | 0.71        |
+| 3                   | 1.5         | 0.72     | 0.53        |
+| 4                   | 1.0         | 0.48     | 0.35        |
+| 5                   | 0.6         | 0.29     | 0.21        |
+
+
+
+For attached zones evaluated using unguarded tsting, the Air-tightness levels are defined as in Table 2.
+
+###### Table 2: Air-tightness level definitions, attached zones tested using the unguarded blower door test method. ######
+
+| Air-Tightness Level | ACH @ 50 PA | NLA(10)  | NLR(50)     |
+| :------------------------------------------------------ | :--- | :------- | :---------- |
 | 0 | 3.0 | 1.92 cm² |1.17 l/s/m²|
 |                                                       1 | 2.5 | 1.60 | 0.98 |
 |                                                       2 | 2.0 | 1.28  | 0.78       |
@@ -66,7 +73,7 @@ To comply with a tier, a home must meet its prescribed building envelope perform
 
 > [**9.36.6.2 (5)**]  "*For the purpose of compliance with Tables 9.36.6.2.-A and -B, Envelope Performance Improvement is the **difference in energy use** between the proposed building and the reference building:*
 >
->       *[a] including equipment, systems, and assemblies within the scope of 9.36.2., and* <br />   *[b] excluding differences in mechanical equipment within the scope of 9.36.3. and 9.36.4."*
+>       *[a] including equipment, systems, and assemblies within the scope of 9.36.2., and* <br />   *[b] excluding differences in mechanical equipment within the scope of 9.36.3. and 9.36.4."*
 
 Note that this requirement is measured based on whole building performance (including space heating, hot water, ventilation, cooling), even though the effects envelope measures in the scope of 9.36.2 are largely limited to space heating.  [^a]
 
@@ -83,9 +90,12 @@ To comply with a tier, a home must meet its prescribed building envelope perform
 
 ### Performance Tiers ###
 
-Using those definitions, PCF 1617 defines the following performance tiers for dwellings containing greater than 230m³ of conditioned space:
+Using those definitions, PCF 1617 defines the following performance tiers for: 
 
-**TABLE 2: Performance tiers for dwellings containing greater than 230m³ of conditioned space**
+-  dwellings containing greater than 230m³ of conditioned space, and 
+-  dwellings not containing greater than 230m³ of conditioned space.
+
+###### TABLE 3: Performance tiers for dwellings containing greater than 230m³ of conditioned space ######
 
 | Tier | Air-tightness level | Envelope Performance Improvement (%) | Overall Energy Performance Requirement (%) |
 | ---- | ------------------: | -----------------------------------: | -----------------------------------------: |
@@ -95,7 +105,7 @@ Using those definitions, PCF 1617 defines the following performance tiers for dw
 | 4    |             Level 3 |                            $\geq 20$ |                                  $\geq 40$ |
 | 5    |             Level 3 |                            $\geq 50$ |                                  $\geq 70$ |
 
-**TABLE 3: Performance tiers for dwellings  with conditioned space not greater than 230m³**
+###### TABLE 4: Performance tiers for dwellings  with conditioned space not greater than 230m³ ######
 
 | Tier | Air-tightness level | Envelope Performance Improvement (%) | Overall Energy Performance Requirement (%) |
 | ---- | ------------------: | -----------------------------------: | -----------------------------------------: |
@@ -105,67 +115,154 @@ Using those definitions, PCF 1617 defines the following performance tiers for dw
 | 4    |             Level 3 |                            $\geq 15$ |                                  $\geq 30$ |
 | 5    |             Level 3 |                            $\geq 35$ |                                  $\geq 60$ |
 
-## Method
+## Methodology & Findings
 
-#### Research Question #1)  ####
+### Research Question #1) <br>*What contribution do the air-tightness levels make to the <br />Envelope and Overall Performance Requirements?* ###
 
-###### a) determine how far air tightness level targets go to reaching envelope & performance targets
+Proposed tiers 4 and 5 require a home reach level 3 air-tightness (ACH 1.5 @ 50Pa). By implementing these measures, builders may make significant progress towards the envelope and overall performance targets. CE-O researchers investigated the impact of increasing air-tightness to level 3 in the representative archetypes ==(which ones? see Appendix A)==, and evaluated the contribution that air-tightness made to reaching the envelope improvement and overall performance improvement requirements.
 
-- configure a HTAP file (`air-tigtness-levels.run`)  that configures the 9.36 reference house with each of the prescribed air tightness levels.  
-- Run evaluation across all 240 archetypes, in select locations 
-- Evaluate % improvement relative to the reference house (both envelope, mechanical) achieved via air-tightness, compare to targets in each tier. 
+#### HTAP Analysis ####
 
-*Question:* How much further would those builders have to go?
+**Step 1 - ACH levels:** Configure and execute an HTAP run that:
 
-###### **b) evaluate feasibility of building envelope target**
+-  Selects archetypes and locations as per appendix. 
+-  Applies the 9.36 reference house ruleset, with electric resistance heating and an HRV[^c]
+-  Configures base loads as per ERS requirements
+-  Sets air-tightness to Level 1 (2.5 ACH) and Level 3 (1.5 ACH)
 
-- configure a HTAP file (`envelope-feasibility.run`) to apply highest performing insulation / glazing / air tightness levels.
-- Run evaluation across all 240 archetypes, in same select locations. Evaluate if the envelope performance tiers were achieved (remember small homes get different tiers)
+**Step 2 - Analysis:** Evaluate improvement in energy performance relative to reference house. Specifically examine: 
 
-*Questions:* 
+-  How close does air-tightness level 3 get a house to reaching tiers 4 and 5? 
+-  Are impacts consistent across regions and archetypes?
 
-  - Which homes achieved targets, and by how much? Which did not, and why not? Where were they located? What additional measures could be applied?
-  - How much might it cost to achieve each tier envelope target? 
-  - How would those costs vary by archetype and region?
+#### Findings ####
 
-###### c) evaluate feasibility of total performance target
+...
 
-- configure a HTAP file  (`overall-feasibility.run`) to apply highest performing insulation / glazing / air tightness levels, along with 4 reference mechanicals (==maybe this requires 4 htap files?==):
+### Research Question #2) <br>*Is Tier 5 feasible in in all archetypes and regions?* ###
 
-| Scenario              | SH             | WH                              | Vent     |
-| --------------------- | -------------- | ------------------------------- | -------- |
-| Electrical resistance | Baseboard      | Electric storage + DWHR         | Best HRV |
-| Efficienct Gas        | Condensing gas | Condensing tankless+ DWHR       | Best HRV |
-| Air heat pump         | CCASHP         | HPWH (indoor evaporator)+ DWHR  | Best HRV |
-| Ground heat pump      | GSHP           | HPWH (outdoor evaporator)+ DWHR | Best HRV |
+Proposed Tiers 4 and 5 imply ambitious levels of energy performance. While prior projects have demonstrated that these targets can be achieved in specific cases, their feasibility in all archetypes and in all locations remains uncertain. To evaluate the feasibility of these tiers, CE-O examined the net improvement in the homes' envelope and overall energy performance when the homes were upgraded to the most-efficient options commonly available on the market. 
+
+###### TABLE 5: Specifications for most-efficient upgrade options ######
+
+| Measure           | Component                   | Most Efficient Specification               |
+| ----------------- | --------------------------- | ------------------------------------------ |
+| Envelope options  | Air-tightness               | Air-tightness level 5 (0.6 ACH)[^d]        |
+|                   | Ceiling / Attic insulation  | R80                                        |
+|                   | Above Grade Wall            | R40 Effective (2x6 w/R24 Batt, 4.5 in XPS) |
+|                   | Below-grade Wall            |                                            |
+|                   | Floor Header                |                                            |
+|                   | Exposed Floor               |                                            |
+|                   | Foundation walls            | ==(include exterior and interior spec)==   |
+|                   | Foundation Slab on Grade    |                                            |
+|                   | Foundation Slab below grade |                                            |
+| Equipment options | Heating / Cooling           | Gas:  / Electric: / Oil:                   |
+|                   | DHW                         | Gas:  / Electric: / Oil:                   |
+|                   | HRV                         |                                            |
+|                   | Drain-water heat recovery   |                                            |
+
+#### HTAP Analysis ####
+
+**Step 1 - Envelope:** Configure and execute an HTAP run that:
+
+-  Selects archetypes and locations as per appendix. 
+
+-  Applies the 9.36 reference house ruleset, with electric and gas heating [^e] 
+
+-  Configures base loads as per ERS requirements
+
+-  Applies all of the most-efficient envelope options  in Table 5.
+
+**Step 2 - Overall performance:** Using step 1 as a stating point, configure and execute an HTAP run that also: 
+
+   -  Apply the most-efficient equipment  specifications in Table 5
+
+**Step 3 - Analysis:** Examining the results from steps 1 and 2, determine: 
+
+-  Can all of the performance tiers be met by all archetypes, and in all locations? 
+-  If not, which ones fail, and why ? What are the maximum tiers that we can achieve?
+-  Do we need to add even more efficient measures to the HTAP database? 
+-  Is the definition of the envelope performance improvement workable? Or are changes needed?
+
+
+
+#### Findings ####
 
 
 
 
-- Run evaluation across all 240 archetypes, in same select locations. Evaluate if the overall performance tiers were achieved (remember small homes get different tiers)
 
-*Questions:* 
+### Research Question #3) <br>*How much will it cost to reach each tier?* ###
 
-- Which homes achieved targets, and by how much? Which did not, and why not? Where were they located? What additional measures could be applied?
-- Do some homes achieve envelope tier but not overall tier (or vice versa?)
-- How much might it cost to achieve each tier envelope target? 
-- How would those costs vary by archetype and region?
+CE-O's prior optimization research shown there are many different ways that we can upgrade homes to meet performance criteria, and that the range of solutions can vary widely by cost. Our experience also shows that the lowest-cost solutions are not necessarily the best ones, and that different builders may choose packages to achieve the same outcome. 
+
+CE-O explored the cost impacts of each tier using a packaged upgrade approach. In this work, CE-O proposed a sets of packaged upgrades that are expected to achieve energy savings that approximate the targets for the various performance tiers. We selected these packages to correspond to three different approaches to home design:
+
+1. The **envelope-first** approach, which prioritizes improvements to air-sealing and insulation over equipment upgrades, and chooses simpler equipment when possible. 
+2. The **efficient-equipment** approach, which balances envelope upgrades with most-efficient equipment. 
+3. The **gas-heating** approach, which selects envelope and mechanical upgrades with the intent of using natural gas as the primary heating fuel. 
+
+###### Table 6: Envelope First packages ######
+
+| Component                   | B: ~10%  | C: ~20%  | D: ~40%  | E: ~70%  |
+| --------------------------- | -------- | -------- | -------- | -------- |
+| Air-tightness               | 2.0 ACH  | 1.5 ACH  | 1.0 ACH  | 0.6 ACH  |
+| Ceiling / Attic insulation  |          |          |          |          |
+| Above Grade Wall            |          |          |          |          |
+| Below-grade Wall            |          |          |          |          |
+| Floor Header                |          |          |          |          |
+| Exposed Floor               |          |          |          |          |
+| Foundation walls            |          |          |          |          |
+| Foundation Slab on Grade    |          |          |          |          |
+| Foundation Slab below grade |          |          |          |          |
+| Heating / Cooling           | NBC 9.36 | NBC 9.36 | NBC 9.36 | NBC 9.36 |
+| DHW                         | NBC 9.36 | NBC 9.36 | NBC 9.36 | NBC 9.36 |
+| HRV                         | NBC 9.36 | NBC 9.36 | NBC 9.36 | NBC 9.36 |
+| Drain-water heat recovery   |          |          |          |          |
+
+###### Table 7: Efficient-Equipment Packages ######
+
+| Component                   | B: ~10% | C: ~20% | D: ~40% | E: ~70% |
+| --------------------------- | ------- | ------- | ------- | ------- |
+| Air-tightness               | 2.0 ACH | 1.5 ACH | 1.5 ACH | 1.5 ACH |
+| Ceiling / Attic insulation  |         |         |         |         |
+| Above Grade Wall            |         |         |         |         |
+| Below-grade Wall            |         |         |         |         |
+| Floor Header                |         |         |         |         |
+| Exposed Floor               |         |         |         |         |
+| Foundation walls            |         |         |         |         |
+| Foundation Slab on Grade    |         |         |         |         |
+| Foundation Slab below grade |         |         |         |         |
+| Heating / Cooling           |         | CCASHP? | CCASHP? | CCASHP? |
+| DHW                         |         |         |         | HPWH?   |
+| HRV                         |         |         |         |         |
+| Drain-water heat recovery   |         |         |         |         |
+
+###### Table 8: Gas heating packages ######
+
+| Component                   | B: ~10%  | C: ~20%  | D: ~40%  | E: ~70%  |
+| --------------------------- | -------- | -------- | -------- | -------- |
+| Air-tightness               |          |          |          |          |
+| Ceiling / Attic insulation  |          |          |          |          |
+| Above Grade Wall            |          |          |          |          |
+| Below-grade Wall            |          |          |          |          |
+| Floor Header                |          |          |          |          |
+| Exposed Floor               |          |          |          |          |
+| Foundation walls            |          |          |          |          |
+| Foundation Slab on Grade    |          |          |          |          |
+| Foundation Slab below grade |          |          |          |          |
+| Heating / Cooling           | 96% AFUE | 96% AFUE | 96% AFUE | 96% AFUE |
+| DHW                         | EF 0.9+  | EF 0.9+  | EF 0.9+  | EF 0.9+  |
+| HRV                         |          |          |          |          |
+| Drain-water heat recovery   |          |          |          |          |
+
+####  ####
+
+#### Findings ####
 
 
 
-## Findings
-
-#### 1) Contribution of air-tightness on overall energy savings ####
-
-CE-O examined the energy savings achieved by increasing air-tightness from 2.5 ACH to 0.6. This analysis considered 2 archetypes in ==X== locations.
-
-| File                                                  |
-| ----------------------------------------------------- |
-| HTAP Run: `feasibility-ACH-2-archetypes.run`          |
-| Results:  `feasibility-ACH-2-archetypes.json`         |
-| Tableau analysis:  `feasibility-ACH-2-archetypes.twb` |
-
-
+## Expected Outcomes ##
 
 ## Notes ##
 
@@ -175,4 +272,81 @@ CE-O examined the energy savings achieved by increasing air-tightness from 2.5 A
 
 [^b]: To comply with tier 0, builders must complete an air-tightness test, but are not required to demonstrate a performance value. 
 
-###  ###
+[^c]: Do we need to evaluate gas/electric and hrv/no hrv paths here?\\
+[^d]: Should we run lower air-tightness levels too, and comment on the importance of reaching ACH 5?
+[^e]: Do we need to run oil too? Could also slim down runs a little by excluding locations where gas is not available. 
+
+
+
+## Appendix A: Archetypes ##
+
+### 1) Low rise Detached housing ###
+
+-  NRCan 11 archetypes
+-  NRCan 240 archetypes
+-  Murb archetypes (BC)
+-  Mobile home archetypes
+
+##  Appendix B: Locations 
+
+###### Table B: Select weather locatuons ######
+
+| Zone |                                     | HDD   | Design Temp | DCDBT | DCWBT |
+| ---- | ----------------------------------- | ----- | ----------- | ----- | ----- |
+| 4    | VICTORIA, BRITISH COLUMBIA          | 2650  | -4          | 24    | 16.6  |
+|      | VANCOUVER, BRITISH COLUMBIA         | 2825  | -7          | 28    | 19.5  |
+| 5    | KAMLOOPS, BRITISH COLUMBIA          | 3450  | -23         | 34    | 19.9  |
+|      | CHATHAM, NEW BRUNSWICK              | 3470  | -16         | 31    | 23.8  |
+|      | TORONTO, ONTARIO                    | 3650  | -20         | 31    | 23    |
+|      | LONDON, ONTARIO                     | 3900  | -18         | 30    | 23.5  |
+|      | YARMOUTH, NOVA SCOTIA               | 3990  | -14         | 22    | 19.1  |
+| 6    | HALIFAX, NOVA SCOTIA                | 4000  | -16         | 26    | 19.6  |
+|      | MONTREAL, QUEBEC                    | 4200  | -23         | 30    | 22.9  |
+|      | CHARLOTTETOWN, PRINCE EDWARD ISLAND | 4460  | -20         | 26    | 21.1  |
+|      | LETHBRIDGE, ALBERTA                 | 4500  | -30         | 31    | 19    |
+|      | OTTAWA, ONTARIO                     | 4500  | -25         | 30    | 22.9  |
+|      | FREDERICTON, NEW BRUNSWICK          | 4670  | -24         | 29    | 21.9  |
+|      | SAINT JOHN'S, NEWFOUNDLAND          | 4800  | -15         | 24    | 19.7  |
+| 7a   | CALGARY, ALBERTA                    | 5000  | -30         | 28    | 17.2  |
+|      | QUEBEC, QUEBEC                      | 5080  | -25         | 28    | 21.7  |
+|      | EDMONTON, ALBERTA                   | 5120  | -30         | 28    | 18.8  |
+|      | REGINA, SASKATCHEWAN                | 5600  | -34         | 31    | 21.2  |
+|      | WINNIPEG, MANITOBA                  | 5670  | -33         | 30    | 22.9  |
+|      | BRANDON, MANITOBA                   | 5760  | -33         | 30    | 21.6  |
+| 7b   | PRINCE ALBERT, SASKATCHEWAN         | 6100  | -37         | 28    | 21    |
+|      | SEPT ILES, QUEBEC                   | 6200  | -29         | 24    | 17.4  |
+|      | WHITEHORSE, YUKON TERRITORY         | 6580  | -41         | 25    | 15.3  |
+|      | GOOSE BAY, NEWFOUNDLAND             | 6670  | -31         | 27    | 19.2  |
+| 8    | DAWSON CITY, YUKON TERRITORY        | 8120  | -50         | 26    | 15.6  |
+|      | YELLOWKNIFE, NORTHWEST TERRITORY    | 8170  | -41         | 25    | 17    |
+|      | INUVIK, NORTHWEST TERRITORY         | 9600  | -43         | 26    | 16.5  |
+|      | IQALUIT, NUNAVUT                    | 9980  | -40         | 17    | 12.1  |
+|      | RESOLUTE, NUNAVUT                   | 12360 | -42         | 11    | 8.5   |
+
+
+
+
+
+| Province          | Weather Location | HDDs | CDDs |
+| ----------------- | ---------------- | ---- | ---- |
+| Alberta           | Calgary          | 5000 |      |
+|                   | Edmonton         | 5120 |      |
+|                   | Ford McMurry     | 6250 |      |
+|                   | Lethbridge       | 4500 |      |
+| British Columbia  | Victoria         | 2650 |      |
+|                   | Vancouver        | 2825 |      |
+|                   | Prince           |      |      |
+|                   |                  |      |      |
+|                   |                  |      |      |
+|                   |                  |      |      |
+|                   |                  |      |      |
+|                   |                  |      |      |
+|                   |                  |      |      |
+|                   |                  |      |      |
+|                   |                  |      |      |
+|                   |                  |      |      |
+| Yukon Territories | Whitehorse       |      |      |
+|                   |                  |      |      |
+|                   |                  |      |      |
+|                   |                  |      |      |
+
