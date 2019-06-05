@@ -3,9 +3,8 @@
 >  Julia Purdy (julia.purdy@canada.ca), Chris Kirney, Rasoul Asaee & Alex Ferguson, <br />
 >  CanmetENERGY-Ottawa, Natural Resources Canada
 >
->  Version of May 13, 2019. <br />This is a draft document, and reflects interim findings from a ongoing study. <br />Documentation and relevant project files are maintained at https://github.com/NRCan-IETS-CE-O-HBC/HTAP-projects
+>  Version of June 5, 2019. <br />Documentation and relevant project files are maintained at https://github.com/NRCan-IETS-CE-O-HBC/HTAP-projects
 
-[TOC]
 
 ## Summary of Findings ##
 
@@ -65,11 +64,11 @@ TG-EEHSB directed us to consider two possible metrics for estimated the cooling 
 
 Note that both the peak cooling load and seasonal cooling requirement focus on the cooling delivered to the house, and not the power demand or energy use of the cooling equipment. While some building simulation software may require that a model include cooling to compute these metrics, the performance of the cooling equipment has no impact on their calculation. 
 
-## Method: ##
+## Methodology: ##
 
-CE-O researchers used an archetype home to examine how solar gains compared to the NBC reference house for different glazing areas, different orientations, and different specifications for window solar gains. 
+CE-O researchers used an archetype home to examine how solar gains compared to the NBC reference house for different glazing areas, different orientations, and different specifications for window solar gains. We also examined how predictions about cooling loads could vary between different building simulation platforms
 
-### Single Family Housing Archetype  ###
+#### Single Family Housing Archetype ####
 
 The archetype represents common single-detached market housing product. It has 304 m² of heated floor area (216 m² above grade).  As designed, the windows are predominately located on the front and back.  Figure 1 depicts its front and rear elevations. 
 
@@ -77,6 +76,8 @@ The archetype represents common single-detached market housing product. It has 3
 | Figure 1: Single detached housing archetype — front and rear elevations. |
 | ------------------------------------------------------------ |
 | ![1556553895186](imgs/ArhcetypeElevations.png)               |
+
+#### Glazed area scenarios ####
 
 For the purposes of this study, we modified the archetype home to create the following four variants. 
 
@@ -91,7 +92,7 @@ Table 1 presents the window areas of each of these archetypes.  Each of these ar
 
 Note that the window-to-wall ratio of the typical and passive solar variants are much lower than that of the NBC reference house. The minimum FDWR (17%) for the reference house implies 11 m² more window area than the typical market house, and nearly twice as much window area as the passive solar design. 
 
-**Table 1: Window areas for archetype variants**
+###### Table 1: Window areas for archetype variants ######
 
 | Metric                                  |     Typical | Passive Solar | Highly Glazed | Very Highly Glazed |
 | --------------------------------------- | ----------: | ------------: | ------------: | -----------------: |
@@ -105,7 +106,7 @@ Note that the window-to-wall ratio of the typical and passive solar variants are
 
 [^3]: As per section 9.36.5.15 10): The Fenestration and door area to gross wall area ratio (FDWR) of the reference house shall be:  **i)** as per the proposed house, where its FDWR is between 17% and 22%, **ii)** 17%, where FDWR of the proposed house is less than 17%, or iii)  22%, where FDWR of the proposed house is greater than 22%. 
 
-### Scenarios: Orientation  ###
+#### Orientation Scenarios  ####
 
 We examined each of these four archetype variants in two orientations: 
 
@@ -114,7 +115,7 @@ We examined each of these four archetype variants in two orientations:
 
 Orienting the passive solar archetype east-west contravenes long-understood guidelines on solar design. Even so, the scenario is useful in this study as a means to understand overheating potential and consequences of the proposed metric.  In each case, the archetype variant was compared to the reference house, with windows equally distributed in N/S/E/W orientations. 
 
-### Scenarios: Window specification ###
+#### Window Specification Scenarios ####
 
 Each archetype variant was examined with three different window packages:
 
@@ -125,19 +126,17 @@ Each archetype variant was examined with three different window packages:
 In each case, the archetype variants were compared to the reference house with a window meeting the U-value requirements of NBC table 9.36.2.7-A, and a SHGC of 0.26.
 
 
-### Consistency across building simulation software ###
+#### Consistency across building simulation software ####
 
-Examine cooling requirements thresholds for these archetypes with another program (EnergyPlus). Assess whether the proposed requirement will produce consistent outcomes across software. 
+To explore how outcomes from this requirement may be affected by different building simulation software, we modelled the same single family archetype in both HOT2000 and Open Studio / Energy Plus. This analysis included comparisons using the the same orientation, window specification and glazing ratio scenarios in both software.
 
-The peak cooling for each archetype, for both orientation and window specification, with each program was compared to its reference house (as defined in the previous sections).
+#### Impact on home design ####
 
-### Impact on home design ###
-
-We used NRCan's 240 new housing archetypes, to assess how these archetypes would be affected by the requirement, identify which houses would comply, which would fail, and report on common characteristics of homes not complying. 
+Finally, we examined the real-world impact of the proposed requirement using 240 different housing archetypes --- each of which representing a real-world home design. 
 
 ## Findings: ##
 
-### 1. Suitability of the reference house for performance codes ###
+#### 1. Suitability of the reference house for performance codes ####
 
 CE-O's analysis suggests that the 9.36.5 reference house does not represent current construction practices. There are two key differences between the reference house's window specifications and practice in market home building:
 
@@ -150,7 +149,7 @@ These discrepancies reflect the fact that the current 9.36.5 reference house was
 
 ### 2. Metrics for overheating ###
 
-The **peak cooling load** and the **seasonal cooling requirement** correlate well when compared for different window specifications, orientations and glass ratios. Figure 2 compares these two metrics for the various combinations examined in this study. Generally, increases in peak load are accompanied by increases in seasonal cooling requirement, and vice-versa. However, the results from the typical and passive solar scenarios show that in some cases, reductions in peak cooling load can be accompanied by increases in seasonal cooling requirement. These observations are limited to the typical design and passive solar scenarios, and only when the windows are equipped with high-gain (SHGC 0.51) windows. 
+Our analysis shows that the **peak cooling load** and the **seasonal cooling requirement** correlate well when compared for different window specifications, orientations and glass ratios. Figure 2 compares these two metrics for the various combinations examined in this study. Generally, increases in peak load are accompanied by increases in seasonal cooling requirement, and vice-versa. However, the results from the typical and passive solar scenarios show that, in some cases, reductions in peak cooling load can be accompanied by increases in seasonal cooling requirement. These observations are limited to the typical design and passive solar scenarios, and only when the windows are equipped with high-gain (SHGC 0.51) windows. 
 
 | Figure 2: Correlation between peak cooling load and seasonal cooling requirement, by scenario |
 | :----------------------------------------------------------: |
@@ -158,22 +157,36 @@ The **peak cooling load** and the **seasonal cooling requirement** correlate wel
 
 We assessed the suitability of these metrics by examining how a hypothetical overheating-limit requirement based on each metric would affect proposed designs. In each case, a proposed design was deemed to comply if its estimated peak cooling load or seasonal cooling requirement was less than or equal to the reference case. 
 
-The results are depicted in Figure 3. Green blocks indicate scenarios that complied with both hypothetical metrics; while red blocks indicate scenarios that complied with neither. Yellow blocks indicate scenarios that comply with peak cooling requirement metrics, but which do not comply with the seasonal cooling requirements. 
+Figure 3 depicts our results for the highly-glazed and very-highly-glazed scenarios.  Green blocks indicate scenarios that complied with both hypothetical metrics; red blocks indicate scenarios that complied with neither. Pink blocks indicate scenarios that comply with peak cooling requirement metrics, but which do not comply with the seasonal cooling requirements. 
 
-| Figure 3: Scenario compliance with metrics based on peak cooling load and seasonal cooling requirement |
+| Figure 3: Scenario compliance with metrics based on peak cooling load and seasonal cooling requirement, highly-glazed and very-highly-glazed scenarios |
 | :----------------------------------------------------------: |
-|              ![](imgs/MapOfRequirementsH2K.png)              |
+|       ![](imgs/MapOfRequirementsH2K-Higly-glazed.png)        |
 
-The results show that the proposed requirements effectively restrict use of high-gain windows on the very highly and very-highly glazed archetypes. Those same archetypes would be required to use low-gain windows when oriented east-west, but could meet the requirement with mid-glazed windows when oriented North-South. These results align with the intention of the proposed requirement: to limit use of high-gain glass in highly-glazed homes, and to encourage use of low gain glass in homes oriented east-west.
+The results show that the proposed requirement effectively restricts use of high-gain windows on the very highly and very-highly glazed archetypes, and that the outcomes are consistent when either the peak or seasonal cooling metric is used. Our analysis also shows that both metrics produce similar outcomes when low-gain glass is used, or when mid-gain glass is used on north-south orientations. 
 
-The results for the typical and passive-solar archetypes are especially interesting. Homes using low-gain and mid-gain windows comply with the requirement in all scenarios. Requirements based on both metrics also limit use of high-gain windows on the typical design archetype, when oriented east-west. 
+However, outcomes from the two metrics differ somewhat for the mid-gain window scenaro... 
+
+Those same archetypes would be required to use low-gain windows when oriented east-west, but could meet the requirement with mid-glazed windows when oriented North-South. These results align with the intention of the proposed requirement: to limit use of high-gain glass in highly-glazed homes, and to encourage use of low gain glass in homes oriented east-west.
+
+Figure 4 presents the same data for the typical and passive solar design scenarios. In this graph, yellow blocks indicate scenarios that comply with peak cooling requirement metrics, but which do not comply with the seasonal cooling requirements. 
+
+| Figure 4: Scenario compliance with metrics based on peak cooling load and seasonal cooling requirement, typical and passive-solar scenarios |
+| :----------------------------------------------------------: |
+|        ![](imgs/MapOfRequirementsH2K-typical-ps.png)         |
+
+
+
+
+
+The results for the typical and passive-solar archetypes are especially interesting. Homes using low-gain and mid-gain windows comply with the requirement in all scenarios. The requirement will also limit use of high-gain windows on the typical design archetype, when oriented east-west. Again, these outcomes are consistent whether the peak or seasonal cooling metric is used. 
 
 The yellow squares indicate scenarios where the proposed design would comply if the requirement were based on peak cooling metric, but not the on the seasonal cooling metric.
 
 The analysis shows that neither metric is perfectly suited to control risks of overheating:
 
 - A requirement based on the seasonal cooling energy metric effectively restricts use of high-gain glass, in all scenarios, including the passive-solar scenario with appropriate window orientation, window-to-floor-area ratios, and overhangs.
-- A requirement based on the peak cooling load effectively permits high-gain windows on the appropriately-designed passive solar archetype. It also permits high-gain windows on the passive-solar archetype on the east-west scenario, and the typical design. Anecdotal evidence suggests that such homes are in fact at risk of overheating.    
+- A requirement based on the peak cooling load effectively permits high-gain windows on the typocal and appropriately-designed passive solar archetype when oriented North-South. It also permits high-gain windows on the passive-solar archetype on the east-west scenario. Anecdotal evidence suggests that such homes are in fact at risk of overheating.    
 
 At the outset of this study, we sought to identify a metric that would permit use of high-gain windows as part of appropriate passive solar design, but which would restrict use of those windows on east-west orientations. Neither metric exactly accomplishes this objective; the seasonal metric restricts all use of high-gain windows and the peak cooling metric permits use of high-gain windows in the passive solar archetype, even when that archetype is oriented east-west. 
 
@@ -242,14 +255,14 @@ Three observations can be made from these results:
 2. HOT2000 and EnergyPlus show less alignment for East-West facing scenarios; with HOT2000 consistently predicting lower peak cooling than EnergyPlus
 3. HOT2000 and EnergyPlus show closer alignment of results for low-gain windows and larger differences in predicted peak cooling for high gain windows; as well as larger differences with increasing glazing %.
 
-The possible impact of these differences is that a home modelled in HOT2000 meets the target overheating requirements where the exact same home modelled in EnergyPlus does not. Currently, HOT2000 is the primary tool for code compliance in Canadian housing. If EnergyPlus becomes more prevalent, this could impact code compliance and impose unintended design limitations to meet codes.
+The possible impact of these differences is that a home modelled in HOT2000 meets the target overheating requirements where the exact same home modelled in EnergyPlus does not. Currently, HOT2000 is the primary tool for evaluating compliance with NBC 9.36.5 in Canadian housing. If use of EnergyPlus becomes more prevalent, this could impact code compliance and impose unintended design limitations to meet codes.
 
 In evaluating the proposed NBC 9.36.5 code requirements for highly or very highly glazed homes facing East-West, 
 
 - the compliance path for HOT2000 would steer designers towards low-gain windows; whereas 
 - there is no compliance path for EnergyPlus, thereby steering designers towards less glazing on East-West facing homes.
 
-This analysis shows that the proposed peak cooling metric and the reference house design have potential design impact depending on the software tool used for code compliance. It is therefore recommended that  the reference house design be reviewed to reflect the desired outcomes; i.e, is limiting highly glazed homes facing East-West the intended code outcome?
+This analysis shows that the proposed peak cooling metric and the reference house design have potential design impact depending on the software tool used for code compliance. It is therefore recommended that  the reference house design be reviewed to reflect the desired outcomes; i.e, *is limiting highly glazed homes facing East-West the intended code outcome?*
 
 ### 4. Impact on home design  ###
 
