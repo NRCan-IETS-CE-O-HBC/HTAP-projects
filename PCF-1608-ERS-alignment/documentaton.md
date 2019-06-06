@@ -1,79 +1,45 @@
-# Feasibility of Performance Tier 5 in Future Energy codes
+# Impact Analysis of ERS Alignment #
 
 > Authors<br />
-> CanmetENERGY-Ottawa, Natural Resources Canada
+> Adam Wills (Adam.Wills@nrc-cnrc.gc.ca) <br />
+> Construction Research Centre, National Research Council Canada
 >
-> Version of May 17, 2019. <br />This is a draft document, and reflects interim findings from a ongoing study. <br />Documentation and relevant project files are maintained at https://github.com/NRCan-IETS-CE-O-HBC/HTAP-projects
+> Version of June 6, 2019
 
-## Summary of Findings
+## HTAP Version Info.
+Branch: `NBC-codes`
+Commit: `a4dedc020afaecdde7a5785ff161fb97c01df1aa`
+Local changes (found in `mod_files`):
+- `HTAP-options.json`
+- `HTAPUnitCosts.json`
 
-## Background
+## Background ##
+These files are part of NRC research's impact analysis of PCF 1608. This change request seeks to align the building operating conditions prescribed in Subsection 9.36.5 with the EnerGuide Rating System. Three operating conditions are altered in PCF 1608: heating setpoint temperature, internal gains, and hot water consumption. The justification given for PCF 1608 is to provide continuity between the national building code and other programs active within Canada.
 
-### Objectives:
+## Objectives ##
+The purpose of this work is to use HTAP to evaluate the potential impacts arising from PCF 1608.
 
-### Scope:
+## Method ##
+Archetypes 4 and 11 were selected for analysis. Archetype 4 represents a single-family home with nominal energy performance. Archetype 11 is a mid-row single-family unit included to acknowledge the increase of attached home construction in Canada. Each archetype was modelled in a major housing market in each climate zone. HTAP was used to convert the archetypes to their climate-relevant code-references.
+###### **a)Baseline performance of the archetypes were established using HTAP**
+- `Baseline_2015.run`
+###### **b)Baseline performance of the archetypes were established assuming the operating conditions in PCF 1608**
+- `Baseline_ERS.run`
+###### **c)For each archetype, climate, and operating condition two different sets of ECMs were applied:**
+- Wall measures
+    - `Walls_2015.run`
+    - `Walls_ERS.run`
+- Hot water system measures
+    - `DHW_2015.run`
+    - `DHW_ERS.run`
+###### **d)For each archetype, climate, operating condition, and ECM the relative **
 
-### Guiding Principles:
+## Summary of Findings ##
+The simulation analysis found that PCF 1608 alters the distribution of energy end-uses in the total building energy consumption. The share of space heating allocated to total energy was found to increase by 3% to 4%. Hot water and plug loads take a smaller portion of the total energy consumption. The implications of this was that relative total energy reduction was higher when PCF 1608 operating conditions are used. Conversely, relative total energy reductions from energy conservation measures (ECMs) targeting hot water demand have reduced efficacy. Therefore, the potential implications of PCF 1608 is incentivizing envelope improvements over hot water system ECMs. It was noted, however, that the absolute differences in incremental performance were less than 2% reduction in total energy consumption. Therefore, the analysis suggests minimal impact on Subsection 9.36.5.
 
-## Method
+## Results Files ##
 
-==**Working notes**==
-
-###### a) determine how far air tightness level targets go to reaching envelope & performance targets
-
-- configure a HTAP file (`air-tigtness-levels.run`)  that configures the 9.36 reference house with each of the prescribed air tightness levels.  
-- Run evaluation across all 240 archetypes, in select locations 
-- Evaluate % improvement relative to the reference house (both envelope, mechanical) achieved via air-tightness, compare to targets in each tier. Remember to consider which tier the home should be compared to. 
-
-*Question:* How much further would those builders have to go?
-
-###### **b) evaluate feasibility of building envelope target**
-
-- configure a HTAP file (`envelope-feasibility.run`) to apply highest performing insulation / glazing / air tightness levels.
-- Run evaluation across all 240 archetypes, in same select locations. Evaluate if the envelope performance tiers were achieved (remember small homes get different tiers)
-
-*Questions:* 
-
-  - Which homes achieved targets, and by how much? Which did not, and why not? Where were they located? What additional measures could be applied?
-  - How much might it cost to achieve each tier envelope target? 
-  - How would those costs vary by archetype and region?
-
-###### c) evaluate feasibility of total performance target
-
-- configure a HTAP file  (`overall-feasibility.run`) to apply highest performing insulation / glazing / air tightness levels, along with 4 reference mechanicals (==maybe this requires 4 htap files?==):
-
-| Scenario              | SH             | WH                              | Vent     |
-| --------------------- | -------------- | ------------------------------- | -------- |
-| Electrical resistance | Baseboard      | Electric storage + DWHR         | Best HRV |
-| Efficienct Gas        | Condensing gas | Condensing tankless+ DWHR       | Best HRV |
-| Air heat pump         | CCASHP         | HPWH (indoor evaporator)+ DWHR  | Best HRV |
-| Ground heat pump      | GSHP           | HPWH (outdoor evaporator)+ DWHR | Best HRV |
-
-
-
-
-- Run evaluation across all 240 archetypes, in same select locations. Evaluate if the overall performance tiers were achieved (remember small homes get different tiers)
-
-*Questions:* 
-
-- Which homes achieved targets, and by how much? Which did not, and why not? Where were they located? What additional measures could be applied?
-- Do some homes achieve envelope tier but not overall tier (or vice versa?)
-- How much might it cost to achieve each tier envelope target? 
-- How would those costs vary by archetype and region?
-
-
-
-## Findings
-
-#### 1) Contribution of air-tightness on overall energy savings ####
-
-CE-O examined the energy savings achieved by increasing air-tightness from 2.5 ACH to 0.6. This analysis considered 2 archetypes in ==X== locations.
-
-| File                                                  |
-| ----------------------------------------------------- |
-| HTAP Run: `feasibility-ACH-2-archetypes.run`          |
-| Results:  `feasibility-ACH-2-archetypes.json`         |
-| Tableau analysis:  `feasibility-ACH-2-archetypes.twb` |
+Raw results are located in `results/ERS_Alignment_Analysis.accde`, which in an Access Database.
 
 
 

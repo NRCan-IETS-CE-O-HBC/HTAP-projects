@@ -1,0 +1,53 @@
+! Definitions file for HTAP-PRM RUN 
+
+! Run-Mode: Parameters that affect how htap-prm is configured. 
+RunParameters_START
+  run-mode                           = mesh 
+  archetype-dir                      = C:/HTAP/Archetypes
+RunParameters_END 
+
+! Parameters controlling archetypes, locations, reference rulests. (these will always be
+! run in mesh, even if anoptimization mode is added in the future. 
+
+RunScope_START
+
+  archetypes                        = NRCan-arch4_2100sf_2storey_fullBsmt.h2k, NRCan-A11_1500sf_2storey_rowMid_fullBsmt.h2k
+  locations                         = VANCOUVER, TORONTO, MONTREAL, EDMONTON, WHITEHORSE, YELLOWKNIFE
+  rulesets                          = NBC9_36[vent>HRV] 
+  
+RunScope_END
+
+! Parameters controlling the design of the building 
+Upgrades_START
+
+   Opt-FuelCost         				= rates2016
+   Opt-ResultHouseCode  				= General
+   Opt-DHWSystem        				= NBC-HotWater_elec, NBC-HotWater_gas, NBC-HotWater_oil4
+   Opt-HVACSystem						= NBC-elec-heat, NBC-gas-furnace, NBC-oil-heat
+   Opt-Specifications   				= NA
+   Opt-Baseloads        				= PCF_1608
+   Opt-Temperatures     				= PCF_1608
+   Opt-ACH              				= NA
+   Opt-CasementWindows  				= NA
+   Opt-Skylights        				= NA
+   Opt-DoorWindows      				= NA
+   Opt-Doors            				= NA
+   Opt-MainWall         				= NA
+   Opt-GenericWall_1Layer_definitions 	= NA
+   Opt-FoundationWallExtIns 			= NA 
+   Opt-FoundationWallIntIns 			= NA
+   Opt-FoundationSlabBelowGrade 		= NA 
+   Opt-FoundationSlabOnGrade 			= NA 
+   Opt-ExposedFloor      				= NA
+   Opt-FloorAboveCrawl  				= NA
+   Opt-FloorHeaderIntIns  				= NA
+   Opt-Ceilings         				= NA
+   Opt-AtticCeilings    				= NA
+   Opt-CathCeilings     				= NA
+   Opt-FlatCeilings     				= NA
+   Opt-HRVonly          				= NA
+   Opt-DWHRSystem       				= NA
+   Opt-H2K-PV           				= NA
+   Opt-DBFiles		    				= H2KCodeLibFile
+
+Upgrades_END
