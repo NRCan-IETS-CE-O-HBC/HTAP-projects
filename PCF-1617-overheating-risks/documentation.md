@@ -20,7 +20,7 @@ These files are part of CE-O's investigation into the risks of overheating in re
 
 -  Such a requirement is unlikely to affect typical or passive-solar-optimized home design.
 
--  This requirement will affect design choices in homes with high window areas.  In such homes, the requirement can be met by choosing low-solar gain windows.  Reducing window area, relocating east and west facing windows to north and south facades, and installing overhangs will also help homes comply.  
+-  This requirement will affect design choices in homes with high window areas. In such homes, the requirement can be met by choosing low-solar gain windows.  Reducing window area, relocating east and west facing windows to north and south facades, and installing overhangs will also help homes comply.  
 
 
 #### Recommendations: ####
@@ -128,7 +128,19 @@ In each case, the archetype variants were compared to the reference house with a
 
 #### Consistency across building simulation software ####
 
-To explore how outcomes from this requirement may be affected by different building simulation software, we modelled the same single family archetype in both HOT2000 and Open Studio / Energy Plus. This analysis included comparisons using the the same orientation, window specification and glazing ratio scenarios in both software.
+We examined the proposed cooling requirements thresholds with another program (EnergyPlus). The goal of this analysis was to assess whether the proposed requirement will produce consistent outcomes across software tools. 
+
+The analysis was performed in two parts; initially the peak cooling for each archetype variant (typical, passive solar, highly glazed and very highly glazed) was compared to its reference house peak cooling (as defined in the previous sections) for both North-South and East-West orientations in HOT2000 (version 11) and EnergyPlus (OpenStudio version 2.6.0, EnergyPlus version 8.9.0). For this analysis, we wanted to see if HOT2000 and EnergyPlus showed alignment in predicted peak cooling w.r.t. the reference house. 
+
+The second part of the analysis used the same archetype variants and orientations but replaced the NBC 9.36.5 reference house with high gain, mid gain and low gain windows. These windows varied slightly from what was defined in the previous sections:
+
+- **High-solar-gain:** U-value: 1.8 W/m²K, SHGC: 0.5
+- **Mid-solar-gain**: U-value: 1.6 W/m²K , SHGC: 0.26
+- **Low-solar-gain**: U-value: 1.14 W/m²K , SHGC: 0.17
+
+The impact on peak cooling for these windows was compared to the peak cooling predicted with *the same window* for the reference house geometry. 
+
+Analysis findings are presented in the following sections.
 
 #### Impact on home design ####
 
