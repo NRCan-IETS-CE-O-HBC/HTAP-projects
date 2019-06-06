@@ -179,10 +179,6 @@ Figure 4 presents the same data for the typical and passive solar design scenari
 | :----------------------------------------------------------: |
 |        ![](imgs/MapOfRequirementsH2K-typical-ps.png)         |
 
-
-
-
-
 The results for the typical and passive-solar archetypes are especially interesting. Homes using low-gain and mid-gain windows comply with the requirement in all scenarios. The requirement will also limit use of high-gain windows on the typical design archetype, when oriented east-west. Again, these outcomes are consistent whether the peak or seasonal cooling metric is used. 
 
 The yellow squares indicate scenarios where the proposed design would comply if the requirement were based on peak cooling metric, but not the on the seasonal cooling metric.
@@ -190,7 +186,7 @@ The yellow squares indicate scenarios where the proposed design would comply if 
 The analysis shows that neither metric is perfectly suited to control risks of overheating:
 
 - A requirement based on the seasonal cooling energy metric effectively restricts use of high-gain glass, in all scenarios, including the passive-solar scenario with appropriate window orientation, window-to-floor-area ratios, and overhangs.
-- A requirement based on the peak cooling load effectively permits high-gain windows on the typocal and appropriately-designed passive solar archetype when oriented North-South. It also permits high-gain windows on the passive-solar archetype on the east-west scenario. Anecdotal evidence suggests that such homes are in fact at risk of overheating.    
+- A requirement based on the peak cooling load effectively permits high-gain windows on the typical and appropriately-designed passive solar archetype when oriented North-South. It also permits high-gain windows on the passive-solar archetype on the east-west scenario. Anecdotal evidence suggests that such homes are in fact at risk of overheating.    
 
 At the outset of this study, we sought to identify a metric that would permit use of high-gain windows as part of appropriate passive solar design, but which would restrict use of those windows on east-west orientations. Neither metric exactly accomplishes this objective; the seasonal metric restricts all use of high-gain windows and the peak cooling metric permits use of high-gain windows in the passive solar archetype, even when that archetype is oriented east-west. 
 
