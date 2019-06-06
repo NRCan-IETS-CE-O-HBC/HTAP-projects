@@ -178,9 +178,9 @@ However, outcomes from the two metrics differ somewhat for the mid-gain window s
 
 As expected, neither the highly-glazed or very-highly glazed archetypes could comply with the requirement with high-gain windows, regardless of orientation or metric used. 
 
-Figure 4 presents the same data for the typical and passive solar design archetypes. In this graph, yellow blocks indicate scenarios that comply with peak cooling requirement metrics, but which do not comply with the seasonal cooling requirements. 
+Figure 5 presents the same data for the typical and passive solar design archetypes. In this graph, yellow blocks indicate scenarios that comply with peak cooling requirement metrics, but which do not comply with the seasonal cooling requirements. 
 
-| Figure 4: Scenario compliance with metrics based on peak cooling load and seasonal cooling requirement, typical and passive-solar scenarios |
+| Figure 5: Scenario compliance with metrics based on peak cooling load and seasonal cooling requirement, typical and passive-solar scenarios |
 | :----------------------------------------------------------: |
 |        ![](imgs/MapOfRequirementsH2K-typical-ps.png)         |
 
@@ -234,7 +234,7 @@ We assessed the peak cooling using HOT2000 (H2K) and EnergyPlus/OpenStudio (OS/E
 - **Highly glazed**:reference, North-South, East-West 
 - **Very highly glazed:** reference, North-South, East-West 
 
-Figure 4 shows the evaluation of the recommendation: *"The peak cooling requirement of the proposed design shall not exceed that of the reference house"* for each simulation tool. 
+Figure 6 shows the evaluation of the recommendation: *"The peak cooling requirement of the proposed design shall not exceed that of the reference house"* for each simulation tool. 
 
 The % difference in peak cooling from the reference case is compared for each archetype variant and orientation with HOT2000 and OS/E+. The green blocks indicate that the predicted peak cooling is *less than the reference house*; red blocks indicate the predicted peak cooling is *exceeds the reference house*.  
 
@@ -252,9 +252,9 @@ The result of this analysis indicates that homes with lower total glazing (typic
 
  
 
-In addition to the base case window analysis presented above, the analysis was completed with high gain, mid gain and low gain windows. The results of this analysis are shown in Figure 5; where the gray blocks indicate scenarios where HOT2000 and EnergyPlus are in alignment and the blue blocks are scenarios where they aren't.  
+In addition to the base case window analysis presented above, the analysis was completed with high gain, mid gain and low gain windows. The results of this analysis are shown in Figure 7; where the gray blocks indicate scenarios where HOT2000 and EnergyPlus are in alignment and the blue blocks are scenarios where they aren't.  
 
-| Figure 5: Comparison of outcomes, Hot2000 and OS |
+| Figure 7: Comparison of outcomes, Hot2000 and OS |
 | :----------------------------------------------: |
 |     ![](imgs/MapOfRequirementsH2KandOS.png)      |
 
@@ -268,9 +268,9 @@ One additional difference between the two tools is for the prediction for *high-
 
 
 
-Figure 6 further examines the differences predicted by HOT2000 and EnergyPlus, expressed as % difference in peak cooling size from the reference house.
+Figure 8 further examines the differences predicted by HOT2000 and EnergyPlus, expressed as % difference in peak cooling size from the reference house.
 
-| Figure 6: Comparisons of results, by window type |
+| Figure 8: Comparisons of results, by window type |
 | ------------------------------------------------ |
 | ![](imgs/LowMidHighComparisonH2kvsOS.png)        |
 
@@ -300,29 +300,29 @@ We used the 240 [NRCan-EGH-NewHousing](https://github.com/NRCan-IETS-CE-O-HBC/HT
   - **Low-solar-gain** (i.e. U-value: 1.6 W/m²K , SHGC: 0.19)
 - For each archetype, we generated a reference house of the same design, but with window areas and distributions as prescribed in NBC 9.36.5.15.
 
-Figure 7 shows the percentage of archetypes that comply with the overheating requirement. Vertical axis shows the range of fenestration and door to wall ratio and the horizontal axis shows the range of solar heat gain coefficients. Color legend represent the percentage of archetypes that comply with the overheating requirement. 
+Figure 9 shows the percentage of archetypes that comply with the overheating requirement. Vertical axis shows the range of fenestration and door to wall ratio and the horizontal axis shows the range of solar heat gain coefficients. Color legend represent the percentage of archetypes that comply with the overheating requirement. 
 
 Results show archetypes that use mid gain windows and small FDWR (<10%) can meet the overheating requirements with their current design. About 40% of archetypes that have a similar FDWR and used a high gain window cannot comply with overheating requirement.
 
 Archetypes that have higher windows area are less likely to comply with the overheating requirements with their existing window types. For example, where FDWR exceeds 30% no archetype with current design options can comply with the overheating requirements. Therefore, the overheating requirement will likely prevent the design of highly glazed façade and high solar gain windows.
 
-|      Figure 7: Archetypes compliance, by FDWR and SHGC       |
-| :----------------------------------------------------------: |
-| ![](imgs/ComplianceRatio.png) |
+| Figure 9: Archetypes compliance, by FDWR and SHGC |
+| :-----------------------------------------------: |
+|           ![](imgs/ComplianceRatio.png)           |
 
-We examined a scenario where the existing window package is replaced with a low gain one in the archetypes that failed to meet the overheating requirement. Results of this analysis are shown in Figure 8. Green columns show the number of archetypes that can pass the overheating requirement with their current design options. Orange columns represent a scenario where the proposed design would comply if the window packages are replaced with a low gain window. Red columns show the number of archetypes that cannot comply even with low gain window package. About 29%, 64%, and 7% of archetypes would be in green, orange, and red group respectively. 
+We examined a scenario where the existing window package is replaced with a low gain one in the archetypes that failed to meet the overheating requirement. Results of this analysis are shown in Figure 10. Green columns show the number of archetypes that can pass the overheating requirement with their current design options. Orange columns represent a scenario where the proposed design would comply if the window packages are replaced with a low gain window. Red columns show the number of archetypes that cannot comply even with low gain window package. About 29%, 64%, and 7% of archetypes would be in green, orange, and red group respectively. 
 
 Results show that the overheating measure allow the current design options for archetypes where the FDWR is less than 16%. While overheating measure limits highly glazed design scenarios, using the low gain window is viable path for compliance for the entire range of FDWR.
 
-|   Figure 8: Number of compliant archetypes, by window type   |
-| :----------------------------------------------------------: |
-| ![](imgs/HistogramComplianceRate.png) |
+| Figure 10: Number of compliant archetypes, by window type |
+| :-------------------------------------------------------: |
+|           ![](imgs/HistogramComplianceRate.png)           |
 
-The incremental cost of replacing existing windows with a low gain one for archetypes that can comply with this upgrade are shown in Figure 9. Results indicate that the median, mean, and standard deviation of incremental costs associated with this measure for eligible archetypes are $223, $264, and $152, respectively. The green area on Figure 9 is the range between -1 standard deviation and +1 standard deviation. As discussed earlier, 154 archetypes (about 64% of total) would be able to pass the overheating requirement with low gain window upgrade. Cost of window upgrade due to this measure for 126 archetypes (about 82% of eligible archetypes) would be in the green range shown in Figure 9.
+The incremental cost of replacing existing windows with a low gain one for archetypes that can comply with this upgrade are shown in Figure 11. Results indicate that the median, mean, and standard deviation of incremental costs associated with this measure for eligible archetypes are $223, $264, and $152, respectively. The green area on Figure 11 is the range between -1 standard deviation and +1 standard deviation. As discussed earlier, 154 archetypes (about 64% of total) would be able to pass the overheating requirement with low gain window upgrade. Cost of window upgrade due to this measure for 126 archetypes (about 82% of eligible archetypes) would be in the green range shown in Figure 11.
 
 The lower cooling load due to this measure will likely reduce the size or eliminate the need of air-conditioning system. We did not consider this effect in estimating the incremental costs due to overheating measure.
 
-| Figure 9: Cost of upgrading windows to low gain glass in archetypes that comply if window is switched to low gain glass |
+| Figure 11: Cost of upgrading windows to low gain glass in archetypes that comply if window is switched to low gain glass |
 | :----------------------------------------------------------: |
 | ![1559833928080](C:\HTAP-projects\PCF-1617-overheating-risks\imgs\CostofUpgrade2LGWindow.png) |
 
