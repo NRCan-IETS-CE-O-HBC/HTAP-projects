@@ -1,0 +1,64 @@
+<!-- PCF 1611 version 3 Pick-List Tables -->
+<opt>
+    <!-- Every new option MUST have a 'nil' line -->
+    <Walls>
+        <items description="nil" CZ_4="0" CZ_5="0" CZ_6="0" CZ_7A="0" CZ_7B="0" CZ_8="0"/>
+        <items description="RSI_2_97" CZ_4="2.0"/>
+        <items description="RSI_3_08" CZ_4="3.2" CZ_5="1.4" CZ_6="1.6" CZ_7A="2.1" />
+        <items description="RSI_3_69" CZ_4="7.4" CZ_5="5.4" CZ_6="6.2" CZ_7A="6.7" CZ_7B="5.4" CZ_8="5.2"/>
+        <items description="RSI_3_85" CZ_4="8.2" CZ_5="6.0" CZ_6="6.9" CZ_7A="7.4" CZ_7B="6.2" CZ_8="6.0"/>
+        <items description="RSI_3_96" CZ_4="8.9" CZ_5="6.8" CZ_6="7.7" CZ_7A="8.2" CZ_7B="7.0" CZ_8="6.8"/>
+        <items description="RSI_4_29" CZ_4="10.2" CZ_5="8.1" CZ_6="9.2" CZ_7A="9.7" CZ_7B="8.6" CZ_8="8.4"/>
+        <items description="RSI_4_40" CZ_4="10.8" CZ_5="8.7" CZ_6="9.9" CZ_7A="10.3" CZ_7B="9.3" CZ_8="9.1"/>
+        <items description="RSI_4_57" CZ_4="11.4" CZ_5="9.3" CZ_6="10.6" CZ_7A="11.1" CZ_7B="10.1" CZ_8="9.9"/>
+        <items description="RSI_4_73" CZ_4="11.9" CZ_5="9.7" CZ_6="11.1" CZ_7A="11.5" CZ_7B="10.6" CZ_8="10.4"/>
+        <items description="RSI_4_84" CZ_4="12.3" CZ_5="10.2" CZ_6="11.6" CZ_7A="12.1" CZ_7B="11.2" CZ_8="10.9"/>
+        <items description="RSI_5_01" CZ_4="12.9" CZ_5="10.7" CZ_6="12.2" CZ_7A="12.7" CZ_7B="11.8" CZ_8="11.6"/>
+        <items description="RSI_5_45" CZ_4="14.0" CZ_5="11.9" CZ_6="13.6" CZ_7A="14.0" CZ_7B="13.3" CZ_8="13.1"/>
+    </Walls>
+    <Fenestration>
+        <items description="nil" CZ_4="0" CZ_5="0" CZ_6="0" CZ_7A="0" CZ_7B="0" CZ_8="0"/>
+        <items description="U_1_60" CZ_4="1.9" CZ_5="1.8"/>
+        <items description="U_1_40" CZ_4="3.8" CZ_5="3.6" CZ_6="1.6" CZ_7A="1.8"/>
+        <items description="U_1_20" CZ_4="6.9" CZ_5="7.0" CZ_6="4.6" CZ_7A="5.5" CZ_7B="3.2" CZ_8="3.4"/>
+    </Fenestration>
+    <Fdn_Walls>
+        <items description="nil" CZ_4="0" CZ_5="0" CZ_6="0" CZ_7A="0" CZ_7B="0" CZ_8="0"/>
+        <items description="RSI_2_98" CZ_4="1.7"/>
+        <items description="RSI_3_09" CZ_4="1.8" CZ_5="0.2" CZ_6="0.2" CZ_7A="0.2" CZ_7B="0.2"/>
+        <items description="RSI_3_46" CZ_4="2.2" CZ_5="0.6" CZ_6="0.8" CZ_7A="0.6" CZ_7B="0.7"/>
+        <items description="RSI_3_90" CZ_4="2.6" CZ_5="1.2" CZ_6="1.4" CZ_7A="1.1" CZ_7B="1.3"/>
+    </Fdn_Walls>
+    <Airtightness>
+        <SingleDetached>
+            <items description="ACH_2_5" CZ_4="0" CZ_5="0" CZ_6="0" CZ_7A="0" CZ_7B="0" CZ_8="0"/>
+            <items description="ACH_2_0" CZ_4="2.0" CZ_5="3.4" CZ_6="3.5" CZ_7A="4.6" CZ_7B="6.1" CZ_8="6.1"/>
+            <items description="ACH_1_5" CZ_4="4.0" CZ_5="6.7" CZ_6="7.0" CZ_7A="9.3" CZ_7B="12.1" CZ_8="12.11"/>
+            <items description="ACH_1_0" CZ_4="5.9" CZ_5="10.1" CZ_6="10.5" CZ_7A="13.9" CZ_7B="18.0" CZ_8="18.0"/>
+            <items description="ACH_0_6" CZ_4="7.6" CZ_5="13.0" CZ_6="13.4" CZ_7A="17.8" CZ_7B="22.7" CZ_8="22.7"/>
+        </SingleDetached>
+        <DoubleRow>
+            <items description="ACH_2_5" CZ_4="0" CZ_5="0" CZ_6="0" CZ_7A="0" CZ_7B="0" CZ_8="0"/>
+            <items description="ACH_2_0" CZ_4="2.2" CZ_5="3.0" CZ_6="3.5" CZ_7A="4.6" CZ_7B="4.1" CZ_8="4.6"/>
+            <items description="ACH_1_5" CZ_4="4.0" CZ_5="6.0" CZ_6="6.9" CZ_7A="9.1" CZ_7B="8.2" CZ_8="9.3"/>
+            <items description="ACH_1_0" CZ_4="6.0" CZ_5="9.1" CZ_6="10.4" CZ_7A="13.6" CZ_7B="12.3" CZ_8="14.2"/>
+            <items description="ACH_0_6" CZ_4="7.7" CZ_5="11.6" CZ_6="13.3" CZ_7A="17.4" CZ_7B="15.6" CZ_8="18.2"/>
+        </DoubleRow>
+    </Airtightness>
+    <HRV>
+        <items description="nil" CZ_4="0" CZ_5="0" CZ_6="0" CZ_7A="0" CZ_7B="0" CZ_8="0"/>
+        <items description="SRE_65" CZ_4="0.7" CZ_5="0.7" CZ_6="0.7" CZ_7A="0.6" CZ_7B="0.8" CZ_8="0.4"/>
+        <items description="SRE_75" CZ_4="2.1" CZ_5="2.1" CZ_6="2.2" CZ_7A="1.7" CZ_7B="2.3" CZ_8="1.2"/>
+        <items description="SRE_84" CZ_4="3.4" CZ_5="3.2" CZ_6="3.5" CZ_7A="2.7" CZ_7B="3.7" CZ_8="1.8"/>
+    </HRV>
+    <DHW_System>
+        <items description="nil" CZ_4="0" CZ_5="0" CZ_6="0" CZ_7A="0" CZ_7B="0" CZ_8="0"/>
+        <items description="Tankless_Condensing" CZ_4="1.3" CZ_5="0.9" CZ_6="0.8" CZ_7A="0.7" CZ_7B="0.7" CZ_8="0.7"/>
+        <items description="Tank_EF_0_8" CZ_4="8.9" CZ_5="5.4" CZ_6="4.9" CZ_7A="3.1" CZ_7B="3.1" CZ_8="3.1"/>
+        <items description="Tank_UEF_0_79" CZ_4="4.6" CZ_5="2.7" CZ_6="2.4" CZ_7A="1.5" CZ_7B="1.5" CZ_8="1.5"/>
+        <items description="Tank_UEF_0_85" CZ_4="6.0" CZ_5="3.6" CZ_6="3.2" CZ_7A="2.0" CZ_7B="2.0" CZ_8="2.0"/>
+        <items description="HP_EF_2_35" CZ_4="6.4" CZ_5="3.9" CZ_6="3.8" CZ_7A="3.0" CZ_7B="3.0" CZ_8="3.0"/>
+    </DHW_System>
+</opt>
+
+
