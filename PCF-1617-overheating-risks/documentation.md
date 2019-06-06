@@ -297,13 +297,13 @@ Results show that the overheating measure allow the current design options for a
 | :----------------------------------------------------------: |
 | ![](imgs/HistogramComplianceRate.png) |
 
-The incremental cost of replacing existing windows with a low gain one for archetypes that can comply with this upgrade are shown in Figure 9. Results indicate that the average incremental cost associated with this measure is about $250.
+The incremental cost of replacing existing windows with a low gain one for archetypes that can comply with this upgrade are shown in Figure 9. Results indicate that the median, mean, and standard deviation of incremental costs associated with this measure for eligible archetypes are $223, $264, and $152, respectively. The green area on Figure 9 is the range between -1 standard deviation and +1 standard deviation. As discussed earlier, 154 archetypes (about 64% of total) would be able to pass the overheating requirement with low gain window upgrade. Cost of window upgrade due to this measure for 126 archetypes (about 82% of eligible archetypes) would be in the green range shown in Figure 9.
 
 The lower cooling load due to this measure will likely reduce the size or eliminate the need of air-conditioning system. We did not consider this effect in estimating the incremental costs due to overheating measure.
 
 | Figure 9: Cost of upgrading windows to low gain glass in archetypes that comply if window is switched to low gain glass |
 | :----------------------------------------------------------: |
-| ![](imgs/CostofUpgrade2LGWindow.png) |
+| ![1559833928080](C:\HTAP-projects\PCF-1617-overheating-risks\imgs\CostofUpgrade2LGWindow.png) |
 
 These results indicate that overheating measure will:
 
