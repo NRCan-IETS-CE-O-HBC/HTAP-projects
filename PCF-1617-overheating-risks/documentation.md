@@ -324,7 +324,7 @@ The lower cooling load due to this measure will likely reduce the size or elimin
 
 | Figure 11: Cost of upgrading windows to low gain glass in archetypes that comply if window is switched to low gain glass |
 | :----------------------------------------------------------: |
-| ![1559833928080](C:\HTAP-projects\PCF-1617-overheating-risks\imgs\CostofUpgrade2LGWindow.png) |
+| ![](imgs/CostofUpgrade2LGWindow.png) |
 
 These results indicate that overheating measure will:
 
