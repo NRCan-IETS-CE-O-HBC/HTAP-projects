@@ -143,17 +143,22 @@ CE-O's analysis suggests that the 9.36.5 reference house does not represent curr
 1. The reference house window-to-wall ratio range (17-22%) is much higher than the typical housing archetype used in this study (12%).  When the home was redesigned according to passive-solar principles, the window-to-wall ratio was 8.6%. These inconsistencies mean that the reference home will consistently exhibit higher heat loss, and higher solar gains than proposed homes. 
 2. The reference house distributes windows equally in N/E/W/S orientations, while many contemporary homes locate windows predominately on the front and back. By redistributing windows to east and west locations, the reference house may effectively increase cooling budgets for highly-glazed homes with predominately south-facing glass. 
 
-| Figure XX. Range of window-to-wall ratio for the NBC9.36.5 reference house and 240 NRCan archetypes |
+Not only does the the  9.36.5 reference house have more window area than the typical and passive solar archetypes — it also has more windows than typical residential construction. In 2019, CE-O researchers developed a set of 240 residential archetypes that represent the energy characteristics of contemporary housing. We developed these archetypes by sampling data from actual home audits under Natural Resources Canada's housing programs. Figure 2 plots the window-to-wall-ratio of the 240 archetypes relative to the 17-22% range prescribed for the NBC reference house. Most of the archetypes have FDWR ratios less than 17%, the lower bound of the NBC 9.36.5 reference house.  
+
+| Figure 2: Distribution of window-to-wall ratio of the 240 archetypes, relative to 17-22% range of the NBC 9.36.5 reference house and 240 NRCan archetypes |
 | :----------------------------------------------------------: |
 |         ![](imgs/FDWRrange-RefHousevsArchetypes.png)         |
 
-These discrepancies reflect the fact that the current 9.36.5 reference house was designed as a benchmark for seasonal heating requirements, without consideration of its use in overheating analysis. CE-O did not contemplate potential improvements to the reference house in the current scope, but such changes should be examined in the future. 
+The disparity between the 9.36.5 reference house window area and contemporary housing will affect heating and cooling energy comparisons between the proposed and reference houses in the following manner:
+
+-  Contemporary housing will generally have lower cooling loads than the reference house. This is because the reference house has greater window area, and windows are greater contributors to heat loss than opaque walls. 
+-  Contemporary housing will generally have lower cooling loads than the reference house when oriented north and south, but higher loads when oriented east and west. This is because east and west windows  make greater contributors to cooling loads in summer.  
 
 >  **Recommendation:** Codes Canada should revisit the definition of the 9.36 reference house, and consider changes to improve its alignment with contemporary housing. 
 
 ### 2. Metrics for overheating ###
 
-Our analysis shows that the **peak cooling load** and the **seasonal cooling requirement** correlate well when compared for different window specifications, orientations and glass ratios. Figure 2 compares these two metrics for the various combinations examined in this study. Generally, increases in peak load are accompanied by increases in seasonal cooling requirement, and vice-versa. However, the results from the typical and passive solar scenarios show that, in some cases, reductions in peak cooling load can be accompanied by increases in seasonal cooling requirement. These observations are limited to the typical design and passive solar scenarios, and only when the windows are equipped with high-gain (SHGC 0.51) windows. 
+Our analysis shows that the **peak cooling load** and the **seasonal cooling requirement** correlate well when compared for different window specifications, orientations and glass ratios. Figure 3 compares these two metrics for the various combinations examined in this study. Generally, increases in peak load are accompanied by increases in seasonal cooling requirement, and vice-versa. However, the results from the typical and passive solar scenarios show that, in some cases, reductions in peak cooling load can be accompanied by increases in seasonal cooling requirement. These observations are limited to the typical design and passive solar scenarios, and only when the windows are equipped with high-gain (SHGC 0.51) windows. 
 
 | Figure 2: Correlation between peak cooling load and seasonal cooling requirement, by scenario |
 | :----------------------------------------------------------: |
@@ -161,7 +166,7 @@ Our analysis shows that the **peak cooling load** and the **seasonal cooling req
 
 We assessed the suitability of these metrics by examining how a hypothetical overheating-limit requirement based on each metric would affect proposed designs. In each case, a proposed design was deemed to comply if its estimated peak cooling load or seasonal cooling requirement was less than or equal to the reference case. 
 
-Figure 3 depicts our results for the highly-glazed and very-highly-glazed scenarios.  Green blocks indicate scenarios that complied with both hypothetical metrics; red blocks indicate scenarios that complied with neither. Pink blocks indicate scenarios that comply with peak cooling requirement metrics, but which do not comply with the seasonal cooling requirements. 
+Figure 4 depicts our results for the highly-glazed and very-highly-glazed scenarios.  Green blocks indicate scenarios that complied with both hypothetical metrics; red blocks indicate scenarios that complied with neither. Pink blocks indicate scenarios that comply with peak cooling requirement metrics, but which do not comply with the seasonal cooling requirements. 
 
 | Figure 3: Scenario compliance with metrics based on peak cooling load and seasonal cooling requirement, highly-glazed and very-highly-glazed scenarios |
 | :----------------------------------------------------------: |
@@ -169,28 +174,48 @@ Figure 3 depicts our results for the highly-glazed and very-highly-glazed scenar
 
 The results show that the proposed requirement effectively restricts use of high-gain windows on the very highly and very-highly glazed archetypes, and that the outcomes are consistent when either the peak or seasonal cooling metric is used. Our analysis also shows that both metrics produce similar outcomes when low-gain glass is used, or when mid-gain glass is used on north-south orientations. 
 
-However, outcomes from the two metrics differ somewhat for the mid-gain window scenaro... 
+However, outcomes from the two metrics differ somewhat for the mid-gain window scenario. Using either the peak load or seasonal requirement, we found all homes complied when oriented north-south. When oriented east-west, we found that the archetype could not comply with the  peak load metric in any of the locations, but would comply in some locations wen the seasonal metric was used. 
 
-Those same archetypes would be required to use low-gain windows when oriented east-west, but could meet the requirement with mid-glazed windows when oriented North-South. These results align with the intention of the proposed requirement: to limit use of high-gain glass in highly-glazed homes, and to encourage use of low gain glass in homes oriented east-west.
+As expected, neither the highly-glazed or very-highly glazed archetypes could comply with the requirement with high-gain windows, regardless of orientation or metric used. 
 
-Figure 4 presents the same data for the typical and passive solar design scenarios. In this graph, yellow blocks indicate scenarios that comply with peak cooling requirement metrics, but which do not comply with the seasonal cooling requirements. 
+Figure 4 presents the same data for the typical and passive solar design archetypes. In this graph, yellow blocks indicate scenarios that comply with peak cooling requirement metrics, but which do not comply with the seasonal cooling requirements. 
 
 | Figure 4: Scenario compliance with metrics based on peak cooling load and seasonal cooling requirement, typical and passive-solar scenarios |
 | :----------------------------------------------------------: |
 |        ![](imgs/MapOfRequirementsH2K-typical-ps.png)         |
 
-The results for the typical and passive-solar archetypes are especially interesting. Homes using low-gain and mid-gain windows comply with the requirement in all scenarios. The requirement will also limit use of high-gain windows on the typical design archetype, when oriented east-west. Again, these outcomes are consistent whether the peak or seasonal cooling metric is used. 
+For the low-gain and mid-gain window scenarios, we found that both passive-solar and typical archetypes comply, regardless of orientation, location, or metric used. The high-gain results are more noteworthy:
 
-The yellow squares indicate scenarios where the proposed design would comply if the requirement were based on peak cooling metric, but not the on the seasonal cooling metric.
+-  Both the seasonal and peak metrics restricted use of high-gain windows on the **typical archetype**, when oriented east-west, regardless of orientation. The seasonal metric also restricted use of high-gain windows on north-south orientations, but the peak metric permitted them in all locations. 
+-  The seasonal metric restricted use of high gain windows on the **passive solar archetype** when oriented east-west in all locations, and when oriented north-south, in some locations. The peak metric permitted use of high-gain windows on the passive solar archetypes in all locations when oriented north-south, and in some locations, when oriented east-west.
 
-The analysis shows that neither metric is perfectly suited to control risks of overheating:
+Table 2 summarizes our findings for the passive solar design archetype; Table 3 summarizes findings for the typical design archetype. 
 
-- A requirement based on the seasonal cooling energy metric effectively restricts use of high-gain glass, in all scenarios, including the passive-solar scenario with appropriate window orientation, window-to-floor-area ratios, and overhangs.
-- A requirement based on the peak cooling load effectively permits high-gain windows on the typical and appropriately-designed passive solar archetype when oriented North-South. It also permits high-gain windows on the passive-solar archetype on the east-west scenario. Anecdotal evidence suggests that such homes are in fact at risk of overheating.    
+###### Table 2: Comparison of outcomes using peak load and seasonal metrics for Passive Solar Design, High-Gain scenario ######
 
-At the outset of this study, we sought to identify a metric that would permit use of high-gain windows as part of appropriate passive solar design, but which would restrict use of those windows on east-west orientations. Neither metric exactly accomplishes this objective; the seasonal metric restricts all use of high-gain windows and the peak cooling metric permits use of high-gain windows in the passive solar archetype, even when that archetype is oriented east-west. 
+| Orientation | Peak load metric                                 | Seasonal metric                                   |
+| ----------- | ------------------------------------------------ | ------------------------------------------------- |
+| North-South | Permits use of high-gain glass in all locations  | Restricts use of high-gain glass in all locations |
+| East-West   | Permits use of high-gain glass in some locations | Restricts use of high-gain glass in all locations |
 
-We suspect that these contrary results may be attributable to the definition of the reference house in 9.36.5.  The reference house has a much higher window area than either of the typical or passive solar scenario. It also distributes these windows equally in all orientations. This means that the reference house generally has a higher cooling load than the typical and passive solar archetypes. The increased cooling budget permits design choices that will increase risks of overheating. 
+###### Table 3: Comparison of outcomes using peak load and seasonal metrics for Typical design, High-Gain scenario ######
+
+| Orientation | Peak load metric                                  | Seasonal metric                                   |
+| ----------- | ------------------------------------------------- | ------------------------------------------------- |
+| North-South | Permits use of high-gain glass in all locations   | Restricts use of high-gain glass in all locations |
+| East-West   | Restricts use of high-gain glass in all locations | Restricts use of high-gain glass in all locations |
+
+
+
+Our analysis shows that neither metric is perfectly suited to control risks of overheating:
+
+- A requirement based on the seasonal cooling energy metric effectively restricts use of high-gain glass, in most scenarios. This includes passive-solar scenario with appropriate window orientation, window-to-floor-area ratios, and overhangs, which could not be designed in some locations. 
+- A requirement based on the peak cooling load effectively permits high-gain windows on the typical and appropriately-designed passive solar archetype when oriented North-South. It also permits high-gain windows on the passive-solar archetype on the east-west scenario in some locations. Anecdotal reports suggests that such homes are in fact at risk of overheating.    
+
+At the outset of this study, we sought to identify a metric that would permit use of high-gain windows as part of appropriate passive solar design, but which would restrict use of those windows on east-west orientations. Neither metric exactly accomplishes this objective:
+
+-  In some locations, the seasonal metric restricts use of high-gain windows in the passive solar design when oriented east-west
+-  In some locations, the peak cooling metric permits use of high-gain windows in the passive solar archetype, even when that archetype is oriented east-west. 
 
 Based on available information, we recommend that the overheating metric be based on the peak cooling load, because this approach will not restrict appropriate passive solar design. While this approach may not effectively control overheating risks in two scenarios considered (typical homes with high gain windows, and passive solar homes with high-gain windows and east-west orientation), we feel this compromise is better than a seasonal metric that may prohibit all high-gain windows. 
 
