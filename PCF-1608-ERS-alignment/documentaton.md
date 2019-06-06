@@ -7,9 +7,9 @@
 > Version of June 6, 2019
 
 ## HTAP Version Info.
-Branch: `NBC-codes`
-Commit: `a4dedc020afaecdde7a5785ff161fb97c01df1aa`
-Local changes (found in `mod_files`):
+Branch: `NBC-codes`<br />
+Commit: `a4dedc020afaecdde7a5785ff161fb97c01df1aa`<br />
+Local changes (found in `mod_files`):<br />
 - `HTAP-options.json`
 - `HTAPUnitCosts.json`
 
