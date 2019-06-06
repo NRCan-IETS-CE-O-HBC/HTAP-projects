@@ -172,7 +172,7 @@ The disparity between the 9.36.5 reference house window area and contemporary ho
 
 Our analysis shows that the **peak cooling load** and the **seasonal cooling requirement** correlate well when compared for different window specifications, orientations and glass ratios. Figure 3 compares these two metrics for the various combinations examined in this study. Generally, increases in peak load are accompanied by increases in seasonal cooling requirement, and vice-versa. However, the results from the typical and passive solar scenarios show that, in some cases, reductions in peak cooling load can be accompanied by increases in seasonal cooling requirement. These observations are limited to the typical design and passive solar scenarios, and only when the windows are equipped with high-gain (SHGC 0.51) windows. 
 
-| Figure 2: Correlation between peak cooling load and seasonal cooling requirement, by scenario |
+| Figure 3: Correlation between peak cooling load and seasonal cooling requirement, by scenario |
 | :----------------------------------------------------------: |
 |         ![](imgs/PercentChangeInLoadvsSeasonal.png)          |
 
@@ -180,7 +180,7 @@ We assessed the suitability of these metrics by examining how a hypothetical ove
 
 Figure 4 depicts our results for the highly-glazed and very-highly-glazed scenarios.  Green blocks indicate scenarios that complied with both hypothetical metrics; red blocks indicate scenarios that complied with neither. Pink blocks indicate scenarios that comply with peak cooling requirement metrics, but which do not comply with the seasonal cooling requirements. 
 
-| Figure 3: Scenario compliance with metrics based on peak cooling load and seasonal cooling requirement, highly-glazed and very-highly-glazed scenarios |
+| Figure 4: Scenario compliance with metrics based on peak cooling load and seasonal cooling requirement, highly-glazed and very-highly-glazed scenarios |
 | :----------------------------------------------------------: |
 |       ![](imgs/MapOfRequirementsH2K-Higly-glazed.png)        |
 
@@ -194,7 +194,7 @@ Figure 5 presents the same data for the typical and passive solar design archety
 
 | Figure 5: Scenario compliance with metrics based on peak cooling load and seasonal cooling requirement, typical and passive-solar scenarios |
 | :----------------------------------------------------------: |
-|        ![](imgs/MapOfRequirementsH2K-typical-ps.png)         |
+|        ![](imgs/MapOfRequirementsH2K-Typical-PS.png)         |
 
 For the low-gain and mid-gain window scenarios, we found that both passive-solar and typical archetypes comply, regardless of orientation, location, or metric used. The high-gain results are more noteworthy:
 
@@ -250,7 +250,7 @@ Figure 6 shows the evaluation of the recommendation: *"The peak cooling requirem
 
 The % difference in peak cooling from the reference case is compared for each archetype variant and orientation with HOT2000 and OS/E+. The green blocks indicate that the predicted peak cooling is *less than the reference house*; red blocks indicate the predicted peak cooling is *exceeds the reference house*.  
 
-| Figure 4: Comparisons of metric outcomes between HOT2000 and OS/E+ |
+| Figure 6: Comparisons of metric outcomes between HOT2000 and OS/E+ |
 | :----------------------------------------------------------: |
 |      ![difference](imgs/diffFromReferenceH2KandOS.png)       |
 
