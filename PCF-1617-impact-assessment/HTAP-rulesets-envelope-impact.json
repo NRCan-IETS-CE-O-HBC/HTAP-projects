@@ -1,0 +1,19 @@
+{ 
+  "upgrade-packages":{
+  	"envelope-upgrade-1":{
+		"Opt-ACH":"ACH_0_6",
+		"Opt-CasementWindows":"NC-3g-LG-u1.14", 
+        "Opt-GenericWall_1Layer_definitions":"NC_R-40(eff)_2x6-16inOC_R24-batt+4.5inXPS_poly_vb",
+        "Opt-FloorHeaderIntIns":"NC_R-29eff_5.5inBatt",
+        "Opt-FoundationWallIntIns":"NBC_936_3.97RSI",
+        "Opt-FoundationSlabBelowGrade":"xps4.5inEffR22.5",
+        "Opt-FoundationSlabOnGrade":"xps5.5inEffR27.5",
+        "Opt-ExposedFloor":"ExpFloorFlash&Batt-R36",
+        "Opt-Ceilings":"CeilR80",
+		"Opt-CathCeilings":"CeilR80"
+  	}
+  },
+  "rulesets":{
+
+  }
+}
