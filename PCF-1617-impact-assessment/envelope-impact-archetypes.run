@@ -15,7 +15,7 @@ RunParameters_END
 ! run in mesh, even if an optimization mode is added in the future.
 RunScope_START
 
-  archetypes                        = NRCan-A11_1500sf_2storey_rowMid_fullBsmt.h2k!, NRCan-arch4_2100sf_2storey_fullBsmt.h2k
+  archetypes                        = NRCan*! -A11_1500sf_2storey_rowMid_fullBsmt.h2k, NRCan-arch4_2100sf_2storey_fullBsmt.h2k,
   locations                         = VANCOUVER,TORONTO,EDMONTON !*
   rulesets                          = NBC9_36[fuel>elect;vent>HRV], NBC9_36[fuel>gas;vent>HRV]
 
@@ -24,7 +24,7 @@ RunScope_END
 ! Parameters controlling the design of the building
 Upgrades_START
 
-   upgrade-package-list = NA , envelope-upgrade-1
+   upgrade-package-list = NA, envelope-upgrade-1, envelope-upgrade-2, envelope-upgrade-3
 
    Opt-FuelCost         = NA
 
@@ -37,7 +37,7 @@ Upgrades_START
 
    Opt-ACH              = NA!,ACH_0_6!, New-Const-air_seal_to_1.50_ach, New-Const-air_seal_to_1.00_ach,  ACH_0_6
 
-   Opt-CasementWindows  = NA!,NC-3g-LG-u1.14 ! , NC-2g-HG-u1.65, NC-2g-MG-u1.65, NC-2g-LG-u1.65
+   Opt-CasementWindows  = NA!,NC-3g-LG-u1.14 , NC-2g-HG-u1.65, NC-2g-MG-u1.65, NC-2g-LG-u1.65
    Opt-Skylights        = NA
    Opt-DoorWindows      = NA
    Opt-Doors            = NA
