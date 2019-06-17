@@ -206,13 +206,13 @@ This could be interpreted as:  (i) the difference in energy use between the prop
 
 
 
-![](C:\HTAP-projects\PCF-1617-impact-assessment\imgs\most-efficient-upgrades.png)
+![](\HTAP-projects\PCF-1617-impact-assessment\imgs\most-efficient-upgrades.png)
 
 none of the archetypes meet tier 5 in any location with the most efficient upgrades. Archetype 1 only meets tier 3 for most of the country. Even an envelope upgrade package with R-80 walls and R-100 attic insulation does not meet the tier 5 requirements for envelope upgrade. 
 
 Where the comparison is heating energy use only, the chart is quite different; all archetypes meet tier 5 except in the coldest areas of canada.
 
-![](C:\HTAP-projects\PCF-1617-impact-assessment\imgs\heating-energy-only-tiers.png)
+![](\HTAP-projects\PCF-1617-impact-assessment\imgs\heating-energy-only-tiers.png)
 
 
 
