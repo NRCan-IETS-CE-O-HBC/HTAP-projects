@@ -188,6 +188,34 @@ Proposed Tiers 4 and 5 imply ambitious levels of energy performance. While prior
 
 #### Findings ####
 
+Step 1 - Envelope
+
+Two observations:
+
+1. the wording of the envelope performance requirements is ambiguous. 
+   Wording in PCF 1617: 
+   [5] --)    For the purpose of compliance with Tables 9.36.6.2.-A and -B, Envelope Performance Improvement is the difference in energy use between the proposed building and the reference building
+
+     [a] --)  including equipment, systems, and assemblies within the scope of 9.36.2., and
+
+     [b] --)  excluding differences in mechanical equipment within the scope of 9.36.3. and 9.36.4.
+
+This could be interpreted as:  (i) the difference in energy use between the proposed and reference buildings excluding the mechanical equipment energy - i.e., Total Energy - Mechanical Equipment Energy or (ii) the difference in energy use between the proposed and reference buildings where the proposed and reference houses have the *same* mechanical equipment energy. 
+
+2. The metric **Energy Use** includes electrical base loads and mechanical equipment. The envelope upgrades will only impact the Heating and Cooling Energy Use; electrical base loads as well as domestic hot water, and ventilation loads will remain constant. It is suggested that the difference in proposed and reference house heating/cooling energy is instead used.
+
+
+
+![](C:\HTAP-projects\PCF-1617-impact-assessment\imgs\most-efficient-upgrades.png)
+
+none of the archetypes meet tier 5 in any location with the most efficient upgrades. Archetype 1 only meets tier 3 for most of the country. Even an envelope upgrade package with R-80 walls and R-100 attic insulation does not meet the tier 5 requirements for envelope upgrade. 
+
+Where the comparison is heating energy use only, the chart is quite different; all archetypes meet tier 5 except in the coldest areas of canada.
+
+![](C:\HTAP-projects\PCF-1617-impact-assessment\imgs\heating-energy-only-tiers.png)
+
+
+
 
 
 
