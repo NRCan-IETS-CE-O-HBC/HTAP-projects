@@ -139,6 +139,24 @@ Proposed tiers 4 and 5 require a home reach level 3 air-tightness (ACH 1.5 @ 50P
 
 ...
 
+| Figure 1. Overall performance improvement by reducing ACH to 1.5@50Pa while other parameters are held at the reference house level |
+| :----------------------------------------------------------: |
+|           ![](imgs\OverallPerformance-ACH1.5.png)            |
+
+
+
+| Figure 2. Incremental cost for reducing the ACH to 1.5@50Pa for NBC9.36 reference house |
+| :----------------------------------------------------------: |
+|                   ![](imgs\CostACH1.5.png)                   |
+
+
+
+| Figure 3. Total builders' cost change due to reduction of ACH to 1.5@50Pa while other parameters are held at the reference house level |
+| ------------------------------------------------------------ |
+| ![](imgs\OverallCostACH1.5.png)                              |
+
+
+
 ### Research Question #2) <br>*Is Tier 5 feasible in in all archetypes and regions?* ###
 
 Proposed Tiers 4 and 5 imply ambitious levels of energy performance. While prior projects have demonstrated that these targets can be achieved in specific cases, their feasibility in all archetypes and in all locations remains uncertain. To evaluate the feasibility of these tiers, CE-O examined the net improvement in the homes' envelope and overall energy performance when the homes were upgraded to the most-efficient options commonly available on the market. 
