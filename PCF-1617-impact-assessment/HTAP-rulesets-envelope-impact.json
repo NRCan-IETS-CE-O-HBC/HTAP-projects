@@ -13,6 +13,9 @@
        "Opt-FlatCeilings"                   :"CeilR40",
        "Opt-CathCeilings"                   :"CeilR40"
   	},
+/// 20% reduction from BC step code
+/// 30% reduction from BC step code
+
 	"envelope-upgrade-2":{
 	   "Opt-ACH"                            :"ACH_0_6",
 	   "Opt-CasementWindows"                :"NC-3g-LG-u1.14", 
@@ -39,6 +42,7 @@
        "Opt-FlatCeilings"                   :"CeilR80",
        "Opt-CathCeilings"                   :"CeilR80"
   	}
+/// all the upgrades with mechanical equipment
   },
   "rulesets":{
 
