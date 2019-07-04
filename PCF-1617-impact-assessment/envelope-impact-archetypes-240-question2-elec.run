@@ -1,0 +1,69 @@
+! Definitions file for HTAP-PRM RUN
+
+! Run-Mode: Parameters that affect how htap-prm is configured.
+RunParameters_START
+  run-mode                           = mesh
+  archetype-dir                      = C:/HTAP-archetypes/NRCan-EGH-NewHousing
+
+  unit-costs-db                      = C:/HTAP/HTAPUnitCosts.json
+  options-file                       = C:/HTAP/HTAP-options.json
+  rulesets-file                      = C:/HTAP-projects/PCF-1617-impact-assessment/HTAP-rulesets-envelope-HVAC-impact.json  
+RunParameters_END
+
+
+! Parameters controlling archetypes, locations, reference rulests. (these will always be
+! run in mesh, even if an optimization mode is added in the future.
+RunScope_START
+
+  archetypes                        = ERS*
+  locations                         = VICTORIA,VANCOUVER,KAMLOOPS,CHATHAM,TORONTO,LONDON,YARMOUTH,HALIFAX,MONTREAL,CHARLOTTETOWN,LETHBRIDGE,OTTAWA,FREDERICTON,SAINTJOHNS,CALGARY,QUEBEC,EDMONTON,REGINA,WINNIPEG,BRANDON,PRINCE ALBERT,SEPTILES,WHITEHORSE,GOOSEBAY,DAWSONCITY,YELLOWKNIFE,INUVIK,IQALUIT,RESOLUTE
+  rulesets                          = NBC9_36[fuel>elect;vent>HRV]
+
+RunScope_END
+
+! Parameters controlling the design of the building
+Upgrades_START
+
+   upgrade-package-list = NA,envelope-upgrade-R40wall-R80attic,envelope-HVAC-upgrade-R40wall-R80attic-elec
+   
+   Opt-FuelCost         = NA
+
+   Opt-ResultHouseCode  = NA
+
+   Opt-Specifications   = NA
+
+   Opt-Baseloads        = NBC-Baseloads!
+   Opt-Temperatures     = NA
+
+   Opt-ACH              = NA!
+
+   Opt-CasementWindows  = NA!
+   Opt-Skylights        = NA
+   Opt-DoorWindows      = NA
+   Opt-Doors            = NA
+
+   Opt-MainWall         = NA
+   Opt-GenericWall_1Layer_definitions = NA
+   Opt-FloorHeaderIntIns      = NA
+
+   Opt-FoundationWallExtIns =      NA
+   Opt-FoundationWallIntIns =      NA
+   Opt-FoundationSlabBelowGrade =  NA
+   Opt-FoundationSlabOnGrade =     NA
+
+   Opt-ExposedFloor     = NA!
+
+   Opt-Ceilings         = NA
+   Opt-AtticCeilings    = NA
+   Opt-CathCeilings     = NA
+   Opt-FlatCeilings     = NA
+
+   Opt-HRVonly          = NA!
+   Opt-HRVspec          = NA
+   Opt-DHWSystem        = NA!
+   Opt-HVACSystem       = NA
+   Opt-DWHRSystem       = NA
+   Opt-H2K-PV           = NA
+   Opt-WindowDistribution = NA!, equal-on-all-sides_9.36
+
+Upgrades_END

@@ -33,7 +33,7 @@ Our investigation into the feasibility of PCF-1617 included:
 PCF 1617 proposes five energy tiers. The lowest tier aligns with the minimum requirements of NBC 9.36.  Each of the subsequent tiers sets forward performance requirements  
 
 1. *Airtightness levels:* specific air-tightness targets that must be verified through a blower-door test.
-2. *Envelope performance improvement:*Energy efficiency savings that must be achieved through envelope improvements alone (air-tightness, insulation, glazing, solar design), and demonstrated through performance modelling.
+2. *Envelope performance improvement:* Energy efficiency savings that must be achieved through envelope improvements alone (air-tightness, insulation, glazing, solar design), and demonstrated through performance modelling.
 3. *Overall Performance improvement:* Energy efficiency savings that must be achieved through envelope and mechanical system improvements (excluding renewable energy systems), and demonstrated through performance modelling.
 
 To comply with a given tier, a home must meet all of the requirements for that tier. Failure to meet any of the requirements for a given tier will cause a home to be deemed compliant with a lower tier. 
@@ -139,27 +139,48 @@ Proposed tiers 4 and 5 require a home reach level 3 air-tightness (ACH 1.5 @ 50P
 
 ...
 
+| Figure 1. Overall performance improvement by reducing ACH to 1.5@50Pa while other parameters are held at the reference house level |
+| :----------------------------------------------------------: |
+|           ![](imgs/OverallPerformance-ACH1.5.png)            |
+
+
+
+| Figure 2. Incremental cost for reducing the ACH to 1.5@50Pa for NBC9.36 reference house |
+| :----------------------------------------------------------: |
+|                   ![](imgs/CostACH1.5.png)                   |
+
+
+
+| Figure 3. Total builders' cost change due to reduction of ACH to 1.5@50Pa while other parameters are held at the reference house level |
+| ------------------------------------------------------------ |
+| ![](imgs/OverallCostACH1.5.png)                              |
+
+
+
 ### Research Question #2) <br>*Is Tier 5 feasible in in all archetypes and regions?* ###
 
 Proposed Tiers 4 and 5 imply ambitious levels of energy performance. While prior projects have demonstrated that these targets can be achieved in specific cases, their feasibility in all archetypes and in all locations remains uncertain. To evaluate the feasibility of these tiers, CE-O examined the net improvement in the homes' envelope and overall energy performance when the homes were upgraded to the most-efficient options commonly available on the market. 
 
 ###### TABLE 5: Specifications for most-efficient upgrade options ######
 
-| Measure           | Component                   | Most Efficient Specification               |
-| ----------------- | --------------------------- | ------------------------------------------ |
-| Envelope options  | Air-tightness               | Air-tightness level 5 (0.6 ACH)[^d]        |
-|                   | Ceiling / Attic insulation  | R80                                        |
-|                   | Above Grade Wall            | R40 Effective (2x6 w/R24 Batt, 4.5 in XPS) |
-|                   | Below-grade Wall            |                                            |
-|                   | Floor Header                |                                            |
-|                   | Exposed Floor               |                                            |
-|                   | Foundation walls            | ==(include exterior and interior spec)==   |
-|                   | Foundation Slab on Grade    |                                            |
-|                   | Foundation Slab below grade |                                            |
-| Equipment options | Heating / Cooling           | Gas:  / Electric: / Oil:                   |
-|                   | DHW                         | Gas:  / Electric: / Oil:                   |
-|                   | HRV                         |                                            |
-|                   | Drain-water heat recovery   |                                            |
+| Measure           | Component                   | Most Efficient Specification                                |
+| ----------------- | --------------------------- | ----------------------------------------------------------- |
+| Envelope options  | Air-tightness               | Air-tightness level 5 (0.6 ACH)[^d]                         |
+|                   | Ceiling / Attic insulation  | Attic: R-80<br />Flat/Cathedral: R-40                       |
+|                   | Above Grade Wall            | R-40 Effective (2x6 w/R24 Batt, 4.5 in XPS)                 |
+|                   | Below-grade Wall            | R-22 Effective                                              |
+|                   | Floor Header                | R-29 Effective                                              |
+|                   | Window                      | Triple, low-e, U: 1.14, low gain                            |
+|                   | Exposed Floor               | R-36 Effective                                              |
+|                   | Foundation walls            | ==(include exterior and interior spec)==                    |
+|                   | Foundation Slab on Grade    | R-27.5 Effective (5.5" xps)                                 |
+|                   | Foundation Slab below grade | R-22.5 Effective (4.5" xps)                                 |
+| Equipment options | Heating / Cooling           | Gas: 96% AFUE<br />Electric:  CCASHP                        |
+|                   | DHW                         | Gas:  EF 0.95 <br />Electric: HPHotWater, EF: 0.9, COP: 2.6 |
+|                   | HRV                         | SRE 78%                                                     |
+|                   | Drain-water heat recovery   | N/A                                                         |
+
+
 
 #### HTAP Analysis ####
 
@@ -189,34 +210,6 @@ Proposed Tiers 4 and 5 imply ambitious levels of energy performance. While prior
 #### Findings ####
 
 Step 1 - Envelope
-
-Two observations:
-
-1. the wording of the envelope performance requirements is ambiguous. 
-   Wording in PCF 1617: 
-   [5] --)    For the purpose of compliance with Tables 9.36.6.2.-A and -B, Envelope Performance Improvement is the difference in energy use between the proposed building and the reference building
-
-     [a] --)  including equipment, systems, and assemblies within the scope of 9.36.2., and
-
-     [b] --)  excluding differences in mechanical equipment within the scope of 9.36.3. and 9.36.4.
-
-This could be interpreted as:  (i) the difference in energy use between the proposed and reference buildings excluding the mechanical equipment energy - i.e., Total Energy - Mechanical Equipment Energy or (ii) the difference in energy use between the proposed and reference buildings where the proposed and reference houses have the *same* mechanical equipment energy. 
-
-2. The metric **Energy Use** includes electrical base loads and mechanical equipment. The envelope upgrades will only impact the Heating and Cooling Energy Use; electrical base loads as well as domestic hot water, and ventilation loads will remain constant. It is suggested that the difference in proposed and reference house heating/cooling energy is instead used.
-
-
-
-![](\HTAP-projects\PCF-1617-impact-assessment\imgs\most-efficient-upgrades.png)
-
-none of the archetypes meet tier 5 in any location with the most efficient upgrades. Archetype 1 only meets tier 3 for most of the country. Even an envelope upgrade package with R-80 walls and R-100 attic insulation does not meet the tier 5 requirements for envelope upgrade. 
-
-Where the comparison is heating energy use only, the chart is quite different; all archetypes meet tier 5 except in the coldest areas of canada.
-
-![](\HTAP-projects\PCF-1617-impact-assessment\imgs\heating-energy-only-tiers.png)
-
-
-
-
 
 
 
@@ -317,7 +310,7 @@ CE-O explored the cost impacts of each tier using a packaged upgrade approach. I
 
 ##  Appendix B: Locations 
 
-###### Table B: Select weather locatuons ######
+###### Table B: Select weather locations ######
 
 | Zone |                                     | HDD   | Design Temp | DCDBT | DCWBT |
 | ---- | ----------------------------------- | ----- | ----------- | ----- | ----- |
@@ -377,4 +370,34 @@ CE-O explored the cost impacts of each tier using a packaged upgrade approach. I
 |                   |                  |      |      |
 |                   |                  |      |      |
 |                   |                  |      |      |
+
+## Appendix C: Envelope and Overall Performance Interpretation 
+
+Two observations:
+
+1. the wording of the envelope performance requirements is ambiguous. Wording in PCF 1617: 
+
+   > [5]  For the purpose of compliance with Tables 9.36.6.2.-A and -B, Envelope Performance Improvement is the difference in energy use between the proposed building and the reference building
+   >
+   >   [a] including equipment, systems, and assemblies within the scope of 9.36.2., and
+   >
+   >   [b] excluding differences in mechanical equipment within the scope of 9.36.3. and 9.36.4.
+
+This could be interpreted as:  (i) the difference in energy use between the proposed and reference buildings excluding the mechanical equipment energy - i.e., Total Energy - Mechanical Equipment Energy or (ii) the difference in energy use between the proposed and reference buildings where the proposed and reference houses have the *same* mechanical equipment energy. 
+
+2. The metric **Energy Use** includes electrical base loads and mechanical equipment. The envelope upgrades will only impact the Heating and Cooling Energy Use; electrical base loads as well as domestic hot water, and ventilation loads will remain constant. It is suggested that the difference in proposed and reference house heating/cooling energy is instead used.
+
+
+
+![](C:/HTAP-projects/PCF-1617-impact-assessment/imgs/most-efficient-upgrades.png)
+
+none of the archetypes meet tier 5 in any location with the most efficient upgrades. Archetype 1 only meets tier 3 for most of the country. Even an envelope upgrade package with R-80 walls and R-100 attic insulation does not meet the tier 5 requirements for envelope upgrade. 
+
+Where the comparison is heating energy use only, the chart is quite different; all archetypes meet tier 5 except in the coldest areas of Canada.
+
+![](C:/HTAP-projects/PCF-1617-impact-assessment/imgs/heating-energy-only-tiers.png)
+
+
+
+
 
