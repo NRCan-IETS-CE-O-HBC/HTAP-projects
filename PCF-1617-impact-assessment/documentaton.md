@@ -209,11 +209,28 @@ Proposed Tiers 4 and 5 imply ambitious levels of energy performance. While prior
 
 #### Findings ####
 
-Step 1 - Envelope
+##### Step 1 - Envelope
+
+![](C:\HTAP-projects\PCF-1617-impact-assessment\imgs\240-archetypes-envelope-tiers.png)
+
+the above figure shows how the 240 archetypes perform for the envelope targets. the graph shows the percent reduction in heating energy for both gas and electrical based systems for climate zones across the country. Each archetype was simulated for each location with the basecase and the upgraded case for both gas and electrical.
+
+many archetypes are able to meet the tier 5 performance across the country, but there are several that only meet tier 3.
 
 
 
-### Research Question #3) <br>*How much will it cost to reach each tier?* ###
+##### Step 2 - Overall performance: #####
+
+![](C:\HTAP-projects\PCF-1617-impact-assessment\imgs\240-archetypes-overall-tiers.png)
+
+as opposed to the envelope tiers, where the selection of fuel does not have a significant impact on the achievable tier, for overall energy performance improvement, there are no gas archetypes that meet tier 5 in any location. To reach tier 5 requires fuel-switching. 
+Most archetypes are able to meet tier 4 in most locations.
+
+![](C:\HTAP-projects\PCF-1617-impact-assessment\imgs\tier-5-performance-targets.png)
+
+
+
+### *Research Question #3) <br>*How much will it cost to reach each tier?* ###
 
 CE-O's prior optimization research shown there are many different ways that we can upgrade homes to meet performance criteria, and that the range of solutions can vary widely by cost. Our experience also shows that the lowest-cost solutions are not necessarily the best ones, and that different builders may choose packages to achieve the same outcome. 
 
