@@ -196,7 +196,7 @@ Proposed Tiers 4 and 5 imply ambitious levels of energy performance. While prior
 
 **Step 2 - Overall performance:** Using step 1 as a stating point, configure and execute an HTAP run that also: 
 
-   -  Apply the most-efficient equipment  specifications in Table 5
+   -  Apply the most-efficient equipment specifications in Table 5
 
 **Step 3 - Analysis:** Examining the results from steps 1 and 2, determine: 
 
@@ -209,21 +209,22 @@ Proposed Tiers 4 and 5 imply ambitious levels of energy performance. While prior
 
 #### Findings ####
 
-##### Step 1 - Envelope
+##### Envelope Performance Improvement
 
 ![](C:\HTAP-projects\PCF-1617-impact-assessment\imgs\240-archetypes-envelope-tiers.png)
 
-the above figure shows how the 240 archetypes perform for the envelope targets. the graph shows the percent reduction in heating energy for both gas and electrical based systems for climate zones across the country. Each archetype was simulated for each location with the basecase and the upgraded case for both gas and electrical.
+Each of the 240 archetypes were simulated for both the 9.36 reference house ruleset and the most-efficient envelope options, with electric and gas heating, for 29 locations across the country. The above figure plots the percent reduction in heating energy from the reference case.
 
-many archetypes are able to meet the tier 5 performance across the country, but there are several that only meet tier 3.
+Our analysis shows that many archetypes are able to meet the tier 5 performance across the country, but several can only meet tier 3.  There is not a significant difference in the number of archetypes that meet tier 5 for electric and gas heating scenarios.
 
 
 
-##### Step 2 - Overall performance: #####
+##### Overall Energy Performance Improvement #####
 
 ![](C:\HTAP-projects\PCF-1617-impact-assessment\imgs\240-archetypes-overall-tiers.png)
 
-as opposed to the envelope tiers, where the selection of fuel does not have a significant impact on the achievable tier, for overall energy performance improvement, there are no gas archetypes that meet tier 5 in any location. To reach tier 5 requires fuel-switching. 
+As opposed to the envelope tiers, where the selection of fuel does not have a significant impact on the achievable tier, for overall energy performance improvement, there are no gas archetypes that meet tier 5 in any location. To reach tier 5 requires fuel-switching. 
+
 Most archetypes are able to meet tier 4 in most locations.
 
 ![](C:\HTAP-projects\PCF-1617-impact-assessment\imgs\tier-5-performance-targets.png)
@@ -242,39 +243,47 @@ CE-O explored the cost impacts of each tier using a packaged upgrade approach. I
 
 ###### Table 6: Envelope First packages ######
 
-| Component                   | B: ~10%  | C: ~20%  | D: ~40%  | E: ~70%  |
-| --------------------------- | -------- | -------- | -------- | -------- |
-| Air-tightness               | 2.0 ACH  | 1.5 ACH  | 1.0 ACH  | 0.6 ACH  |
-| Ceiling / Attic insulation  |          |          |          |          |
-| Above Grade Wall            |          |          |          |          |
-| Below-grade Wall            |          |          |          |          |
-| Floor Header                |          |          |          |          |
-| Exposed Floor               |          |          |          |          |
-| Foundation walls            |          |          |          |          |
-| Foundation Slab on Grade    |          |          |          |          |
-| Foundation Slab below grade |          |          |          |          |
-| Heating / Cooling           | NBC 9.36 | NBC 9.36 | NBC 9.36 | NBC 9.36 |
-| DHW                         | NBC 9.36 | NBC 9.36 | NBC 9.36 | NBC 9.36 |
-| HRV                         | NBC 9.36 | NBC 9.36 | NBC 9.36 | NBC 9.36 |
-| Drain-water heat recovery   |          |          |          |          |
+[^all entries in table with `-` indicate NBC 9.36 performance levels]: 
+
+| Component                   | 1    | 2      | 3    | 6                          | 7                           | 8                           |
+| --------------------------- | ---- | ------ | ---- | -------------------------- | --------------------------- | --------------------------- |
+| Air-tightness (ACH)         | 2.0  | 2.0    | 2.0  | 1.5                        | 1.0                         | 0.6                         |
+| Ceiling / Attic insulation  | R-40 | R-60   | R-60 | R-70                       | R-70                        | R-80                        |
+| Above Grade Wall            | R-17 | R-17.5 | R-22 | R-21                       | R-21                        | R-40                        |
+| Below-grade Wall            | -    | -      | -    | -                          | R-17                        | R-22.5                      |
+| Widow                       | -    | -      | -    | Triple<br />MG<br />U-1.36 | triple <br />LG<br />U-1.14 | triple <br />LG<br />U-1.14 |
+| Floor Header                | -    | -      | -    | -                          |                             |                             |
+| Exposed Floor               | -    | -      | -    | -                          | R-31                        | R-36                        |
+| Foundation Walls            | -    | -      | -    | -                          | R-17                        | R-22.5                      |
+| Foundation Slab on Grade    | -    | -      | -    | -                          | -                           | R-22.5                      |
+| Foundation Slab below grade | -    | -      | -    | -                          | -                           | R-27.5                      |
+| Heating / Cooling           | -    | -      | -    | -                          | -                           | -                           |
+| DHW                         | -    | -      | -    | -                          | -                           | -                           |
+| HRV                         | -    | -      | -    | -                          | -                           | -                           |
+| Drain-water heat recovery   | NA   | NA     | NA   | NA                         | NA                          | NA                          |
+
+![](C:\HTAP-projects\PCF-1617-impact-assessment\imgs\minimum package to meet tiers - envelope.png)
+
+For the **envelope first** analysis, the minimum upgrade packages (as identified in the table above) required to meet the tiers in the climate zones was evaluated. With envelope upgrades only, to meet tier 5 requires at minimum upgrade package 3 in zone 4, package 6 is required for zones 5 and 6, package 7 is required zones 7a and 7b, while zone 8 requires minimum package 8.
 
 ###### Table 7: Efficient-Equipment Packages ######
 
-| Component                   | B: ~10% | C: ~20% | D: ~40% | E: ~70% |
-| --------------------------- | ------- | ------- | ------- | ------- |
-| Air-tightness               | 2.0 ACH | 1.5 ACH | 1.5 ACH | 1.5 ACH |
-| Ceiling / Attic insulation  |         |         |         |         |
-| Above Grade Wall            |         |         |         |         |
-| Below-grade Wall            |         |         |         |         |
-| Floor Header                |         |         |         |         |
-| Exposed Floor               |         |         |         |         |
-| Foundation walls            |         |         |         |         |
-| Foundation Slab on Grade    |         |         |         |         |
-| Foundation Slab below grade |         |         |         |         |
-| Heating / Cooling           |         | CCASHP? | CCASHP? | CCASHP? |
-| DHW                         |         |         |         | HPWH?   |
-| HRV                         |         |         |         |         |
-| Drain-water heat recovery   |         |         |         |         |
+| Component                   | 1       | 2      | 3      | 6                | 7                 | 8                 |
+| --------------------------- | ------- | ------ | ------ | ---------------- | ----------------- | ----------------- |
+| Air-tightness (ACH)         | 2.0     | 2.0    | 2.0    | 1.5              | 1.0               | 0.6               |
+| Ceiling / Attic insulation  | R-40    | R-60   | R-60   | R-70             | R-70              | R-80              |
+| Above Grade Wall            | R-17    | R-17.5 | R-22   | R-21             | R-21              | R-40              |
+| Below-grade Wall            | -       | -      | -      | -                | R-17              | R-22.5            |
+| Widow                       | -       | -      | -      | Triple MG U-1.36 | triple  LG U-1.14 | triple  LG U-1.14 |
+| Floor Header                | -       | -      | -      | -                |                   |                   |
+| Exposed Floor               | -       | -      | -      | -                | R-31              | R-36              |
+| Foundation Walls            | -       | -      | -      | -                | R-17              | R-22.5            |
+| Foundation Slab on Grade    | -       | -      | -      | -                | -                 | R-22.5            |
+| Foundation Slab below grade | -       | -      | -      | -                | -                 | R-27.5            |
+| Heating / Cooling           | CCASHP- | CCASHP | CCASHP | CCASHP           | CCASHP            | CCASHP            |
+| DHW                         | HPWH    | HPWH   | HPWH   | HPWH             | HPWH              | HPWH              |
+| HRV                         | SRE 78  | SRE 78 | SRE 78 | SRE 78           | SRE 78            | SRE 78            |
+| Drain-water heat recovery   | NA      | NA     | NA     | NA               | NA                | NA                |
 
 ###### Table 8: Gas heating packages ######
 
