@@ -268,40 +268,41 @@ For the **envelope first** analysis, the minimum upgrade packages (as identified
 
 ###### Table 7: Efficient-Equipment Packages ######
 
-| Component                   | 1       | 2      | 3      | 6                | 7                 | 8                 |
-| --------------------------- | ------- | ------ | ------ | ---------------- | ----------------- | ----------------- |
-| Air-tightness (ACH)         | 2.0     | 2.0    | 2.0    | 1.5              | 1.0               | 0.6               |
-| Ceiling / Attic insulation  | R-40    | R-60   | R-60   | R-70             | R-70              | R-80              |
-| Above Grade Wall            | R-17    | R-17.5 | R-22   | R-21             | R-21              | R-40              |
-| Below-grade Wall            | -       | -      | -      | -                | R-17              | R-22.5            |
-| Widow                       | -       | -      | -      | Triple MG U-1.36 | triple  LG U-1.14 | triple  LG U-1.14 |
-| Floor Header                | -       | -      | -      | -                |                   |                   |
-| Exposed Floor               | -       | -      | -      | -                | R-31              | R-36              |
-| Foundation Walls            | -       | -      | -      | -                | R-17              | R-22.5            |
-| Foundation Slab on Grade    | -       | -      | -      | -                | -                 | R-22.5            |
-| Foundation Slab below grade | -       | -      | -      | -                | -                 | R-27.5            |
-| Heating / Cooling           | CCASHP- | CCASHP | CCASHP | CCASHP           | CCASHP            | CCASHP            |
-| DHW                         | HPWH    | HPWH   | HPWH   | HPWH             | HPWH              | HPWH              |
-| HRV                         | SRE 78  | SRE 78 | SRE 78 | SRE 78           | SRE 78            | SRE 78            |
-| Drain-water heat recovery   | NA      | NA     | NA     | NA               | NA                | NA                |
+| Component                   | 1      | 2      | 3      | 6                | 7                | 8                |
+| --------------------------- | ------ | ------ | ------ | ---------------- | ---------------- | ---------------- |
+| Air-tightness (ACH)         | 2.0    | 2.0    | 2.0    | 1.5              | 1.0              | 0.6              |
+| Ceiling / Attic insulation  | R-40   | R-60   | R-60   | R-70             | R-70             | R-80             |
+| Above Grade Wall            | R-17   | R-17.5 | R-22   | R-21             | R-21             | R-40             |
+| Below-grade Wall            | -      | -      | -      | -                | R-17             | R-22.5           |
+| Widow                       | -      | -      | -      | Triple MG U-1.36 | Triple LG U-1.14 | Triple LG U-1.14 |
+| Floor Header                | -      | -      | -      | -                |                  |                  |
+| Exposed Floor               | -      | -      | -      | -                | R-31             | R-36             |
+| Foundation Walls            | -      | -      | -      | -                | R-17             | R-22.5           |
+| Foundation Slab on Grade    | -      | -      | -      | -                | -                | R-22.5           |
+| Foundation Slab below grade | -      | -      | -      | -                | -                | R-27.5           |
+| Heating / Cooling           | CCASHP | CCASHP | CCASHP | CCASHP           | CCASHP           | CCASHP           |
+| DHW                         | HPWH   | HPWH   | HPWH   | HPWH             | HPWH             | HPWH             |
+| HRV                         | SRE 78 | SRE 78 | SRE 78 | SRE 78           | SRE 78           | SRE 78           |
+| Drain-water heat recovery   | NA     | NA     | NA     | NA               | NA               | NA               |
 
 ###### Table 8: Gas heating packages ######
 
-| Component                   | B: ~10%  | C: ~20%  | D: ~40%  | E: ~70%  |
-| --------------------------- | -------- | -------- | -------- | -------- |
-| Air-tightness               |          |          |          |          |
-| Ceiling / Attic insulation  |          |          |          |          |
-| Above Grade Wall            |          |          |          |          |
-| Below-grade Wall            |          |          |          |          |
-| Floor Header                |          |          |          |          |
-| Exposed Floor               |          |          |          |          |
-| Foundation walls            |          |          |          |          |
-| Foundation Slab on Grade    |          |          |          |          |
-| Foundation Slab below grade |          |          |          |          |
-| Heating / Cooling           | 96% AFUE | 96% AFUE | 96% AFUE | 96% AFUE |
-| DHW                         | EF 0.9+  | EF 0.9+  | EF 0.9+  | EF 0.9+  |
-| HRV                         |          |          |          |          |
-| Drain-water heat recovery   |          |          |          |          |
+| Component                   | 1        | 2       | 3       | 6                     | 7                     | 8                     |
+| --------------------------- | -------- | ------- | ------- | --------------------- | --------------------- | --------------------- |
+| Air-tightness (ACH)         | 2.0      | 2.0     | 2.0     | 1.5                   | 1.0                   | 0.6                   |
+| Ceiling / Attic insulation  | R-40     | R-60    | R-60    | R-70                  | R-70                  | R-80                  |
+| Above Grade Wall            | R-17     | R-17.5  | R-22    | R-21                  | R-21                  | R-40                  |
+| Below-grade Wall            | -        | -       | -       | -                     | R-17                  | R-22.5                |
+| Widow                       | -        | -       | -       | Triple MG<br />U-1.36 | Triple LG<br />U-1.14 | Triple LG<br />U-1.14 |
+| Floor Header                | -        | -       | -       | -                     |                       |                       |
+| Exposed Floor               | -        | -       | -       | -                     | R-31                  | R-36                  |
+| Foundation Walls            | -        | -       | -       | -                     | R-17                  | R-22.5                |
+| Foundation Slab on Grade    | -        | -       | -       | -                     | -                     | R-22.5                |
+| Foundation Slab below grade | -        | -       | -       | -                     | -                     | R-27.5                |
+| Heating / Cooling           | 96% AFUE | 96%     | 96%     | 96%                   | 96%                   | 96%                   |
+| DHW                         | EF 0.95  | EF 0.95 | EF 0.95 | EF 0.95               | EF 0.95               | EF 0.95               |
+| HRV                         | SRE 78   | SRE 78  | SRE 78  | SRE 78                | SRE 78                | SRE 78                |
+| Drain-water heat recovery   | NA       | NA      | NA      | NA                    | NA                    | NA                    |
 
 ####  ####
 
@@ -313,7 +314,7 @@ For the **envelope first** analysis, the minimum upgrade packages (as identified
 
 ## Notes ##
 
-[^a]:   This definition may prove problematic.  Envelope improvements can only affect a building’s space heating and space cooling (if equipped) energy use. Builders are expected to reduce overall energy use by 35% or more, using measures that only affect a fraction of overall energy use. This approach will make it easier to hit envelope targets in colder locations, because space heating is a bigger fraction of overall energy impacts (see pictures below -- comparing the % impact of air tightness improvements relative to the NBC.). In warmer locations, builders will have to work harder to hit the envelope target .   ![1559678720973](imgs/1559678720973.png) Consider proposing alternative requirment based on space heating alone. 
+[^a]:   This definition may prove problematic.  Envelope improvements can only affect a building’s space heating and space cooling (if equipped) energy use. Builders are expected to reduce overall energy use by 35% or more, using measures that only affect a fraction of overall energy use. This approach will make it easier to hit envelope targets in colder locations, because space heating is a bigger fraction of overall energy impacts (see pictures below -- comparing the % impact of air tightness improvements relative to the NBC.). In warmer locations, builders will have to work harder to hit the envelope target .   ![1559678720973](imgs/1559678720973.png) Consider proposing alternative requirement based on space heating alone. 
 
 
 
@@ -371,31 +372,6 @@ For the **envelope first** analysis, the minimum upgrade packages (as identified
 |      | RESOLUTE, NUNAVUT                   | 12360 | -42         | 11    | 8.5   |
 
 
-
-
-
-| Province          | Weather Location | HDDs | CDDs |
-| ----------------- | ---------------- | ---- | ---- |
-| Alberta           | Calgary          | 5000 |      |
-|                   | Edmonton         | 5120 |      |
-|                   | Ford McMurry     | 6250 |      |
-|                   | Lethbridge       | 4500 |      |
-| British Columbia  | Victoria         | 2650 |      |
-|                   | Vancouver        | 2825 |      |
-|                   | Prince           |      |      |
-|                   |                  |      |      |
-|                   |                  |      |      |
-|                   |                  |      |      |
-|                   |                  |      |      |
-|                   |                  |      |      |
-|                   |                  |      |      |
-|                   |                  |      |      |
-|                   |                  |      |      |
-|                   |                  |      |      |
-| Yukon Territories | Whitehorse       |      |      |
-|                   |                  |      |      |
-|                   |                  |      |      |
-|                   |                  |      |      |
 
 ## Appendix C: Envelope and Overall Performance Interpretation 
 
