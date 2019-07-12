@@ -54,7 +54,7 @@ A separate proposed change form (PCF 1610) defines 5 air-tightness performance l
 
 
 
-For attached zones evaluated using unguarded tsting, the Air-tightness levels are defined as in Table 2.
+For attached zones evaluated using unguarded testing, the Air-tightness levels are defined as in Table 2.
 
 ###### Table 2: Air-tightness level definitions, attached zones tested using the unguarded blower door test method. ######
 
@@ -237,6 +237,8 @@ CE-O's prior optimization research shown there are many different ways that we c
 
 CE-O explored the cost impacts of each tier using a packaged upgrade approach. In this work, CE-O proposed a sets of packaged upgrades that are expected to achieve energy savings that approximate the targets for the various performance tiers. We selected these packages to correspond to three different approaches to home design:
 
+----tier 3,4,5 then ach level 1 for tier 3, ach 3 for tiers 4 & 5----
+
 1. The **envelope-first** approach, which prioritizes improvements to air-sealing and insulation over equipment upgrades, and chooses simpler equipment when possible. 
 2. The **efficient-equipment** approach, which balances envelope upgrades with most-efficient equipment. 
 3. The **gas-heating** approach, which selects envelope and mechanical upgrades with the intent of using natural gas as the primary heating fuel. 
@@ -247,7 +249,7 @@ CE-O explored the cost impacts of each tier using a packaged upgrade approach. I
 
 | Component                   | 1    | 2      | 3    | 6                          | 7                           | 8                           |
 | --------------------------- | ---- | ------ | ---- | -------------------------- | --------------------------- | --------------------------- |
-| Air-tightness (ACH)         | 2.0  | 2.0    | 2.0  | 1.5                        | 1.0                         | 0.6                         |
+| Air-tightness (ACH)         | 2.5  | 2.5    | 2.5  | 1.5                        | 1.0                         | 0.6                         |
 | Ceiling / Attic insulation  | R-40 | R-60   | R-60 | R-70                       | R-70                        | R-80                        |
 | Above Grade Wall            | R-17 | R-17.5 | R-22 | R-21                       | R-21                        | R-40                        |
 | Below-grade Wall            | -    | -      | -    | -                          | R-17                        | R-22.5                      |
@@ -280,7 +282,7 @@ For the **envelope first** analysis, the minimum upgrade packages (as identified
 | Foundation Walls            | -      | -      | -      | -                | R-17             | R-22.5           |
 | Foundation Slab on Grade    | -      | -      | -      | -                | -                | R-22.5           |
 | Foundation Slab below grade | -      | -      | -      | -                | -                | R-27.5           |
-| Heating / Cooling           | CCASHP | CCASHP | CCASHP | CCASHP           | CCASHP           | CCASHP           |
+| Heating                     | CCASHP | CCASHP | CCASHP | CCASHP           | CCASHP           | CCASHP           |
 | DHW                         | HPWH   | HPWH   | HPWH   | HPWH             | HPWH             | HPWH             |
 | HRV                         | SRE 78 | SRE 78 | SRE 78 | SRE 78           | SRE 78           | SRE 78           |
 | Drain-water heat recovery   | NA     | NA     | NA     | NA               | NA               | NA               |
@@ -299,7 +301,7 @@ For the **envelope first** analysis, the minimum upgrade packages (as identified
 | Foundation Walls            | -        | -       | -       | -                     | R-17                  | R-22.5                |
 | Foundation Slab on Grade    | -        | -       | -       | -                     | -                     | R-22.5                |
 | Foundation Slab below grade | -        | -       | -       | -                     | -                     | R-27.5                |
-| Heating / Cooling           | 96% AFUE | 96%     | 96%     | 96%                   | 96%                   | 96%                   |
+| Heating                     | 96% AFUE | 96%     | 96%     | 96%                   | 96%                   | 96%                   |
 | DHW                         | EF 0.95  | EF 0.95 | EF 0.95 | EF 0.95               | EF 0.95               | EF 0.95               |
 | HRV                         | SRE 78   | SRE 78  | SRE 78  | SRE 78                | SRE 78                | SRE 78                |
 | Drain-water heat recovery   | NA       | NA      | NA      | NA                    | NA                    | NA                    |
