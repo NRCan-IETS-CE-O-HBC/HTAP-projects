@@ -139,7 +139,7 @@ Proposed tiers 4 and 5 require a home reach level 3 air-tightness (ACH 1.5 @ 50P
 
 ...
 
-| Figure 1. Overall performance improvement by reducing ACH to 1.5@50Pa while other parameters are held at the reference house level |
+| Figure 1. Envelope performance improvement by reducing ACH to 1.5@50Pa while other parameters are held at the reference house level |
 | :----------------------------------------------------------: |
 |           ![](imgs/OverallPerformance-ACH1.5.png)            |
 
