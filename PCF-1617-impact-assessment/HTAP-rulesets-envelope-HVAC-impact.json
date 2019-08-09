@@ -90,7 +90,37 @@
        "Opt-FlatCeilings"                   :"CeilR40",
        "Opt-CathCeilings"                   :"CeilR40"
   	},
-
+  	"envelope-k":{
+       "Opt-ACH"                            :"ACH_0_6",
+       "Opt-CasementWindows"                :"NC-3g-MG-u1.08", 
+       "Opt-GenericWall_1Layer_definitions" :"NC_R-40(eff)_2x6-16inOC_R24-batt+4.5inXPS_poly_vb",
+       "Opt-FoundationWallIntIns"           :"NBC_936_3.97RSI",
+	   "Opt-FoundationWallExtIns"			:"xps4inEffR20",
+	   "Opt-FloorHeaderIntIns"				:"NC_R-29eff_5.5inBatt",
+       "Opt-FoundationSlabBelowGrade"       :"xps4.5inEffR22.5",
+       "Opt-FoundationSlabOnGrade"          :"xps5.5inEffR27.5",
+       "Opt-ExposedFloor"                   :"ExpFloorFoamed-R52",
+       "Opt-Ceilings"                       :"CeilR80",
+	   "Opt-AtticCeilings"                  :"CeilR80",
+       "Opt-FlatCeilings"                   :"CeilR80",
+       "Opt-CathCeilings"                   :"CeilR80"
+  	},
+	
+  	"envelope-l":{
+       "Opt-ACH"                            :"ACH_0_6",
+       "Opt-CasementWindows"                :"NC-3g-LG-u0.85", 
+       "Opt-GenericWall_1Layer_definitions" :"NC_R-40(eff)_2x6-16inOC_R24-batt+4.5inXPS_poly_vb",
+       "Opt-FoundationWallIntIns"           :"NBC_936_3.97RSI",
+	   "Opt-FoundationWallExtIns"			:"xps4inEffR20",
+	   "Opt-FloorHeaderIntIns"				:"NC_R-29eff_5.5inBatt",
+       "Opt-FoundationSlabBelowGrade"       :"xps4.5inEffR22.5",
+       "Opt-FoundationSlabOnGrade"          :"xps5.5inEffR27.5",
+       "Opt-ExposedFloor"                   :"ExpFloorFoamed-R52",
+       "Opt-Ceilings"                       :"CeilR80",
+	   "Opt-AtticCeilings"                  :"CeilR80",
+       "Opt-FlatCeilings"                   :"CeilR80",
+       "Opt-CathCeilings"                   :"CeilR80"
+  	},
 
 	"gas-a":{
 	   "Opt-ACH"                            :"ACH_2_5",
@@ -99,7 +129,8 @@
 	   "Opt-AtticCeilings"                  :"NBC_Ceiling_zone6",
 	   "Opt-HVACSystem"                     :"condensing-gas-furnace",
 	   "Opt-HRVonly"                        :"HRV_sre_78",
-	   "Opt-DHWSystem"                      :"GasInstantaneous" 
+	   "Opt-DHWSystem"                      :"GasInstantaneous",
+	   "Opt-DWHRSystem"						:"DWHR-eff-55"		   
 	},  
 	"gas-b":{
 	   "Opt-ACH"                            :"ACH_2_5",
@@ -108,7 +139,8 @@
 	   "Opt-AtticCeilings"                  :"NBC_Ceiling_zone7B",
 	   "Opt-HVACSystem"                     :"condensing-gas-furnace",
 	   "Opt-HRVonly"                        :"HRV_sre_78",
-	   "Opt-DHWSystem"                      :"GasInstantaneous" 
+	   "Opt-DHWSystem"                      :"GasInstantaneous",
+	   "Opt-DWHRSystem"						:"DWHR-eff-55"		   
 	},  
 	"gas-c":{
 	   "Opt-ACH"                            :"ACH_2_5",
@@ -117,7 +149,8 @@
 	   "Opt-AtticCeilings"                  :"NBC_Ceiling_zone8",
 	   "Opt-HVACSystem"                     :"condensing-gas-furnace",
 	   "Opt-HRVonly"                        :"HRV_sre_78",
-	   "Opt-DHWSystem"                      :"GasInstantaneous" 
+	   "Opt-DHWSystem"                      :"GasInstantaneous" ,
+	   "Opt-DWHRSystem"						:"DWHR-eff-55"	
 	},  
 
 	"gas-d":{
@@ -128,7 +161,8 @@
 	   "Opt-AtticCeilings"                  :"NBC_Ceiling_zone6",
 	   "Opt-HVACSystem"                     :"condensing-gas-furnace",
 	   "Opt-HRVonly"                        :"HRV_sre_78",
-	   "Opt-DHWSystem"                      :"GasInstantaneous" 
+	   "Opt-DHWSystem"                      :"GasInstantaneous",
+	   "Opt-DWHRSystem"						:"DWHR-eff-55"		   
 	},  
 	
     "gas-e":{
@@ -139,7 +173,8 @@
 	   "Opt-AtticCeilings"                  :"NBC_Ceiling_zone8",
 	   "Opt-HVACSystem"                     :"condensing-gas-furnace",
 	   "Opt-HRVonly"                        :"HRV_sre_78",
-	   "Opt-DHWSystem"                      :"GasInstantaneous" 
+	   "Opt-DHWSystem"                      :"GasInstantaneous",
+	   "Opt-DWHRSystem"						:"DWHR-eff-55"		   
 	},  
 	
 	"gas-f":{
@@ -150,7 +185,8 @@
 	   "Opt-AtticCeilings"                  :"CeilR70",
 	   "Opt-HVACSystem"                     :"condensing-gas-furnace",
 	   "Opt-HRVonly"                        :"HRV_sre_78",
-	   "Opt-DHWSystem"                      :"GasInstantaneous" 
+	   "Opt-DHWSystem"                      :"GasInstantaneous",
+	   "Opt-DWHRSystem"						:"DWHR-eff-55"		   
 	},  
 	"gas-g":{
 	   "Opt-ACH"                            :"New-Const-air_seal_to_1.00_ach",
@@ -164,7 +200,8 @@
        "Opt-CathCeilings"                   :"CeilR40",
 	   "Opt-HVACSystem"                     :"condensing-gas-furnace",
 	   "Opt-HRVonly"                        :"HRV_sre_78",
-	   "Opt-DHWSystem"                      :"GasInstantaneous" 
+	   "Opt-DHWSystem"                      :"GasInstantaneous",
+	   "Opt-DWHRSystem"						:"DWHR-eff-55"		   
  	},
   	"gas-h":{
        "Opt-ACH"                            :"ACH_0_6",
@@ -180,7 +217,8 @@
        "Opt-CathCeilings"                   :"CeilR40",
 	   "Opt-HVACSystem"                     :"condensing-gas-furnace",
 	   "Opt-HRVonly"                        :"HRV_sre_78",
-	   "Opt-DHWSystem"                      :"GasInstantaneous" 
+	   "Opt-DHWSystem"                      :"GasInstantaneous",
+	   "Opt-DWHRSystem"						:"DWHR-eff-55"		   
   	},
 	"gas-i":{
 	   "Opt-ACH"                            :"New-Const-air_seal_to_1.00_ach",
@@ -194,7 +232,8 @@
        "Opt-CathCeilings"                   :"CeilR40",
 	   "Opt-HVACSystem"                     :"condensing-gas-furnace",
 	   "Opt-HRVonly"                        :"HRV_sre_78",
-	   "Opt-DHWSystem"                      :"GasInstantaneous" 
+	   "Opt-DHWSystem"                      :"GasInstantaneous",
+	   "Opt-DWHRSystem"						:"DWHR-eff-55"		   
  	},
  	"gas-j":{
        "Opt-ACH"                            :"ACH_0_6",
@@ -210,35 +249,79 @@
        "Opt-CathCeilings"                   :"CeilR40",
    	   "Opt-HVACSystem"                     :"condensing-gas-furnace",
 	   "Opt-HRVonly"                        :"HRV_sre_78",
-	   "Opt-DHWSystem"                      :"GasInstantaneous" 
+	   "Opt-DHWSystem"                      :"GasInstantaneous", 
+	   "Opt-DWHRSystem"						:"DWHR-eff-55"	
+	   },
+  	"gas-k":{
+       "Opt-ACH"                            :"ACH_0_6",
+       "Opt-CasementWindows"                :"NC-3g-MG-u1.08", 
+       "Opt-GenericWall_1Layer_definitions" :"NC_R-40(eff)_2x6-16inOC_R24-batt+4.5inXPS_poly_vb",
+       "Opt-FoundationWallIntIns"           :"NBC_936_3.97RSI",
+	   "Opt-FoundationWallExtIns"			:"xps4inEffR20",
+	   "Opt-FloorHeaderIntIns"				:"NC_R-29eff_5.5inBatt",
+       "Opt-FoundationSlabBelowGrade"       :"xps4.5inEffR22.5",
+       "Opt-FoundationSlabOnGrade"          :"xps5.5inEffR27.5",
+       "Opt-ExposedFloor"                   :"ExpFloorFoamed-R52",
+       "Opt-Ceilings"                       :"CeilR80",
+	   "Opt-AtticCeilings"                  :"CeilR80",
+       "Opt-FlatCeilings"                   :"CeilR80",
+       "Opt-CathCeilings"                   :"CeilR80",
+	   "Opt-HVACSystem"                     :"gas-hybrid",
+	   "Opt-HRVonly"                        :"HRV_sre_78",
+	   "Opt-DHWSystem"                      :"GasInstantaneous",
+	   "Opt-DWHRSystem"						:"DWHR-eff-55"	   
   	},
+	
+  	"gas-l":{
+       "Opt-ACH"                            :"ACH_0_6",
+       "Opt-CasementWindows"                :"NC-3g-LG-u0.85", 
+       "Opt-GenericWall_1Layer_definitions" :"NC_R-40(eff)_2x6-16inOC_R24-batt+4.5inXPS_poly_vb",
+       "Opt-FoundationWallIntIns"           :"NBC_936_3.97RSI",
+	   "Opt-FoundationWallExtIns"			:"xps4inEffR20",
+	   "Opt-FloorHeaderIntIns"				:"NC_R-29eff_5.5inBatt",
+       "Opt-FoundationSlabBelowGrade"       :"xps4.5inEffR22.5",
+       "Opt-FoundationSlabOnGrade"          :"xps5.5inEffR27.5",
+       "Opt-ExposedFloor"                   :"ExpFloorFoamed-R52",
+       "Opt-Ceilings"                       :"CeilR80",
+	   "Opt-AtticCeilings"                  :"CeilR80",
+       "Opt-FlatCeilings"                   :"CeilR80",
+       "Opt-CathCeilings"                   :"CeilR80",
+	   "Opt-HVACSystem"                     :"gas-hybrid",
+	   "Opt-HRVonly"                        :"HRV_sre_78",
+	   "Opt-DHWSystem"                      :"GasInstantaneous",
+	   "Opt-DWHRSystem"						:"DWHR-eff-55"	   
+  	},
+
 
 	"elec-a":{
 	   "Opt-ACH"                            :"ACH_2_5",
        "Opt-GenericWall_1Layer_definitions" :"NBC_Wall_zone6_HRV",
        "Opt-Ceilings"                       :"NBC_Ceiling_zone6_HRV",
 	   "Opt-AtticCeilings"                  :"NBC_Ceiling_zone6",
-	   "Opt-HVACSystem"                     :"NBC-CCASHP",
+	   "Opt-HVACSystem"                     :"ASHP",
 	   "Opt-HRVonly"                        :"HRV_sre_78",
-	   "Opt-DHWSystem"                      :"HPHotWater"                  
+	   "Opt-DHWSystem"                      :"HPHotWater",
+	   "Opt-DWHRSystem"						:"DWHR-eff-55"		   
 	},  
 	"elec-b":{
 	   "Opt-ACH"                            :"ACH_2_5",
        "Opt-GenericWall_1Layer_definitions" :"NBC_Wall_zone7B_HRV",
        "Opt-Ceilings"                       :"NBC_Ceiling_zone7B",
 	   "Opt-AtticCeilings"                  :"NBC_Ceiling_zone7B",
-	   "Opt-HVACSystem"                     :"NBC-CCASHP",
+	   "Opt-HVACSystem"                     :"ASHP",
 	   "Opt-HRVonly"                        :"HRV_sre_78",
-	   "Opt-DHWSystem"                      :"HPHotWater"                  
+	   "Opt-DHWSystem"                      :"HPHotWater",
+	   "Opt-DWHRSystem"						:"DWHR-eff-55"		   
 	},  
 	"elec-c":{
 	   "Opt-ACH"                            :"ACH_2_5",
        "Opt-GenericWall_1Layer_definitions" :"NBC_Wall_zone8_noHRV",
        "Opt-Ceilings"                       :"NBC_Ceiling_zone8",
 	   "Opt-AtticCeilings"                  :"NBC_Ceiling_zone8",
-	   "Opt-HVACSystem"                     :"NBC-CCASHP",
+	   "Opt-HVACSystem"                     :"ASHP",
 	   "Opt-HRVonly"                        :"HRV_sre_78",
-	   "Opt-DHWSystem"                      :"HPHotWater"                  
+	   "Opt-DHWSystem"                      :"HPHotWater",
+	   "Opt-DWHRSystem"						:"DWHR-eff-55"		   
 	},  
 
 	"elec-d":{
@@ -247,9 +330,10 @@
        "Opt-GenericWall_1Layer_definitions" :"NBC_Wall_zone7B_HRV",
        "Opt-Ceilings"                       :"NBC_Ceiling_zone6_HRV",
 	   "Opt-AtticCeilings"                  :"NBC_Ceiling_zone6",
-	   "Opt-HVACSystem"                     :"NBC-CCASHP",
+	   "Opt-HVACSystem"                     :"ASHP",
 	   "Opt-HRVonly"                        :"HRV_sre_78",
-	   "Opt-DHWSystem"                      :"HPHotWater"                  
+	   "Opt-DHWSystem"                      :"HPHotWater",
+	   "Opt-DWHRSystem"						:"DWHR-eff-55"		   
     },  
 	
     "elec-e":{
@@ -258,9 +342,10 @@
        "Opt-GenericWall_1Layer_definitions" :"NBC_Wall_zone8_HRV",
        "Opt-Ceilings"                       :"NBC_Ceiling_zone8",
 	   "Opt-AtticCeilings"                  :"NBC_Ceiling_zone8",
-	   "Opt-HVACSystem"                     :"NBC-CCASHP",
+	   "Opt-HVACSystem"                     :"ASHP",
 	   "Opt-HRVonly"                        :"HRV_sre_78",
-	   "Opt-DHWSystem"                      :"HPHotWater"                  
+	   "Opt-DHWSystem"                      :"HPHotWater",
+	   "Opt-DWHRSystem"						:"DWHR-eff-55"		   
 	},  
 	
 	"elec-f":{
@@ -269,9 +354,10 @@
        "Opt-GenericWall_1Layer_definitions" :"NC_R-21(eff)_2x6-16inOC_R19-batt+1inXPS_poly_vb",
        "Opt-Ceilings"                       :"CeilR70",
 	   "Opt-AtticCeilings"                  :"CeilR70",
-	   "Opt-HVACSystem"                     :"NBC-CCASHP",
+	   "Opt-HVACSystem"                     :"ASHP",
 	   "Opt-HRVonly"                        :"HRV_sre_78",
-	   "Opt-DHWSystem"                      :"HPHotWater"                  
+	   "Opt-DHWSystem"                      :"HPHotWater",
+	   "Opt-DWHRSystem"						:"DWHR-eff-55"		   
 	},  
 	"elec-g":{
 	   "Opt-ACH"                            :"New-Const-air_seal_to_1.00_ach",
@@ -283,9 +369,10 @@
 	   "Opt-AtticCeilings"                  :"CeilR70",
        "Opt-FlatCeilings"                   :"CeilR40",
        "Opt-CathCeilings"                   :"CeilR40",
-	   "Opt-HVACSystem"                     :"NBC-CCASHP",
+	   "Opt-HVACSystem"                     :"ASHP",
 	   "Opt-HRVonly"                        :"HRV_sre_78",
-	   "Opt-DHWSystem"                      :"HPHotWater"                  
+	   "Opt-DHWSystem"                      :"HPHotWater",
+	   "Opt-DWHRSystem"						:"DWHR-eff-55"		   
  	},
   	"elec-h":{
        "Opt-ACH"                            :"ACH_0_6",
@@ -299,9 +386,10 @@
 	   "Opt-AtticCeilings"                  :"CeilR80",
        "Opt-FlatCeilings"                   :"CeilR40",
        "Opt-CathCeilings"                   :"CeilR40",
-	   "Opt-HVACSystem"                     :"NBC-CCASHP",
+	   "Opt-HVACSystem"                     :"ASHP",
 	   "Opt-HRVonly"                        :"HRV_sre_78",
-	   "Opt-DHWSystem"                      :"HPHotWater"                  
+	   "Opt-DHWSystem"                      :"HPHotWater",
+	   "Opt-DWHRSystem"						:"DWHR-eff-55"		   
   	},
 	"elec-i":{
 	   "Opt-ACH"                            :"New-Const-air_seal_to_1.00_ach",
@@ -313,9 +401,10 @@
 	   "Opt-AtticCeilings"                  :"CeilR70",
        "Opt-FlatCeilings"                   :"CeilR40",
        "Opt-CathCeilings"                   :"CeilR40",
-	   "Opt-HVACSystem"                     :"NBC-CCASHP",
+	   "Opt-HVACSystem"                     :"ASHP",
 	   "Opt-HRVonly"                        :"HRV_sre_78",
-	   "Opt-DHWSystem"                      :"HPHotWater"                  
+	   "Opt-DHWSystem"                      :"HPHotWater",
+	   "Opt-DWHRSystem"						:"DWHR-eff-55"		   
  	},
  	"elec-j":{
        "Opt-ACH"                            :"ACH_0_6",
@@ -329,10 +418,223 @@
 	   "Opt-AtticCeilings"                  :"CeilR80",
        "Opt-FlatCeilings"                   :"CeilR40",
        "Opt-CathCeilings"                   :"CeilR40",
+	   "Opt-HVACSystem"                     :"ASHP",
+	   "Opt-HRVonly"                        :"HRV_sre_78",
+	   "Opt-DHWSystem"                      :"HPHotWater",
+	   "Opt-DWHRSystem"						:"DWHR-eff-55"		   
+  	},
+	"elec-k":{
+       "Opt-ACH"                            :"ACH_0_6",
+       "Opt-CasementWindows"                :"NC-3g-MG-u1.08", 
+       "Opt-GenericWall_1Layer_definitions" :"NC_R-40(eff)_2x6-16inOC_R24-batt+4.5inXPS_poly_vb",
+       "Opt-FoundationWallIntIns"           :"NBC_936_3.97RSI",
+	   "Opt-FoundationWallExtIns"			:"xps4inEffR20",
+	   "Opt-FloorHeaderIntIns"				:"NC_R-29eff_5.5inBatt",
+       "Opt-FoundationSlabBelowGrade"       :"xps4.5inEffR22.5",
+       "Opt-FoundationSlabOnGrade"          :"xps5.5inEffR27.5",
+       "Opt-ExposedFloor"                   :"ExpFloorFoamed-R52",
+       "Opt-Ceilings"                       :"CeilR80",
+	   "Opt-AtticCeilings"                  :"CeilR80",
+       "Opt-FlatCeilings"                   :"CeilR80",
+       "Opt-CathCeilings"                   :"CeilR80",
+	   "Opt-HVACSystem"                     :"ASHP",
+	   "Opt-HRVonly"                        :"HRV_sre_78",
+	   "Opt-DHWSystem"                      :"HPHotWater",
+	   "Opt-DWHRSystem"						:"DWHR-eff-55"	   
+  	},
+	
+  	"elec-l":{
+       "Opt-ACH"                            :"ACH_0_6",
+       "Opt-CasementWindows"                :"NC-3g-LG-u0.85", 
+       "Opt-GenericWall_1Layer_definitions" :"NC_R-40(eff)_2x6-16inOC_R24-batt+4.5inXPS_poly_vb",
+       "Opt-FoundationWallIntIns"           :"NBC_936_3.97RSI",
+	   "Opt-FoundationWallExtIns"			:"xps4inEffR20",
+	   "Opt-FloorHeaderIntIns"				:"NC_R-29eff_5.5inBatt",
+       "Opt-FoundationSlabBelowGrade"       :"xps4.5inEffR22.5",
+       "Opt-FoundationSlabOnGrade"          :"xps5.5inEffR27.5",
+       "Opt-ExposedFloor"                   :"ExpFloorFoamed-R52",
+       "Opt-Ceilings"                       :"CeilR80",
+	   "Opt-AtticCeilings"                  :"CeilR80",
+       "Opt-FlatCeilings"                   :"CeilR80",
+       "Opt-CathCeilings"                   :"CeilR80",
+	   "Opt-HVACSystem"                     :"ASHP",
+	   "Opt-HRVonly"                        :"HRV_sre_78",
+	   "Opt-DHWSystem"                      :"HPHotWater",
+	   "Opt-DWHRSystem"						:"DWHR-eff-55"
+   },
+   
+
+	"elec-CCASHP-a":{
+	   "Opt-ACH"                            :"ACH_2_5",
+       "Opt-GenericWall_1Layer_definitions" :"NBC_Wall_zone6_HRV",
+       "Opt-Ceilings"                       :"NBC_Ceiling_zone6_HRV",
+	   "Opt-AtticCeilings"                  :"NBC_Ceiling_zone6",
 	   "Opt-HVACSystem"                     :"NBC-CCASHP",
 	   "Opt-HRVonly"                        :"HRV_sre_78",
-	   "Opt-DHWSystem"                      :"HPHotWater"                  
+	   "Opt-DHWSystem"                      :"HPHotWater",
+	   "Opt-DWHRSystem"						:"DWHR-eff-55"	   
+	},  
+	"elec-CCASHP-b":{
+	   "Opt-ACH"                            :"ACH_2_5",
+       "Opt-GenericWall_1Layer_definitions" :"NBC_Wall_zone7B_HRV",
+       "Opt-Ceilings"                       :"NBC_Ceiling_zone7B",
+	   "Opt-AtticCeilings"                  :"NBC_Ceiling_zone7B",
+	   "Opt-HVACSystem"                     :"NBC-CCASHP",
+	   "Opt-HRVonly"                        :"HRV_sre_78",
+	   "Opt-DHWSystem"                      :"HPHotWater",                  
+	   "Opt-DWHRSystem"						:"DWHR-eff-55"
+	   },  
+	"elec-CCASHP-c":{
+	   "Opt-ACH"                            :"ACH_2_5",
+       "Opt-GenericWall_1Layer_definitions" :"NBC_Wall_zone8_noHRV",
+       "Opt-Ceilings"                       :"NBC_Ceiling_zone8",
+	   "Opt-AtticCeilings"                  :"NBC_Ceiling_zone8",
+	   "Opt-HVACSystem"                     :"NBC-CCASHP",
+	   "Opt-HRVonly"                        :"HRV_sre_78",
+	   "Opt-DHWSystem"                      :"HPHotWater",
+	   "Opt-DWHRSystem"						:"DWHR-eff-55"	   
+	},  
+
+	"elec-CCASHP-d":{
+	   "Opt-ACH"                            :"New-Const-air_seal_to_1.50_ach",
+	   "Opt-CasementWindows"                :"NBC-zone8-window", 
+       "Opt-GenericWall_1Layer_definitions" :"NBC_Wall_zone7B_HRV",
+       "Opt-Ceilings"                       :"NBC_Ceiling_zone6_HRV",
+	   "Opt-AtticCeilings"                  :"NBC_Ceiling_zone6",
+	   "Opt-HVACSystem"                     :"NBC-CCASHP",
+	   "Opt-HRVonly"                        :"HRV_sre_78",
+	   "Opt-DHWSystem"                      :"HPHotWater",
+	   "Opt-DWHRSystem"						:"DWHR-eff-55"	   
+    },  
+	
+    "elec-CCASHP-e":{
+	   "Opt-ACH"                            :"New-Const-air_seal_to_1.50_ach",
+	   "Opt-CasementWindows"                :"NBC-zone8-window", 
+       "Opt-GenericWall_1Layer_definitions" :"NBC_Wall_zone8_HRV",
+       "Opt-Ceilings"                       :"NBC_Ceiling_zone8",
+	   "Opt-AtticCeilings"                  :"NBC_Ceiling_zone8",
+	   "Opt-HVACSystem"                     :"NBC-CCASHP",
+	   "Opt-HRVonly"                        :"HRV_sre_78",
+	   "Opt-DHWSystem"                      :"HPHotWater",
+	   "Opt-DWHRSystem"						:"DWHR-eff-55"	   
+	},  
+	
+	"elec-CCASHP-f":{
+	   "Opt-ACH"                            :"New-Const-air_seal_to_1.50_ach",
+	   "Opt-CasementWindows"                :"NC-3g-MG-u1.36", 
+       "Opt-GenericWall_1Layer_definitions" :"NC_R-21(eff)_2x6-16inOC_R19-batt+1inXPS_poly_vb",
+       "Opt-Ceilings"                       :"CeilR70",
+	   "Opt-AtticCeilings"                  :"CeilR70",
+	   "Opt-HVACSystem"                     :"NBC-CCASHP",
+	   "Opt-HRVonly"                        :"HRV_sre_78",
+	   "Opt-DHWSystem"                      :"HPHotWater" ,
+	   "Opt-DWHRSystem"						:"DWHR-eff-55"	   
+	},  
+	"elec-CCASHP-g":{
+	   "Opt-ACH"                            :"New-Const-air_seal_to_1.00_ach",
+	   "Opt-CasementWindows"                :"NC-3g-LG-u1.14", 
+       "Opt-GenericWall_1Layer_definitions" :"NC_R-21(eff)_2x6-16inOC_R19-batt+1inXPS_poly_vb",
+       "Opt-FoundationWallIntIns"           :"NBC_936_2.98RSI",
+	   "Opt-ExposedFloor"                   :"BaseExpFloor-R31",
+       "Opt-Ceilings"                       :"CeilR70",
+	   "Opt-AtticCeilings"                  :"CeilR70",
+       "Opt-FlatCeilings"                   :"CeilR40",
+       "Opt-CathCeilings"                   :"CeilR40",
+	   "Opt-HVACSystem"                     :"NBC-CCASHP",
+	   "Opt-HRVonly"                        :"HRV_sre_78",
+	   "Opt-DHWSystem"                      :"HPHotWater",
+	   "Opt-DWHRSystem"						:"DWHR-eff-55"	   
+ 	},
+  	"elec-CCASHP-h":{
+       "Opt-ACH"                            :"ACH_0_6",
+       "Opt-CasementWindows"                :"NC-3g-LG-u1.14", 
+       "Opt-GenericWall_1Layer_definitions" :"NC_R-40(eff)_2x6-16inOC_R24-batt+4.5inXPS_poly_vb",
+       "Opt-FoundationWallIntIns"           :"NBC_936_3.97RSI",
+       "Opt-FoundationSlabBelowGrade"       :"xps4.5inEffR22.5",
+       "Opt-FoundationSlabOnGrade"          :"xps5.5inEffR27.5",
+       "Opt-ExposedFloor"                   :"ExpFloorFlash&Batt-R36",
+       "Opt-Ceilings"                       :"CeilR80",
+	   "Opt-AtticCeilings"                  :"CeilR80",
+       "Opt-FlatCeilings"                   :"CeilR40",
+       "Opt-CathCeilings"                   :"CeilR40",
+	   "Opt-HVACSystem"                     :"NBC-CCASHP",
+	   "Opt-HRVonly"                        :"HRV_sre_78",
+	   "Opt-DHWSystem"                      :"HPHotWater",
+	   "Opt-DWHRSystem"						:"DWHR-eff-55"	   
   	},
+	"elec-CCASHP-i":{
+	   "Opt-ACH"                            :"New-Const-air_seal_to_1.00_ach",
+	   "Opt-CasementWindows"                :"NC-3g-LG-u1.14", 
+       "Opt-GenericWall_1Layer_definitions" :"NC_R-26(eff)_2x6-16inOC_R19-batt+2inXPS_poly_vb",
+       "Opt-FoundationWallIntIns"           :"NBC_936_2.98RSI",
+	   "Opt-ExposedFloor"                   :"BaseExpFloor-R31",
+       "Opt-Ceilings"                       :"CeilR70",
+	   "Opt-AtticCeilings"                  :"CeilR70",
+       "Opt-FlatCeilings"                   :"CeilR40",
+       "Opt-CathCeilings"                   :"CeilR40",
+	   "Opt-HVACSystem"                     :"NBC-CCASHP",
+	   "Opt-HRVonly"                        :"HRV_sre_78",
+	   "Opt-DHWSystem"                      :"HPHotWater",
+	   "Opt-DWHRSystem"						:"DWHR-eff-55"	   
+ 	},
+ 	"elec-CCASHP-j":{
+       "Opt-ACH"                            :"ACH_0_6",
+       "Opt-CasementWindows"                :"NC-3g-LG-u1.14", 
+       "Opt-GenericWall_1Layer_definitions" :"NC_R-30(eff)_2x6-16inOC_R24-batt+3inMineralWool_poly_vb",
+       "Opt-FoundationWallIntIns"           :"NBC_936_3.97RSI",
+       "Opt-FoundationSlabBelowGrade"       :"xps4.5inEffR22.5",
+       "Opt-FoundationSlabOnGrade"          :"xps5.5inEffR27.5",
+       "Opt-ExposedFloor"                   :"ExpFloorFlash&Batt-R36",
+       "Opt-Ceilings"                       :"CeilR80",
+	   "Opt-AtticCeilings"                  :"CeilR80",
+       "Opt-FlatCeilings"                   :"CeilR40",
+       "Opt-CathCeilings"                   :"CeilR40",
+	   "Opt-HVACSystem"                     :"NBC-CCASHP",
+	   "Opt-HRVonly"                        :"HRV_sre_78",
+	   "Opt-DHWSystem"                      :"HPHotWater",
+	   "Opt-DWHRSystem"						:"DWHR-eff-55"	   
+  	},
+	"elec-CCASHP-k":{
+       "Opt-ACH"                            :"ACH_0_6",
+       "Opt-CasementWindows"                :"NC-3g-MG-u1.08", 
+       "Opt-GenericWall_1Layer_definitions" :"NC_R-40(eff)_2x6-16inOC_R24-batt+4.5inXPS_poly_vb",
+       "Opt-FoundationWallIntIns"           :"NBC_936_3.97RSI",
+	   "Opt-FoundationWallExtIns"			:"xps4inEffR20",
+	   "Opt-FloorHeaderIntIns"				:"NC_R-29eff_5.5inBatt",
+       "Opt-FoundationSlabBelowGrade"       :"xps4.5inEffR22.5",
+       "Opt-FoundationSlabOnGrade"          :"xps5.5inEffR27.5",
+       "Opt-ExposedFloor"                   :"ExpFloorFoamed-R52",
+       "Opt-Ceilings"                       :"CeilR80",
+	   "Opt-AtticCeilings"                  :"CeilR80",
+       "Opt-FlatCeilings"                   :"CeilR80",
+       "Opt-CathCeilings"                   :"CeilR80",
+	   "Opt-HVACSystem"                     :"NBC-CCASHP",
+	   "Opt-HRVonly"                        :"HRV_sre_78",
+	   "Opt-DHWSystem"                      :"HPHotWater",
+	   "Opt-DWHRSystem"						:"DWHR-eff-55"	   
+  	},
+	
+  	"elec-CCASHP-l":{
+       "Opt-ACH"                            :"ACH_0_6",
+       "Opt-CasementWindows"                :"NC-3g-LG-u0.85", 
+       "Opt-GenericWall_1Layer_definitions" :"NC_R-40(eff)_2x6-16inOC_R24-batt+4.5inXPS_poly_vb",
+       "Opt-FoundationWallIntIns"           :"NBC_936_3.97RSI",
+	   "Opt-FoundationWallExtIns"			:"xps4inEffR20",
+	   "Opt-FloorHeaderIntIns"				:"NC_R-29eff_5.5inBatt",
+       "Opt-FoundationSlabBelowGrade"       :"xps4.5inEffR22.5",
+       "Opt-FoundationSlabOnGrade"          :"xps5.5inEffR27.5",
+       "Opt-ExposedFloor"                   :"ExpFloorFoamed-R52",
+       "Opt-Ceilings"                       :"CeilR80",
+	   "Opt-AtticCeilings"                  :"CeilR80",
+       "Opt-FlatCeilings"                   :"CeilR80",
+       "Opt-CathCeilings"                   :"CeilR80",
+	   "Opt-HVACSystem"                     :"NBC-CCASHP",
+	   "Opt-HRVonly"                        :"HRV_sre_78",
+	   "Opt-DHWSystem"                      :"HPHotWater",
+	   "Opt-DWHRSystem"						:"DWHR-eff-55"
+   },
+	
+	
 
 
 	"envelope-HVAC-upgrade-R40wall-R80attic-elec":{
