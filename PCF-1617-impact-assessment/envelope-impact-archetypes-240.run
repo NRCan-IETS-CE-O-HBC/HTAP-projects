@@ -15,8 +15,8 @@ RunParameters_END
 ! run in mesh, even if an optimization mode is added in the future.
 RunScope_START
 
-  archetypes                        = ERS*!NRCan*! NRCan-arch4_2100sf_2storey_fullBsmt.h2k!  -A11_1500sf_2storey_rowMid_fullBsmt.h2k, NRCan-arch4_2100sf_2storey_fullBsmt.h2k,
-  locations                         = VANCOUVER,TORONTO,EDMONTON!,WHITEHORSE,OTTAWA,CALGARY,MONTREAL,QUEBEC,HALIFAX,WINNIPEG,YELLOWKNIFE,VICTORIA,CHURCHILL,KUUJJUAQ,GANDER,SAINTJOHNS,IQALUIT!FORTSTJOHN,*
+  archetypes                        = ERS*!
+  locations                         = NA! 
   rulesets                          = NBC9_36[fuel>elect;vent>HRV],NBC9_36[fuel>gas;vent>HRV]!,NBC9_36[fuel>oil;vent>HRV]
 
 RunScope_END
@@ -24,7 +24,7 @@ RunScope_END
 ! Parameters controlling the design of the building
 Upgrades_START
 
-   upgrade-package-list = NA,envelope-upgrade-arctic-PH,envelope-upgrade-20%-reduction-BC-step-code,envelope-upgrade-30%-reduction-BC-step-code,envelope-upgrade-40%-reduction-BC-step-code,envelope-upgrade-R40wall-R80attic!,envelope-HVAC-upgrade-R40wall-R80attic,envelope-HVAC-upgrade-20%-reduction-BC-step-code,envelope-HVAC-upgrade-30%-reduction-BC-step-code,envelope-HVAC-upgrade-40%-reduction-BC-step-code,envelope-upgrade-arctic-PH,envelope-HVAC-upgrade-arctic-PH,envelope-HVAC-upgrade-R40wall-R80attic,envelope-gas-HVAC-upgrade-20%-reduction-BC-step-code,envelope-elec-HVAC-upgrade-20%-reduction-BC-step-code,envelope-HVAC-upgrade-30%-reduction-BC-step-code,envelope-HVAC-upgrade-40%-reduction-BC-step-code,envelope-HVAC-upgrade-arctic-PH,
+   upgrade-package-list = elec-t,elec-u,elec-v,envelope-n,envelope-o,envelope-p,envelope-q,envelope-r,envelope-s,envelope-t,gas-q,gas-r,gas-s,gas-t,gas-u,gas-v,gas-w
    
    Opt-FuelCost         = NA
 
@@ -35,16 +35,16 @@ Upgrades_START
    Opt-Baseloads        = NBC-Baseloads!, ERS-Single-regular-19.5kWh&190_per_day !
    Opt-Temperatures     = NA
 
-   Opt-ACH              = NA!,ACH_0_6!, New-Const-air_seal_to_1.50_ach, New-Const-air_seal_to_1.00_ach,  ACH_0_6
+   Opt-ACH              = NA!
 
-   Opt-CasementWindows  = NA!,NC-3g-LG-u1.14 , NC-2g-HG-u1.65, NC-2g-MG-u1.65, NC-2g-LG-u1.65
+   Opt-CasementWindows  = NA!
    Opt-Skylights        = NA
    Opt-DoorWindows      = NA
    Opt-Doors            = NA
 
    Opt-MainWall         = NA
-   Opt-GenericWall_1Layer_definitions = NA!,NC_R-40(eff)_2x6-16inOC_R24-batt+4.5inXPS_poly_vb
-   Opt-FloorHeaderIntIns      = NA!,NC_R-29eff_5.5inBatt
+   Opt-GenericWall_1Layer_definitions = NA
+   Opt-FloorHeaderIntIns      = NA!
 
    Opt-FoundationWallExtIns =      NA
    Opt-FoundationWallIntIns =      NA!,NBC_936_3.97RSI

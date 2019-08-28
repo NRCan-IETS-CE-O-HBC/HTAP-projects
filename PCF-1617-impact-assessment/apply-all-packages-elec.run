@@ -3,7 +3,7 @@
 ! Run-Mode: Parameters that affect how htap-prm is configured.
 RunParameters_START
   run-mode                           =  mesh
-  archetype-dir                      = C:/HTAP-archetypes/NRCan-EGH-NewHousing
+  archetype-dir                      = C:/HTAP-archetypes/NRCan-Mobile-Archetypes!C:/HTAP-archetypes/BC-Step-Code !C:/HTAP-archetypes/NRCan-EGH-NewHousing
 
   unit-costs-db                      = C:/HTAP/HTAPUnitCosts.json
   options-file                       = C:/HTAP/HTAP-options.json
@@ -15,16 +15,15 @@ RunParameters_END
 ! run in mesh, even if an optimization mode is added in the future.
 RunScope_START
 
-  archetypes                        = ERS*.h2k ! ERS-7073.h2k
-  locations                         = NA
-  rulesets                          = NBC9_36[fuel>elec;vent>HRV]
+  archetypes                        = ERS-*.h2k!BC-Step-MURB10.h2k,BC-Step-Quad-BCH.h2k!,BC-Step-Quad-mkt.h2k!
+  locations                         = CALGARY,CHARLOTTETOWN,EDMONTON,HALIFAX,MONTREAL,OTTAWA,TORONTO,VANCOUVER,WHITEHORSE,YELLOWKNIFE!NA
+  rulesets                          = NBC9_36[fuel>elect;vent>HRV]
 
 RunScope_END
 
 ! Parameters controlling the design of the building
 Upgrades_START
-
-   upgrade-package-list =  elec-b, elec-c, elec-d, elec-e, elec-f, elec-g, elec-h, elec-i, elec-j, elec-k, elec-l, elec-m, elec-n, elec-o, elec-p, elec-q, elec-r, elec-s, elec-t, elec-u , elec-v,  elec-33564,elec-112955,elec-114131,elec-223592,elec-310054,elec-311205
+   upgrade-package-list =  elec-g, elec-h, elec-i, elec-j, elec-k, elec-l, elec-m, elec-n, elec-o, elec-p, elec-q, elec-r, elec-s, elec-t, elec-u , elec-v,  elec-33564,elec-112955,elec-223592,elec-310054,elec-311205
    
    Opt-FuelCost         = NA
 
