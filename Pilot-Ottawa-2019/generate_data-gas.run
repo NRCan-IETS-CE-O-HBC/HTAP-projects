@@ -1,0 +1,76 @@
+RunParameters_START
+  run-mode                           = mesh
+
+
+
+  ! LEEP archetypes
+  archetype-dir                      = C:/HTAP-Projects/Pilot-Ottawa-2019/h2k_archetypes
+
+  unit-costs-db                      = C:/HTAP/HTAPUnitCosts.json
+  options-file                       = C:/HTAP/HTAP-options.json
+  ! To be replaced with LEEP specific JSON file 
+  rulesets-file                      = C:/HTAP-Projects/Pilot-Ottawa-2019/LEEP-pathways.json
+
+RunParameters_END
+
+
+! Parameters controlling archetypes, locations, reference rulests. (these will always be
+! run in mesh, even if an optimization mode is added in the future.
+RunScope_START
+  
+  ! 240 SA/SD
+   archetypes                        = AtlanticHTAP_11_3.h2k, EndUnit_11_3.h2k, RayHouse11_3.h2k, Tofino.h2k
+
+  locations                         =  OTTAWA , VANCOUVER , HALIFAX
+  
+  ! Same for all scenarios 
+  rulesets                          = NBC9_36[fuel>gas;vent>HRV]
+
+RunScope_END
+
+! Parameters controlling the design of the building
+Upgrades_START
+
+   upgrade-package-list = NA  , LEEP-pkg_1 , LEEP-pkg_2 , LEEP-pkg_3 , LEEP-pkg_4 , LEEP-pkg_5 , LEEP-pkg_6 , LEEP-pkg_7 , LEEP-pkg_8 , LEEP-pkg_9 , LEEP-pkg_10 , LEEP-pkg_11 , LEEP-pkg_12 , LEEP-pkg_13 , LEEP-pkg_14 , LEEP-pkg_15 , LEEP-pkg_16 , LEEP-pkg_17 , LEEP-pkg_18 , LEEP-pkg_19 , LEEP-pkg_20 , LEEP-pkg_21 , LEEP-pkg_22 , LEEP-pkg_23 , LEEP-pkg_24 , LEEP-pkg_25 , LEEP-pkg_26 , LEEP-pkg_27 , LEEP-pkg_28 , LEEP-pkg_29 , LEEP-pkg_30 , LEEP-pkg_31 , LEEP-pkg_32 , LEEP-pkg_33 , LEEP-pkg_34 , LEEP-pkg_35 , LEEP-pkg_36 , LEEP-pkg_37 , LEEP-pkg_38 , LEEP-pkg_39 , LEEP-pkg_40 , LEEP-pkg_41 , LEEP-pkg_42 , LEEP-pkg_43 , LEEP-pkg_44 , LEEP-pkg_45 , LEEP-pkg_46 , LEEP-pkg_47 , LEEP-pkg_48 , LEEP-pkg_49 , LEEP-pkg_50 , LEEP-pkg_51 , LEEP-pkg_52 , LEEP-pkg_53 , LEEP-pkg_54 , LEEP-pkg_55 , LEEP-pkg_56 , LEEP-pkg_57 , LEEP-pkg_58 , LEEP-pkg_59 , LEEP-pkg_60 , LEEP-pkg_61 , LEEP-pkg_62 , LEEP-pkg_63 , LEEP-pkg_64 , LEEP-pkg_65 , LEEP-pkg_66 , LEEP-pkg_67 , LEEP-pkg_68 , LEEP-pkg_69 , LEEP-pkg_70 , LEEP-pkg_71 , LEEP-pkg_72 , LEEP-pkg_73 , LEEP-pkg_74 , LEEP-pkg_75 , LEEP-pkg_76 , LEEP-pkg_77 , LEEP-pkg_78 , LEEP-pkg_79 , LEEP-pkg_80 , LEEP-pkg_81 , LEEP-pkg_82 , LEEP-pkg_83 , LEEP-pkg_84 , LEEP-pkg_85 , LEEP-pkg_87 , LEEP-pkg_88 , LEEP-pkg_89 , LEEP-pkg_90 , LEEP-pkg_91 , LEEP-pkg_92 , LEEP-pkg_93 
+   
+   Opt-FuelCost         = NA
+
+   Opt-ResultHouseCode  = NA
+
+   Opt-Specifications   = NA
+
+   Opt-Baseloads        = ERS-Single-reduced-16kWh&160_per_day  , ERS-Single-regular-19.5kWh&190_per_day
+   Opt-Temperatures     = NA
+
+   Opt-ACH              = NA 
+
+   Opt-CasementWindows  = NA 
+   Opt-Skylights        = NA
+   Opt-DoorWindows      = NA
+   Opt-Doors            = NA
+
+   Opt-MainWall         = NA
+   Opt-GenericWall_1Layer_definitions = NA 
+   Opt-FloorHeaderIntIns      = NA
+
+   Opt-FoundationWallExtIns =      NA 
+   Opt-FoundationWallIntIns =      NA 
+   Opt-FoundationSlabBelowGrade =  NA 
+   Opt-FoundationSlabOnGrade =     NA
+
+   Opt-ExposedFloor     = NA!
+
+   Opt-Ceilings         = NA
+   Opt-AtticCeilings    = NA 
+   Opt-CathCeilings     = NA
+   Opt-FlatCeilings     = NA
+
+   Opt-HRVonly          = NA ,  HRV_sre_78
+   Opt-HRVspec          = NA
+   Opt-DHWSystem        = NA , GasInstantaneous , elec_storage_ef0.89, HPHotWater,
+   Opt-HVACSystem       = NA , gas-furnace-ecm , gas-furnace-ecm+AC, CCASHP, ASHP, elec-baseboard
+   Opt-DWHRSystem       = NA  , DWHR-eff-55
+   Opt-H2K-PV           = NA
+   Opt-WindowDistribution = NA 
+
+Upgrades_END

@@ -1,0 +1,530 @@
+{
+  "upgrade-packages": {
+    "LEEP-pkg_1": {
+      "Opt-ACH": "New-Const-air_seal_to_0.60_ach",
+      "Opt-CasementWindows": "NC-3g-HG-u1.08",
+      "Opt-GenericWall_1Layer_definitions": "NC_R-29(eff)_2x6-24inOC_R24-batt+2inXPS_poly_vb"
+    },
+    "LEEP-pkg_2": {
+      "Opt-ACH": "New-Const-air_seal_to_0.60_ach",
+      "Opt-CasementWindows": "NC-3g-HG-u1.08",
+      "Opt-FoundationWallIntIns": "WoodFrame+intEpsEffR23",
+      "Opt-GenericWall_1Layer_definitions": "NC_R-29(eff)_2x6-24inOC_R24-batt+2inXPS_poly_vb"
+    },
+    "LEEP-pkg_3": {
+      "Opt-ACH": "New-Const-air_seal_to_0.60_ach",
+      "Opt-CasementWindows": "NC-3g-HG-u1.08",
+      "Opt-FoundationSlabBelowGrade": "xps4inEffR20",
+      "Opt-FoundationWallIntIns": "WoodFrame+intEpsEffR23",
+      "Opt-GenericWall_1Layer_definitions": "NC_R-40(eff)_2x6-16inOC_R24-batt+4.5inXPS_poly_vb"
+    },
+    "LEEP-pkg_4": {
+      "Opt-ACH": "New-Const-air_seal_to_0.60_ach",
+      "Opt-CasementWindows": "NC-3g-HG-u1.08",
+      "Opt-FoundationWallIntIns": "WoodFrame+intEpsEffR23",
+      "Opt-GenericWall_1Layer_definitions": "NC_R-40(eff)_2x6-16inOC_R24-batt+4.5inXPS_poly_vb"
+    },
+    "LEEP-pkg_5": {
+      "Opt-ACH": "New-Const-air_seal_to_0.60_ach",
+      "Opt-CasementWindows": "NC-3g-LG-u1.08",
+      "Opt-GenericWall_1Layer_definitions": "NC_R-29(eff)_2x6-24inOC_R24-batt+2inXPS_poly_vb"
+    },
+    "LEEP-pkg_6": {
+      "Opt-ACH": "New-Const-air_seal_to_0.60_ach",
+      "Opt-CasementWindows": "NC-3g-LG-u1.08",
+      "Opt-FoundationWallIntIns": "WoodFrame+intEpsEffR23",
+      "Opt-GenericWall_1Layer_definitions": "NC_R-29(eff)_2x6-24inOC_R24-batt+2inXPS_poly_vb"
+    },
+    "LEEP-pkg_7": {
+      "Opt-ACH": "New-Const-air_seal_to_0.60_ach",
+      "Opt-CasementWindows": "NC-3g-LG-u1.08",
+      "Opt-FoundationSlabBelowGrade": "xps4inEffR20",
+      "Opt-FoundationWallIntIns": "WoodFrame+intEpsEffR23",
+      "Opt-GenericWall_1Layer_definitions": "NC_R-40(eff)_2x6-16inOC_R24-batt+4.5inXPS_poly_vb"
+    },
+    "LEEP-pkg_8": {
+      "Opt-ACH": "New-Const-air_seal_to_0.60_ach",
+      "Opt-CasementWindows": "NC-3g-LG-u1.08",
+      "Opt-FoundationWallIntIns": "WoodFrame+intEpsEffR23",
+      "Opt-GenericWall_1Layer_definitions": "NC_R-40(eff)_2x6-16inOC_R24-batt+4.5inXPS_poly_vb"
+    },
+    "LEEP-pkg_9": {
+      "Opt-ACH": "New-Const-air_seal_to_0.60_ach",
+      "Opt-CasementWindows": "NC-3g-LG-u1.14",
+      "Opt-FoundationSlabBelowGrade": "xps2inEffR10",
+      "Opt-FoundationWallIntIns": "WoodFrame+intEpsEffR23",
+      "Opt-GenericWall_1Layer_definitions": "NC_R-40(eff)_2x6-16inOC_R24-batt+4.5inXPS_poly_vb"
+    },
+    "LEEP-pkg_10": {
+      "Opt-ACH": "New-Const-air_seal_to_0.60_ach",
+      "Opt-CasementWindows": "NC-3g-LG-u1.14",
+      "Opt-Ceilings": "CeilR50",
+      "Opt-FoundationSlabBelowGrade": "uninsulated",
+      "Opt-FoundationWallIntIns": "WoodFrameEffR15",
+      "Opt-GenericWall_1Layer_definitions": "NC_R-17(eff)_2x6-16inOC_R22-batt_poly_vb"
+    },
+    "LEEP-pkg_11": {
+      "Opt-ACH": "New-Const-air_seal_to_0.60_ach",
+      "Opt-CasementWindows": "NC-3g-HG-u1.08",
+      "Opt-GenericWall_1Layer_definitions": "NC_R-40(eff)_2x6-16inOC_R24-batt+4.5inXPS_poly_vb"
+    },
+    "LEEP-pkg_12": {
+      "Opt-ACH": "New-Const-air_seal_to_0.60_ach",
+      "Opt-CasementWindows": "NC-3g-HG-u1.08",
+      "Opt-FoundationWallIntIns": "WoodFrameEffR17"
+    },
+    "LEEP-pkg_13": {
+      "Opt-ACH": "New-Const-air_seal_to_0.60_ach",
+      "Opt-CasementWindows": "NC-3g-HG-u1.08",
+      "Opt-GenericWall_1Layer_definitions": "NC_R-40(eff)_2x6-16inOC_R24-batt+4.5inXPS_poly_vb"
+    },
+    "LEEP-pkg_14": {
+      "Opt-ACH": "New-Const-air_seal_to_0.60_ach",
+      "Opt-CasementWindows": "NC-3g-HG-u1.36",
+      "Opt-FoundationWallIntIns": "WoodFrameEffR17"
+    },
+    "LEEP-pkg_15": {
+      "Opt-ACH": "New-Const-air_seal_to_0.60_ach",
+      "Opt-CasementWindows": "NC-3g-HG-u1.36",
+      "Opt-FoundationWallIntIns": "WoodFrameEffR17",
+      "Opt-GenericWall_1Layer_definitions": "NC_R-22(eff)_2x6-24inOC_R19-batt+1inXPS_poly_vb"
+    },
+    "LEEP-pkg_16": {
+      "Opt-ACH": "New-Const-air_seal_to_0.60_ach",
+      "Opt-CasementWindows": "NC-3g-HG-u1.36",
+      "Opt-FoundationWallIntIns": "WoodFrame+intEpsEffR23"
+    },
+    "LEEP-pkg_17": {
+      "Opt-ACH": "New-Const-air_seal_to_0.60_ach",
+      "Opt-CasementWindows": "NC-3g-LG-u1.08",
+      "Opt-FoundationWallIntIns": "WoodFrameEffR17"
+    },
+    "LEEP-pkg_18": {
+      "Opt-ACH": "New-Const-air_seal_to_0.60_ach",
+      "Opt-CasementWindows": "NC-3g-LG-u1.36",
+      "Opt-FoundationWallIntIns": "WoodFrameEffR17",
+      "Opt-GenericWall_1Layer_definitions": "NC_R-22(eff)_2x6-24inOC_R19-batt+1inXPS_poly_vb"
+    },
+    "LEEP-pkg_19": {
+      "Opt-ACH": "New-Const-air_seal_to_0.60_ach",
+      "Opt-CasementWindows": "NC-3g-LG-u1.14",
+      "Opt-Ceilings": "CeilR70",
+      "Opt-FoundationWallIntIns": "WoodFrameEffR15",
+      "Opt-GenericWall_1Layer_definitions": "NC_R-26(eff)_2x6-16inOC_R19-batt+2inXPS_poly_vb"
+    },
+    "LEEP-pkg_20": {
+      "Opt-ACH": "New-Const-air_seal_to_0.60_ach",
+      "Opt-CasementWindows": "NC-3g-HG-u1.08",
+      "Opt-Ceilings": "CeilR80",
+      "Opt-FoundationSlabBelowGrade": "xps4inEffR20",
+      "Opt-FoundationWallExtIns": "xps4inEffR20",
+      "Opt-FoundationWallIntIns": "WoodFrame+intEpsEffR23",
+      "Opt-GenericWall_1Layer_definitions": "NC_R-40(eff)_2x6-16inOC_R24-batt+4.5inXPS_poly_vb"
+    },
+    "LEEP-pkg_21": {
+      "Opt-ACH": "New-Const-air_seal_to_0.60_ach",
+      "Opt-CasementWindows": "NC-3g-HG-u1.08",
+      "Opt-FoundationWallIntIns": "WoodFrame+intEpsEffR23",
+      "Opt-GenericWall_1Layer_definitions": "NC_R-29(eff)_2x6-24inOC_R24-batt+2inXPS_poly_vb"
+    },
+    "LEEP-pkg_22": {
+      "Opt-ACH": "New-Const-air_seal_to_0.60_ach",
+      "Opt-CasementWindows": "NC-3g-HG-u1.08",
+      "Opt-FoundationWallIntIns": "WoodFrame+intEpsEffR23",
+      "Opt-GenericWall_1Layer_definitions": "NC_R-40(eff)_2x6-16inOC_R24-batt+4.5inXPS_poly_vb"
+    },
+    "LEEP-pkg_23": {
+      "Opt-ACH": "New-Const-air_seal_to_0.60_ach",
+      "Opt-CasementWindows": "NC-3g-HG-u1.08",
+      "Opt-FoundationWallIntIns": "WoodFrameEffR17",
+      "Opt-GenericWall_1Layer_definitions": "NC_R-29(eff)_2x6-24inOC_R24-batt+2inXPS_poly_vb"
+    },
+    "LEEP-pkg_24": {
+      "Opt-ACH": "New-Const-air_seal_to_0.60_ach",
+      "Opt-CasementWindows": "NC-3g-HG-u1.08",
+      "Opt-FoundationSlabBelowGrade": "xps4inEffR20",
+      "Opt-FoundationWallIntIns": "WoodFrame+intEpsEffR23",
+      "Opt-GenericWall_1Layer_definitions": "NC_R-40(eff)_2x6-16inOC_R24-batt+4.5inXPS_poly_vb"
+    },
+    "LEEP-pkg_25": {
+      "Opt-ACH": "New-Const-air_seal_to_0.60_ach",
+      "Opt-CasementWindows": "NC-3g-LG-u0.85",
+      "Opt-Ceilings": "CeilR80",
+      "Opt-FoundationSlabBelowGrade": "xps4inEffR20",
+      "Opt-FoundationWallExtIns": "xps4inEffR20",
+      "Opt-FoundationWallIntIns": "WoodFrame+intEpsEffR23",
+      "Opt-GenericWall_1Layer_definitions": "NC_R-40(eff)_2x6-16inOC_R24-batt+4.5inXPS_poly_vb"
+    },
+    "LEEP-pkg_26": {
+      "Opt-ACH": "New-Const-air_seal_to_0.60_ach",
+      "Opt-CasementWindows": "NC-3g-LG-u1.08",
+      "Opt-Ceilings": "CeilR80",
+      "Opt-FoundationSlabBelowGrade": "xps4inEffR20",
+      "Opt-FoundationWallExtIns": "xps4inEffR20",
+      "Opt-FoundationWallIntIns": "WoodFrame+intEpsEffR23",
+      "Opt-GenericWall_1Layer_definitions": "NC_R-40(eff)_2x6-16inOC_R24-batt+4.5inXPS_poly_vb"
+    },
+    "LEEP-pkg_27": {
+      "Opt-ACH": "New-Const-air_seal_to_0.60_ach",
+      "Opt-CasementWindows": "NC-3g-LG-u1.08",
+      "Opt-FoundationWallIntIns": "WoodFrame+intEpsEffR23",
+      "Opt-GenericWall_1Layer_definitions": "NC_R-29(eff)_2x6-24inOC_R24-batt+2inXPS_poly_vb"
+    },
+    "LEEP-pkg_28": {
+      "Opt-ACH": "New-Const-air_seal_to_0.60_ach",
+      "Opt-CasementWindows": "NC-3g-LG-u1.08",
+      "Opt-FoundationWallIntIns": "WoodFrame+intEpsEffR23",
+      "Opt-GenericWall_1Layer_definitions": "NC_R-40(eff)_2x6-16inOC_R24-batt+4.5inXPS_poly_vb"
+    },
+    "LEEP-pkg_29": {
+      "Opt-ACH": "New-Const-air_seal_to_0.60_ach",
+      "Opt-CasementWindows": "NC-3g-LG-u1.08",
+      "Opt-FoundationWallIntIns": "WoodFrameEffR17",
+      "Opt-GenericWall_1Layer_definitions": "NC_R-29(eff)_2x6-24inOC_R24-batt+2inXPS_poly_vb"
+    },
+    "LEEP-pkg_30": {
+      "Opt-ACH": "New-Const-air_seal_to_0.60_ach",
+      "Opt-CasementWindows": "NC-3g-LG-u1.08",
+      "Opt-FoundationSlabBelowGrade": "xps4inEffR20",
+      "Opt-FoundationWallIntIns": "WoodFrame+intEpsEffR23",
+      "Opt-GenericWall_1Layer_definitions": "NC_R-40(eff)_2x6-16inOC_R24-batt+4.5inXPS_poly_vb"
+    },
+    "LEEP-pkg_31": {
+      "Opt-ACH": "New-Const-air_seal_to_0.60_ach",
+      "Opt-CasementWindows": "NC-3g-LG-u1.14",
+      "Opt-Ceilings": "CeilR80",
+      "Opt-FoundationSlabBelowGrade": "xps4inEffR20",
+      "Opt-FoundationWallIntIns": "WoodFrame+intEpsEffR23",
+      "Opt-GenericWall_1Layer_definitions": "NC_R-30(eff)_2x6-16inOC_R24-batt+3inMineralWool_poly_vb"
+    },
+    "LEEP-pkg_32": {
+      "Opt-ACH": "New-Const-air_seal_to_0.60_ach",
+      "Opt-CasementWindows": "NC-3g-LG-u1.14",
+      "Opt-Ceilings": "CeilR80",
+      "Opt-FoundationSlabBelowGrade": "xps4inEffR20",
+      "Opt-FoundationWallIntIns": "WoodFrame+intEpsEffR23",
+      "Opt-GenericWall_1Layer_definitions": "NC_R-40(eff)_2x6-16inOC_R24-batt+4.5inXPS_poly_vb"
+    },
+    "LEEP-pkg_33": {
+      "Opt-ACH": "New-Const-air_seal_to_0.60_ach",
+      "Opt-CasementWindows": "NC-3g-LG-u1.14",
+      "Opt-Ceilings": "CeilR80",
+      "Opt-FoundationWallIntIns": "WoodFrameEffR17",
+      "Opt-GenericWall_1Layer_definitions": "NC_R-30(eff)_2x6-16inOC_R24-batt+3inMineralWool_poly_vb"
+    },
+    "LEEP-pkg_34": {
+      "Opt-ACH": "New-Const-air_seal_to_0.60_ach",
+      "Opt-CasementWindows": "NC-3g-LG-u1.14",
+      "Opt-FoundationSlabBelowGrade": "xps4inEffR20",
+      "Opt-FoundationWallIntIns": "WoodFrame+intEpsEffR23",
+      "Opt-GenericWall_1Layer_definitions": "NC_R-40(eff)_2x6-16inOC_R24-batt+4.5inXPS_poly_vb"
+    },
+    "LEEP-pkg_35": {
+      "Opt-ACH": "New-Const-air_seal_to_0.60_ach",
+      "Opt-CasementWindows": "NC-2g-LG-u1.65",
+      "Opt-FoundationWallIntIns": "WoodFrameEffR17"
+    },
+    "LEEP-pkg_36": {
+      "Opt-ACH": "New-Const-air_seal_to_0.60_ach",
+      "Opt-FoundationWallIntIns": "WoodFrameEffR17"
+    },
+    "LEEP-pkg_37": {
+      "Opt-ACH": "New-Const-air_seal_to_0.60_ach"
+    },
+    "LEEP-pkg_38": {
+      "Opt-ACH": "New-Const-air_seal_to_1.00_ach",
+      "Opt-CasementWindows": "NC-3g-HG-u1.08",
+      "Opt-FoundationSlabBelowGrade": "xps4inEffR20",
+      "Opt-FoundationWallIntIns": "WoodFrame+intEpsEffR23",
+      "Opt-GenericWall_1Layer_definitions": "NC_R-40(eff)_2x6-16inOC_R24-batt+4.5inXPS_poly_vb"
+    },
+    "LEEP-pkg_39": {
+      "Opt-ACH": "New-Const-air_seal_to_1.00_ach",
+      "Opt-CasementWindows": "NC-3g-HG-u1.08",
+      "Opt-FoundationWallIntIns": "WoodFrameEffR17"
+    },
+    "LEEP-pkg_40": {
+      "Opt-ACH": "New-Const-air_seal_to_1.00_ach",
+      "Opt-CasementWindows": "NC-3g-HG-u1.36",
+      "Opt-FoundationWallIntIns": "WoodFrameEffR17",
+      "Opt-GenericWall_1Layer_definitions": "NC_R-29(eff)_2x6-24inOC_R24-batt+2inXPS_poly_vb"
+    },
+    "LEEP-pkg_41": {
+      "Opt-ACH": "New-Const-air_seal_to_1.00_ach",
+      "Opt-CasementWindows": "NC-3g-HG-u1.36",
+      "Opt-FoundationWallIntIns": "WoodFrameEffR17",
+      "Opt-GenericWall_1Layer_definitions": "NC_R-22(eff)_2x6-24inOC_R19-batt+1inXPS_poly_vb"
+    },
+    "LEEP-pkg_42": {
+      "Opt-ACH": "New-Const-air_seal_to_1.00_ach",
+      "Opt-CasementWindows": "NC-3g-HG-u1.36",
+      "Opt-FoundationWallIntIns": "WoodFrameEffR17",
+      "Opt-GenericWall_1Layer_definitions": "NC_R-29(eff)_2x6-24inOC_R24-batt+2inXPS_poly_vb"
+    },
+    "LEEP-pkg_43": {
+      "Opt-ACH": "New-Const-air_seal_to_1.00_ach",
+      "Opt-CasementWindows": "NC-3g-HG-u1.36"
+    },
+    "LEEP-pkg_44": {
+      "Opt-ACH": "New-Const-air_seal_to_1.00_ach",
+      "Opt-CasementWindows": "NC-3g-HG-u1.36",
+      "Opt-Ceilings": "CeilR60"
+    },
+    "LEEP-pkg_45": {
+      "Opt-ACH": "New-Const-air_seal_to_1.00_ach",
+      "Opt-CasementWindows": "NC-3g-LG-u1.36",
+      "Opt-FoundationWallIntIns": "WoodFrameEffR17",
+      "Opt-GenericWall_1Layer_definitions": "NC_R-22(eff)_2x6-24inOC_R19-batt+1inXPS_poly_vb"
+    },
+    "LEEP-pkg_46": {
+      "Opt-ACH": "New-Const-air_seal_to_1.00_ach",
+      "Opt-CasementWindows": "NC-3g-LG-u1.36",
+      "Opt-FoundationWallIntIns": "WoodFrameEffR17",
+      "Opt-GenericWall_1Layer_definitions": "NC_R-29(eff)_2x6-24inOC_R24-batt+2inXPS_poly_vb"
+    },
+    "LEEP-pkg_47": {
+      "Opt-ACH": "New-Const-air_seal_to_1.00_ach",
+      "Opt-CasementWindows": "NC-3g-LG-u1.36"
+    },
+    "LEEP-pkg_48": {
+      "Opt-ACH": "New-Const-air_seal_to_1.00_ach",
+      "Opt-CasementWindows": "NC-3g-LG-u1.36",
+      "Opt-Ceilings": "CeilR60"
+    },
+    "LEEP-pkg_49": {
+      "Opt-ACH": "New-Const-air_seal_to_1.00_ach",
+      "Opt-CasementWindows": "NC-3g-LG-u1.14",
+      "Opt-Ceilings": "CeilR70",
+      "Opt-FoundationWallIntIns": "WoodFrameEffR15",
+      "Opt-GenericWall_1Layer_definitions": "NC_R-21(eff)_2x6-16inOC_R19-batt+1inXPS_poly_vb"
+    },
+    "LEEP-pkg_50": {
+      "Opt-ACH": "New-Const-air_seal_to_1.00_ach",
+      "Opt-CasementWindows": "NC-3g-LG-u1.14",
+      "Opt-Ceilings": "CeilR70",
+      "Opt-FoundationWallIntIns": "WoodFrameEffR15",
+      "Opt-GenericWall_1Layer_definitions": "NC_R-26(eff)_2x6-16inOC_R19-batt+2inXPS_poly_vb"
+    },
+    "LEEP-pkg_51": {
+      "Opt-ACH": "New-Const-air_seal_to_1.00_ach",
+      "Opt-CasementWindows": "NC-3g-HG-u1.08",
+      "Opt-Ceilings": "CeilR80",
+      "Opt-GenericWall_1Layer_definitions": "NC_R-40(eff)_2x6-16inOC_R24-batt+4.5inXPS_poly_vb"
+    },
+    "LEEP-pkg_52": {
+      "Opt-ACH": "New-Const-air_seal_to_1.00_ach",
+      "Opt-CasementWindows": "NC-3g-HG-u1.08",
+      "Opt-Ceilings": "CeilR80",
+      "Opt-FoundationWallIntIns": "WoodFrame+intEpsEffR23",
+      "Opt-GenericWall_1Layer_definitions": "NC_R-30(eff)_2x6-16inOC_R24-batt+3inMineralWool_poly_vb"
+    },
+    "LEEP-pkg_53": {
+      "Opt-ACH": "New-Const-air_seal_to_1.00_ach",
+      "Opt-CasementWindows": "NC-3g-HG-u1.08",
+      "Opt-FoundationWallIntIns": "WoodFrame+intEpsEffR23",
+      "Opt-GenericWall_1Layer_definitions": "NC_R-40(eff)_2x6-16inOC_R24-batt+4.5inXPS_poly_vb"
+    },
+    "LEEP-pkg_54": {
+      "Opt-ACH": "New-Const-air_seal_to_1.00_ach",
+      "Opt-CasementWindows": "NC-3g-HG-u1.08",
+      "Opt-FoundationWallIntIns": "WoodFrameEffR17",
+      "Opt-GenericWall_1Layer_definitions": "NC_R-29(eff)_2x6-24inOC_R24-batt+2inXPS_poly_vb"
+    },
+    "LEEP-pkg_55": {
+      "Opt-ACH": "New-Const-air_seal_to_1.00_ach",
+      "Opt-CasementWindows": "NC-3g-LG-u1.08",
+      "Opt-Ceilings": "CeilR80",
+      "Opt-GenericWall_1Layer_definitions": "NC_R-40(eff)_2x6-16inOC_R24-batt+4.5inXPS_poly_vb"
+    },
+    "LEEP-pkg_56": {
+      "Opt-ACH": "New-Const-air_seal_to_1.00_ach",
+      "Opt-CasementWindows": "NC-3g-LG-u1.08",
+      "Opt-Ceilings": "CeilR80",
+      "Opt-FoundationWallIntIns": "WoodFrame+intEpsEffR23",
+      "Opt-GenericWall_1Layer_definitions": "NC_R-30(eff)_2x6-16inOC_R24-batt+3inMineralWool_poly_vb"
+    },
+    "LEEP-pkg_57": {
+      "Opt-ACH": "New-Const-air_seal_to_1.00_ach",
+      "Opt-CasementWindows": "NC-3g-LG-u1.08",
+      "Opt-FoundationWallIntIns": "WoodFrame+intEpsEffR23",
+      "Opt-GenericWall_1Layer_definitions": "NC_R-40(eff)_2x6-16inOC_R24-batt+4.5inXPS_poly_vb"
+    },
+    "LEEP-pkg_58": {
+      "Opt-ACH": "New-Const-air_seal_to_1.00_ach",
+      "Opt-CasementWindows": "NC-3g-LG-u1.08",
+      "Opt-FoundationWallIntIns": "WoodFrameEffR17",
+      "Opt-GenericWall_1Layer_definitions": "NC_R-29(eff)_2x6-24inOC_R24-batt+2inXPS_poly_vb"
+    },
+    "LEEP-pkg_59": {
+      "Opt-ACH": "New-Const-air_seal_to_1.00_ach",
+      "Opt-CasementWindows": "NC-2g-LG-u1.65",
+      "Opt-FoundationWallIntIns": "WoodFrameEffR17"
+    },
+    "LEEP-pkg_60": {
+      "Opt-ACH": "New-Const-air_seal_to_1.00_ach",
+      "Opt-CasementWindows": "NC-2g-LG-u1.65"
+    },
+    "LEEP-pkg_61": {
+      "Opt-ACH": "New-Const-air_seal_to_1.00_ach",
+      "Opt-CasementWindows": "NC-3g-HG-u1.08",
+      "Opt-FoundationWallIntIns": "WoodFrameEffR17",
+      "Opt-GenericWall_1Layer_definitions": "NC_R-29(eff)_2x6-24inOC_R24-batt+2inXPS_poly_vb"
+    },
+    "LEEP-pkg_62": {
+      "Opt-ACH": "New-Const-air_seal_to_1.00_ach",
+      "Opt-CasementWindows": "NC-3g-HG-u1.08",
+      "Opt-GenericWall_1Layer_definitions": "NC_R-22(eff)_2x6-24inOC_R19-batt+1inXPS_poly_vb"
+    },
+    "LEEP-pkg_63": {
+      "Opt-ACH": "New-Const-air_seal_to_1.00_ach",
+      "Opt-CasementWindows": "NC-3g-HG-u1.36",
+      "Opt-FoundationWallIntIns": "WoodFrameEffR17"
+    },
+    "LEEP-pkg_64": {
+      "Opt-ACH": "New-Const-air_seal_to_1.00_ach",
+      "Opt-CasementWindows": "NC-3g-HG-u1.36",
+      "Opt-FoundationWallIntIns": "WoodFrameEffR17",
+      "Opt-GenericWall_1Layer_definitions": "NC_R-22(eff)_2x6-24inOC_R19-batt+1inXPS_poly_vb"
+    },
+    "LEEP-pkg_65": {
+      "Opt-ACH": "New-Const-air_seal_to_1.00_ach",
+      "Opt-CasementWindows": "NC-3g-LG-u1.08",
+      "Opt-FoundationWallIntIns": "WoodFrameEffR17",
+      "Opt-GenericWall_1Layer_definitions": "NC_R-29(eff)_2x6-24inOC_R24-batt+2inXPS_poly_vb"
+    },
+    "LEEP-pkg_66": {
+      "Opt-ACH": "New-Const-air_seal_to_1.00_ach",
+      "Opt-CasementWindows": "NC-3g-LG-u1.36",
+      "Opt-FoundationWallIntIns": "WoodFrameEffR17"
+    },
+    "LEEP-pkg_67": {
+      "Opt-ACH": "New-Const-air_seal_to_1.00_ach",
+      "Opt-CasementWindows": "NC-3g-LG-u1.36",
+      "Opt-FoundationWallIntIns": "WoodFrameEffR17",
+      "Opt-GenericWall_1Layer_definitions": "NC_R-22(eff)_2x6-24inOC_R19-batt+1inXPS_poly_vb"
+    },
+    "LEEP-pkg_68": {
+      "Opt-ACH": "New-Const-air_seal_to_1.00_ach",
+      "Opt-FoundationWallIntIns": "WoodFrameEffR17"
+    },
+    "LEEP-pkg_69": {
+      "Opt-ACH": "New-Const-air_seal_to_1.00_ach",
+      "Opt-FoundationWallIntIns": "WoodFrameEffR17"
+    },
+    "LEEP-pkg_70": {
+      "Opt-ACH": "New-Const-air_seal_to_1.00_ach"
+    },
+    "LEEP-pkg_71": {
+      "Opt-ACH": "New-Const-air_seal_to_1.50_ach",
+      "Opt-CasementWindows": "NC-2g-LG-u1.65",
+      "Opt-Ceilings": "CeilR40",
+      "Opt-FoundationSlabBelowGrade": "uninsulated",
+      "Opt-FoundationWallIntIns": "WoodFrameEffR15",
+      "Opt-GenericWall_1Layer_definitions": "NC_R-16(eff)_2x6-16inOC_R19-batt_poly_vb"
+    },
+    "LEEP-pkg_72": {
+      "Opt-ACH": "New-Const-air_seal_to_1.50_ach",
+      "Opt-CasementWindows": "NC-2g-LG-u1.65",
+      "Opt-Ceilings": "CeilR40",
+      "Opt-FoundationSlabBelowGrade": "uninsulated",
+      "Opt-FoundationWallIntIns": "WoodFrameEffR15",
+      "Opt-GenericWall_1Layer_definitions": "NC_R-17(eff)_2x6-16inOC_R22-batt_poly_vb"
+    },
+    "LEEP-pkg_73": {
+      "Opt-ACH": "New-Const-air_seal_to_1.50_ach",
+      "Opt-CasementWindows": "NC-3g-LG-u1.08",
+      "Opt-Ceilings": "CeilR50",
+      "Opt-GenericWall_1Layer_definitions": "NC_R-22(eff)_2x6-24inOC_R19-batt+1inXPS_poly_vb"
+    },
+    "LEEP-pkg_74": {
+      "Opt-ACH": "New-Const-air_seal_to_1.50_ach",
+      "Opt-CasementWindows": "NC-3g-LG-u1.36",
+      "Opt-Ceilings": "CeilR50",
+      "Opt-GenericWall_1Layer_definitions": "NC_R-22(eff)_2x6-24inOC_R19-batt+1inXPS_poly_vb"
+    },
+    "LEEP-pkg_75": {
+      "Opt-ACH": "New-Const-air_seal_to_1.50_ach",
+      "Opt-Ceilings": "CeilR50",
+      "Opt-GenericWall_1Layer_definitions": "NC_R-22(eff)_2x6-24inOC_R19-batt+1inXPS_poly_vb"
+    },
+    "LEEP-pkg_76": {
+      "Opt-ACH": "New-Const-air_seal_to_1.50_ach",
+      "Opt-CasementWindows": "NC-3g-LG-u1.36",
+      "Opt-Ceilings": "CeilR60",
+      "Opt-GenericWall_1Layer_definitions": "NC_R-22(eff)_2x6-24inOC_R19-batt+1inXPS_poly_vb"
+    },
+    "LEEP-pkg_77": {
+      "Opt-ACH": "New-Const-air_seal_to_1.50_ach",
+      "Opt-FoundationWallIntIns": "WoodFrameEffR17"
+    },
+    "LEEP-pkg_78": {
+      "Opt-ACH": "New-Const-air_seal_to_1.50_ach",
+      "Opt-Ceilings": "CeilR60",
+      "Opt-GenericWall_1Layer_definitions": "NC_R-22(eff)_2x6-24inOC_R19-batt+1inXPS_poly_vb"
+    },
+    "LEEP-pkg_79": {
+      "Opt-ACH": "New-Const-air_seal_to_1.50_ach",
+      "Opt-CasementWindows": "NC-3g-HG-u1.36",
+      "Opt-Ceilings": "CeilR70",
+      "Opt-GenericWall_1Layer_definitions": "NC_R-21(eff)_2x6-16inOC_R19-batt+1inXPS_poly_vb"
+    },
+    "LEEP-pkg_80": {
+      "Opt-ACH": "New-Const-air_seal_to_1.50_ach",
+      "Opt-CasementWindows": "NC-3g-HG-u1.36",
+      "Opt-Ceilings": "CeilR70",
+      "Opt-GenericWall_1Layer_definitions": "NC_R-21(eff)_2x6-16inOC_R19-batt+1inXPS_poly_vb"
+    },
+    "LEEP-pkg_81": {
+      "Opt-ACH": "New-Const-air_seal_to_1.50_ach",
+      "Opt-CasementWindows": "NC-3g-LG-u1.36",
+      "Opt-Ceilings": "CeilR70",
+      "Opt-GenericWall_1Layer_definitions": "NC_R-21(eff)_2x6-16inOC_R19-batt+1inXPS_poly_vb"
+    },
+    "LEEP-pkg_82": {
+      "Opt-ACH": "New-Const-air_seal_to_1.50_ach",
+      "Opt-CasementWindows": "NC-3g-HG-u1.08",
+      "Opt-FoundationSlabBelowGrade": "xps4inEffR20",
+      "Opt-FoundationWallIntIns": "WoodFrameEffR17",
+      "Opt-GenericWall_1Layer_definitions": "NC_R-40(eff)_2x6-16inOC_R24-batt+4.5inXPS_poly_vb"
+    },
+    "LEEP-pkg_83": {
+      "Opt-ACH": "New-Const-air_seal_to_1.50_ach"
+    },
+    "LEEP-pkg_84": {
+      "Opt-ACH": "New-Const-air_seal_to_1.50_ach",
+      "Opt-FoundationWallIntIns": "WoodFrameEffR17"
+    },
+    "LEEP-pkg_85": {
+      "Opt-ACH": "New-Const-air_seal_to_1.50_ach"
+    },
+    "LEEP-pkg_86": {
+    },
+    "LEEP-pkg_87": {
+      "Opt-CasementWindows": "NC-3g-HG-u1.36",
+      "Opt-FoundationWallIntIns": "WoodFrameEffR17"
+    },
+    "LEEP-pkg_88": {
+      "Opt-CasementWindows": "NC-3g-HG-u1.36",
+      "Opt-FoundationWallIntIns": "WoodFrameEffR17"
+    },
+    "LEEP-pkg_89": {
+      "Opt-CasementWindows": "NC-3g-HG-u1.36"
+    },
+    "LEEP-pkg_90": {
+      "Opt-CasementWindows": "NC-2g-HG-u1.65"
+    },
+    "LEEP-pkg_91": {
+      "Opt-CasementWindows": "NC-3g-HG-u1.08"
+    },
+    "LEEP-pkg_92": {
+      "Opt-CasementWindows": "NC-3g-HG-u1.36",
+      "Opt-FoundationWallIntIns": "WoodFrame+intEpsEffR23",
+      "Opt-GenericWall_1Layer_definitions": "NC_R-22(eff)_2x6-24inOC_R19-batt+1inXPS_poly_vb"
+    },
+    "LEEP-pkg_93": {
+      "Opt-CasementWindows": "NC-3g-HG-u1.36"
+    }
+  },
+  "rulesets": {
+  }
+}
