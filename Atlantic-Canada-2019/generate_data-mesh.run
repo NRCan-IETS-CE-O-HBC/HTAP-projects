@@ -1,0 +1,75 @@
+RunParameters_START
+  run-mode                           = mesh
+
+  ! LEEP archetypes
+  archetype-dir                      = C:/HTAP-Projects/Pilot-Ottawa-2019/h2k_archetypes
+
+  unit-costs-db                      = C:/HTAP/HTAPUnitCosts.json
+  options-file                       = C:/HTAP/HTAP-options.json
+  ! To be replaced with LEEP specific JSON file 
+  rulesets-file                      = C:/HTAP-Projects/Atlantic-Canada-2019/LEEP-pathways-pkgs.json
+
+RunParameters_END
+
+
+! Parameters controlling archetypes, locations, reference rulests. (these will always be
+! run in mesh, even if an optimization mode is added in the future.
+RunScope_START
+  
+  ! 240 SA/SD
+   archetypes                        = AtlanticHTAP_11_3.h2k  , EndUnit_11_3.h2k !, RayHouse11_3.h2k !, Tofino.h2k
+
+  locations                         =  OTTAWA ! , VANCOUVER , HALIFAX
+  
+  ! Same for all scenarios 
+  rulesets                          = LEEP_Pathways
+
+RunScope_END
+
+! Parameters controlling the design of the building
+Upgrades_START
+
+   upgrade-package-list =  NA, LEEPv2-pkg_1, LEEPv2-pkg_1a, LEEPv2-pkg_1b, LEEPv2-pkg_1c, LEEPv2-pkg_1d, LEEPv2-pkg_2, LEEPv2-pkg_2a, LEEPv2-pkg_2b,LEEPv2-pkg_2c, LEEPv2-pkg_2d,LEEPv2-pkg_3, LEEPv2-pkg_3a, LEEPv2-pkg_4, LEEPv2-pkg_4a, LEEPv2-pkg_5, LEEPv2-pkg_5a, LEEPv2-pkg_5b, LEEPv2-pkg_5c, LEEPv2-pkg_5d
+   
+   Opt-FuelCost         = NA
+
+   Opt-ResultHouseCode  = NA
+
+   Opt-Specifications   = NA
+
+   Opt-Baseloads        =  ERS-Single-regular-19.5kWh&190_per_day  , ERS-Single-reduced-16kWh&160_per_day 
+   Opt-Temperatures     = NA
+
+   Opt-ACH              = NA , New-Const-air_seal_to_0.60_ach , New-Const-air_seal_to_2.50_ach, New-Const-air_seal_to_1.50_ach , New-Const-air_seal_to_1.00_ach
+
+   Opt-CasementWindows  = NA , NC-3g-LG-u1.08 ,  NC-2g-HG-u1.65, NC-2g-LG-u1.65, NC-3g-HG-u1.08
+
+   Opt-Skylights        = NA
+   Opt-DoorWindows      = NA
+   Opt-Doors            = NA
+
+   Opt-MainWall         = NA
+   Opt-GenericWall_1Layer_definitions = NA 
+   Opt-FloorHeaderIntIns      = NA
+
+   Opt-FoundationWallExtIns =      NA 
+   Opt-FoundationWallIntIns =      NA 
+   Opt-FoundationSlabBelowGrade =  NA 
+   Opt-FoundationSlabOnGrade =     NA
+
+   Opt-ExposedFloor     = NA!
+
+   Opt-Ceilings         = NA
+   Opt-AtticCeilings    = NA 
+   Opt-CathCeilings     = NA
+   Opt-FlatCeilings     = NA
+
+   Opt-HRVonly          = NA ,  HRV_sre_78
+   Opt-HRVspec          = NA
+   Opt-DHWSystem        = NA , GasInstantaneous , elec_storage_ef0.89, HPHotWater
+   Opt-HVACSystem       = NA , gas-furnace-ecm+AC, CCASHP, ASHP, elec-baseboard
+   Opt-DWHRSystem       = NA , DWHR-eff-55
+   Opt-H2K-PV           = NA
+   Opt-WindowDistribution = NA 
+
+Upgrades_END

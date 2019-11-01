@@ -1,0 +1,146 @@
+{
+  "upgrade-packages": {
+
+    "LEEPv2-pkg_1": {
+      "Opt-AtticCeilings": "CeilR50",
+      "Opt-FoundationSlabBelowGrade": "xps2inEffR10",
+      "Opt-FoundationWallExtIns": "xps1.5inEffR7.5",
+      "Opt-GenericWall_1Layer_definitions": "NC_R-22(eff)_2x6-16inOC_R22-batt+1inXPS_poly_vb"
+    },
+
+    "LEEPv2-pkg_1a": {
+      "Opt-AtticCeilings": "CeilR50",
+      "Opt-FoundationWallExtIns": "xps1.5inEffR7.5",
+      "Opt-GenericWall_1Layer_definitions": "NC_R-22(eff)_2x6-16inOC_R22-batt+1inXPS_poly_vb"
+    },
+
+    "LEEPv2-pkg_1b": {
+      "Opt-AtticCeilings": "CeilR50",
+      "Opt-GenericWall_1Layer_definitions": "NC_R-22(eff)_2x6-16inOC_R22-batt+1inXPS_poly_vb"
+    },
+    
+
+    "LEEPv2-pkg_1c": {
+      "Opt-AtticCeilings": "CeilR50"
+    },
+
+    "LEEPv2-pkg_1d": {
+      "Opt-GenericWall_1Layer_definitions": "NC_R-22(eff)_2x6-16inOC_R22-batt+1inXPS_poly_vb"
+    },
+
+
+
+    "LEEPv2-pkg_2": {
+      "Opt-AtticCeilings": "CeilR60",
+      "Opt-FoundationSlabBelowGrade": "xps4inEffR20",
+      "Opt-FoundationWallExtIns": "xps2.5inEffR12.5",
+      "Opt-GenericWall_1Layer_definitions": "NC_R-22(eff)_2x6-16inOC_R22-batt+1inXPS_poly_vb"
+    },
+
+    "LEEPv2-pkg_2a": {
+      "Opt-AtticCeilings": "CeilR60",
+      "Opt-FoundationSlabBelowGrade": "xps4inEffR20",
+      "Opt-FoundationWallExtIns": "xps1.5inEffR7.5",
+      "Opt-GenericWall_1Layer_definitions": "NC_R-22(eff)_2x6-16inOC_R22-batt+1inXPS_poly_vb"
+    },
+    
+    
+    "LEEPv2-pkg_2b": {
+      "Opt-AtticCeilings": "CeilR50",
+      "Opt-FoundationSlabBelowGrade": "xps4inEffR20",
+      "Opt-FoundationWallExtIns": "xps2.5inEffR12.5",
+      "Opt-GenericWall_1Layer_definitions": "NC_R-22(eff)_2x6-16inOC_R22-batt+1inXPS_poly_vb"
+    },
+    
+    "LEEPv2-pkg_2c": {
+      "Opt-AtticCeilings": "CeilR60",
+      "Opt-FoundationSlabBelowGrade": "xps2inEffR10",
+      "Opt-FoundationWallExtIns": "xps1.5inEffR7.5",
+      "Opt-GenericWall_1Layer_definitions": "NC_R-22(eff)_2x6-16inOC_R22-batt+1inXPS_poly_vb"
+    },
+
+    "LEEPv2-pkg_2d": {
+      "Opt-AtticCeilings": "CeilR50",
+      "Opt-FoundationSlabBelowGrade": "xps2inEffR10",
+      "Opt-FoundationWallExtIns": "xps1.5inEffR7.5",
+      "Opt-GenericWall_1Layer_definitions": "NC_R-22(eff)_2x6-16inOC_R22-batt+1inXPS_poly_vb"
+    },
+
+    "LEEPv2-pkg_3": {
+      "Opt-AtticCeilings": "CeilR70",
+      "Opt-FoundationSlabBelowGrade": "xps2inEffR10",
+      "Opt-FoundationWallExtIns": "xps2.5inEffR12.5",
+      "Opt-GenericWall_1Layer_definitions": "NC_R-26(eff)_2x6-16inOC_R19-batt+2inXPS_poly_vb"
+    }, 
+
+    "LEEPv2-pkg_3a": {
+      "Opt-AtticCeilings": "CeilR70",
+      "Opt-FoundationSlabBelowGrade": "xps2inEffR10",
+      "Opt-FoundationWallExtIns": "xps1.5inEffR7.5",
+      "Opt-GenericWall_1Layer_definitions": "NC_R-26(eff)_2x6-16inOC_R19-batt+2inXPS_poly_vb"
+    },
+    
+
+
+  "LEEPv2-pkg_4": {
+    "Opt-AtticCeilings": "CeilR80",
+    "Opt-FoundationSlabBelowGrade": "xps4inEffR20",
+    "Opt-FoundationWallExtIns": "xps2.5inEffR12.5",
+    "Opt-GenericWall_1Layer_definitions": "NC_R-30(eff)_2x6-16inOC_R24-batt+3inMineralWool_poly_vb"
+  },
+  
+  "LEEPv2-pkg_4a": {
+    "Opt-AtticCeilings": "CeilR80",
+    "Opt-FoundationSlabBelowGrade": "xps2inEffR10",
+    "Opt-FoundationWallExtIns": "xps2.5inEffR12.5",
+    "Opt-GenericWall_1Layer_definitions": "NC_R-30(eff)_2x6-16inOC_R24-batt+3inMineralWool_poly_vb"
+  },
+
+    "LEEPv2-pkg_5": {
+      "Opt-AtticCeilings": "CeilR80",
+      "Opt-FoundationSlabBelowGrade": "xps4inEffR20",
+      "Opt-FoundationWallExtIns": "xps2.5inEffR12.5",
+      "Opt-GenericWall_1Layer_definitions": "NC_R-40(eff)_2x6-16inOC_R24-batt+4.5inXPS_poly_vb"
+    },
+
+    "LEEPv2-pkg_5a": {
+      "Opt-AtticCeilings": "CeilR80",
+      "Opt-FoundationSlabBelowGrade": "xps2inEffR10",
+      "Opt-FoundationWallExtIns": "xps2.5inEffR12.5",
+      "Opt-GenericWall_1Layer_definitions": "NC_R-40(eff)_2x6-16inOC_R24-batt+4.5inXPS_poly_vb"
+    },
+
+    "LEEPv2-pkg_5c": {
+      "Opt-AtticCeilings": "CeilR80",
+      "Opt-FoundationSlabBelowGrade": "xps2inEffR10",
+      "Opt-FoundationWallExtIns": "xps2.5inEffR12.5",
+      "Opt-GenericWall_1Layer_definitions": "NC_R-30(eff)_2x6-16inOC_R24-batt+3inMineralWool_poly_vb"
+    },
+
+    "LEEPv2-pkg_5b": {
+      "Opt-AtticCeilings": "CeilR70",
+      "Opt-FoundationSlabBelowGrade": "xps2inEffR10",
+      "Opt-FoundationWallExtIns": "xps2.5inEffR12.5",
+      "Opt-GenericWall_1Layer_definitions": "NC_R-40(eff)_2x6-16inOC_R24-batt+4.5inXPS_poly_vb"
+    },    
+
+    "LEEPv2-pkg_5d": {
+      "Opt-AtticCeilings": "CeilR60",
+      "Opt-FoundationSlabBelowGrade": "xps2inEffR10",
+      "Opt-FoundationWallExtIns": "xps2.5inEffR12.5",
+      "Opt-GenericWall_1Layer_definitions": "NC_R-40(eff)_2x6-16inOC_R24-batt+4.5inXPS_poly_vb"
+    },
+        
+
+    "LEEPv2-pkg_Highest": {
+      "Opt-AtticCeilings": "CeilR80",
+      "Opt-FoundationSlabBelowGrade": "xps4inEffR20",
+      "Opt-FoundationWallExtIns": "xps4inEffR20",
+      "Opt-GenericWall_1Layer_definitions": "NC_R-40(eff)_2x6-16inOC_R24-batt+4.5inXPS_poly_vb"
+    }    
+
+
+  },
+  "rulesets": {
+  }
+}
