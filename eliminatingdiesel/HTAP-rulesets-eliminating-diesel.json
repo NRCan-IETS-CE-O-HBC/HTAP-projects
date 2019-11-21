@@ -1,0 +1,36 @@
+{ 
+  "upgrade-packages":{
+
+
+"NBC": {
+	"Opt-ACH": "ACH_NBC",
+    "Opt-CasementWindows": "NBC-zone8-window",
+    "Opt-Doors": "NBC-zone8-door",
+    "Opt-DoorWindows": "NBC-zone8-Doorwindow",
+	 
+    "Opt-Ceilings":	"NBC_Ceiling_zone8",
+	"Opt-AtticCeilings": "NBC_Ceiling_zone8",
+    "Opt-CathCeilings": "NBC_CathCeiling_RSI5.02",
+    "Opt-FlatCeilings": "NBC_FlatCeiling_RSI5.02",
+
+	"Opt-GenericWall_1Layer_definitions": "NBC_Wall_zone8_noHRV",
+    "Opt-FloorHeaderIntIns": "NBC_RSI3.08_int",
+    "Opt-ExposedFloor": "NBC_936_5.02RSI",
+
+    "Opt-H2KFoundationSlabCrawl": "NBC_SCB_zone8_HRV",
+    "Opt-FoundationWallIntIns"] = "NBC_936_2.98RSI",
+     
+    "Opt-Baseloads": "NBC-Baseloads",
+    "Opt-ResultHouseCode": "General",
+    "Opt-Temperatures":  "NBC_Temps",
+	
+    "Opt-HRVonly":  "NBC_HRV",
+	"Opt-DHWSystem": "NBC-HotWater_elec",
+	"Opt-HVACSystem": "NBC-elec-heat"
+
+},
+
+  "rulesets":{
+
+  }
+}

@@ -1,0 +1,67 @@
+! Definitions file for HTAP-PRM RUN
+
+! Run-Mode: Parameters that affect how htap-prm is configured.
+RunParameters_START
+  run-mode                           =  mesh
+  archetype-dir                      =  C:/HTAP-archetypes/north-archetypes 
+
+  unit-costs-db                      = C:/HTAP/HTAPUnitCosts.json
+  options-file                       = C:/HTAP/HTAP-options.json
+  rulesets-file                      = C:/HTAP-projects/eliminatingdiesel/HTAP-rulesets-eliminating-diesel.json 
+RunParameters_END
+
+
+! Parameters controlling archetypes, locations, reference rulests. (these will always be
+! run in mesh, even if an optimization mode is added in the future.
+RunScope_START
+
+  archetypes                        = access.h2k ! duplex.h2k,MURB.h2k
+  locations                         = NA !WHITEHORSE,YELLOWKNIFE !,INUVIK,FORTSTJOHN,KUUJJUARAPIK,IQALUIT,RESOLUTE,CORALHARBOUR,HALLBEACH
+  rulesets                          = NA
+
+RunScope_END
+
+! Parameters controlling the design of the building
+Upgrades_START
+   upgrade-packages     = NA!, NBC
+   
+   Opt-FuelCost         = NA
+
+   Opt-ResultHouseCode  = NA
+
+   Opt-Specifications   = NA
+
+   Opt-Baseloads        = NBC-Baseloads!
+   Opt-Temperatures     = NA
+
+   Opt-ACH              = NA!
+
+   Opt-CasementWindows  = NA !
+   Opt-Skylights        = NA
+   Opt-DoorWindows      = NA
+   Opt-Doors            = NA
+
+   Opt-GenericWall_1Layer_definitions = NA
+   Opt-FloorHeaderIntIns      = NA
+
+   Opt-FoundationWallExtIns =      NA
+   Opt-FoundationWallIntIns =      NA
+   Opt-FoundationSlabBelowGrade =  NA
+   Opt-FoundationSlabOnGrade =     NA
+
+   Opt-ExposedFloor     = NA!
+
+   Opt-Ceilings         = NA
+   Opt-AtticCeilings    = NA
+   Opt-CathCeilings     = NA
+   Opt-FlatCeilings     = NA
+
+   Opt-HRVonly          = NA!
+   Opt-HRVspec          = NA
+   Opt-DHWSystem        = NA!
+   Opt-HVACSystem       = NA
+   Opt-DWHRSystem       = NA
+   Opt-H2K-PV           = NA
+   Opt-WindowDistribution = NA! Proposed-9.36
+
+Upgrades_END
