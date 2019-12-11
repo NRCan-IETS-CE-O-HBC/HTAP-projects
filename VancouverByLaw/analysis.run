@@ -1,0 +1,90 @@
+! Definitions file for HTAP-PRM RUN
+
+! Run-Mode: Parameters that affect how htap-prm is configured.
+RunParameters_START
+  run-mode                           = mesh
+
+  ! 240 SA/SD
+    archetype-dir                      = C:/HTAP-Archetypes/NRCan-11-Archetypes
+
+
+  ! MURBS 
+  !  archetype-dir                      = C:/HTAP-Archetypes/BC-Step-Code
+
+  ! Mobile homes 
+  ! archetype-dir                      = C:/HTAP-Archetypes/NRCan-Mobile-home-archetypes 
+
+  unit-costs-db                      = C:/HTAP/HTAPUnitCosts.json
+  options-file                       = C:/HTAP/HTAP-options.json
+  !rulesets-file                      = C:/HTAP-projects/PCF-1617-impact-assessment/HTAP-rulesets-envelope-HVAC-impact.json  
+
+RunParameters_END
+
+
+! Parameters controlling archetypes, locations, reference rulests. (these will always be
+! run in mesh, even if an optimization mode is added in the future.
+RunScope_START
+  
+  ! 240 SA/SD
+  archetypes                        = NRCan-A11_1500sf_2storey_rowMid_fullBsmt.h2k , NRCan-arch4_2100sf_2storey_fullBsmt.h2k
+  locations                         = VANCOUVER  , EDMONTON
+
+ ! MURB scope 
+ ! archetypes                        = BC-Step-MURB10.h2k,  BC-Step-Quad-BCH.h2k
+ ! locations                         = CALGARY , CHARLOTTETOWN, COMOX, CRANBROOK, EDMONTON, FREDERICTON, GREENWOOD, HALIFAX, KAMLOOPS, LONDON, MONCTON, MONTREAL, OTTAWA, SUMMERLAND, SYDNEY, TORONTO, TORONTOMETRESSTN, TRURO, VANCOUVER, VICTORIA, WHISTLER, WHITEHORSE, YELLOWKNIFE
+
+ ! MOBILE HOME SCOPE 
+ ! archetypes                        = OneStory_1100sf_19018.h2k, OneStory_1400sf_19126.h2k , TwoStory_2100sf.h2k 
+ ! locations                         = CALGARY, CHARLOTTETOWN, COMOX, CRANBROOK, EDMONTON, FREDERICTON, GREENWOOD, HALIFAX, KAMLOOPS, LONDON, MONCTON, MONTREAL, OTTAWA, SUMMERLAND, SYDNEY, TORONTO, TORONTOMETRESSTN, TRURO, VANCOUVER, VICTORIA, WHISTLER, WHITEHORSE, YELLOWKNIFE
+  
+  
+  ! Same for all scenarios 
+  rulesets                          = NBC9_36[fuel>elect;vent>HRV]
+
+RunScope_END
+! Parameters controlling the design of the building
+Upgrades_START
+
+   upgrade-package-list = NA !,   gas-q, gas-r, gas-s, gas-t, gas-u, gas-v, gas-w, gas-a, gas-d, gas-e, gas-f, gas-g, gas-i, gas-j, gas-k, gas-l, gas-m, gas-n, gas-o, gas-p, gas-337447,gas-375463,gas-375458,gas-376631,gas-385250,gas-385254,gas-497777,gas-497880,gas-498072
+   
+   Opt-FuelCost         = NA
+
+   Opt-ResultHouseCode  = NA
+
+   Opt-Specifications   = NA
+
+   Opt-Baseloads        = ERS-Single-regular-19.5kWh&190_per_day 
+   Opt-Temperatures     = NA
+
+   Opt-ACH              = New-Const-air_seal_to_3.50_ach,New-Const-air_seal_to_2.50_ach, New-Const-air_seal_to_1.50_ach,New-Const-air_seal_to_1.00_ach, New-Const-air_seal_to_0.60_ach !
+
+   Opt-Windows  = NC-2g-MG-u1.82 ,NC-2g-MG-u1.65, NC-3g-MG-u1.36, NC-3g-MG-u1.08!
+   Opt-Skylights        = NA
+   Opt-DoorWindows      = NA
+   Opt-Doors            = NA
+
+   Opt-AboveGradeWall         = NA , NC_R-21(eff)_2x6-16inOC_R19-batt+1inXPS_poly_vb, NC_R-26(eff)_2x6-24inOC_R24-batt+1.5inXPS_poly_vb,NC_R-28(eff)_2x6-24inOC_R22-batt+2inXPS_poly_vb, NC_R-40(eff)_2x6-16inOC_R24-batt+4.5inXPS_poly_vb
+   
+   Opt-FloorHeaderIntIns      = NA
+
+   Opt-FoundationWallExtIns =      NA
+   Opt-FoundationWallIntIns =      NA ,  WoodFrameEffR17, WoodFrame+intEpsEffR23
+   Opt-FoundationSlabBelowGrade =  NA, xps1inEffR5, xps2inEffR10, xps3inEffR15, xps4.5inEffR22.5
+   Opt-FoundationSlabOnGrade =     NA
+
+   Opt-ExposedFloor     = NA
+
+   Opt-Ceilings         = NA 
+   Opt-AtticCeilings    = NA , CeilR40,  CeilR60,  CeilR80,  CeilR100
+   Opt-CathCeilings     = NA
+   Opt-FlatCeilings     = NA
+
+   Opt-HRVonly          = NA
+   Opt-HRVspec          = NA
+   Opt-DHWSystem        = NA
+   Opt-HVACSystem       = NA
+   Opt-DWHRSystem       = NA
+   Opt-H2K-PV           = NA
+   Opt-WindowDistribution = NA ! , Proposed-9.36 !, equal-on-all-sides_9.36
+
+Upgrades_END
