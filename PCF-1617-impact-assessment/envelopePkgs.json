@@ -1,0 +1,284 @@
+{
+  "upgrade-packages": {
+
+    "pkgA0": {
+      "Opt-AtticCeilings": "CeilR50",
+      "Opt-CathCeilings": "CeilR40",
+      "Opt-FlatCeilings": "CeilR40"
+    },
+
+    "pkgA00": {
+      "Opt-AboveGradeWall": "NC_R-21(eff)_2x6-16inOC_R19-batt+1inXPS_poly_vb"
+    },
+
+
+    "pkgA000": {
+      "Opt-AboveGradeWall":"NC_R-17(eff)_2x6-16inOC_R22-batt_poly_vb"
+    },
+
+
+    "pkgA1": {
+      "Opt-AboveGradeWall": "NC_R-21(eff)_2x6-16inOC_R19-batt+1inXPS_poly_vb",
+      "Opt-AtticCeilings": "CeilR50",
+      "Opt-CathCeilings": "CeilR40",
+      "Opt-FlatCeilings": "CeilR40"   
+    },
+
+    "pkgA2": {
+      "Opt-AboveGradeWall": "NC_R-21(eff)_2x6-16inOC_R19-batt+1inXPS_poly_vb",
+      "Opt-FoundationWallExtIns": "xps1inEffR5",
+      "Opt-AtticCeilings": "CeilR50",
+      "Opt-CathCeilings": "CeilR40",
+      "Opt-FlatCeilings": "CeilR40"
+    },
+
+    "pkgA3": {
+      "Opt-AboveGradeWall": "NC_R-21(eff)_2x6-16inOC_R19-batt+1inXPS_poly_vb",
+      "Opt-FoundationWallExtIns": "xps1inEffR5",
+      "Opt-FoundationSlabBelowGrade": "xps1inEffR5",
+      "Opt-FoundationSlabOnGrade": "xps1inEffR5",
+      "Opt-AtticCeilings": "CeilR50",
+      "Opt-CathCeilings": "CeilR40",
+      "Opt-FlatCeilings": "CeilR40"
+    },
+
+    "pkgB1": {
+      "Opt-AboveGradeWall": "NC_R-23(eff)_2x6-16inOC_R24-batt+1inXPS_poly_vb",
+      "Opt-FoundationWallExtIns": "xps1inEffR5",
+      "Opt-FoundationSlabBelowGrade": "xps1inEffR5",
+      "Opt-FoundationSlabOnGrade": "xps1inEffR5",
+      "Opt-AtticCeilings": "CeilR50",
+      "Opt-CathCeilings": "CeilR40",
+      "Opt-FlatCeilings": "CeilR40"
+    },
+    
+
+    "pkgB2": {
+      "Opt-AboveGradeWall": "NC_R-23(eff)_2x6-16inOC_R24-batt+1inXPS_poly_vb",
+      "Opt-FoundationWallExtIns": "xps1inEffR5",
+      "Opt-FoundationSlabBelowGrade": "xps1inEffR5",
+      "Opt-FoundationSlabOnGrade": "xps1inEffR5",
+      "Opt-AtticCeilings": "CeilR60",
+      "Opt-CathCeilings": "CeilR60",
+      "Opt-FlatCeilings": "CeilR60"
+    },
+
+    "pkgB3": {
+      "Opt-AboveGradeWall": "NC_R-23(eff)_2x6-16inOC_R24-batt+1inXPS_poly_vb",
+      "Opt-FoundationWallExtIns": "xps1inEffR5",
+      "Opt-FoundationSlabBelowGrade": "xps1inEffR5",
+      "Opt-FoundationSlabOnGrade": "xps1inEffR5",
+      "Opt-ExposedFloor": "ExpFloorFlash&Batt-R36",
+      "Opt-AtticCeilings": "CeilR60",
+      "Opt-CathCeilings": "CeilR60",
+      "Opt-FlatCeilings": "CeilR60"
+    },
+    
+    "pkgB4": {
+      "Opt-AboveGradeWall": "NC_R-23(eff)_2x6-16inOC_R24-batt+1inXPS_poly_vb",
+      "Opt-FoundationWallExtIns": "xps2inEffR10",
+      "Opt-FoundationSlabBelowGrade": "xps1inEffR5",
+      "Opt-FoundationSlabOnGrade": "xps1inEffR5",
+      "Opt-ExposedFloor": "ExpFloorFlash&Batt-R36",
+      "Opt-AtticCeilings": "CeilR60",
+      "Opt-CathCeilings": "CeilR60",
+      "Opt-FlatCeilings": "CeilR60"
+    },
+
+    "pkgB5": {
+      "Opt-AboveGradeWall": "NC_R-23(eff)_2x6-16inOC_R24-batt+1inXPS_poly_vb",
+      "Opt-FoundationWallExtIns": "xps2inEffR10",
+      "Opt-ExposedFloor": "ExpFloorFlash&Batt-R36",
+      "Opt-AtticCeilings": "CeilR60",
+      "Opt-CathCeilings": "CeilR60",
+      "Opt-FlatCeilings": "CeilR60"
+    },
+    
+
+
+    "pkgC1": {
+      "Opt-AboveGradeWall": "NC_R-26(eff)_2x6-16inOC_R19-batt+2inXPS_poly_vb",
+      "Opt-FoundationWallExtIns": "xps1inEffR5",
+      "Opt-FoundationSlabBelowGrade": "xps1inEffR5",
+      "Opt-FoundationSlabOnGrade": "xps1inEffR5",
+      "Opt-ExposedFloor": "ExpFloorFlash&Batt-R36",
+      "Opt-AtticCeilings": "CeilR60",
+      "Opt-CathCeilings": "CeilR60",
+      "Opt-FlatCeilings": "CeilR60"
+    },
+
+    "pkgC2": {
+      "Opt-AboveGradeWall": "NC_R-26(eff)_2x6-16inOC_R19-batt+2inXPS_poly_vb",
+      "Opt-FoundationWallExtIns": "xps1inEffR5",
+      "Opt-FoundationSlabBelowGrade": "xps1inEffR5",
+      "Opt-FoundationSlabOnGrade": "xps1inEffR5",
+      "Opt-ExposedFloor": "ExpFloorFlash&Batt-R36",
+      "Opt-AtticCeilings": "CeilR70",
+      "Opt-CathCeilings": "CeilR70",
+      "Opt-FlatCeilings": "CeilR70"
+    },
+
+    "pkgC3": {
+      "Opt-AboveGradeWall": "NC_R-26(eff)_2x6-16inOC_R19-batt+2inXPS_poly_vb",
+      "Opt-FoundationWallExtIns": "xps2inEffR10",
+      "Opt-FoundationSlabBelowGrade": "xps1inEffR5",
+      "Opt-FoundationSlabOnGrade": "xps1inEffR5",
+      "Opt-ExposedFloor": "ExpFloorFlash&Batt-R36",
+      "Opt-AtticCeilings": "CeilR70",
+      "Opt-CathCeilings": "CeilR70",
+      "Opt-FlatCeilings": "CeilR70"
+    },
+
+    "pkgC4": {
+      "Opt-AboveGradeWall": "NC_R-26(eff)_2x6-16inOC_R19-batt+2inXPS_poly_vb",
+      "Opt-FoundationWallExtIns": "xps2inEffR10",
+      "Opt-FoundationSlabBelowGrade": "xps2inEffR10",
+      "Opt-FoundationSlabOnGrade": "xps2inEffR10",
+      "Opt-ExposedFloor": "ExpFloorFlash&Batt-R36",
+      "Opt-AtticCeilings": "CeilR70",
+      "Opt-CathCeilings": "CeilR70",
+      "Opt-FlatCeilings": "CeilR70"
+    },
+
+    "pkgC5": {
+      "Opt-AboveGradeWall": "NC_R-26(eff)_2x6-16inOC_R19-batt+2inXPS_poly_vb",
+      "Opt-FoundationWallExtIns": "xps2inEffR10",
+      "Opt-FoundationSlabOnGrade": "xps2inEffR10",
+      "Opt-ExposedFloor": "ExpFloorFlash&Batt-R36",
+      "Opt-AtticCeilings": "CeilR70",
+      "Opt-CathCeilings": "CeilR70",
+      "Opt-FlatCeilings": "CeilR70"
+    },
+
+
+    "pkgD1": {
+      "Opt-AboveGradeWall": "NC_R-28(eff)_2x6-16inOC_R24-batt+2inXPS_poly_vb",
+      "Opt-FoundationWallExtIns": "xps2inEffR10",
+      "Opt-FoundationSlabBelowGrade": "xps2inEffR10",
+      "Opt-FoundationSlabOnGrade": "xps2inEffR10",
+      "Opt-ExposedFloor": "ExpFloorFlash&Batt-R36",
+      "Opt-AtticCeilings": "CeilR70",
+      "Opt-CathCeilings": "CeilR70",
+      "Opt-FlatCeilings": "CeilR70"
+    },
+    
+    "pkgD2": {
+      "Opt-AboveGradeWall": "NC_R-28(eff)_2x6-16inOC_R24-batt+2inXPS_poly_vb",
+      "Opt-FoundationWallExtIns": "xps2inEffR10",
+      "Opt-FoundationSlabBelowGrade": "xps2inEffR10",
+      "Opt-FoundationSlabOnGrade": "xps2inEffR10",
+      "Opt-ExposedFloor": "ExpFloorFlash&Batt-R36",
+      "Opt-AtticCeilings": "CeilR80",
+      "Opt-CathCeilings": "CeilR80",
+      "Opt-FlatCeilings": "CeilR80"
+    },
+    
+    "pkgD3": {
+      "Opt-AboveGradeWall": "NC_R-28(eff)_2x6-16inOC_R24-batt+2inXPS_poly_vb",
+      "Opt-FoundationWallExtIns": "xps2inEffR10",
+      "Opt-FoundationSlabBelowGrade": "xps1inEffR5",
+      "Opt-FoundationSlabOnGrade": "xps1inEffR5",
+      "Opt-ExposedFloor": "ExpFloorFlash&Batt-R36",
+      "Opt-AtticCeilings": "CeilR80",
+      "Opt-CathCeilings": "CeilR80",
+      "Opt-FlatCeilings": "CeilR80"
+    },
+
+    "pkgE0": {
+      "Opt-AboveGradeWall": "NC_R-33(eff)_2x6-16inOC_R24-batt+3inXPS_poly_vb",
+      "Opt-FoundationWallExtIns": "xps2inEffR10",
+      "Opt-FoundationSlabBelowGrade": "xps2inEffR10",
+      "Opt-FoundationSlabOnGrade": "xps2inEffR10",
+      "Opt-ExposedFloor": "ExpFloorFlash&Batt-R36",
+      "Opt-AtticCeilings": "CeilR70",
+      "Opt-CathCeilings": "CeilR70",
+      "Opt-FlatCeilings": "CeilR70"
+    },
+
+
+    "pkgE1": {
+      "Opt-AboveGradeWall": "NC_R-33(eff)_2x6-16inOC_R24-batt+3inXPS_poly_vb",
+      "Opt-FoundationWallExtIns": "xps2inEffR10",
+      "Opt-FoundationSlabBelowGrade": "xps2inEffR10",
+      "Opt-FoundationSlabOnGrade": "xps2inEffR10",
+      "Opt-ExposedFloor": "ExpFloorFlash&Batt-R36",
+      "Opt-AtticCeilings": "CeilR80",
+      "Opt-CathCeilings": "CeilR80",
+      "Opt-FlatCeilings": "CeilR80"
+    },
+    
+    "pkgE2": {
+      "Opt-AboveGradeWall": "NC_R-33(eff)_2x6-16inOC_R24-batt+3inXPS_poly_vb",
+      "Opt-FoundationWallExtIns": "xps2inEffR10",
+      "Opt-FoundationSlabBelowGrade": "xps2inEffR10",
+      "Opt-FoundationSlabOnGrade": "xps2inEffR10",
+      "Opt-ExposedFloor": "ExpFloorFlash&Batt-R36",
+      "Opt-AtticCeilings": "CeilR100",
+      "Opt-CathCeilings": "CeilR100",
+      "Opt-FlatCeilings": "CeilR100"
+    },
+
+  "pkgE3": {
+    "Opt-AboveGradeWall": "NC_R-33(eff)_2x6-16inOC_R24-batt+3inXPS_poly_vb",
+    "Opt-FoundationWallExtIns": "xps2inEffR10",
+    "Opt-FoundationSlabBelowGrade": "xps1inEffR5",
+    "Opt-FoundationSlabOnGrade": "xps1inEffR5",
+    "Opt-ExposedFloor": "ExpFloorFlash&Batt-R36",
+    "Opt-AtticCeilings": "CeilR100",
+    "Opt-CathCeilings": "CeilR100",
+    "Opt-FlatCeilings": "CeilR100"
+  },
+  
+    "pkgF1": {
+      "Opt-AboveGradeWall": "NC_R-33(eff)_2x6-16inOC_R24-batt+3inXPS_poly_vb",
+      "Opt-FoundationWallExtIns": "xps3inEffR15",
+      "Opt-FoundationSlabBelowGrade": "xps2inEffR10",
+      "Opt-FoundationSlabOnGrade": "xps2inEffR10",
+      "Opt-ExposedFloor": "ExpFloorFoamed-R52",
+      "Opt-AtticCeilings": "CeilR100",
+      "Opt-CathCeilings": "CeilR100",
+      "Opt-FlatCeilings": "CeilR100"
+    },
+    
+    "pkgF2": {
+      "Opt-AboveGradeWall": "NC_R-33(eff)_2x6-16inOC_R24-batt+3inXPS_poly_vb",
+      "Opt-FoundationWallExtIns": "xps4inEffR20",
+      "Opt-FoundationSlabBelowGrade": "xps2inEffR10",
+      "Opt-FoundationSlabOnGrade": "xps2inEffR10",
+      "Opt-ExposedFloor": "ExpFloorFoamed-R52",
+      "Opt-AtticCeilings": "CeilR100",
+      "Opt-CathCeilings": "CeilR100",
+      "Opt-FlatCeilings": "CeilR100"
+    },
+
+    "pkgF3": {
+      "Opt-AboveGradeWall": "NC_R-33(eff)_2x6-16inOC_R24-batt+3inXPS_poly_vb",
+      "Opt-FoundationWallExtIns": "xps4inEffR20",
+      "Opt-FoundationSlabBelowGrade": "xps3inEffR15",
+      "Opt-FoundationSlabOnGrade": "xps3inEffR15",
+      "Opt-ExposedFloor": "ExpFloorFoamed-R52",
+      "Opt-AtticCeilings": "CeilR100",
+      "Opt-CathCeilings": "CeilR100",
+      "Opt-FlatCeilings": "CeilR100"
+    },    
+    
+
+    "pkgZ": {
+      "Opt-AboveGradeWall": "NC_R-40(eff)_2x6-16inOC_R24-batt+4.5inXPS_poly_vb",
+      "Opt-FoundationWallExtIns": "xps4inEffR20",
+      "Opt-FoundationSlabBelowGrade": "xps4inEffR20",
+      "Opt-FoundationSlabOnGrade": "xps4inEffR20",
+      "Opt-FoundationWallIntIns": "WoodFrame+intEpsEffR23",
+      "Opt-ExposedFloor": "ExpFloorFoamed-R52",
+      "Opt-AtticCeilings": "CeilR100",
+      "Opt-CathCeilings": "CeilR100",
+      "Opt-FlatCeilings": "CeilR100"
+    }
+
+
+
+
+  },
+  "rulesets": {
+  }
+}

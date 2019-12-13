@@ -1,0 +1,87 @@
+RunParameters_START
+  run-mode                           = mesh
+
+  ! 240 SA/SD
+   archetype-dir                      = C:/HTAP-Archetypes/NRCan-EGH-NewHousing
+
+
+  ! MURBS 
+  !  archetype-dir                      = C:/HTAP-Archetypes/BC-Step-Code
+
+  ! Mobile homes 
+  ! archetype-dir                      = C:/HTAP-Archetypes/NRCan-Mobile-home-archetypes 
+
+  unit-costs-db                      = C:/HTAP/HTAPUnitCosts.json
+  options-file                       = C:/HTAP/HTAP-options.json
+  rulesets-file                      = C:/HTAP-projects/PCF-1617-impact-assessment/envelopePkgs.json  
+
+RunParameters_END
+
+
+! Parameters controlling archetypes, locations, reference rulests. (these will always be
+! run in mesh, even if an optimization mode is added in the future.
+RunScope_START
+  
+  ! 240 SA/SD
+  archetypes                        = ERS-*.h2k
+  locations                         = NA
+
+ ! MURB scope 
+ ! archetypes                        = BC-Step-MURB10.h2k,  BC-Step-Quad-BCH.h2k
+ ! locations                         = CALGARY , CHARLOTTETOWN, COMOX, CRANBROOK, EDMONTON, FREDERICTON, GREENWOOD, HALIFAX, KAMLOOPS, LONDON, MONCTON, MONTREAL, OTTAWA, SUMMERLAND, SYDNEY, TORONTO, TORONTOMETRESSTN, TRURO, VANCOUVER, VICTORIA, WHISTLER, WHITEHORSE, YELLOWKNIFE
+
+ ! MOBILE HOME SCOPE 
+ ! archetypes                        = OneStory_1100sf_19018.h2k, OneStory_1400sf_19126.h2k , TwoStory_2100sf.h2k 
+ ! locations                         = CALGARY, CHARLOTTETOWN, COMOX, CRANBROOK, EDMONTON, FREDERICTON, GREENWOOD, HALIFAX, KAMLOOPS, LONDON, MONCTON, MONTREAL, OTTAWA, SUMMERLAND, SYDNEY, TORONTO, TORONTOMETRESSTN, TRURO, VANCOUVER, VICTORIA, WHISTLER, WHITEHORSE, YELLOWKNIFE
+  
+  
+  ! Same for all scenarios 
+  rulesets                          = NBC9_36[fuel>elect;vent>HRV]
+
+RunScope_END
+
+! Parameters controlling the design of the building
+Upgrades_START
+   upgrade-package-list = NA, pkgA0, pkgA00, pkgA1, pkgA2, pkgA3, pkgB1,pkgB2,pkgB3,pkgB4,pkgB5, pkgC1,pkgC2, pkgC3, pkgC4,pkgC5, pkgD1, pkgD2, pkgD3, pkgE0, pkgE1, pkgE2, pkgE3,  pkgF1, pkgF2, pkgF3, pkgZ 
+   
+   Opt-FuelCost         = NA
+
+   Opt-ResultHouseCode  = NA
+
+   Opt-Specifications   = NA
+
+   Opt-Baseloads        = NBC-Baseloads !
+   Opt-Temperatures     = NA
+
+    Opt-ACH              =NA, New-Const-air_seal_to_1.50_ach, New-Const-air_seal_to_1.00_ach, ACH_0_6 !
+
+   Opt-Windows  =  NA, NC-2g-LG-u1.65, NC-2g-MG-u1.65, NC-3g-LG-u1.36,NC-3g-MG-u1.36,NC-3g-MG-u1.08, NC-3g-LG-u1.08, NC-3g-LG-u0.85 !
+
+   Opt-Skylights        = NA
+   Opt-DoorWindows      = NA
+   Opt-Doors            = NA
+
+   Opt-AboveGradeWall   = NA 
+   Opt-FloorHeaderIntIns      = NA
+
+   Opt-FoundationWallExtIns =      NA 
+   Opt-FoundationWallIntIns =      NA
+   Opt-FoundationSlabBelowGrade =  NA
+   Opt-FoundationSlabOnGrade =     NA
+
+   Opt-ExposedFloor     = NA 
+
+   !Opt-Ceilings         = NA 
+   Opt-AtticCeilings    = NA
+   Opt-CathCeilings     = NA
+   Opt-FlatCeilings     = NA
+
+   Opt-VentSystem       = NA
+
+   Opt-DHWSystem        = NA !  , HPHotWater
+   Opt-Heating-Cooling  = NA !, ASHP, CCASHP
+   Opt-DWHR             = NA ! , DWHR-eff-55
+   Opt-H2K-PV           = NA
+   Opt-WindowDistribution = Proposed-9.36
+
+Upgrades_END
