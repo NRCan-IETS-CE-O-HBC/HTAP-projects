@@ -1,0 +1,78 @@
+{ 
+"upgrade-packages":{
+
+    "JUSTIN-P-from-Edmonton":{
+       "Opt-ACH": "New-Const-air_seal_to_0.60_ach",
+       "Opt-Windows": "NC-3g-HG-u1.36" ,
+       "Opt-AboveGradeWall": "NC_R-26(eff)_2x6-24inOC_R24-batt+2inMineralWool_poly_vb",
+       "Opt-AtticCeilings": "CeilR60" ,
+       "Opt-VentSystem": "HRV_sre_78" ,
+       "Opt-Heating-Cooling": "CCASHP"
+    },
+
+  "JEREMY-F-from-Vancouver":{
+    "Opt-ACH": "New-Const-air_seal_to_1.00_ach",
+    "Opt-Windows": "NC-3g-HG-u1.08",
+    "Opt-VentSystem": "HRV_sre_78",
+    "Opt-DHWSystem": "elec_heatpump_ef2.30",
+    "Opt-Heating-Cooling": "ASHP"
+  },
+
+  "GAVIN-O-from-Vancouver1":{
+    "Opt-ACH": "New-Const-air_seal_to_1.00_ach",
+    "Opt-AboveGradeWall": "NC_R-26(eff)_2x6-24inOC_R22-batt+2inMineralWool_poly_vb",
+    "Opt-FoundationWallIntIns": "WoodFrameEffR17",
+    "Opt-FoundationSlabBelowGrade": "xps2inEffR10",
+    "Opt-VentSystem": "HRV_sre_78",
+    "Opt-Heating-Cooling": "CCASHP"
+  },
+    
+  "GAVIN-O-from-Vancouver2":{
+    "Opt-ACH": "New-Const-air_seal_to_1.00_ach",
+    "Opt-Windows": "NC-2g-HG-u1.65",
+    "Opt-AboveGradeWall": "NC_R-26(eff)_2x6-24inOC_R22-batt+2inMineralWool_poly_vb",
+    "Opt-FoundationWallIntIns": "WoodFrameEffR17",
+    "Opt-FoundationSlabBelowGrade": "xps2inEffR10",
+    "Opt-VentSystem": "HRV_sre_78",
+    "Opt-Heating-Cooling": "CCASHP"
+  },
+
+  "GAVIN-O-from-Vancouver3":{
+    "Opt-ACH": "New-Const-air_seal_to_1.00_ach",
+    "Opt-Windows": "NC-3g-HG-u1.08",
+    "Opt-AboveGradeWall": "NC_R-26(eff)_2x6-24inOC_R22-batt+2inMineralWool_poly_vb",
+    "Opt-FoundationWallIntIns": "WoodFrameEffR17",
+    "Opt-FoundationSlabBelowGrade": "xps2inEffR10",
+    "Opt-VentSystem": "HRV_sre_78",
+    "Opt-Heating-Cooling": "CCASHP"
+  },
+    
+  "GAVIN-O-from-Vancouver4":{
+    "Opt-AboveGradeWall": "NC_R-26(eff)_2x6-24inOC_R22-batt+2inMineralWool_poly_vb",
+    "Opt-FoundationWallIntIns": "WoodFrameEffR15",
+    "Opt-VentSystem": "HRV_sre_78",
+    "Opt-DHWSystem": "elec_heatpump_ef2.30",
+    "Opt-Heating-Cooling": "CCASHP"
+  },
+    
+  "GAVIN-O-from-Vancouver5":{
+    "Opt-Windows": "NC-2g-HG-u1.65",
+    "Opt-AboveGradeWall": "NC_R-26(eff)_2x6-24inOC_R22-batt+2inMineralWool_poly_vb",
+    "Opt-FoundationWallIntIns": "WoodFrameEffR15",
+    "Opt-VentSystem": "HRV_sre_78",
+    "Opt-DHWSystem": "elec_heatpump_ef2.30",
+    "Opt-Heating-Cooling": "CCASHP"
+  }
+    
+
+
+
+
+
+  },
+
+  "rulesets":{
+
+  }
+}
+
