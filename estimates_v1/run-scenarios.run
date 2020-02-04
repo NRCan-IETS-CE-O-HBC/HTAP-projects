@@ -1,0 +1,89 @@
+! Definitions file for HTAP-PRM RUN
+
+! Run-Mode: Parameters that affect how htap-prm is configured.
+RunParameters_START
+  run-mode                           = parametric 
+
+  ! 240 SA/SD
+    archetype-dir                      = C:/HTAP-Archetypes/NRCan-EGH-NewHousing
+
+
+  ! MURBS 
+  !  archetype-dir                      = C:/HTAP-Archetypes/BC-Step-Code
+
+  ! Mobile homes 
+  ! archetype-dir                      = C:/HTAP-Archetypes/NRCan-Mobile-home-archetypes 
+
+  unit-costs-db                      = C:/HTAP/HTAPUnitCosts.json
+  options-file                       = C:/HTAP/HTAP-options.json
+  rulesets-file                      = C:/HTAP-projects/PCF-1617-impact-assessment/HTAP-rulesets-envelope-HVAC-impact.json  
+
+RunParameters_END
+
+
+! Parameters controlling archetypes, locations, reference rulests. (these will always be
+! run in mesh, even if an optimization mode is added in the future.
+RunScope_START
+  
+  ! 240 SA/SD
+   archetypes                        = ERS-*.h2k
+   locations                         = NA
+
+ 
+
+ ! MOBILE HOME SCOPE 
+ ! archetypes                        = OneStory_1100sf_19018.h2k, OneStory_1400sf_19126.h2k , TwoStory_2100sf.h2k 
+ ! locations                         = CALGARY, CHARLOTTETOWN, COMOX, CRANBROOK, EDMONTON, FREDERICTON, GREENWOOD, HALIFAX, KAMLOOPS, LONDON, MONCTON, MONTREAL, OTTAWA, SUMMERLAND, SYDNEY, TORONTO, TORONTOMETRESSTN, TRURO, VANCOUVER, VICTORIA, WHISTLER, WHITEHORSE, YELLOWKNIFE
+  
+  
+  ! Same for all scenarios 
+  rulesets                          = NBC9_36[fuel>elect;vent>HRV]
+
+RunScope_END
+
+! Parameters controlling the design of the building
+Upgrades_START
+
+   upgrade-package-list = NA
+   
+   Opt-FuelCost         = NA
+
+   Opt-ResultHouseCode  = NA
+
+   Opt-Specifications   = NA
+
+   Opt-Baseloads        = ERS-Single-regular-19.5kWh&190_per_day
+   Opt-Temperatures     = NA
+
+   Opt-ACH              = NA!
+
+   Opt-CasementWindows  = NA!
+   Opt-Skylights        = NA
+   Opt-DoorWindows      = NA
+   Opt-Doors            = NA
+
+   Opt-MainWall         = NA
+   Opt-GenericWall_1Layer_definitions = NA
+   Opt-FloorHeaderIntIns      = NA
+
+   Opt-FoundationWallExtIns =      NA
+   Opt-FoundationWallIntIns =      NA
+   Opt-FoundationSlabBelowGrade =  NA
+   Opt-FoundationSlabOnGrade =     NA
+
+   Opt-ExposedFloor     = NA!
+
+   Opt-Ceilings         = NA
+   Opt-AtticCeilings    = NA
+   Opt-CathCeilings     = NA
+   Opt-FlatCeilings     = NA
+
+   Opt-VentSystem        = ZeroCostHRV_sre_60 
+   Opt-HRVspec          = NA
+   Opt-DHWSystem        = NA 
+   Opt-Heating-Cooling   = zero-cost-baseboard,elec-baseboard, propane_furnace, oilfurnace, electric_furnace, gas-furnace-psc, gas-furnace-psc+AC, gas-furnace-ecm, gas-furnace-ecm+AC, gas-hybrid, ASHP, CCASHP, GSHP
+   Opt-DWHRSystem       = NA
+   Opt-H2K-PV           = NA
+   Opt-WindowDistribution = Proposed-9.36
+
+Upgrades_END
