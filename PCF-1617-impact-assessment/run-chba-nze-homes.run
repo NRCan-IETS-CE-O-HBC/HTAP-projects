@@ -1,0 +1,85 @@
+! Definitions file for HTAP-PRM RUN
+
+! Run-Mode: Parameters that affect how htap-prm is configured.
+RunParameters_START
+  run-mode                           = mesh
+
+  ! 240 SA/SD
+  !  archetype-dir                      = C:/HTAP-Archetypes/NRCan-EGH-NewHousing
+
+
+  ! MURBS 
+  !  archetype-dir                      = C:/HTAP-Archetypes/BC-Step-Code
+
+  ! Mobile homes 
+   archetype-dir                      = C:/HTAP-Archetypes/CHBA-NZE-Homes
+
+  unit-costs-db                      = C:/HTAP/HTAPUnitCosts.json
+  options-file                       = C:/HTAP/HTAP-options.json
+  rulesets-file                      = C:/HTAP-projects/PCF-1617-impact-assessment/HTAP-rulesets-envelope-HVAC-impact.json  
+
+RunParameters_END
+
+
+! Parameters controlling archetypes, locations, reference rulests. (these will always be
+! run in mesh, even if an optimization mode is added in the future.
+RunScope_START
+  
+
+  ! CHBA 
+
+    ! Works with 11.6 
+    ! archetypes = 6722N10079.H2K, 5705N00810.H2K, 5529NE8409.H2K, 5506NE8408.H2K, 5504N10540.H2K, 2462N00203.H2K
+
+     archetypes                        =  *.h2k
+    locations                         = NA
+
+
+  rulesets                          =  as-found, NBC9_36[fuel>gas;vent>HRV]
+
+RunScope_END
+! Parameters controlling the design of the building
+Upgrades_START
+
+   upgrade-package-list = NA  !,   gas-q, gas-r, gas-s, gas-t, gas-u, gas-v, gas-w, gas-a, gas-d, gas-e, gas-f, gas-g, gas-i, gas-j, gas-k, gas-l, gas-m, gas-n, gas-o, gas-p, gas-337447,gas-375463,gas-375458,gas-376631,gas-385250,gas-385254,gas-497777,gas-497880,gas-498072
+   
+   Opt-FuelCost         = NA
+
+   Opt-ResultHouseCode  = General
+
+   Opt-Specifications   = NA
+
+   Opt-Baseloads        = NBC-Baseloads!
+   Opt-Temperatures     = NA
+
+   Opt-ACH              = NA!
+
+   Opt-Windows  = NA!
+   Opt-Skylights        = NA
+   Opt-DoorWindows      = NA
+   Opt-Doors            = NA
+
+   Opt-AboveGradeWall   = NA
+   Opt-FloorHeaderIntIns      = NA
+
+   Opt-FoundationWallExtIns =      NA
+   Opt-FoundationWallIntIns =      NA
+   Opt-FoundationSlabBelowGrade =  NA
+   Opt-FoundationSlabOnGrade =     NA
+
+   Opt-ExposedFloor     = NA!
+
+   Opt-Ceilings         = NA
+   Opt-AtticCeilings    = NA
+   Opt-CathCeilings     = NA
+   Opt-FlatCeilings     = NA
+
+   Opt-VentSystem           = NA!
+   
+   Opt-DHWSystem        = NA, ElectricStorage!
+   Opt-Heating-Cooling       = NA
+   Opt-DWHR       = NA
+   Opt-H2K-PV           = NA
+   Opt-WindowDistribution = NA, Reference-9.36,  Proposed-9.36 
+
+Upgrades_END
