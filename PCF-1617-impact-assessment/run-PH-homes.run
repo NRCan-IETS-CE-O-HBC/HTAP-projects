@@ -12,7 +12,7 @@ RunParameters_START
   !  archetype-dir                      = C:/HTAP-Archetypes/BC-Step-Code
 
   ! Mobile homes 
-   archetype-dir                      = C:/HTAP-Archetypes/CHBA-NZE-Homes
+   archetype-dir                      = C:/HTAP-archetypes/NRCan-Project-Archetypes/PassiveHouse-examples
 
   unit-costs-db                      = C:/HTAP/HTAPUnitCosts.json
   options-file                       = C:/HTAP/HTAP-options.json
@@ -31,11 +31,11 @@ RunScope_START
     ! Works with 11.6 
     ! archetypes = 6722N10079.H2K, 5705N00810.H2K, 5529NE8409.H2K, 5506NE8408.H2K, 5504N10540.H2K, 2462N00203.H2K
 
-     archetypes                        =  *.h2k
+    archetypes                        =  *.h2k
     locations                         = NA
 
 
-  rulesets                          =  NBC9_36[fuel>gas; vent>HRV]
+  rulesets                          =  as-found, NBC9_36[fuel>elect;vent>HRV]
 
 RunScope_END
 ! Parameters controlling the design of the building
@@ -49,7 +49,7 @@ Upgrades_START
 
    Opt-Specifications   = NA
 
-   Opt-Baseloads        = NBC-Baseloads !
+   Opt-Baseloads        = NBC-Baseloads!
    Opt-Temperatures     = NA
 
    Opt-ACH              = NA!
@@ -76,7 +76,7 @@ Upgrades_START
 
    Opt-VentSystem           = NA!
    
-   Opt-DHWSystem        = NA ! ElectricStorage
+   Opt-DHWSystem        = NA, ElectricStorage !
    Opt-Heating-Cooling       = NA
    Opt-DWHR       = NA
    Opt-H2K-PV           = NA
