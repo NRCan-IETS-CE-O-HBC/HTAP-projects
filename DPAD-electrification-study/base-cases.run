@@ -1,0 +1,57 @@
+! Definitions file for HTAP-PRM RUN
+
+! Run-Mode: Parameters that affect how htap-prm is configured.
+RunParameters_START
+  run-mode                           = mesh 
+  archetype-dir                      = C:/HTAP-archetypes/NRCan-roadmapping-archetypes
+  unit-costs-db                      = C:/HTAP/HTAPUnitCosts.json
+  options-file                       = C:/HTAP/HTAP-options.json
+RunParameters_END
+
+
+! Parameters controlling archetypes, locations, reference rulests. (these will always be
+! run in mesh, even if an optimization mode is added in the future.
+RunScope_START
+
+  archetypes                        = roadmapping-pre-1946.h2k  , roadmapping-1946-1983.h2k, roadmapping-1984-1995.h2k, roadmapping-1996-2005.h2k, roadmapping-2006-2011.h2k, roadmapping-2012-2019.h2k
+  locations                         =  VANCOUVER , CALGARY  , REGINA, WINNIPEG, TORONTO, MONTREAL, FREDERICTON, HALIFAX, CHARLOTTETOWN, SAINTJOHNS
+  rulesets                          =  ArchetypeRoadmapping_elec , ArchetypeRoadmapping_oil, ArchetypeRoadmapping_gas
+
+RunScope_END
+
+! Parameters controlling the design of the building
+Upgrades_START
+
+
+   Opt-ResultHouseCode  = General
+
+   Opt-ACH         = NA
+
+   Opt-Windows     = NA
+   Opt-Skylights   = NA
+   Opt-DoorWindows = NA
+   Opt-Doors       = NA
+
+   Opt-AboveGradeWall = NA ! Generic_Wall_R-07-eff
+
+   Opt-FoundationWallExtIns     =  NA 
+   Opt-FoundationWallIntIns     =  NA 
+   Opt-FoundationSlabBelowGrade =  NA 
+   Opt-FoundationSlabOnGrade    =  NA 
+
+
+   Opt-ExposedFloor     = NA
+
+   Opt-Ceilings         = NA 
+
+
+   Opt-VentSystem       = NA 
+   Opt-DHWSystem        = ElecIDEAL ,  HPHotWater
+   Opt-Heating-Cooling  = NBC-elec-heat, CCASHP
+   Opt-DWHR             = NA
+   Opt-H2K-PV           = NA
+
+   Opt-Baseloads = NBC-Baseloads
+
+
+Upgrades_END
