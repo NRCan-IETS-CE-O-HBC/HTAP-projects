@@ -2,6 +2,9 @@ RunParameters_START
   run-mode                           = mesh
 
   ! LEEP archetypes
+  
+  ! > Note To CACEA USERS: THESE ARE THE DASHES THAT GO THE OTHER WAY!!!
+  
   archetype-dir                      = C:/HTAP-Projects/Pilot-Ottawa-2019/h2k_archetypes
 
   unit-costs-db                      = C:/HTAP/HTAPUnitCosts.json
