@@ -1,0 +1,69 @@
+! Definitions file for HTAP-PRM RUN
+
+! Run-Mode: Parameters that affect how htap-prm is configured.
+RunParameters_START
+  run-mode                           = mesh
+  archetype-dir                      = C:/HTAP-archetypes/CHBA-NZEr
+  unit-costs-db                      = C:/HTAP/HTAPUnitCosts.json
+  options-file                       = C:/HTAP/HTAP-options.json
+RunParameters_END
+
+
+! Parameters controlling archetypes, locations, reference rulests. (these will always be
+! run in mesh, even if an optimization mode is added in the future.
+RunScope_START
+
+  archetypes                        = *.h2k 
+  locations                         = NA 
+  rulesets                          = as-found, NBC9_36[vent>HRV],  NBC9_36[vent>noHRV]
+
+RunScope_END
+
+! Parameters controlling the design of the building
+Upgrades_START
+
+   Opt-FuelCost         = rates2016
+
+   Opt-ResultHouseCode  = General
+
+   Opt-Specifications   = NA
+
+   Opt-Baseloads        = NA, NBC-Baseloads, ERS-Single-reduced-16kWh&160_per_day
+   Opt-Temperatures     = NA
+
+   Opt-ACH              = NA
+
+   Opt-CasementWindows  = NA
+   Opt-Skylights        = NA
+   Opt-DoorWindows      = NA
+   Opt-Doors            = NA
+
+   Opt-MainWall         = NA
+   Opt-GenericWall_1Layer_definitions = NA
+
+   Opt-FoundationWallExtIns =      NA
+   Opt-FoundationWallIntIns =      NA
+   Opt-FoundationSlabBelowGrade =  NA
+   Opt-FoundationSlabOnGrade =     NA
+
+
+   Opt-ExposedFloor      = NA
+   Opt-ExposedFloor      = NA
+
+   Opt-FloorAboveCrawl  = NA
+
+   Opt-Ceilings         = NA
+   Opt-AtticCeilings    = NA
+   Opt-CathCeilings     = NA
+   Opt-FlatCeilings     = NA
+
+   Opt-HRVonly          = NA
+   Opt-HRVspec          = NA
+   Opt-DHWSystem        = NA
+   Opt-HVACSystem       = NA
+   Opt-DWHRSystem       = NA
+   Opt-H2K-PV           = NA
+ 
+
+
+Upgrades_END
