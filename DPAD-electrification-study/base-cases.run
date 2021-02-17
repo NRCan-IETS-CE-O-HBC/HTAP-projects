@@ -5,7 +5,7 @@ RunParameters_START
   run-mode                           = mesh 
   archetype-dir                      = C:/HTAP-archetypes/NRCan-roadmapping-archetypes
   unit-costs-db                      = C:/HTAP/HTAPUnitCosts.json
-  options-file                       = C:/HTAP/HTAP-options.json
+  options-file                       = C:/HTAP-projects/DPAD-electrification-study/HTAP-options-2.json
 RunParameters_END
 
 
@@ -13,8 +13,8 @@ RunParameters_END
 ! run in mesh, even if an optimization mode is added in the future.
 RunScope_START
 
-  archetypes                        = roadmapping*v11_8.h2k 
-  locations                         = VANCOUVER , CALGARY  , REGINA, WINNIPEG, TORONTO, MONTREAL, FREDERICTON, HALIFAX, CHARLOTTETOWN, SAINTJOHNS, WHITEHORSE, YELLOWKNIFE, IQALUIT 
+  archetypes                        = roadmapping*.h2k 
+  locations                         = VANCOUVER  , CALGARY  , REGINA, WINNIPEG, TORONTO, MONTREAL, FREDERICTON, HALIFAX, CHARLOTTETOWN, SAINTJOHNS, WHITEHORSE, YELLOWKNIFE, IQALUIT 
   rulesets                          = ArchetypeRoadmapping_elec ! , ArchetypeRoadmapping_oil, ArchetypeRoadmapping_gas
 
 RunScope_END
@@ -46,8 +46,8 @@ Upgrades_START
 
 
    Opt-VentSystem       = NA 
-   Opt-DHWSystem        = ElecIDEAL
-   Opt-Heating-Cooling  = NA,  CCASHP
+   Opt-DHWSystem        = NA
+   Opt-Heating-Cooling  = NA, elec-baseboard+AC, ASHP, CCASHP, GSHP
    Opt-H2K-PV           = NA
 
    Opt-Baseloads = NBC-Baseloads
