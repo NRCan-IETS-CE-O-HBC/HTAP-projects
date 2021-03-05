@@ -106,6 +106,7 @@ head.out ("Building SC HL table")
 SCSizes = data.frame(SCName = unique(DataRuns$SC))
 
 
+
 # Attempt to classify by SC
 for (mySC in SCSizes$SCName ){
   SCSizes$CZ[SCSizes$SCName==mySC ] <- DataRuns$archetype.climate.zone[ DataRuns$SC==mySC ][1]
@@ -137,6 +138,57 @@ for (mySC in SCSizes$SCName ){
   SCSizes$OG.HighACH[  SCSizes$SCName==mySC ]  <- achQuartile[2]
 
 }
+
+SC_row =SCSizes[which(SCSizes$SCName=="Comox"),]
+
+SC_row$SCName = "Vancouver"
+SC_row$DesignTemp = -7 
+SC_row$HDD = 2875 
+SC_row$CZ = "Zone 4"
+SC_row$hlDeltaT = 18 - SC_row$DesignTemp 
+
+SCSizes <- rbind(SCSizes,SC_row)
+
+
+SC_row =SCSizes[which(SCSizes$SCName=="Moose Jaw"),]
+
+SC_row$SCName = "Dundurn"
+SC_row$DesignTemp = -35 
+SC_row$HDD = 5700 
+SC_row$CZ = "Zone 7a"
+SC_row$hlDeltaT = 18 - SC_row$DesignTemp 
+
+
+SCSizes <- rbind(SCSizes,SC_row)
+
+
+SC_row =SCSizes[which(SCSizes$SCName=="Borden"),]
+
+SC_row$SCName = "Toronto"
+SC_row$DesignTemp = -20
+SC_row$HDD = 3520
+SC_row$CZ = "Zone 5"
+SC_row$hlDeltaT = 18 - SC_row$DesignTemp 
+
+
+SCSizes <- rbind(SCSizes,SC_row)
+
+SC_row =SCSizes[which(SCSizes$SCName=="Gagetown"),]
+
+SC_row$SCName = "Moncton"
+SC_row$DesignTemp = -23
+SC_row$HDD = 4680
+SC_row$CZ = "Zone 6"
+SC_row$hlDeltaT = 18 - SC_row$DesignTemp 
+
+
+SCSizes <- rbind(SCSizes,SC_row)
+
+
+
+#print (SCSizes)
+
+
 
 #SCSizes = data.frame(SCName = unique(DataRuns$SC))
 #for (mySC in SCSizes$SCName ){
@@ -224,8 +276,8 @@ for (region in c("NEWFOUNDLAND AND LABRADOR", "NORTHWEST TERRITORIES","QUEBEC", 
   SCSizes$RC.HighACH[ SCSizes$Region==region ]  <-   SCSizes$OG.HighACH[ SCSizes$Region==region ] / 1.1 
 }
 
-SCSizes$OG.LowACH[  SCSizes$Region=="NEWFOUNDLAND AND LABRADOR" ] <- SCSizes$OG.MeanACH[ SCSizes$Region=="NEWFOUNDLAND AND LABRADOR" ] + 2*sd(SCSizes$OG.MeanACH)
-SCSizes$OG.HighACH[ SCSizes$Region=="NEWFOUNDLAND AND LABRADOR" ] <- SCSizes$OG.MeanACH[ SCSizes$Region=="NEWFOUNDLAND AND LABRADOR" ] - 2*sd(SCSizes$OG.MeanACH)
+SCSizes$OG.LowACH[  SCSizes$Region=="NEWFOUNDLAND AND LABRADOR" ] <- SCSizes$OG.MeanACH[ SCSizes$Region=="NEWFOUNDLAND AND LABRADOR" ] - 2*sd(SCSizes$OG.MeanACH)
+SCSizes$OG.HighACH[ SCSizes$Region=="NEWFOUNDLAND AND LABRADOR" ] <- SCSizes$OG.MeanACH[ SCSizes$Region=="NEWFOUNDLAND AND LABRADOR" ] + 2*sd(SCSizes$OG.MeanACH)
 
 for (region in SCSizes$Region ){
 
