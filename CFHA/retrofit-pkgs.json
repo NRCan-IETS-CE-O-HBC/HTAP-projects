@@ -1,0 +1,737 @@
+{
+  "upgrade-packages": {
+
+    "Retrofit-env-pkg_101": {
+      "Opt-AtticCeilings":    "retrofit-AtticCeiling-Additional-R10",
+		"Opt-FlatCeilings":     "retrofit-FlatCeiling-Additional-R10",
+		"Opt-CathCeilings":     "retrofit-CathCeiling-Additional-R10"
+    },
+	 
+	 "Retrofit-env-pkg_102": {
+      "Opt-AtticCeilings":    "retrofit-AtticCeiling-Additional-R20",
+		"Opt-FlatCeilings":     "retrofit-FlatCeiling-Additional-R20",
+		"Opt-CathCeilings":     "retrofit-CathCeiling-Additional-R10"
+    },
+	 
+	 "Retrofit-env-pkg_103": {
+      "Opt-AtticCeilings":    "retrofit-AtticCeiling-Additional-R30",
+		"Opt-FlatCeilings":     "retrofit-FlatCeiling-Additional-R30",
+		"Opt-CathCeilings":     "retrofit-CathCeiling-Additional-R10",
+		"Opt-ACH":              "Retrofit-ACH_10Percent_Reduction"
+    },
+	 
+	 "Retrofit-env-pkg_201": {
+      "Opt-AtticCeilings":    "retrofit-AtticCeiling-Additional-R10",
+		"Opt-FlatCeilings":     "retrofit-FlatCeiling-Additional-R10",
+		"Opt-CathCeilings":     "retrofit-CathCeiling-Additional-R10",
+		"Opt-ACH":              "Retrofit-ACH_10Percent_Reduction",
+      "Opt-AboveGradeWall":   "retrofit-main-wall-Additional-R10",
+      "Opt-Windows":          "NC-2g-LG-u1.65",
+		"Opt-Doors":            "SteelPS",
+		"Opt-ExposedFloor":     "retrofit-ExposedFloor-Additional-R5"
+    },
+	 
+	 "Retrofit-env-pkg_202": {
+      "Opt-AtticCeilings":    "retrofit-AtticCeiling-Additional-R20",
+		"Opt-FlatCeilings":     "retrofit-FlatCeiling-Additional-R20",
+		"Opt-CathCeilings":     "retrofit-CathCeiling-Additional-R10",
+		"Opt-ACH":              "Retrofit-ACH_20Percent_Reduction",
+      "Opt-AboveGradeWall":   "retrofit-main-wall-Additional-R15",
+      "Opt-Windows":          "NC-3g-LG-u1.14",
+		"Opt-Doors":            "SteelPS",
+		"Opt-ExposedFloor":     "retrofit-ExposedFloor-Additional-R10"
+    },
+	 
+	 "Retrofit-env-pkg_203": {
+      "Opt-AtticCeilings":    "retrofit-AtticCeiling-Additional-R30",
+		"Opt-FlatCeilings":     "retrofit-FlatCeiling-Additional-R30",
+		"Opt-CathCeilings":     "retrofit-CathCeiling-Additional-R10",
+		"Opt-ACH":              "Retrofit-ACH_20Percent_Reduction",
+      "Opt-AboveGradeWall":   "retrofit-main-wall-Additional-R20",
+      "Opt-Windows":          "NC-3g-LG-u1.08",
+		"Opt-Doors":            "SteelPS",
+		"Opt-ExposedFloor":     "retrofit-ExposedFloor-Additional-R10"
+    },
+	 
+	 "Retrofit-env-pkg_301": {
+      "Opt-AtticCeilings":    "retrofit-AtticCeiling-Additional-R10",
+		"Opt-FlatCeilings":     "retrofit-FlatCeiling-Additional-R10",
+		"Opt-CathCeilings":     "retrofit-CathCeiling-Additional-R10",
+		"Opt-ACH":              "Retrofit-ACH_10Percent_Reduction",
+      "Opt-AboveGradeWall":   "retrofit-main-wall-Additional-R10",
+      "Opt-Windows":          "NC-2g-LG-u1.65",
+		"Opt-Doors":            "SteelPS",
+		"Opt-ExposedFloor":     "retrofit-ExposedFloor-Additional-R5",
+		"Opt-H2KFoundation":    "Additional_int_R22-Retrofit"
+    },
+	 
+	 "Retrofit-env-pkg_302": {
+      "Opt-AtticCeilings":    "retrofit-AtticCeiling-Additional-R20",
+		"Opt-FlatCeilings":     "retrofit-FlatCeiling-Additional-R20",
+		"Opt-CathCeilings":     "retrofit-CathCeiling-Additional-R10",
+		"Opt-ACH":              "Retrofit-ACH_20Percent_Reduction",
+      "Opt-AboveGradeWall":   "retrofit-main-wall-Additional-R15",
+      "Opt-Windows":          "NC-3g-LG-u1.14",
+		"Opt-Doors":            "SteelPS",
+		"Opt-ExposedFloor":     "retrofit-ExposedFloor-Additional-R10",
+		"Opt-H2KFoundation":    "Additional_2in_Ext_Rigid_XPS_PLUS_int-R22-Retrofit"
+    },
+	 
+	 "Retrofit-env-pkg_303": {
+      "Opt-AtticCeilings":    "retrofit-AtticCeiling-Additional-R30",
+		"Opt-FlatCeilings":     "retrofit-FlatCeiling-Additional-R30",
+		"Opt-CathCeilings":     "retrofit-CathCeiling-Additional-R10",
+		"Opt-ACH":              "Retrofit-ACH_20Percent_Reduction",
+      "Opt-AboveGradeWall":   "retrofit-main-wall-Additional-R20",
+      "Opt-Windows":          "NC-3g-LG-u1.08",
+		"Opt-Doors":            "SteelPS",
+		"Opt-ExposedFloor":     "retrofit-ExposedFloor-Additional-R10",
+		"Opt-H2KFoundation":    "Additional_4in_Ext_Rigid_XPS_PLUS_int-R22-Retrofit"
+    },
+	 
+	 "Retrofit-env-pkg_401": {
+      "Opt-AtticCeilings":    "CeilR50",
+		"Opt-FlatCeilings":     "CeilR40",
+		"Opt-CathCeilings":     "CeilR70",
+		"Opt-ACH":              "Retrofit-ACH_10Percent_Reduction",
+      "Opt-AboveGradeWall":   "retrofit-main-wall-Additional-R10",
+      "Opt-Windows":          "NC-2g-LG-u1.65",
+		"Opt-Doors":            "SteelPS",
+		"Opt-ExposedFloor":     "retrofit-ExposedFloor-Additional-R5",
+		"Opt-H2KFoundation":    "Additional_int_R22-Retrofit"
+    },
+	 
+	 "Retrofit-env-pkg_402": {
+      "Opt-AtticCeilings":    "CeilR60",
+		"Opt-FlatCeilings":     "CeilR60",
+		"Opt-CathCeilings":     "CeilR60",
+		"Opt-ACH":              "Retrofit-ACH_20Percent_Reduction",
+      "Opt-AboveGradeWall":   "retrofit-main-wall-Additional-R15",
+      "Opt-Windows":          "NC-3g-LG-u1.14",
+		"Opt-Doors":            "SteelPS",
+		"Opt-ExposedFloor":     "retrofit-ExposedFloor-Additional-R10",
+		"Opt-H2KFoundation":    "Additional_2in_Ext_Rigid_XPS_PLUS_int-R22-Retrofit"
+    },
+	 
+	 "Retrofit-env-pkg_403": {
+      "Opt-AtticCeilings":    "CeilR70",
+		"Opt-FlatCeilings":     "CeilR70",
+		"Opt-CathCeilings":     "CeilR70",
+		"Opt-ACH":              "Retrofit-ACH_20Percent_Reduction",
+      "Opt-AboveGradeWall":   "retrofit-main-wall-Additional-R20",
+      "Opt-Windows":          "NC-3g-LG-u1.08",
+		"Opt-Doors":            "SteelPS",
+		"Opt-ExposedFloor":     "retrofit-ExposedFloor-Additional-R10",
+		"Opt-H2KFoundation":    "Additional_4in_Ext_Rigid_XPS_PLUS_int-R22-Retrofit"
+    },
+	 
+	 "Retrofit-SYS-pkg-H_301-WG": {
+      "Opt-AtticCeilings":    "retrofit-AtticCeiling-Additional-R10",
+		"Opt-FlatCeilings":     "retrofit-FlatCeiling-Additional-R10",
+		"Opt-CathCeilings":     "retrofit-CathCeiling-Additional-R10",
+		"Opt-ACH":              "Retrofit-ACH_10Percent_Reduction",
+      "Opt-AboveGradeWall":   "retrofit-main-wall-Additional-R10",
+      "Opt-Windows":          "NC-2g-LG-u1.65",
+		"Opt-Doors":            "SteelPS",
+		"Opt-ExposedFloor":     "retrofit-ExposedFloor-Additional-R5",
+		"Opt-H2KFoundation":    "Additional_int_R22-Retrofit",
+		"Opt-DHWSystem":        "GasInstantaneous",
+		"Opt-Heating-Cooling":  "gas-hybrid"
+    },
+	 
+	 "Retrofit-SYS-pkg-H_302-WG": {
+      "Opt-AtticCeilings":    "retrofit-AtticCeiling-Additional-R20",
+		"Opt-FlatCeilings":     "retrofit-FlatCeiling-Additional-R20",
+		"Opt-CathCeilings":     "retrofit-CathCeiling-Additional-R10",
+		"Opt-ACH":              "Retrofit-ACH_20Percent_Reduction",
+      "Opt-AboveGradeWall":   "retrofit-main-wall-Additional-R15",
+      "Opt-Windows":          "NC-3g-LG-u1.14",
+		"Opt-Doors":            "SteelPS",
+		"Opt-ExposedFloor":     "retrofit-ExposedFloor-Additional-R10",
+		"Opt-H2KFoundation":    "Additional_2in_Ext_Rigid_XPS_PLUS_int-R22-Retrofit",
+		"Opt-DHWSystem":        "GasInstantaneous",
+		"Opt-Heating-Cooling":  "gas-hybrid"
+    },
+	 
+	 "Retrofit-SYS-pkg-H_303-WG": {
+      "Opt-AtticCeilings":    "retrofit-AtticCeiling-Additional-R30",
+		"Opt-FlatCeilings":     "retrofit-FlatCeiling-Additional-R30",
+		"Opt-CathCeilings":     "retrofit-CathCeiling-Additional-R10",
+		"Opt-ACH":              "Retrofit-ACH_20Percent_Reduction",
+      "Opt-AboveGradeWall":   "retrofit-main-wall-Additional-R20",
+      "Opt-Windows":          "NC-3g-LG-u1.08",
+		"Opt-Doors":            "SteelPS",
+		"Opt-ExposedFloor":     "retrofit-ExposedFloor-Additional-R10",
+		"Opt-H2KFoundation":    "Additional_4in_Ext_Rigid_XPS_PLUS_int-R22-Retrofit",
+		"Opt-DHWSystem":        "GasInstantaneous",
+		"Opt-Heating-Cooling":  "gas-hybrid"
+    },
+	 
+	 "Retrofit-SYS-pkg-H_301-WI": {
+      "Opt-AtticCeilings":    "retrofit-AtticCeiling-Additional-R10",
+		"Opt-FlatCeilings":     "retrofit-FlatCeiling-Additional-R10",
+		"Opt-CathCeilings":     "retrofit-CathCeiling-Additional-R10",
+		"Opt-ACH":              "Retrofit-ACH_10Percent_Reduction",
+      "Opt-AboveGradeWall":   "retrofit-main-wall-Additional-R10",
+      "Opt-Windows":          "NC-2g-LG-u1.65",
+		"Opt-Doors":            "SteelPS",
+		"Opt-ExposedFloor":     "retrofit-ExposedFloor-Additional-R5",
+		"Opt-H2KFoundation":    "Additional_int_R22-Retrofit",
+		"Opt-DHWSystem":        "elec_tankless_ef0.96",
+		"Opt-Heating-Cooling":  "gas-hybrid"
+    },
+	 
+	 "Retrofit-SYS-pkg-H_302-WI": {
+      "Opt-AtticCeilings":    "retrofit-AtticCeiling-Additional-R20",
+		"Opt-FlatCeilings":     "retrofit-FlatCeiling-Additional-R20",
+		"Opt-CathCeilings":     "retrofit-CathCeiling-Additional-R10",
+		"Opt-ACH":              "Retrofit-ACH_20Percent_Reduction",
+      "Opt-AboveGradeWall":   "retrofit-main-wall-Additional-R15",
+      "Opt-Windows":          "NC-3g-LG-u1.14",
+		"Opt-Doors":            "SteelPS",
+		"Opt-ExposedFloor":     "retrofit-ExposedFloor-Additional-R10",
+		"Opt-H2KFoundation":    "Additional_2in_Ext_Rigid_XPS_PLUS_int-R22-Retrofit",
+		"Opt-DHWSystem":        "elec_tankless_ef0.96",
+		"Opt-Heating-Cooling":  "gas-hybrid"
+    },
+	 
+	 "Retrofit-SYS-pkg-H_303-WI": {
+      "Opt-AtticCeilings":    "retrofit-AtticCeiling-Additional-R30",
+		"Opt-FlatCeilings":     "retrofit-FlatCeiling-Additional-R30",
+		"Opt-CathCeilings":     "retrofit-CathCeiling-Additional-R10",
+		"Opt-ACH":              "Retrofit-ACH_20Percent_Reduction",
+      "Opt-AboveGradeWall":   "retrofit-main-wall-Additional-R20",
+      "Opt-Windows":          "NC-3g-LG-u1.08",
+		"Opt-Doors":            "SteelPS",
+		"Opt-ExposedFloor":     "retrofit-ExposedFloor-Additional-R10",
+		"Opt-H2KFoundation":    "Additional_4in_Ext_Rigid_XPS_PLUS_int-R22-Retrofit",
+		"Opt-DHWSystem":        "elec_tankless_ef0.96",
+		"Opt-Heating-Cooling":  "gas-hybrid"
+    },
+	 
+	 "Retrofit-SYS-pkg-H_301-WH": {
+      "Opt-AtticCeilings":    "retrofit-AtticCeiling-Additional-R10",
+		"Opt-FlatCeilings":     "retrofit-FlatCeiling-Additional-R10",
+		"Opt-CathCeilings":     "retrofit-CathCeiling-Additional-R10",
+		"Opt-ACH":              "Retrofit-ACH_10Percent_Reduction",
+      "Opt-AboveGradeWall":   "retrofit-main-wall-Additional-R10",
+      "Opt-Windows":          "NC-2g-LG-u1.65",
+		"Opt-Doors":            "SteelPS",
+		"Opt-ExposedFloor":     "retrofit-ExposedFloor-Additional-R5",
+		"Opt-H2KFoundation":    "Additional_int_R22-Retrofit",
+		"Opt-DHWSystem":        "HPHotWater",
+		"Opt-Heating-Cooling":  "gas-hybrid"
+    },
+	 
+	 "Retrofit-SYS-pkg-H_302-WH": {
+      "Opt-AtticCeilings":    "retrofit-AtticCeiling-Additional-R20",
+		"Opt-FlatCeilings":     "retrofit-FlatCeiling-Additional-R20",
+		"Opt-CathCeilings":     "retrofit-CathCeiling-Additional-R10",
+		"Opt-ACH":              "Retrofit-ACH_20Percent_Reduction",
+      "Opt-AboveGradeWall":   "retrofit-main-wall-Additional-R15",
+      "Opt-Windows":          "NC-3g-LG-u1.14",
+		"Opt-Doors":            "SteelPS",
+		"Opt-ExposedFloor":     "retrofit-ExposedFloor-Additional-R10",
+		"Opt-H2KFoundation":    "Additional_2in_Ext_Rigid_XPS_PLUS_int-R22-Retrofit",
+		"Opt-DHWSystem":        "HPHotWater",
+		"Opt-Heating-Cooling":  "gas-hybrid"
+    },
+	 
+	 "Retrofit-SYS-pkg-H_303-WH": {
+      "Opt-AtticCeilings":    "retrofit-AtticCeiling-Additional-R30",
+		"Opt-FlatCeilings":     "retrofit-FlatCeiling-Additional-R30",
+		"Opt-CathCeilings":     "retrofit-CathCeiling-Additional-R10",
+		"Opt-ACH":              "Retrofit-ACH_20Percent_Reduction",
+      "Opt-AboveGradeWall":   "retrofit-main-wall-Additional-R20",
+      "Opt-Windows":          "NC-3g-LG-u1.08",
+		"Opt-Doors":            "SteelPS",
+		"Opt-ExposedFloor":     "retrofit-ExposedFloor-Additional-R10",
+		"Opt-H2KFoundation":    "Additional_4in_Ext_Rigid_XPS_PLUS_int-R22-Retrofit",
+		"Opt-DHWSystem":        "HPHotWater",
+		"Opt-Heating-Cooling":  "gas-hybrid"
+    },
+
+ 	 "Retrofit-SYS-pkg-E_301-B-I": {
+      "Opt-AtticCeilings":    "retrofit-AtticCeiling-Additional-R10",
+		"Opt-FlatCeilings":     "retrofit-FlatCeiling-Additional-R10",
+		"Opt-CathCeilings":     "retrofit-CathCeiling-Additional-R10",
+		"Opt-ACH":              "Retrofit-ACH_10Percent_Reduction",
+      "Opt-AboveGradeWall":   "retrofit-main-wall-Additional-R10",
+      "Opt-Windows":          "NC-2g-LG-u1.65",
+		"Opt-Doors":            "SteelPS",
+		"Opt-ExposedFloor":     "retrofit-ExposedFloor-Additional-R5",
+		"Opt-H2KFoundation":    "Additional_int_R22-Retrofit",
+		"Opt-DHWSystem":        "elec_tankless_ef0.96",
+		"Opt-Heating-Cooling":  "ASHP-mini-split"
+    },
+	 
+	 "Retrofit-SYS-pkg-E_302-B-I": {
+      "Opt-AtticCeilings":    "retrofit-AtticCeiling-Additional-R20",
+		"Opt-FlatCeilings":     "retrofit-FlatCeiling-Additional-R20",
+		"Opt-CathCeilings":     "retrofit-CathCeiling-Additional-R10",
+		"Opt-ACH":              "Retrofit-ACH_20Percent_Reduction",
+      "Opt-AboveGradeWall":   "retrofit-main-wall-Additional-R15",
+      "Opt-Windows":          "NC-3g-LG-u1.14",
+		"Opt-Doors":            "SteelPS",
+		"Opt-ExposedFloor":     "retrofit-ExposedFloor-Additional-R10",
+		"Opt-H2KFoundation":    "Additional_2in_Ext_Rigid_XPS_PLUS_int-R22-Retrofit",
+		"Opt-DHWSystem":        "elec_tankless_ef0.96",
+		"Opt-Heating-Cooling":  "ASHP-mini-split"
+    },
+	 
+	 "Retrofit-SYS-pkg-E_303-B-I": {
+      "Opt-AtticCeilings":    "retrofit-AtticCeiling-Additional-R30",
+		"Opt-FlatCeilings":     "retrofit-FlatCeiling-Additional-R30",
+		"Opt-CathCeilings":     "retrofit-CathCeiling-Additional-R10",
+		"Opt-ACH":              "Retrofit-ACH_20Percent_Reduction",
+      "Opt-AboveGradeWall":   "retrofit-main-wall-Additional-R20",
+      "Opt-Windows":          "NC-3g-LG-u1.08",
+		"Opt-Doors":            "SteelPS",
+		"Opt-ExposedFloor":     "retrofit-ExposedFloor-Additional-R10",
+		"Opt-H2KFoundation":    "Additional_4in_Ext_Rigid_XPS_PLUS_int-R22-Retrofit",
+		"Opt-DHWSystem":        "elec_tankless_ef0.96",
+		"Opt-Heating-Cooling":  "ASHP-mini-split"
+    },  
+	 
+	 "Retrofit-SYS-pkg-E_301-B-H": {
+      "Opt-AtticCeilings":    "retrofit-AtticCeiling-Additional-R10",
+		"Opt-FlatCeilings":     "retrofit-FlatCeiling-Additional-R10",
+		"Opt-CathCeilings":     "retrofit-CathCeiling-Additional-R10",
+		"Opt-ACH":              "Retrofit-ACH_10Percent_Reduction",
+      "Opt-AboveGradeWall":   "retrofit-main-wall-Additional-R10",
+      "Opt-Windows":          "NC-2g-LG-u1.65",
+		"Opt-Doors":            "SteelPS",
+		"Opt-ExposedFloor":     "retrofit-ExposedFloor-Additional-R5",
+		"Opt-H2KFoundation":    "Additional_int_R22-Retrofit",
+		"Opt-DHWSystem":        "HPHotWater",
+		"Opt-Heating-Cooling":  "ASHP-mini-split"
+    },
+	 
+	 "Retrofit-SYS-pkg-E_302-B-H": {
+      "Opt-AtticCeilings":    "retrofit-AtticCeiling-Additional-R20",
+		"Opt-FlatCeilings":     "retrofit-FlatCeiling-Additional-R20",
+		"Opt-CathCeilings":     "retrofit-CathCeiling-Additional-R10",
+		"Opt-ACH":              "Retrofit-ACH_20Percent_Reduction",
+      "Opt-AboveGradeWall":   "retrofit-main-wall-Additional-R15",
+      "Opt-Windows":          "NC-3g-LG-u1.14",
+		"Opt-Doors":            "SteelPS",
+		"Opt-ExposedFloor":     "retrofit-ExposedFloor-Additional-R10",
+		"Opt-H2KFoundation":    "Additional_2in_Ext_Rigid_XPS_PLUS_int-R22-Retrofit",
+		"Opt-DHWSystem":        "HPHotWater",
+		"Opt-Heating-Cooling":  "ASHP-mini-split"
+    },
+	 
+	 "Retrofit-SYS-pkg-E_303-B-H": {
+      "Opt-AtticCeilings":    "retrofit-AtticCeiling-Additional-R30",
+		"Opt-FlatCeilings":     "retrofit-FlatCeiling-Additional-R30",
+		"Opt-CathCeilings":     "retrofit-CathCeiling-Additional-R10",
+		"Opt-ACH":              "Retrofit-ACH_20Percent_Reduction",
+      "Opt-AboveGradeWall":   "retrofit-main-wall-Additional-R20",
+      "Opt-Windows":          "NC-3g-LG-u1.08",
+		"Opt-Doors":            "SteelPS",
+		"Opt-ExposedFloor":     "retrofit-ExposedFloor-Additional-R10",
+		"Opt-H2KFoundation":    "Additional_4in_Ext_Rigid_XPS_PLUS_int-R22-Retrofit",
+		"Opt-DHWSystem":        "HPHotWater",
+		"Opt-Heating-Cooling":  "ASHP-mini-split"
+    },  
+	 
+	 "Retrofit-SYS-pkg-E_301-A-I": {
+      "Opt-AtticCeilings":    "retrofit-AtticCeiling-Additional-R10",
+		"Opt-FlatCeilings":     "retrofit-FlatCeiling-Additional-R10",
+		"Opt-CathCeilings":     "retrofit-CathCeiling-Additional-R10",
+		"Opt-ACH":              "Retrofit-ACH_10Percent_Reduction",
+      "Opt-AboveGradeWall":   "retrofit-main-wall-Additional-R10",
+      "Opt-Windows":          "NC-2g-LG-u1.65",
+		"Opt-Doors":            "SteelPS",
+		"Opt-ExposedFloor":     "retrofit-ExposedFloor-Additional-R5",
+		"Opt-H2KFoundation":    "Additional_int_R22-Retrofit",
+		"Opt-DHWSystem":        "elec_tankless_ef0.96",
+		"Opt-Heating-Cooling":  "ASHP"
+    },
+	 
+	 "Retrofit-SYS-pkg-E_302-A-I": {
+      "Opt-AtticCeilings":    "retrofit-AtticCeiling-Additional-R20",
+		"Opt-FlatCeilings":     "retrofit-FlatCeiling-Additional-R20",
+		"Opt-CathCeilings":     "retrofit-CathCeiling-Additional-R10",
+		"Opt-ACH":              "Retrofit-ACH_20Percent_Reduction",
+      "Opt-AboveGradeWall":   "retrofit-main-wall-Additional-R15",
+      "Opt-Windows":          "NC-3g-LG-u1.14",
+		"Opt-Doors":            "SteelPS",
+		"Opt-ExposedFloor":     "retrofit-ExposedFloor-Additional-R10",
+		"Opt-H2KFoundation":    "Additional_2in_Ext_Rigid_XPS_PLUS_int-R22-Retrofit",
+		"Opt-DHWSystem":        "elec_tankless_ef0.96",
+		"Opt-Heating-Cooling":  "ASHP"
+    },
+	 
+	 "Retrofit-SYS-pkg-E_303-A-I": {
+      "Opt-AtticCeilings":    "retrofit-AtticCeiling-Additional-R30",
+		"Opt-FlatCeilings":     "retrofit-FlatCeiling-Additional-R30",
+		"Opt-CathCeilings":     "retrofit-CathCeiling-Additional-R10",
+		"Opt-ACH":              "Retrofit-ACH_20Percent_Reduction",
+      "Opt-AboveGradeWall":   "retrofit-main-wall-Additional-R20",
+      "Opt-Windows":          "NC-3g-LG-u1.08",
+		"Opt-Doors":            "SteelPS",
+		"Opt-ExposedFloor":     "retrofit-ExposedFloor-Additional-R10",
+		"Opt-H2KFoundation":    "Additional_4in_Ext_Rigid_XPS_PLUS_int-R22-Retrofit",
+		"Opt-DHWSystem":        "elec_tankless_ef0.96",
+		"Opt-Heating-Cooling":  "ASHP"
+    },  
+	 
+	 "Retrofit-SYS-pkg-E_301-A-H": {
+      "Opt-AtticCeilings":    "retrofit-AtticCeiling-Additional-R10",
+		"Opt-FlatCeilings":     "retrofit-FlatCeiling-Additional-R10",
+		"Opt-CathCeilings":     "retrofit-CathCeiling-Additional-R10",
+		"Opt-ACH":              "Retrofit-ACH_10Percent_Reduction",
+      "Opt-AboveGradeWall":   "retrofit-main-wall-Additional-R10",
+      "Opt-Windows":          "NC-2g-LG-u1.65",
+		"Opt-Doors":            "SteelPS",
+		"Opt-ExposedFloor":     "retrofit-ExposedFloor-Additional-R5",
+		"Opt-H2KFoundation":    "Additional_int_R22-Retrofit",
+		"Opt-DHWSystem":        "HPHotWater",
+		"Opt-Heating-Cooling":  "ASHP"
+    },
+	 
+	 "Retrofit-SYS-pkg-E_302-A-H": {
+      "Opt-AtticCeilings":    "retrofit-AtticCeiling-Additional-R20",
+		"Opt-FlatCeilings":     "retrofit-FlatCeiling-Additional-R20",
+		"Opt-CathCeilings":     "retrofit-CathCeiling-Additional-R10",
+		"Opt-ACH":              "Retrofit-ACH_20Percent_Reduction",
+      "Opt-AboveGradeWall":   "retrofit-main-wall-Additional-R15",
+      "Opt-Windows":          "NC-3g-LG-u1.14",
+		"Opt-Doors":            "SteelPS",
+		"Opt-ExposedFloor":     "retrofit-ExposedFloor-Additional-R10",
+		"Opt-H2KFoundation":    "Additional_2in_Ext_Rigid_XPS_PLUS_int-R22-Retrofit",
+		"Opt-DHWSystem":        "HPHotWater",
+		"Opt-Heating-Cooling":  "ASHP"
+    },
+	 
+	 "Retrofit-SYS-pkg-E_303-A-H": {
+      "Opt-AtticCeilings":    "retrofit-AtticCeiling-Additional-R30",
+		"Opt-FlatCeilings":     "retrofit-FlatCeiling-Additional-R30",
+		"Opt-CathCeilings":     "retrofit-CathCeiling-Additional-R10",
+		"Opt-ACH":              "Retrofit-ACH_20Percent_Reduction",
+      "Opt-AboveGradeWall":   "retrofit-main-wall-Additional-R20",
+      "Opt-Windows":          "NC-3g-LG-u1.08",
+		"Opt-Doors":            "SteelPS",
+		"Opt-ExposedFloor":     "retrofit-ExposedFloor-Additional-R10",
+		"Opt-H2KFoundation":    "Additional_4in_Ext_Rigid_XPS_PLUS_int-R22-Retrofit",
+		"Opt-DHWSystem":        "HPHotWater",
+		"Opt-Heating-Cooling":  "ASHP"
+    },  
+	 
+	 "Retrofit-SYS-pkg-E_301-C-I": {
+      "Opt-AtticCeilings":    "retrofit-AtticCeiling-Additional-R10",
+		"Opt-FlatCeilings":     "retrofit-FlatCeiling-Additional-R10",
+		"Opt-CathCeilings":     "retrofit-CathCeiling-Additional-R10",
+		"Opt-ACH":              "Retrofit-ACH_10Percent_Reduction",
+      "Opt-AboveGradeWall":   "retrofit-main-wall-Additional-R10",
+      "Opt-Windows":          "NC-2g-LG-u1.65",
+		"Opt-Doors":            "SteelPS",
+		"Opt-ExposedFloor":     "retrofit-ExposedFloor-Additional-R5",
+		"Opt-H2KFoundation":    "Additional_int_R22-Retrofit",
+		"Opt-DHWSystem":        "elec_tankless_ef0.96",
+		"Opt-Heating-Cooling":  "CCASHP"
+    },
+	 
+	 "Retrofit-SYS-pkg-E_302-C-I": {
+      "Opt-AtticCeilings":    "retrofit-AtticCeiling-Additional-R20",
+		"Opt-FlatCeilings":     "retrofit-FlatCeiling-Additional-R20",
+		"Opt-CathCeilings":     "retrofit-CathCeiling-Additional-R10",
+		"Opt-ACH":              "Retrofit-ACH_20Percent_Reduction",
+      "Opt-AboveGradeWall":   "retrofit-main-wall-Additional-R15",
+      "Opt-Windows":          "NC-3g-LG-u1.14",
+		"Opt-Doors":            "SteelPS",
+		"Opt-ExposedFloor":     "retrofit-ExposedFloor-Additional-R10",
+		"Opt-H2KFoundation":    "Additional_2in_Ext_Rigid_XPS_PLUS_int-R22-Retrofit",
+		"Opt-DHWSystem":        "elec_tankless_ef0.96",
+		"Opt-Heating-Cooling":  "CCASHP"
+    },
+	 
+	 "Retrofit-SYS-pkg-E_303-C-I": {
+      "Opt-AtticCeilings":    "retrofit-AtticCeiling-Additional-R30",
+		"Opt-FlatCeilings":     "retrofit-FlatCeiling-Additional-R30",
+		"Opt-CathCeilings":     "retrofit-CathCeiling-Additional-R10",
+		"Opt-ACH":              "Retrofit-ACH_20Percent_Reduction",
+      "Opt-AboveGradeWall":   "retrofit-main-wall-Additional-R20",
+      "Opt-Windows":          "NC-3g-LG-u1.08",
+		"Opt-Doors":            "SteelPS",
+		"Opt-ExposedFloor":     "retrofit-ExposedFloor-Additional-R10",
+		"Opt-H2KFoundation":    "Additional_4in_Ext_Rigid_XPS_PLUS_int-R22-Retrofit",
+		"Opt-DHWSystem":        "elec_tankless_ef0.96",
+		"Opt-Heating-Cooling":  "CCASHP"
+    },  
+	 
+	 "Retrofit-SYS-pkg-E_301-C-H": {
+      "Opt-AtticCeilings":    "retrofit-AtticCeiling-Additional-R10",
+		"Opt-FlatCeilings":     "retrofit-FlatCeiling-Additional-R10",
+		"Opt-CathCeilings":     "retrofit-CathCeiling-Additional-R10",
+		"Opt-ACH":              "Retrofit-ACH_10Percent_Reduction",
+      "Opt-AboveGradeWall":   "retrofit-main-wall-Additional-R10",
+      "Opt-Windows":          "NC-2g-LG-u1.65",
+		"Opt-Doors":            "SteelPS",
+		"Opt-ExposedFloor":     "retrofit-ExposedFloor-Additional-R5",
+		"Opt-H2KFoundation":    "Additional_int_R22-Retrofit",
+		"Opt-DHWSystem":        "HPHotWater",
+		"Opt-Heating-Cooling":  "CCASHP"
+    },
+	 
+	 "Retrofit-SYS-pkg-E_302-C-H": {
+      "Opt-AtticCeilings":    "retrofit-AtticCeiling-Additional-R20",
+		"Opt-FlatCeilings":     "retrofit-FlatCeiling-Additional-R20",
+		"Opt-CathCeilings":     "retrofit-CathCeiling-Additional-R10",
+		"Opt-ACH":              "Retrofit-ACH_20Percent_Reduction",
+      "Opt-AboveGradeWall":   "retrofit-main-wall-Additional-R15",
+      "Opt-Windows":          "NC-3g-LG-u1.14",
+		"Opt-Doors":            "SteelPS",
+		"Opt-ExposedFloor":     "retrofit-ExposedFloor-Additional-R10",
+		"Opt-H2KFoundation":    "Additional_2in_Ext_Rigid_XPS_PLUS_int-R22-Retrofit",
+		"Opt-DHWSystem":        "HPHotWater",
+		"Opt-Heating-Cooling":  "CCASHP"
+    },
+	 
+	 "Retrofit-SYS-pkg-E_303-C-H": {
+      "Opt-AtticCeilings":    "retrofit-AtticCeiling-Additional-R30",
+		"Opt-FlatCeilings":     "retrofit-FlatCeiling-Additional-R30",
+		"Opt-CathCeilings":     "retrofit-CathCeiling-Additional-R10",
+		"Opt-ACH":              "Retrofit-ACH_20Percent_Reduction",
+      "Opt-AboveGradeWall":   "retrofit-main-wall-Additional-R20",
+      "Opt-Windows":          "NC-3g-LG-u1.08",
+		"Opt-Doors":            "SteelPS",
+		"Opt-ExposedFloor":     "retrofit-ExposedFloor-Additional-R10",
+		"Opt-H2KFoundation":    "Additional_4in_Ext_Rigid_XPS_PLUS_int-R22-Retrofit",
+		"Opt-DHWSystem":        "HPHotWater",
+		"Opt-Heating-Cooling":  "CCASHP"
+    },  
+
+	 "Retrofit-SYS-pkg-G_301": {
+      "Opt-AtticCeilings":    "retrofit-AtticCeiling-Additional-R10",
+		"Opt-FlatCeilings":     "retrofit-FlatCeiling-Additional-R10",
+		"Opt-CathCeilings":     "retrofit-CathCeiling-Additional-R10",
+		"Opt-ACH":              "Retrofit-ACH_10Percent_Reduction",
+      "Opt-AboveGradeWall":   "retrofit-main-wall-Additional-R10",
+      "Opt-Windows":          "NC-2g-LG-u1.65",
+		"Opt-Doors":            "SteelPS",
+		"Opt-ExposedFloor":     "retrofit-ExposedFloor-Additional-R5",
+		"Opt-H2KFoundation":    "Additional_int_R22-Retrofit",
+		"Opt-DHWSystem":        "GasInstantaneous",
+		"Opt-Heating-Cooling":  "gas-furnace-ecm+AC"
+    },
+	 
+	 "Retrofit-SYS-pkg-G_302": {
+      "Opt-AtticCeilings":    "retrofit-AtticCeiling-Additional-R20",
+		"Opt-FlatCeilings":     "retrofit-FlatCeiling-Additional-R20",
+		"Opt-CathCeilings":     "retrofit-CathCeiling-Additional-R10",
+		"Opt-ACH":              "Retrofit-ACH_20Percent_Reduction",
+      "Opt-AboveGradeWall":   "retrofit-main-wall-Additional-R15",
+      "Opt-Windows":          "NC-3g-LG-u1.14",
+		"Opt-Doors":            "SteelPS",
+		"Opt-ExposedFloor":     "retrofit-ExposedFloor-Additional-R10",
+		"Opt-H2KFoundation":    "Additional_2in_Ext_Rigid_XPS_PLUS_int-R22-Retrofit",
+		"Opt-DHWSystem":        "GasInstantaneous",
+		"Opt-Heating-Cooling":  "gas-furnace-ecm+AC"
+    },
+	 
+	 "Retrofit-SYS-pkg-G_303": {
+      "Opt-AtticCeilings":    "retrofit-AtticCeiling-Additional-R30",
+		"Opt-FlatCeilings":     "retrofit-FlatCeiling-Additional-R30",
+		"Opt-CathCeilings":     "retrofit-CathCeiling-Additional-R10",
+		"Opt-ACH":              "Retrofit-ACH_20Percent_Reduction",
+      "Opt-AboveGradeWall":   "retrofit-main-wall-Additional-R20",
+      "Opt-Windows":          "NC-3g-LG-u1.08",
+		"Opt-Doors":            "SteelPS",
+		"Opt-ExposedFloor":     "retrofit-ExposedFloor-Additional-R10",
+		"Opt-H2KFoundation":    "Additional_4in_Ext_Rigid_XPS_PLUS_int-R22-Retrofit",
+		"Opt-DHWSystem":        "GasInstantaneous",
+		"Opt-Heating-Cooling":  "gas-furnace-ecm+AC"
+    },	
+
+	 "Retrofit-SYS-pkg-O_301": {
+      "Opt-AtticCeilings":    "retrofit-AtticCeiling-Additional-R10",
+		"Opt-FlatCeilings":     "retrofit-FlatCeiling-Additional-R10",
+		"Opt-CathCeilings":     "retrofit-CathCeiling-Additional-R10",
+		"Opt-ACH":              "Retrofit-ACH_10Percent_Reduction",
+      "Opt-AboveGradeWall":   "retrofit-main-wall-Additional-R10",
+      "Opt-Windows":          "NC-2g-LG-u1.65",
+		"Opt-Doors":            "SteelPS",
+		"Opt-ExposedFloor":     "retrofit-ExposedFloor-Additional-R5",
+		"Opt-H2KFoundation":    "Additional_int_R22-Retrofit",
+		"Opt-DHWSystem":        "ElecInstantaneous",
+		"Opt-Heating-Cooling":  "oilfurnace"
+    },
+	 
+	 "Retrofit-SYS-pkg-O_302": {
+      "Opt-AtticCeilings":    "retrofit-AtticCeiling-Additional-R20",
+		"Opt-FlatCeilings":     "retrofit-FlatCeiling-Additional-R20",
+		"Opt-CathCeilings":     "retrofit-CathCeiling-Additional-R10",
+		"Opt-ACH":              "Retrofit-ACH_20Percent_Reduction",
+      "Opt-AboveGradeWall":   "retrofit-main-wall-Additional-R15",
+      "Opt-Windows":          "NC-3g-LG-u1.14",
+		"Opt-Doors":            "SteelPS",
+		"Opt-ExposedFloor":     "retrofit-ExposedFloor-Additional-R10",
+		"Opt-H2KFoundation":    "Additional_2in_Ext_Rigid_XPS_PLUS_int-R22-Retrofit",
+		"Opt-DHWSystem":        "ElecInstantaneous",
+		"Opt-Heating-Cooling":  "oilfurnace"
+    },
+	 
+	 "Retrofit-SYS-pkg-O_303": {
+      "Opt-AtticCeilings":    "retrofit-AtticCeiling-Additional-R30",
+		"Opt-FlatCeilings":     "retrofit-FlatCeiling-Additional-R30",
+		"Opt-CathCeilings":     "retrofit-CathCeiling-Additional-R10",
+		"Opt-ACH":              "Retrofit-ACH_20Percent_Reduction",
+      "Opt-AboveGradeWall":   "retrofit-main-wall-Additional-R20",
+      "Opt-Windows":          "NC-3g-LG-u1.08",
+		"Opt-Doors":            "SteelPS",
+		"Opt-ExposedFloor":     "retrofit-ExposedFloor-Additional-R10",
+		"Opt-H2KFoundation":    "Additional_4in_Ext_Rigid_XPS_PLUS_int-R22-Retrofit",
+		"Opt-DHWSystem":        "ElecInstantaneous",
+		"Opt-Heating-Cooling":  "oilfurnace"
+    }	,
+	 
+	 "env-no_walls_or_foundations-001": {
+      "Opt-AtticCeilings":    "CeilR50",
+		"Opt-FlatCeilings":     "CeilR40",
+		"Opt-CathCeilings":     "CeilR50",
+		"Opt-ACH":              "Retrofit-ACH_10Percent_Reduction",
+      "Opt-AboveGradeWall":   "NA",
+      "Opt-Windows":          "NC-2g-LG-u1.65",
+		"Opt-Doors":            "SteelPS",
+		"Opt-ExposedFloor":     "NA",
+		"Opt-H2KFoundation":    "NA"
+    },
+	 
+	 "env-no_walls_or_foundations-002": {
+      "Opt-AtticCeilings":    "CeilR50",
+		"Opt-FlatCeilings":     "CeilR40",
+		"Opt-CathCeilings":     "CeilR50",
+		"Opt-ACH":              "Retrofit-ACH_20Percent_Reduction",
+      "Opt-AboveGradeWall":   "NA",
+      "Opt-Windows":          "NC-3g-LG-u1.14",
+		"Opt-Doors":            "SteelPS",
+		"Opt-ExposedFloor":     "NA",
+		"Opt-H2KFoundation":    "NA"
+    },
+	 
+	 "env-no_walls_or_foundations-003": {
+      "Opt-AtticCeilings":    "CeilR60",
+		"Opt-FlatCeilings":     "CeilR60",
+		"Opt-CathCeilings":     "CeilR60",
+		"Opt-ACH":              "Retrofit-ACH_20Percent_Reduction",
+      "Opt-AboveGradeWall":   "NA",
+      "Opt-Windows":          "NC-3g-LG-u1.08",
+		"Opt-Doors":            "SteelPS",
+		"Opt-ExposedFloor":     "NA",
+		"Opt-H2KFoundation":    "NA"
+    },
+	 
+	 "env-no_walls-001": {
+      "Opt-AtticCeilings":    "CeilR50",
+		"Opt-FlatCeilings":     "CeilR40",
+		"Opt-CathCeilings":     "CeilR50",
+		"Opt-ACH":              "Retrofit-ACH_10Percent_Reduction",
+      "Opt-AboveGradeWall":   "NA",
+      "Opt-Windows":          "NC-2g-LG-u1.65",
+		"Opt-Doors":            "SteelPS",
+		"Opt-ExposedFloor":     "retrofit-ExposedFloor-Additional-R5",
+		"Opt-H2KFoundation":    "Additional_int_R22-Retrofit"
+    },
+	 
+	 "env-no_walls-002": {
+      "Opt-AtticCeilings":    "CeilR50",
+		"Opt-FlatCeilings":     "CeilR40",
+		"Opt-CathCeilings":     "CeilR50",
+		"Opt-ACH":              "Retrofit-ACH_20Percent_Reduction",
+      "Opt-AboveGradeWall":   "NA",
+      "Opt-Windows":          "NC-3g-LG-u1.14",
+		"Opt-Doors":            "SteelPS",
+		"Opt-ExposedFloor":     "retrofit-ExposedFloor-Additional-R10",
+		"Opt-H2KFoundation":    "Additional_2in_Ext_Rigid_XPS_PLUS_int-R22-Retrofit"
+    },
+	 
+	 "env-no_walls-003": {
+      "Opt-AtticCeilings":    "CeilR60",
+		"Opt-FlatCeilings":     "CeilR60",
+		"Opt-CathCeilings":     "CeilR60",
+		"Opt-ACH":              "Retrofit-ACH_20Percent_Reduction",
+      "Opt-AboveGradeWall":   "NA",
+      "Opt-Windows":          "NC-3g-LG-u1.08",
+		"Opt-Doors":            "SteelPS",
+		"Opt-ExposedFloor":     "retrofit-ExposedFloor-Additional-R10",
+		"Opt-H2KFoundation":    "Additional_4in_Ext_Rigid_XPS_PLUS_int-R22-Retrofit"
+    },
+	 
+	 "env-all-001": {
+      "Opt-AtticCeilings":    "CeilR50",
+		"Opt-FlatCeilings":     "CeilR40",
+		"Opt-CathCeilings":     "CeilR50",
+		"Opt-ACH":              "Retrofit-ACH_10Percent_Reduction",
+      "Opt-AboveGradeWall":   "retrofit-main-wall-Additional-R4",
+      "Opt-Windows":          "NC-2g-LG-u1.65",
+		"Opt-Doors":            "SteelPS",
+		"Opt-ExposedFloor":     "retrofit-ExposedFloor-Additional-R5",
+		"Opt-H2KFoundation":    "Additional_int_R22-Retrofit"
+    },
+	 
+	 "env-all-002": {
+      "Opt-AtticCeilings":    "CeilR50",
+		"Opt-FlatCeilings":     "CeilR40",
+		"Opt-CathCeilings":     "CeilR50",
+		"Opt-ACH":              "Retrofit-ACH_20Percent_Reduction",
+      "Opt-AboveGradeWall":   "retrofit-main-wall-Additional-R8",
+      "Opt-Windows":          "NC-3g-LG-u1.14",
+		"Opt-Doors":            "SteelPS",
+		"Opt-ExposedFloor":     "retrofit-ExposedFloor-Additional-R10",
+		"Opt-H2KFoundation":    "Additional_2in_Ext_Rigid_XPS_PLUS_int-R22-Retrofit"
+    },
+	 
+	 "env-all-003": {
+      "Opt-AtticCeilings":    "CeilR60",
+		"Opt-FlatCeilings":     "CeilR60",
+		"Opt-CathCeilings":     "CeilR60",
+		"Opt-ACH":              "Retrofit-ACH_20Percent_Reduction",
+      "Opt-AboveGradeWall":   "retrofit-main-wall-Additional-R12",
+      "Opt-Windows":          "NC-3g-LG-u1.08",
+		"Opt-Doors":            "SteelPS",
+		"Opt-ExposedFloor":     "retrofit-ExposedFloor-Additional-R10",
+		"Opt-H2KFoundation":    "Additional_4in_Ext_Rigid_XPS_PLUS_int-R22-Retrofit"
+    },
+	 
+	 "GasInstantaneous_only": {
+		"Opt-DHWSystem":        "GasInstantaneous",
+		"Opt-Heating-Cooling":  "NA"
+    },
+	 
+	 "HPHotWater_only": {
+		"Opt-DHWSystem":        "HPHotWater",
+		"Opt-Heating-Cooling":  "NA"
+    },
+	 
+	 "elec_storage_ef0.89_only": {
+		"Opt-DHWSystem":        "elec_storage_ef0.89",
+		"Opt-Heating-Cooling":  "NA"
+    },
+	 
+	 "p9_11_only": {
+		"Opt-DHWSystem":        "GasInstantaneous",
+		"Opt-Heating-Cooling":  "condensing-boiler-high"
+    },
+	 
+	 "gas-hybrid_only": {
+		"Opt-DHWSystem":        "NA",
+		"Opt-Heating-Cooling":  "gas-hybrid"
+    },
+	 
+	 "ASHP_only": {
+		"Opt-DHWSystem":        "NA",
+		"Opt-Heating-Cooling":  "ASHP"
+    },
+	 
+	 "CCASHP_only": {
+		"Opt-DHWSystem":        "NA",
+		"Opt-Heating-Cooling":  "CCASHP"
+    }
+
+
+  },
+  "rulesets": {
+  }
+}
