@@ -257,11 +257,19 @@ for (myRegion in c("ONTARIO", "BRITISH COLUMBIA", "NOVA SCOTIA", "QUEBEC",  "NEW
 }
 
 
-for ( region in c("SASKATCHEWAN","NORTHWEST TERRITORIES")){
+for ( region in c("SASKATCHEWAN")){
   SCSizes$OG.MeanACH[ SCSizes$Region==region ] <-mean(SCSizes$OG.MeanACH[ SCSizes$Region=="ALBERTA" ])
   SCSizes$OG.LowACH[  SCSizes$Region==region ] <-mean(SCSizes$OG.LowACH[  SCSizes$Region=="ALBERTA" ])
   SCSizes$OG.HighACH[ SCSizes$Region==region ] <-mean(SCSizes$OG.HighACH[ SCSizes$Region=="ALBERTA" ]) 
 }
+
+  SCSizes$OG.MeanACH[ SCSizes$Region=="NORTHWEST TERRITORIES" ] <-mean(SCSizes$OG.MeanACH[ SCSizes$Region=="ALBERTA" ]) * 1.5
+  SCSizes$OG.LowACH[  SCSizes$Region=="NORTHWEST TERRITORIES" ] <-mean(SCSizes$OG.LowACH[  SCSizes$Region=="ALBERTA" ]) * 1.5
+  SCSizes$OG.HighACH[ SCSizes$Region=="NORTHWEST TERRITORIES" ] <-mean(SCSizes$OG.HighACH[ SCSizes$Region=="ALBERTA" ])  * 1.5
+
+SCSizes$OG.MeanACH[  SCSizes$Region=="NEWFOUNDLAND AND LABRADOR" ] <- SCSizes$OG.MeanACH[  SCSizes$Region=="NEWFOUNDLAND AND LABRADOR" ] *1.5
+SCSizes$OG.LowACH[  SCSizes$Region=="NEWFOUNDLAND AND LABRADOR" ] <- SCSizes$OG.MeanACH[ SCSizes$Region=="NEWFOUNDLAND AND LABRADOR" ] - 3*sd(SCSizes$OG.MeanACH)
+SCSizes$OG.HighACH[ SCSizes$Region=="NEWFOUNDLAND AND LABRADOR" ] <- SCSizes$OG.MeanACH[ SCSizes$Region=="NEWFOUNDLAND AND LABRADOR" ] + 3*sd(SCSizes$OG.MeanACH)
 
 # Finally - bodge data to correct dubious numbers where there is uncertianty. 
 for ( region in c("ALBERTA","MANITOBA")){
@@ -276,8 +284,6 @@ for (region in c("NEWFOUNDLAND AND LABRADOR", "NORTHWEST TERRITORIES","QUEBEC", 
   SCSizes$RC.HighACH[ SCSizes$Region==region ]  <-   SCSizes$OG.HighACH[ SCSizes$Region==region ] / 1.1 
 }
 
-SCSizes$OG.LowACH[  SCSizes$Region=="NEWFOUNDLAND AND LABRADOR" ] <- SCSizes$OG.MeanACH[ SCSizes$Region=="NEWFOUNDLAND AND LABRADOR" ] - 2*sd(SCSizes$OG.MeanACH)
-SCSizes$OG.HighACH[ SCSizes$Region=="NEWFOUNDLAND AND LABRADOR" ] <- SCSizes$OG.MeanACH[ SCSizes$Region=="NEWFOUNDLAND AND LABRADOR" ] + 2*sd(SCSizes$OG.MeanACH)
 
 for (region in SCSizes$Region ){
 
@@ -310,14 +316,29 @@ SCSizes$RC.hlWattPerM3.low<- predict(mdlRCHomes, newdata = achCalc)
 achCalc = data.frame(ACH = SCSizes$RC.HighACH, hlDeltaT = SCSizes$hlDeltaT    )
 SCSizes$RC.hlWattPerM3.high<- predict(mdlRCHomes, newdata = achCalc)
 
+SCSizes$RC.tgtACH <- 1.9
+SCSizes$RC.tgtACH[ SCSizes$Region=="BRITISH COLUMBIA" ] <- 3.5 
+SCSizes$RC.WstACH <- 13.0
+
+
+achCalc = data.frame(ACH = SCSizes$RC.tgtACH, hlDeltaT = SCSizes$hlDeltaT    )
+
+SCSizes$new_low_wpm3 <- predict(mdlRCHomes, newdata=achCalc)
+SCSizes$new_low_w <- SCSizes$new_low_wpm3 * SCSizes$VolMin
+
+achCalc = data.frame(ACH = SCSizes$RC.WstACH, hlDeltaT = SCSizes$hlDeltaT    )
+SCSizes$new_high_wpm3 <- predict(mdlOGHomes, newdata=achCalc)
+SCSizes$new_high_w <- SCSizes$new_high_wpm3  * SCSizes$VolMax
+
+
 
 
 SCSizes$OG.HLwatts.low  <- SCSizes$OG.hlWattPerM3.low   * SCSizes$VolMin
-SCSizes$OG.HLwatts.mean <- SCSizes$OG.hlWattPerM3.mean  * SCSizes$VolMean
+SCSizes$OG.HLwatts.mean <- SCSizes$OG.hlWattPerM3.mean  * SCSizes$VolMean  *1.2
 SCSizes$OG.HLwatts.high <- SCSizes$OG.hlWattPerM3.high  * SCSizes$VolMax
 
 SCSizes$RC.HLwatts.low  <- SCSizes$RC.hlWattPerM3.low   * SCSizes$VolMin
-SCSizes$RC.HLwatts.mean <- SCSizes$RC.hlWattPerM3.mean  * SCSizes$VolMea
+SCSizes$RC.HLwatts.mean <- SCSizes$RC.hlWattPerM3.mean  * SCSizes$VolMean * 0.9
 SCSizes$RC.HLwatts.high <- SCSizes$RC.hlWattPerM3.high  * SCSizes$VolMax
 
 #new.speeds <- data.frame(
