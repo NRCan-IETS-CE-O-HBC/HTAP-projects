@@ -13,7 +13,7 @@
 },
 
 "ach-only-0d6": {
-	"Opt-ACH": "ACH_0_6",
+	"Opt-ACH": "New-Const-air_seal_to_0.60_ach",
 	"Opt-WindowDistribution": "Proposed-9.36"
 },
 
@@ -136,7 +136,7 @@
 },
 
 "envelope-438536-LG-nohpwh": {
-	"Opt-ACH": "ACH_0_6",
+	"Opt-ACH": "New-Const-air_seal_to_0.60_ach",
 	"Opt-CasementWindows": "NC-3g-LG-u1.08",
 	"Opt-GenericWall_1Layer_definitions": "NC_R-29(eff)_2x6-24inOC_R24-batt+2inXPS_poly_vb",
 	"Opt-FloorHeaderIntIns": "NC_R-29eff_5.5inBatt",
@@ -151,7 +151,7 @@
 
 
 "envelope-438536-LG": {
-	"Opt-ACH": "ACH_0_6",
+	"Opt-ACH": "New-Const-air_seal_to_0.60_ach",
 	"Opt-CasementWindows": "NC-3g-LG-u1.08",
 	"Opt-GenericWall_1Layer_definitions": "NC_R-29(eff)_2x6-24inOC_R24-batt+2inXPS_poly_vb",
 	"Opt-FloorHeaderIntIns": "NC_R-29eff_5.5inBatt",
@@ -166,7 +166,7 @@
 },
 
 "envelope-438536-LG+ASHP": {
-	"Opt-ACH": "ACH_0_6",
+	"Opt-ACH": "New-Const-air_seal_to_0.60_ach",
 	"Opt-CasementWindows": "NC-3g-LG-u1.08",
 	"Opt-GenericWall_1Layer_definitions": "NC_R-29(eff)_2x6-24inOC_R24-batt+2inXPS_poly_vb",
 	"Opt-FloorHeaderIntIns": "NC_R-29eff_5.5inBatt",
@@ -184,7 +184,7 @@
 
 
 "envelope-438536": {
-	"Opt-ACH": "ACH_0_6",
+	"Opt-ACH": "New-Const-air_seal_to_0.60_ach",
 	"Opt-CasementWindows": "NC-3g-MG-u1.08",
 	"Opt-GenericWall_1Layer_definitions": "NC_R-29(eff)_2x6-24inOC_R24-batt+2inXPS_poly_vb",
 	"Opt-FloorHeaderIntIns": "NC_R-29eff_5.5inBatt",
@@ -198,7 +198,7 @@
 	"Opt-WindowDistribution": "Proposed-9.36"
 },
 "envelope-439858": {
-	"Opt-ACH": "ACH_0_6",
+	"Opt-ACH": "New-Const-air_seal_to_0.60_ach",
 	"Opt-CasementWindows": "NC-3g-MG-u1.08",
 	"Opt-GenericWall_1Layer_definitions": "NC_R-40(eff)_2x6-16inOC_R24-batt+4.5inXPS_poly_vb",
 	"Opt-FoundationWallIntIns": "WoodFrame+intEpsEffR23",
@@ -212,7 +212,7 @@
 	"Opt-WindowDistribution": "Proposed-9.36"
 },
 "envelope-439858-LG": {
-	"Opt-ACH": "ACH_0_6",
+	"Opt-ACH": "New-Const-air_seal_to_0.60_ach",
 	"Opt-CasementWindows": "NC-3g-LG-u1.08",
 	"Opt-GenericWall_1Layer_definitions": "NC_R-40(eff)_2x6-16inOC_R24-batt+4.5inXPS_poly_vb",
 	"Opt-FoundationWallIntIns": "WoodFrame+intEpsEffR23",
@@ -411,7 +411,7 @@
 	"Opt-WindowDistribution": "Proposed-9.36"
 },
 "gas-497777": {
-	"Opt-ACH": "ACH_0_6",
+	"Opt-ACH": "New-Const-air_seal_to_0.60_ach",
 	"Opt-CasementWindows": "NC-3g-MG-u1.08",
 	"Opt-GenericWall_1Layer_definitions": "NC_R-40(eff)_2x6-16inOC_R24-batt+4.5inXPS_poly_vb",
 	"Opt-ExposedFloor": "ExpFloorFlash&Batt-R36",
@@ -425,7 +425,7 @@
 	"Opt-WindowDistribution": "Proposed-9.36"
 },
 "gas-497880": {
-	"Opt-ACH": "ACH_0_6",
+	"Opt-ACH": "New-Const-air_seal_to_0.60_ach",
 	"Opt-CasementWindows": "NC-3g-MG-u1.08",
 	"Opt-GenericWall_1Layer_definitions": "NC_R-40(eff)_2x6-16inOC_R24-batt+4.5inXPS_poly_vb",
 	"Opt-FoundationWallIntIns": "WoodFrame+intEpsEffR23",
@@ -440,7 +440,7 @@
 	"Opt-WindowDistribution": "Proposed-9.36"
 },
 "gas-497880-LG": {
-	"Opt-ACH": "ACH_0_6",
+	"Opt-ACH": "New-Const-air_seal_to_0.60_ach",
 	"Opt-CasementWindows": "NC-3g-LG-u1.08",
 	"Opt-GenericWall_1Layer_definitions": "NC_R-40(eff)_2x6-16inOC_R24-batt+4.5inXPS_poly_vb",
 	"Opt-FoundationWallIntIns": "WoodFrame+intEpsEffR23",
@@ -455,7 +455,7 @@
 	"Opt-WindowDistribution": "Proposed-9.36"
 },
 "gas-498072": {
-	"Opt-ACH": "ACH_0_6",
+	"Opt-ACH": "New-Const-air_seal_to_0.60_ach",
 	"Opt-CasementWindows": "NC-3g-MG-u1.08",
 	"Opt-GenericWall_1Layer_definitions": "NC_R-40(eff)_2x6-16inOC_R24-batt+4.5inXPS_poly_vb",
 	"Opt-FloorHeaderIntIns": "NC_R-29eff_5.5inBatt",
@@ -471,7 +471,7 @@
 	"Opt-WindowDistribution": "Proposed-9.36"
 },
 "gas-498072-LG": {
-	"Opt-ACH": "ACH_0_6",
+	"Opt-ACH": "New-Const-air_seal_to_0.60_ach",
 	"Opt-CasementWindows": "NC-3g-LG-u1.08",
 	"Opt-GenericWall_1Layer_definitions": "NC_R-40(eff)_2x6-16inOC_R24-batt+4.5inXPS_poly_vb",
 	"Opt-FloorHeaderIntIns": "NC_R-29eff_5.5inBatt",
@@ -518,7 +518,7 @@
 		"Opt-WindowDistribution":				"Proposed-9.36"	
 	},
 	"elec-u":{
-		"Opt-ACH":								"ACH_0_6",
+		"Opt-ACH":								"New-Const-air_seal_to_0.60_ach",
 		"Opt-CasementWindows":					"NC-3g-MG-u1.08",
 		"Opt-GenericWall_1Layer_definitions":	"NC_R-29(eff)_2x6-24inOC_R24-batt+2inXPS_poly_vb",
 		"Opt-FoundationWallIntIns":				"WoodFrame+intEpsEffR23",
@@ -533,7 +533,7 @@
 		"Opt-WindowDistribution":				"Proposed-9.36"
 	},		
 	"elec-u-LG":{
-		"Opt-ACH":								"ACH_0_6",
+		"Opt-ACH":								"New-Const-air_seal_to_0.60_ach",
 		"Opt-CasementWindows":					"NC-3g-LG-u1.08",
 		"Opt-GenericWall_1Layer_definitions":	"NC_R-29(eff)_2x6-24inOC_R24-batt+2inXPS_poly_vb",
 		"Opt-FoundationWallIntIns":				"WoodFrame+intEpsEffR23",
@@ -548,7 +548,7 @@
 		"Opt-WindowDistribution":				"Proposed-9.36"
 	},		
 	"elec-v":{
-		"Opt-ACH":								"ACH_0_6",	
+		"Opt-ACH":								"New-Const-air_seal_to_0.60_ach",	
 		"Opt-CasementWindows":					"NC-3g-MG-u1.08",
 		"Opt-GenericWall_1Layer_definitions":	"NC_R-29(eff)_2x6-24inOC_R24-batt+2inXPS_poly_vb",	
 		"Opt-FloorHeaderIntIns":				"NC_R-29eff_5.5inBatt",
@@ -563,7 +563,7 @@
 		"Opt-WindowDistribution":				"Proposed-9.36"
     },
 	"elec-v-LG":{
-		"Opt-ACH":								"ACH_0_6",	
+		"Opt-ACH":								"New-Const-air_seal_to_0.60_ach",	
 		"Opt-CasementWindows":					"NC-3g-LG-u1.08",
 		"Opt-GenericWall_1Layer_definitions":	"NC_R-29(eff)_2x6-24inOC_R24-batt+2inXPS_poly_vb",	
 		"Opt-FloorHeaderIntIns":				"NC_R-29eff_5.5inBatt",
@@ -639,7 +639,7 @@
 },
 
 	"envelope-o-LG": {
-		"Opt-ACH": "ACH_0_6",
+		"Opt-ACH": "New-Const-air_seal_to_0.60_ach",
 		"Opt-FoundationWallIntIns": "WoodFrameEffR17",
 		"Opt-HRVonly": "HRV_sre_78",
 		"Opt-DWHRSystem": "DWHR-eff-55",
@@ -650,14 +650,14 @@
 
 
 	"envelope-o":{	
-		"Opt-ACH":								"ACH_0_6",
+		"Opt-ACH":								"New-Const-air_seal_to_0.60_ach",
 		"Opt-FoundationWallIntIns":				"WoodFrameEffR17",
 		"Opt-HRVonly":							"HRV_sre_78",
 		"Opt-DWHRSystem":						"DWHR-eff-55",
 		"Opt-WindowDistribution":				"Proposed-9.36"
 	},
 	"envelope-p":{	
-		"Opt-ACH":								"ACH_0_6",
+		"Opt-ACH":								"New-Const-air_seal_to_0.60_ach",
 		"Opt-CasementWindows":					"NC-3g-MG-u1.08",
 		"Opt-FloorHeaderIntIns":				"NC_R-29eff_5.5inBatt",
 		"Opt-FoundationWallIntIns":				"WoodFrameEffR17",
@@ -669,7 +669,7 @@
 		"Opt-WindowDistribution":				"Proposed-9.36"
 	},
 	"envelope-p-LG":{	
-		"Opt-ACH":								"ACH_0_6",
+		"Opt-ACH":								"New-Const-air_seal_to_0.60_ach",
 		"Opt-CasementWindows":					"NC-3g-LG-u1.08",
 		"Opt-FloorHeaderIntIns":				"NC_R-29eff_5.5inBatt",
 		"Opt-FoundationWallIntIns":				"WoodFrameEffR17",
@@ -683,7 +683,7 @@
 
 
 		"envelope-jppp": {
-			"Opt-ACH": "ACH_0_6",
+			"Opt-ACH": "New-Const-air_seal_to_0.60_ach",
 			"Opt-CasementWindows": "NC-3g-LG-u1.14",
 			"Opt-GenericWall_1Layer_definitions": "NC_R-30(eff)_2x6-16inOC_R24-batt+3inMineralWool_poly_vb",
 			"Opt-FoundationWallIntIns": "WoodFrameEffR17",
@@ -698,7 +698,7 @@
 		},
 
 		"envelope-jpppdwuj": {
-			"Opt-ACH": "ACH_0_6",
+			"Opt-ACH": "New-Const-air_seal_to_0.60_ach",
 			"Opt-CasementWindows": "NC-3g-LG-u1.14",
 			"Opt-GenericWall_1Layer_definitions": "NC_R-30(eff)_2x6-16inOC_R24-batt+3inMineralWool_poly_vb",
 			"Opt-FoundationWallIntIns": "WoodFrameEffR17",
@@ -715,7 +715,7 @@
 
 
 	"envelope-q":{	
-		"Opt-ACH":								"ACH_0_6",
+		"Opt-ACH":								"New-Const-air_seal_to_0.60_ach",
 		"Opt-CasementWindows":					"NC-3g-MG-u1.36",
 		"Opt-GenericWall_1Layer_definitions":	"NC_R-22(eff)_2x6-24inOC_R19-batt+1inXPS_poly_vb",
 		"Opt-FloorHeaderIntIns":				"NC_R-29eff_5.5inBatt",
@@ -729,7 +729,7 @@
 		"Opt-WindowDistribution":				"Proposed-9.36"
 	},
 	"envelope-q-LG":{	
-		"Opt-ACH":								"ACH_0_6",
+		"Opt-ACH":								"New-Const-air_seal_to_0.60_ach",
 		"Opt-CasementWindows":					"NC-3g-LG-u1.36",
 		"Opt-GenericWall_1Layer_definitions":	"NC_R-22(eff)_2x6-24inOC_R19-batt+1inXPS_poly_vb",
 		"Opt-FloorHeaderIntIns":				"NC_R-29eff_5.5inBatt",
@@ -743,7 +743,7 @@
 		"Opt-WindowDistribution":				"Proposed-9.36"
 	},
 	"envelope-r":{	
-		"Opt-ACH":								"ACH_0_6",
+		"Opt-ACH":								"New-Const-air_seal_to_0.60_ach",
 		"Opt-CasementWindows":					"NC-3g-MG-u1.08",
 		"Opt-GenericWall_1Layer_definitions":	"NC_R-40(eff)_2x6-16inOC_R24-batt+4.5inXPS_poly_vb",
 		"Opt-FoundationWallIntIns":				"WoodFrame+intEpsEffR23",
@@ -758,7 +758,7 @@
 		"Opt-WindowDistribution":				"Proposed-9.36"
 	},
 	"envelope-r-LG":{	
-		"Opt-ACH":								"ACH_0_6",
+		"Opt-ACH":								"New-Const-air_seal_to_0.60_ach",
 		"Opt-CasementWindows":					"NC-3g-LG-u1.08",
 		"Opt-GenericWall_1Layer_definitions":	"NC_R-40(eff)_2x6-16inOC_R24-batt+4.5inXPS_poly_vb",
 		"Opt-FoundationWallIntIns":				"WoodFrame+intEpsEffR23",
@@ -812,7 +812,7 @@
 		"Opt-WindowDistribution":				"Proposed-9.36"
 	},
 	"gas-q":{	
-		"Opt-ACH":								"ACH_0_6",	
+		"Opt-ACH":								"New-Const-air_seal_to_0.60_ach",	
 		"Opt-CasementWindows":					"NC-3g-MG-u1.36",	
 		"Opt-FoundationWallIntIns":				"WoodFrame+intEpsEffR23",
 		"Opt-FoundationSlabOnGrade":			"xps5.5inEffR27.5",
@@ -826,7 +826,7 @@
 		"Opt-WindowDistribution":				"Proposed-9.36"
 	},
 	"gas-r":{	
-		"Opt-ACH":								"ACH_0_6",	
+		"Opt-ACH":								"New-Const-air_seal_to_0.60_ach",	
 		"Opt-CasementWindows":					"NC-3g-MG-u1.36",	
 		"Opt-FoundationWallIntIns":				"WoodFrameEffR17",
 		"Opt-ExposedFloor":						"ExpFloorFlash&Batt-R36",	
@@ -873,7 +873,7 @@
 			"Opt-WindowDistribution": "Proposed-9.36"
 		},
 	"gas-u-LG": {
-		"Opt-ACH": "ACH_0_6",
+		"Opt-ACH": "New-Const-air_seal_to_0.60_ach",
 		"Opt-CasementWindows": "NC-3g-LG-u1.08",
 		"Opt-GenericWall_1Layer_definitions": "NC_R-29(eff)_2x6-24inOC_R24-batt+2inXPS_poly_vb",
 		"Opt-FloorHeaderIntIns": "NC_R-29eff_5.5inBatt",
@@ -889,7 +889,7 @@
 		"Opt-WindowDistribution": "Proposed-9.36"
 	},		
 	"gas-u":{	
-		"Opt-ACH":								"ACH_0_6",
+		"Opt-ACH":								"New-Const-air_seal_to_0.60_ach",
 		"Opt-CasementWindows":					"NC-3g-MG-u1.08",
 		"Opt-GenericWall_1Layer_definitions":	"NC_R-29(eff)_2x6-24inOC_R24-batt+2inXPS_poly_vb",
 		"Opt-FloorHeaderIntIns":				"NC_R-29eff_5.5inBatt",
@@ -905,7 +905,7 @@
 		"Opt-WindowDistribution":				"Proposed-9.36"
 	},
 	"gas-v":{	
-		"Opt-ACH":								"ACH_0_6",
+		"Opt-ACH":								"New-Const-air_seal_to_0.60_ach",
 		"Opt-CasementWindows":					"NC-3g-MG-u1.08",
 		"Opt-GenericWall_1Layer_definitions":	"NC_R-40(eff)_2x6-16inOC_R24-batt+4.5inXPS_poly_vb",
 		"Opt-FoundationWallIntIns":				"WoodFrame+intEpsEffR23",
@@ -920,7 +920,7 @@
 		"Opt-WindowDistribution":				"Proposed-9.36"
 	},
 	"gas-w":{	
-		"Opt-ACH":								"ACH_0_6",	
+		"Opt-ACH":								"New-Const-air_seal_to_0.60_ach",	
 		"Opt-CasementWindows":					"NC-3g-MG-u1.08",
 		"Opt-GenericWall_1Layer_definitions":	"NC_R-40(eff)_2x6-16inOC_R24-batt+4.5inXPS_poly_vb",
 		"Opt-FloorHeaderIntIns":				"NC_R-29eff_5.5inBatt",
@@ -934,7 +934,7 @@
 		"Opt-WindowDistribution":				"Proposed-9.36"
 	},
 "gas-w-LG": {
-	"Opt-ACH": "ACH_0_6",
+	"Opt-ACH": "New-Const-air_seal_to_0.60_ach",
 	"Opt-CasementWindows": "NC-3g-MG-u1.08",
 	"Opt-GenericWall_1Layer_definitions": "NC_R-40(eff)_2x6-16inOC_R24-batt+4.5inXPS_poly_vb",
 	"Opt-FloorHeaderIntIns": "NC_R-29eff_5.5inBatt",
@@ -949,19 +949,19 @@
 },
 
 	"envelope-a":{
-	   "Opt-ACH"                            :"ACH_2_5",
+	   "Opt-ACH"                            :"New-Const-air_seal_to_2.50_ach",
        "Opt-GenericWall_1Layer_definitions" :"NBC_Wall_zone6_HRV",
        "Opt-Ceilings"                       :"NBC_Ceiling_zone6_HRV",
 	   "Opt-AtticCeilings"                  :"NBC_Ceiling_zone6"
 	},  
 	"envelope-b":{
-	   "Opt-ACH"                            :"ACH_2_5",
+	   "Opt-ACH"                            :"New-Const-air_seal_to_2.50_ach",
        "Opt-GenericWall_1Layer_definitions" :"NBC_Wall_zone7B_HRV",
        "Opt-Ceilings"                       :"NBC_Ceiling_zone7B",
 	   "Opt-AtticCeilings"                  :"NBC_Ceiling_zone7B"
 	},  
 	"envelope-c":{
-	   "Opt-ACH"                            :"ACH_2_5",
+	   "Opt-ACH"                            :"New-Const-air_seal_to_2.50_ach",
        "Opt-GenericWall_1Layer_definitions" :"NBC_Wall_zone8_noHRV",
        "Opt-Ceilings"                       :"NBC_Ceiling_zone8",
 	   "Opt-AtticCeilings"                  :"NBC_Ceiling_zone8"
@@ -1011,7 +1011,7 @@
        "Opt-CathCeilings"                   :"CeilR40"
  	},
   	"envelope-h":{
-       "Opt-ACH"                            :"ACH_0_6",
+       "Opt-ACH"                            :"New-Const-air_seal_to_0.60_ach",
        "Opt-CasementWindows"                :"NC-3g-LG-u1.14", 
        "Opt-GenericWall_1Layer_definitions" :"NC_R-40(eff)_2x6-16inOC_R24-batt+4.5inXPS_poly_vb",
        "Opt-FoundationWallIntIns"           :"NBC_936_3.97RSI",
@@ -1035,7 +1035,7 @@
        "Opt-CathCeilings"                   :"CeilR40"
  	},
  	"envelope-j":{
-       "Opt-ACH"                            :"ACH_0_6",
+       "Opt-ACH"                            :"New-Const-air_seal_to_0.60_ach",
        "Opt-CasementWindows"                :"NC-3g-LG-u1.14", 
        "Opt-GenericWall_1Layer_definitions" :"NC_R-30(eff)_2x6-16inOC_R24-batt+3inMineralWool_poly_vb",
        "Opt-FoundationWallIntIns"           :"NBC_936_3.97RSI",
@@ -1048,7 +1048,7 @@
        "Opt-CathCeilings"                   :"CeilR40"
   	},
   	"envelope-k":{
-       "Opt-ACH"                            :"ACH_0_6",
+       "Opt-ACH"                            :"New-Const-air_seal_to_0.60_ach",
        "Opt-CasementWindows"                :"NC-3g-MG-u1.08", 
        "Opt-GenericWall_1Layer_definitions" :"NC_R-40(eff)_2x6-16inOC_R24-batt+4.5inXPS_poly_vb",
        "Opt-FoundationWallIntIns"           :"NBC_936_3.97RSI",
@@ -1064,7 +1064,7 @@
   	},
 	
   	"envelope-l":{
-       "Opt-ACH"                            :"ACH_0_6",
+       "Opt-ACH"                            :"New-Const-air_seal_to_0.60_ach",
        "Opt-CasementWindows"                :"NC-3g-LG-u0.85", 
        "Opt-GenericWall_1Layer_definitions" :"NC_R-40(eff)_2x6-16inOC_R24-batt+4.5inXPS_poly_vb",
        "Opt-FoundationWallIntIns"           :"NBC_936_3.97RSI",
@@ -1095,7 +1095,7 @@
 	
 
 	"gas-a":{
-	   "Opt-ACH"                            :"ACH_2_5",
+	   "Opt-ACH"                            :"New-Const-air_seal_to_2.50_ach",
        "Opt-GenericWall_1Layer_definitions" :"NBC_Wall_zone6_HRV",
        "Opt-Ceilings"                       :"NBC_Ceiling_zone6_HRV",
 	   "Opt-AtticCeilings"                  :"NBC_Ceiling_zone6",
@@ -1105,7 +1105,7 @@
 	   "Opt-DWHRSystem"						:"DWHR-eff-55"		   
 	},  
 	"gas-b":{
-	   "Opt-ACH"                            :"ACH_2_5",
+	   "Opt-ACH"                            :"New-Const-air_seal_to_2.50_ach",
        "Opt-GenericWall_1Layer_definitions" :"NBC_Wall_zone7B_HRV",
        "Opt-Ceilings"                       :"NBC_Ceiling_zone7B",
 	   "Opt-AtticCeilings"                  :"NBC_Ceiling_zone7B",
@@ -1115,7 +1115,7 @@
 	   "Opt-DWHRSystem"						:"DWHR-eff-55"		   
 	},  
 	"gas-c":{
-	   "Opt-ACH"                            :"ACH_2_5",
+	   "Opt-ACH"                            :"New-Const-air_seal_to_2.50_ach",
        "Opt-GenericWall_1Layer_definitions" :"NBC_Wall_zone8_noHRV",
        "Opt-Ceilings"                       :"NBC_Ceiling_zone8",
 	   "Opt-AtticCeilings"                  :"NBC_Ceiling_zone8",
@@ -1176,7 +1176,7 @@
 	   "Opt-DWHRSystem"						:"DWHR-eff-55"		   
  	},
   	"gas-h":{
-       "Opt-ACH"                            :"ACH_0_6",
+       "Opt-ACH"                            :"New-Const-air_seal_to_0.60_ach",
        "Opt-CasementWindows"                :"NC-3g-LG-u1.14", 
        "Opt-GenericWall_1Layer_definitions" :"NC_R-40(eff)_2x6-16inOC_R24-batt+4.5inXPS_poly_vb",
        "Opt-FoundationWallIntIns"           :"NBC_936_3.97RSI",
@@ -1208,7 +1208,7 @@
 	   "Opt-DWHRSystem"						:"DWHR-eff-55"		   
  	},
  	"gas-j":{
-       "Opt-ACH"                            :"ACH_0_6",
+       "Opt-ACH"                            :"New-Const-air_seal_to_0.60_ach",
        "Opt-CasementWindows"                :"NC-3g-LG-u1.14", 
        "Opt-GenericWall_1Layer_definitions" :"NC_R-30(eff)_2x6-16inOC_R24-batt+3inMineralWool_poly_vb",
        "Opt-FoundationWallIntIns"           :"NBC_936_3.97RSI",
@@ -1225,7 +1225,7 @@
 	   "Opt-DWHRSystem"						:"DWHR-eff-55"	
 	   },
   	"gas-k":{
-       "Opt-ACH"                            :"ACH_0_6",
+       "Opt-ACH"                            :"New-Const-air_seal_to_0.60_ach",
        "Opt-CasementWindows"                :"NC-3g-MG-u1.08", 
        "Opt-GenericWall_1Layer_definitions" :"NC_R-40(eff)_2x6-16inOC_R24-batt+4.5inXPS_poly_vb",
        "Opt-FoundationWallIntIns"           :"NBC_936_3.97RSI",
@@ -1244,7 +1244,7 @@
 	   "Opt-DWHRSystem"						:"DWHR-eff-55"	   
   	},
 	  "gas-k-LG":{
-       "Opt-ACH"                            :"ACH_0_6",
+       "Opt-ACH"                            :"New-Const-air_seal_to_0.60_ach",
        "Opt-CasementWindows"                :"NC-3g-LG-u1.08", 
        "Opt-GenericWall_1Layer_definitions" :"NC_R-40(eff)_2x6-16inOC_R24-batt+4.5inXPS_poly_vb",
        "Opt-FoundationWallIntIns"           :"NBC_936_3.97RSI",
@@ -1263,7 +1263,7 @@
 	   "Opt-DWHRSystem"						:"DWHR-eff-55"	   
 		},
 		"gas-k-LG-improved": {
-			"Opt-ACH": "ACH_0_6",
+			"Opt-ACH": "New-Const-air_seal_to_0.60_ach",
 			"Opt-CasementWindows": "NC-3g-LG-u0.85",
 			"Opt-GenericWall_1Layer_definitions": "NC_R-40(eff)_2x6-16inOC_R24-batt+4.5inXPS_poly_vb",
 			"Opt-FoundationWallIntIns": "NBC_936_3.97RSI",
@@ -1283,7 +1283,7 @@
 		},		
 
   	"gas-l":{
-       "Opt-ACH"                            :"ACH_0_6",
+       "Opt-ACH"                            :"New-Const-air_seal_to_0.60_ach",
        "Opt-CasementWindows"                :"NC-3g-LG-u0.85", 
        "Opt-GenericWall_1Layer_definitions" :"NC_R-40(eff)_2x6-16inOC_R24-batt+4.5inXPS_poly_vb",
        "Opt-FoundationWallIntIns"           :"NBC_936_3.97RSI",
@@ -1405,7 +1405,7 @@
 	   "Opt-DWHRSystem"						:"DWHR-eff-55"	
     },	   
 	"elec-a":{
-	   "Opt-ACH"                            :"ACH_2_5",
+	   "Opt-ACH"                            :"New-Const-air_seal_to_2.50_ach",
        "Opt-GenericWall_1Layer_definitions" :"NBC_Wall_zone6_HRV",
        "Opt-Ceilings"                       :"NBC_Ceiling_zone6_HRV",
 	   "Opt-AtticCeilings"                  :"NBC_Ceiling_zone6",
@@ -1415,7 +1415,7 @@
 	   "Opt-DWHRSystem"						:"DWHR-eff-55"		   
 	},  
 	"elec-b":{
-	   "Opt-ACH"                            :"ACH_2_5",
+	   "Opt-ACH"                            :"New-Const-air_seal_to_2.50_ach",
        "Opt-GenericWall_1Layer_definitions" :"NBC_Wall_zone7B_HRV",
        "Opt-Ceilings"                       :"NBC_Ceiling_zone7B",
 	   "Opt-AtticCeilings"                  :"NBC_Ceiling_zone7B",
@@ -1425,7 +1425,7 @@
 	   "Opt-DWHRSystem"						:"DWHR-eff-55"		   
 	},  
 	"elec-c":{
-	   "Opt-ACH"                            :"ACH_2_5",
+	   "Opt-ACH"                            :"New-Const-air_seal_to_2.50_ach",
        "Opt-GenericWall_1Layer_definitions" :"NBC_Wall_zone8_noHRV",
        "Opt-Ceilings"                       :"NBC_Ceiling_zone8",
 	   "Opt-AtticCeilings"                  :"NBC_Ceiling_zone8",
@@ -1486,7 +1486,7 @@
 	   "Opt-DWHRSystem"						:"DWHR-eff-55"		   
  	},
   	"elec-h":{
-       "Opt-ACH"                            :"ACH_0_6",
+       "Opt-ACH"                            :"New-Const-air_seal_to_0.60_ach",
        "Opt-CasementWindows"                :"NC-3g-LG-u1.14", 
        "Opt-GenericWall_1Layer_definitions" :"NC_R-40(eff)_2x6-16inOC_R24-batt+4.5inXPS_poly_vb",
        "Opt-FoundationWallIntIns"           :"NBC_936_3.97RSI",
@@ -1519,7 +1519,7 @@
 	 },
 	 
 	"elec-i-improved": {
-		"Opt-ACH": "ACH_0_6", 
+		"Opt-ACH": "New-Const-air_seal_to_0.60_ach", 
 		"Opt-CasementWindows": "NC-3g-LG-u1.14",
 		"Opt-GenericWall_1Layer_definitions": "NC_R-26(eff)_2x6-16inOC_R19-batt+2inXPS_poly_vb",
 		"Opt-FoundationWallIntIns": "NBC_936_2.98RSI",
@@ -1535,7 +1535,7 @@
 	},
 
  	"elec-j":{
-       "Opt-ACH"                            :"ACH_0_6",
+       "Opt-ACH"                            :"New-Const-air_seal_to_0.60_ach",
        "Opt-CasementWindows"                :"NC-3g-LG-u1.14", 
        "Opt-GenericWall_1Layer_definitions" :"NC_R-30(eff)_2x6-16inOC_R24-batt+3inMineralWool_poly_vb",
        "Opt-FoundationWallIntIns"           :"NBC_936_3.97RSI",
@@ -1552,7 +1552,7 @@
 	   "Opt-DWHRSystem"						:"DWHR-eff-55"		   
   	},
 	"elec-k":{
-       "Opt-ACH"                            :"ACH_0_6",
+       "Opt-ACH"                            :"New-Const-air_seal_to_0.60_ach",
        "Opt-CasementWindows"                :"NC-3g-MG-u1.08", 
        "Opt-GenericWall_1Layer_definitions" :"NC_R-40(eff)_2x6-16inOC_R24-batt+4.5inXPS_poly_vb",
        "Opt-FoundationWallIntIns"           :"NBC_936_3.97RSI",
@@ -1571,7 +1571,7 @@
 	   "Opt-DWHRSystem"						:"DWHR-eff-55"	   
   	},
 	"elec-k-LG":{
-       "Opt-ACH"                            :"ACH_0_6",
+       "Opt-ACH"                            :"New-Const-air_seal_to_0.60_ach",
        "Opt-CasementWindows"                :"NC-3g-LG-u1.08", 
        "Opt-GenericWall_1Layer_definitions" :"NC_R-40(eff)_2x6-16inOC_R24-batt+4.5inXPS_poly_vb",
        "Opt-FoundationWallIntIns"           :"NBC_936_3.97RSI",
@@ -1590,7 +1590,7 @@
 	   "Opt-DWHRSystem"						:"DWHR-eff-55"	   
   	},	
   	"elec-l":{
-       "Opt-ACH"                            :"ACH_0_6",
+       "Opt-ACH"                            :"New-Const-air_seal_to_0.60_ach",
        "Opt-CasementWindows"                :"NC-3g-LG-u0.85", 
        "Opt-GenericWall_1Layer_definitions" :"NC_R-40(eff)_2x6-16inOC_R24-batt+4.5inXPS_poly_vb",
        "Opt-FoundationWallIntIns"           :"NBC_936_3.97RSI",
@@ -1610,7 +1610,7 @@
 	 },
 	 
 			"elec-l-improved": {
-				"Opt-ACH": "ACH_0_6",
+				"Opt-ACH": "New-Const-air_seal_to_0.60_ach",
 				"Opt-CasementWindows": "NC-3g-LG-u0.85",
 				"Opt-GenericWall_1Layer_definitions": "NC_R-40(eff)_2x6-16inOC_R24-batt+4.5inXPS_poly_vb",
 				"Opt-FoundationWallIntIns": "NBC_936_3.97RSI",
@@ -1748,7 +1748,7 @@
 	
 	
 	"elec-r":{
-       "Opt-ACH"                            :"ACH_0_6",
+       "Opt-ACH"                            :"New-Const-air_seal_to_0.60_ach",
        "Opt-CasementWindows"                :"NC-3g-MG-u1.08", 
        "Opt-GenericWall_1Layer_definitions" :"NC_R-40(eff)_2x6-16inOC_R24-batt+4.5inXPS_poly_vb",
        "Opt-FoundationWallIntIns"           :"NBC_936_3.97RSI",
@@ -1767,7 +1767,7 @@
   	},
 	
 		"elec-s+ashp": {
-			"Opt-ACH": "ACH_0_6",
+			"Opt-ACH": "New-Const-air_seal_to_0.60_ach",
 			"Opt-CasementWindows": "NC-3g-LG-u0.85",
 			"Opt-GenericWall_1Layer_definitions": "NC_R-40(eff)_2x6-16inOC_R24-batt+4.5inXPS_poly_vb",
 			"Opt-FoundationWallIntIns": "NBC_936_3.97RSI",
@@ -1789,7 +1789,7 @@
 
 
   	"elec-s":{
-       "Opt-ACH"                            :"ACH_0_6",
+       "Opt-ACH"                            :"New-Const-air_seal_to_0.60_ach",
        "Opt-CasementWindows"                :"NC-3g-LG-u0.85", 
        "Opt-GenericWall_1Layer_definitions" :"NC_R-40(eff)_2x6-16inOC_R24-batt+4.5inXPS_poly_vb",
        "Opt-FoundationWallIntIns"           :"NBC_936_3.97RSI",
@@ -1808,7 +1808,7 @@
    },
 	
 	"elec-CCASHP-a":{
-	   "Opt-ACH"                            :"ACH_2_5",
+	   "Opt-ACH"                            :"New-Const-air_seal_to_2.50_ach",
        "Opt-GenericWall_1Layer_definitions" :"NBC_Wall_zone6_HRV",
        "Opt-Ceilings"                       :"NBC_Ceiling_zone6_HRV",
 	   "Opt-AtticCeilings"                  :"NBC_Ceiling_zone6",
@@ -1818,7 +1818,7 @@
 	   "Opt-DWHRSystem"						:"DWHR-eff-55"	   
 	},  
 	"elec-CCASHP-b":{
-	   "Opt-ACH"                            :"ACH_2_5",
+	   "Opt-ACH"                            :"New-Const-air_seal_to_2.50_ach",
        "Opt-GenericWall_1Layer_definitions" :"NBC_Wall_zone7B_HRV",
        "Opt-Ceilings"                       :"NBC_Ceiling_zone7B",
 	   "Opt-AtticCeilings"                  :"NBC_Ceiling_zone7B",
@@ -1828,7 +1828,7 @@
 	   "Opt-DWHRSystem"						:"DWHR-eff-55"
 	   },  
 	"elec-CCASHP-c":{
-	   "Opt-ACH"                            :"ACH_2_5",
+	   "Opt-ACH"                            :"New-Const-air_seal_to_2.50_ach",
        "Opt-GenericWall_1Layer_definitions" :"NBC_Wall_zone8_noHRV",
        "Opt-Ceilings"                       :"NBC_Ceiling_zone8",
 	   "Opt-AtticCeilings"                  :"NBC_Ceiling_zone8",
@@ -1887,7 +1887,7 @@
 	   "Opt-DWHRSystem"						:"DWHR-eff-55"	   
  	},
   	"elec-CCASHP-h":{
-       "Opt-ACH"                            :"ACH_0_6",
+       "Opt-ACH"                            :"New-Const-air_seal_to_0.60_ach",
        "Opt-CasementWindows"                :"NC-3g-LG-u1.14", 
        "Opt-GenericWall_1Layer_definitions" :"NC_R-40(eff)_2x6-16inOC_R24-batt+4.5inXPS_poly_vb",
        "Opt-FoundationWallIntIns"           :"NBC_936_3.97RSI",
@@ -1919,7 +1919,7 @@
 	   "Opt-DWHRSystem"						:"DWHR-eff-55"	   
  	},
  	"elec-CCASHP-j":{
-       "Opt-ACH"                            :"ACH_0_6",
+       "Opt-ACH"                            :"New-Const-air_seal_to_0.60_ach",
        "Opt-CasementWindows"                :"NC-3g-LG-u1.14", 
        "Opt-GenericWall_1Layer_definitions" :"NC_R-30(eff)_2x6-16inOC_R24-batt+3inMineralWool_poly_vb",
        "Opt-FoundationWallIntIns"           :"NBC_936_3.97RSI",
@@ -1936,7 +1936,7 @@
 	   "Opt-DWHRSystem"						:"DWHR-eff-55"	   
   	},
 	"elec-CCASHP-k":{
-       "Opt-ACH"                            :"ACH_0_6",
+       "Opt-ACH"                            :"New-Const-air_seal_to_0.60_ach",
        "Opt-CasementWindows"                :"NC-3g-MG-u1.08", 
        "Opt-GenericWall_1Layer_definitions" :"NC_R-40(eff)_2x6-16inOC_R24-batt+4.5inXPS_poly_vb",
        "Opt-FoundationWallIntIns"           :"NBC_936_3.97RSI",
@@ -1956,7 +1956,7 @@
   	},
 	
   	"elec-CCASHP-l":{
-       "Opt-ACH"                            :"ACH_0_6",
+       "Opt-ACH"                            :"New-Const-air_seal_to_0.60_ach",
        "Opt-CasementWindows"                :"NC-3g-LG-u0.85", 
        "Opt-GenericWall_1Layer_definitions" :"NC_R-40(eff)_2x6-16inOC_R24-batt+4.5inXPS_poly_vb",
        "Opt-FoundationWallIntIns"           :"NBC_936_3.97RSI",
@@ -2002,7 +2002,7 @@
 	},
 
 	"envelope-HVAC-upgrade-R40wall-R80attic-elec":{
-       "Opt-ACH"                            :"ACH_0_6",
+       "Opt-ACH"                            :"New-Const-air_seal_to_0.60_ach",
        "Opt-CasementWindows"                :"NC-3g-LG-u1.14", 
        "Opt-GenericWall_1Layer_definitions" :"NC_R-40(eff)_2x6-16inOC_R24-batt+4.5inXPS_poly_vb",
        "Opt-FloorHeaderIntIns"              :"NC_R-29eff_5.5inBatt",
@@ -2018,7 +2018,7 @@
 	   "Opt-DHWSystem"                      :"HPHotWater"                  
     },
 	"envelope-HVAC-upgrade-R40wall-R80attic-gas":{
-       "Opt-ACH"                            :"ACH_0_6",
+       "Opt-ACH"                            :"New-Const-air_seal_to_0.60_ach",
        "Opt-CasementWindows"                :"NC-3g-LG-u1.14", 
        "Opt-GenericWall_1Layer_definitions" :"NC_R-40(eff)_2x6-16inOC_R24-batt+4.5inXPS_poly_vb",
        "Opt-FloorHeaderIntIns"              :"NC_R-29eff_5.5inBatt",
@@ -2034,7 +2034,7 @@
 	   "Opt-DHWSystem"                      :"GasInstantaneous"                  
     },		
   	"envelope-HVAC-upgrade-R40wall-R80attic":{
-       "Opt-ACH"                            :"ACH_0_6",
+       "Opt-ACH"                            :"New-Const-air_seal_to_0.60_ach",
        "Opt-CasementWindows"                :"NC-3g-LG-u1.14", 
        "Opt-GenericWall_1Layer_definitions" :"NC_R-40(eff)_2x6-16inOC_R24-batt+4.5inXPS_poly_vb",
        "Opt-FloorHeaderIntIns"              :"NC_R-29eff_5.5inBatt",
@@ -2051,7 +2051,7 @@
     },
 
 	"envelope-gas-HVAC-upgrade-20%-reduction-BC-step-code":{
-	   "Opt-ACH"                            :"ACH_2_5",
+	   "Opt-ACH"                            :"New-Const-air_seal_to_2.50_ach",
 	   "Opt-CasementWindows"                :"NC-2g-LG-u1.65", 
        "Opt-GenericWall_1Layer_definitions" :"Stud_2x6_R16",
        "Opt-FloorHeaderIntIns"              :"NC_R-18eff_5.5inBatt",
@@ -2067,7 +2067,7 @@
 	   "Opt-DHWSystem"                      :"GasInstantaneous"       
 	},  
 	"envelope-elec-HVAC-upgrade-20%-reduction-BC-step-code":{
-	   "Opt-ACH"                            :"ACH_2_5",
+	   "Opt-ACH"                            :"New-Const-air_seal_to_2.50_ach",
 	   "Opt-CasementWindows"                :"NC-2g-LG-u1.65", 
        "Opt-GenericWall_1Layer_definitions" :"Stud_2x6_R16",
        "Opt-FloorHeaderIntIns"              :"NC_R-18eff_5.5inBatt",
@@ -2083,7 +2083,7 @@
 	   "Opt-DHWSystem"                      :"HPHotWater"
 	},  
 	"envelope-HVAC-upgrade-30%-reduction-BC-step-code":{
-	   "Opt-ACH"                            :"ACH_1_5",
+	   "Opt-ACH"                            :"New-Const-air_seal_to_1.50_ach",
 	   "Opt-CasementWindows"                :"NC-2g-LG-u1.65", 
        "Opt-GenericWall_1Layer_definitions" :"Stud_2x6_R18",
        "Opt-FloorHeaderIntIns"              :"NC_R-18eff_5.5inBatt",
@@ -2100,7 +2100,7 @@
 	   "Opt-DHWSystem"                      :"HPHotWater"         
 	},   
 	"envelope-HVAC-upgrade-40%-reduction-BC-step-code":{
-	   "Opt-ACH"                            :"ACH_0_6",
+	   "Opt-ACH"                            :"New-Const-air_seal_to_0.60_ach",
 	   "Opt-CasementWindows"                :"NC-3g-LG-u1.14", 
        "Opt-GenericWall_1Layer_definitions" :"Stud_2x6_R18",
        "Opt-FloorHeaderIntIns"              :"NC_R-18eff_5.5inBatt",
@@ -2117,7 +2117,7 @@
 	   "Opt-DHWSystem"                      :"HPHotWater" 
   	},
 	"envelope-upgrade-arctic-PH":{
-	   "Opt-ACH"                            :"ACH_0_6",
+	   "Opt-ACH"                            :"New-Const-air_seal_to_0.60_ach",
 	   "Opt-CasementWindows"                :"NC-3g-LG-u1.14", 
        "Opt-GenericWall_1Layer_definitions" :"Main_Wall_R80",
        "Opt-FloorHeaderIntIns"              :"NC_R-29eff_5.5inBatt",
@@ -2130,7 +2130,7 @@
        "Opt-CathCeilings"                   :"CeilR80"
   	},
     "envelope-HVAC-upgrade-arctic-PH":{
-	   "Opt-ACH"                            :"ACH_0_6",
+	   "Opt-ACH"                            :"New-Const-air_seal_to_0.60_ach",
 	   "Opt-CasementWindows"                :"NC-3g-LG-u1.14", 
        "Opt-GenericWall_1Layer_definitions" :"Main_Wall_R80",
        "Opt-FloorHeaderIntIns"              :"NC_R-29eff_5.5inBatt",
