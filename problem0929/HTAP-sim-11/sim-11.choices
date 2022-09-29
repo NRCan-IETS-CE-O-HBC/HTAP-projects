@@ -1,0 +1,14 @@
+! Choice file for run $gGenChoiceFileNum
+Opt-ResultHouseCode : General 
+Opt-ACH : NA 
+Opt-AboveGradeWall : NA 
+Opt-Ceilings : NA 
+Opt-ExposedFloor : NA 
+Opt-FuelCost : rates2016 
+Opt-DBFiles : H2KCodeLibFile 
+Opt-Skylights : NA 
+Opt-HRVspec : NA 
+Opt-H2K-PV : NA 
+!Opt-Archetype : ERS-1035.H2K 
+Opt-Location : NA 
+Opt-Ruleset : NBC9_36 

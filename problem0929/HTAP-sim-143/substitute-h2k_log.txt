@@ -1,0 +1,53 @@
+
+_______________________________________________________________________________
+= substitute-h2k: LOG FILE. ===================================================
+
+Run started at 2022-09-29 16:31:39 -0400
+
+substitute-h2k location: C:/HTAP
+Parsing HTAP configuration file
+Reading available options (project.json)
+ supplied choices:
+  Opt-ResultHouseCode = General
+  Opt-ACH = ACH_NBC
+  Opt-AboveGradeWall = NBC_Wall_zone5_HRV
+  Opt-Ceilings = NA
+  Opt-AtticCeilings = NBC_Ceiling_zone5_HRV
+  Opt-CathCeilings = NBC_CathCeiling_RSI4.67
+  Opt-FlatCeilings = NBC_FlatCeiling_RSI4.67
+  Opt-ExposedFloor = NBC_936_4.67RSI
+  Opt-FuelCost = rates2016
+  Opt-DBFiles = H2KCodeLibFile
+  Opt-Skylights = NA
+  Opt-HRVspec = NA
+  Opt-H2K-PV = NA
+  Opt-Location = NA
+  Opt-Ruleset = NBC9_36
+  Opt-Baseloads = NBC-Baseloads
+  Opt-Temperatures = NBC_Temps
+  Opt-WindowDistribution = Reference-9.36
+  Opt-Specifications = NBC_Specs_Normal
+  Opt-Heating-Cooling = NBC-gas-furnace
+  Opt-DHWSystem = NBC-HotWater_gas
+  Opt-VentSystem = NBC_HRV
+  Opt-FloorHeaderIntIns = NBC_RSI2.97_int
+  Opt-Windows = NBC-zone5-window
+  Opt-Doors = NBC-zone5-door
+  Opt-DoorWindows = NBC-zone5-Doorwindow
+  Opt-H2KFoundation = NBC_BCIN_zone5_HRV
+  Opt-H2KFoundationSlabCrawl = NBC_SOnly_zone5
+  Opt-FoundationWallIntIns = NBC_936_2.98RSI
+  Opt-FoundationWallExtIns = NBC_936_uninsulated_EffR0
+  Opt-FoundationSlabBelowGrade = NBC_936_uninsulated_EffR0
+  Opt-FoundationSlabOnGrade = NBC_936_1.96RSI
+  upgrade-package-list = {}
+Info: Option Opt-DWHR was not specified in Choices file OR rule set;  Using default value (none)
+saving processed h2k file  version (C:\Users\donal\OneDrive\Documents\work\Nrcan\htap_files\HTAP-work-2\ERS-4041.H2K)
+saving copy of the pre-h2k version (file-post-sub.h2k)
+Parsed Browse.Rpt.
+Querying HOT2000 file for result set General.
+
+
+ ERROR: <AllResults> section is missing from h2k file. (error reported by parse_results - inc/H2KUtils.rb:2528)
+
+ ERROR: HOT2000 did not produce any results. (fatal error called at parse_results (inc/H2KUtils.rb:2529) (error reported by fatalerror - inc/msgs.rb:660)

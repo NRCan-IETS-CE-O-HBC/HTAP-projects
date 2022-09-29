@@ -1,0 +1,5 @@
+status.info   = "Option Opt-DWHR was not specified in Choices file OR rule set;  Using default value (none)" 
+status.error    = "<AllResults> section is missing from h2k file. (error reported by parse_results - inc/H2KUtils.rb:2528)" 
+status.error    = "HOT2000 did not produce any results. (fatal error called at parse_results (inc/H2KUtils.rb:2529) (error reported by fatalerror - inc/msgs.rb:660)" 
+status.success    = false
+status.processingtime  = 5.9601306

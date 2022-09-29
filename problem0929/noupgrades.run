@@ -1,0 +1,29 @@
+! Definitions file for HTAP-PRM RUN
+
+RunParameters_START
+  run-mode = parametric   ! mesh  parametric
+  archetype-dir = C:/HTAP/archetypes/Policy_Analysis
+  unit-costs-db = C:/HTAP/HTAPUnitCosts.json
+  options-file = C:/Users/donal/OneDrive/Documents/work/Nrcan/htap_files/project.json
+RunParameters_END
+
+RunScope_START
+  archetypes = *.H2K !*.h2k,  ERS-10*.h2k, ERS-1548.H2K
+  locations = NA 
+  rulesets = NBC9_36
+  !rulesets = as-found
+RunScope_END
+
+! *** Upgrades: ***
+Upgrades_START
+  Opt-ResultHouseCode = General ! , SOC ! General, SOC = ERS mode does 6X the runs = very slow
+  Opt-ACH = NA
+  Opt-AboveGradeWall = NA
+  Opt-Ceilings = NA
+  Opt-ExposedFloor = NA
+  Opt-FuelCost = rates2016
+  Opt-DBFiles  = H2KCodeLibFile
+  Opt-Skylights = NA
+  Opt-HRVspec = NA
+  Opt-H2K-PV = NA  
+Upgrades_END

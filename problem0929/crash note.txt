@@ -1,0 +1,8 @@
+Alex, 
+please open the noupdates.csv file
+search for "Unhandled Exception" - note that this is not an error recorded above.
+
+This is the worst error as not only does the file fail to run, but it messes up the output file
+
+-Donald
+
