@@ -7,7 +7,7 @@ RunParameters_START
   run-mode                           = mesh 
   archetype-dir                      = C:/housing-archetypes/data/h2k_files/existing-stock/sd_sa
   unit-costs-db                      = C:/HTAP/HTAPUnitCosts.json
-  options-file                       = C:/HTAP-projects/5970/HTAP-options.json
+  options-file                       = C:/HTAP-projects/HTAP-options.json
   
 RunParameters_END
 
@@ -17,9 +17,8 @@ RunParameters_END
 RunScope_START
 
   archetypes                        = *.h2k 
-!  locations                         = VANCOUVER  , CALGARY  , REGINA, WINNIPEG, TORONTO, MONTREAL, FREDERICTON, HALIFAX, CHARLOTTETOWN, SAINTJOHNS, WHITEHORSE, YELLOWKNIFE, IQALUIT 
-  locations                         = NA! VANCOUVER  , TORONTO, HALIFAX, CALGARY, PRINCE ALBERT, YELLOWKNIFE
-  rulesets                          = as-found !ArchetypeRoadmapping_elec ! , ArchetypeRoadmapping_oil, ArchetypeRoadmapping_gas
+  locations                         = NA
+  rulesets                          = ArchetypeRoadmapping_elec, ArchetypeRoadmapping_oil, ArchetypeRoadmapping_gas
 
 RunScope_END
 
@@ -51,10 +50,10 @@ Upgrades_START
 
    Opt-VentSystem       = NA 
    Opt-DHWSystem        = NA
-   Opt-Heating-Cooling  = NA!, CCASHP, CCASHP-187, CCASHP-200, CCASHP-250, CCASHP-264, CCASHP-300, CCASHP-310, CCASHP-330, CCASHP-350, CCASHP-400, CCASHP-450
+   Opt-Heating-Cooling  = NA, ASHP, CCASHP, CCASHP-NECB, *CZ4 
    Opt-H2K-PV           = NA
 
-   Opt-Baseloads        = NA! ERS-Single-regular-19.5kWh&190_per_day
+   Opt-Baseloads        = ERS-Single-regular-19.5kWh&190_per_day
 
 
 Upgrades_END

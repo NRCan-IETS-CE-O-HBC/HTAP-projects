@@ -10264,171 +10264,7 @@
           ]
         }
       },
-	    "CCASHP-187": {
-        "h2kMap": {
-          "base": {
-            "Opt-H2K-SysType1": "Baseboards",
-            "Opt-H2K-SysType2": "AirHeatPump",
-            "Opt-H2K-Type1Fuel": "NA",
-            "Opt-H2K-Type1EqpType": "NA",
-            "Opt-H2K-Type1CapOpt": "2",
-            "Opt-H2K-Type1CapVal": "NA",
-            "Opt-H2K-Type1EffType": "true",
-            "Opt-H2K-Type1EffVal": "100",
-            "Opt-H2K-Type1FanCtl": "1",
-            "Opt-H2K-Type1EEMotor": "true",
-            "Opt-H2K-Type2CCaseH": "60",
-            "Opt-H2K-Type2Func": "2",
-            "Opt-H2K-Type2Type": "1",
-            "Opt-H2K-Type2CapOpt": "3",
-            "Opt-H2K-Type2CapVal": "NA",
-            "Opt-H2K-Type2HeatCOP": "1.87",
-            "Opt-H2K-Type2RatingTemp": "8.3",            
-            "Opt-H2K-CoolSpecType": "SEER",
-            "Opt-H2K-Type2CoolCOP": "14",
-            "Opt-H2K-Type2CutoffType": "2",
-            "Opt-H2K-Type2CutoffTemp": "-25",
-            "Opt-H2K-CoolOperWindow": "4"
-          }
-        },
-        "costs": {
-          "custom-costs": {
-          },
-          "components": [
-            {
-              "H2KHouseInfo.HVAC/ASHP/capacity_kW": {
-                "per?13": "ccashp:3_ton:13.5_kw_@_-25oc:incl._ecm_air_handler_w/coil:staging_controls:tank:aux._heater_&_tstat"
-              }
-            },            
-            "ducting:central_forced_air",
-            "install_200a_service_instead_of_100a_service"
-          ]
-        }
-      },
-	  "CCASHP-200": {
-        "h2kMap": {
-          "base": {
-            "Opt-H2K-SysType1": "Baseboards",
-            "Opt-H2K-SysType2": "AirHeatPump",
-            "Opt-H2K-Type1Fuel": "NA",
-            "Opt-H2K-Type1EqpType": "NA",
-            "Opt-H2K-Type1CapOpt": "2",
-            "Opt-H2K-Type1CapVal": "NA",
-            "Opt-H2K-Type1EffType": "true",
-            "Opt-H2K-Type1EffVal": "100",
-            "Opt-H2K-Type1FanCtl": "1",
-            "Opt-H2K-Type1EEMotor": "true",
-            "Opt-H2K-Type2CCaseH": "60",
-            "Opt-H2K-Type2Func": "2",
-            "Opt-H2K-Type2Type": "1",
-            "Opt-H2K-Type2CapOpt": "3",
-            "Opt-H2K-Type2CapVal": "NA",
-            "Opt-H2K-Type2HeatCOP": "2.00",
-            "Opt-H2K-Type2RatingTemp": "8.3",            
-            "Opt-H2K-CoolSpecType": "SEER",
-            "Opt-H2K-Type2CoolCOP": "15",
-            "Opt-H2K-Type2CutoffType": "2",
-            "Opt-H2K-Type2CutoffTemp": "-25",
-            "Opt-H2K-CoolOperWindow": "4"
-          }
-        },
-        "costs": {
-          "custom-costs": {
-          },
-          "components": [
-            {
-              "H2KHouseInfo.HVAC/ASHP/capacity_kW": {
-                "per?13": "ccashp:3_ton:13.5_kw_@_-25oc:incl._ecm_air_handler_w/coil:staging_controls:tank:aux._heater_&_tstat"
-              }
-            },            
-            "ducting:central_forced_air",
-            "install_200a_service_instead_of_100a_service"
-          ]
-        }
-      },
-      "CCASHP-250": {
-        "h2kMap": {
-          "base": {
-            "Opt-H2K-SysType1": "Baseboards",
-            "Opt-H2K-SysType2": "AirHeatPump",
-            "Opt-H2K-Type1Fuel": "NA",
-            "Opt-H2K-Type1EqpType": "NA",
-            "Opt-H2K-Type1CapOpt": "2",
-            "Opt-H2K-Type1CapVal": "NA",
-            "Opt-H2K-Type1EffType": "true",
-            "Opt-H2K-Type1EffVal": "100",
-            "Opt-H2K-Type1FanCtl": "1",
-            "Opt-H2K-Type1EEMotor": "true",
-            "Opt-H2K-Type2CCaseH": "60",
-            "Opt-H2K-Type2Func": "2",
-            "Opt-H2K-Type2Type": "1",
-            "Opt-H2K-Type2CapOpt": "3",
-            "Opt-H2K-Type2CapVal": "NA",
-            "Opt-H2K-Type2HeatCOP": "2.50",
-            "Opt-H2K-Type2RatingTemp": "8.3",            
-            "Opt-H2K-CoolSpecType": "SEER",
-            "Opt-H2K-Type2CoolCOP": "16",
-            "Opt-H2K-Type2CutoffType": "2",
-            "Opt-H2K-Type2CutoffTemp": "-25",
-            "Opt-H2K-CoolOperWindow": "4"
-          }
-        },
-        "costs": {
-          "custom-costs": {
-          },
-          "components": [
-            {
-              "H2KHouseInfo.HVAC/ASHP/capacity_kW": {
-                "per?13": "ccashp:3_ton:13.5_kw_@_-25oc:incl._ecm_air_handler_w/coil:staging_controls:tank:aux._heater_&_tstat"
-              }
-            },            
-            "ducting:central_forced_air",
-            "install_200a_service_instead_of_100a_service"
-          ]
-        }
-      },
-	  "CCASHP-264": {
-        "h2kMap": {
-          "base": {
-            "Opt-H2K-SysType1": "Baseboards",
-            "Opt-H2K-SysType2": "AirHeatPump",
-            "Opt-H2K-Type1Fuel": "NA",
-            "Opt-H2K-Type1EqpType": "NA",
-            "Opt-H2K-Type1CapOpt": "2",
-            "Opt-H2K-Type1CapVal": "NA",
-            "Opt-H2K-Type1EffType": "true",
-            "Opt-H2K-Type1EffVal": "100",
-            "Opt-H2K-Type1FanCtl": "1",
-            "Opt-H2K-Type1EEMotor": "true",
-            "Opt-H2K-Type2CCaseH": "60",
-            "Opt-H2K-Type2Func": "2",
-            "Opt-H2K-Type2Type": "1",
-            "Opt-H2K-Type2CapOpt": "3",
-            "Opt-H2K-Type2CapVal": "NA",
-            "Opt-H2K-Type2HeatCOP": "2.64",
-            "Opt-H2K-Type2RatingTemp": "8.3",            
-            "Opt-H2K-CoolSpecType": "SEER",
-            "Opt-H2K-Type2CoolCOP": "17",
-            "Opt-H2K-Type2CutoffType": "2",
-            "Opt-H2K-Type2CutoffTemp": "-25",
-            "Opt-H2K-CoolOperWindow": "4"
-          }
-        },
-        "costs": {
-          "custom-costs": {
-          },
-          "components": [
-            {
-              "H2KHouseInfo.HVAC/ASHP/capacity_kW": {
-                "per?13": "ccashp:3_ton:13.5_kw_@_-25oc:incl._ecm_air_handler_w/coil:staging_controls:tank:aux._heater_&_tstat"
-              }
-            },            
-            "ducting:central_forced_air",
-            "install_200a_service_instead_of_100a_service"
-          ]
-        }
-      },
-	  "CCASHP-300": {
+	  "CCASHP-NECB": {
         "h2kMap": {
           "base": {
             "Opt-H2K-SysType1": "Baseboards",
@@ -10449,9 +10285,9 @@
             "Opt-H2K-Type2HeatCOP": "3.00",
             "Opt-H2K-Type2RatingTemp": "8.3",            
             "Opt-H2K-CoolSpecType": "SEER",
-            "Opt-H2K-Type2CoolCOP": "18",
+            "Opt-H2K-Type2CoolCOP": "14",
             "Opt-H2K-Type2CutoffType": "2",
-            "Opt-H2K-Type2CutoffTemp": "-25",
+            "Opt-H2K-Type2CutoffTemp": "0.0",
             "Opt-H2K-CoolOperWindow": "4"
           }
         },
@@ -10469,7 +10305,7 @@
           ]
         }
       },
-	  "CCASHP-310": {
+	  "CCASHP-NEEP-Conservative-CZ4": {
         "h2kMap": {
           "base": {
             "Opt-H2K-SysType1": "Baseboards",
@@ -10485,14 +10321,14 @@
             "Opt-H2K-Type2CCaseH": "60",
             "Opt-H2K-Type2Func": "2",
             "Opt-H2K-Type2Type": "1",
-            "Opt-H2K-Type2CapOpt": "3",
+            "Opt-H2K-Type2CapOpt": "2",
             "Opt-H2K-Type2CapVal": "NA",
-            "Opt-H2K-Type2HeatCOP": "3.10",
+            "Opt-H2K-Type2HeatCOP": "3.48",
             "Opt-H2K-Type2RatingTemp": "8.3",            
             "Opt-H2K-CoolSpecType": "SEER",
-            "Opt-H2K-Type2CoolCOP": "19",
+            "Opt-H2K-Type2CoolCOP": "17",
             "Opt-H2K-Type2CutoffType": "2",
-            "Opt-H2K-Type2CutoffTemp": "-25",
+            "Opt-H2K-Type2CutoffTemp": "-22",
             "Opt-H2K-CoolOperWindow": "4"
           }
         },
@@ -10510,7 +10346,7 @@
           ]
         }
       },
-	  "CCASHP-330": {
+	  "CCASHP-NEEP-Conservative-CZ5": {
         "h2kMap": {
           "base": {
             "Opt-H2K-SysType1": "Baseboards",
@@ -10526,14 +10362,14 @@
             "Opt-H2K-Type2CCaseH": "60",
             "Opt-H2K-Type2Func": "2",
             "Opt-H2K-Type2Type": "1",
-            "Opt-H2K-Type2CapOpt": "3",
+            "Opt-H2K-Type2CapOpt": "2",
             "Opt-H2K-Type2CapVal": "NA",
-            "Opt-H2K-Type2HeatCOP": "3.30",
+            "Opt-H2K-Type2HeatCOP": "3.38",
             "Opt-H2K-Type2RatingTemp": "8.3",            
             "Opt-H2K-CoolSpecType": "SEER",
-            "Opt-H2K-Type2CoolCOP": "20",
+            "Opt-H2K-Type2CoolCOP": "17",
             "Opt-H2K-Type2CutoffType": "2",
-            "Opt-H2K-Type2CutoffTemp": "-25",
+            "Opt-H2K-Type2CutoffTemp": "-22",
             "Opt-H2K-CoolOperWindow": "4"
           }
         },
@@ -10551,7 +10387,7 @@
           ]
         }
       },
-	  "CCASHP-350": {
+	  "CCASHP-NEEP-Conservative-CZ6": {
         "h2kMap": {
           "base": {
             "Opt-H2K-SysType1": "Baseboards",
@@ -10567,55 +10403,178 @@
             "Opt-H2K-Type2CCaseH": "60",
             "Opt-H2K-Type2Func": "2",
             "Opt-H2K-Type2Type": "1",
-            "Opt-H2K-Type2CapOpt": "3",
+            "Opt-H2K-Type2CapOpt": "2",
+            "Opt-H2K-Type2CapVal": "NA",
+            "Opt-H2K-Type2HeatCOP": "3.36",
+            "Opt-H2K-Type2RatingTemp": "8.3",            
+            "Opt-H2K-CoolSpecType": "SEER",
+            "Opt-H2K-Type2CoolCOP": "17",
+            "Opt-H2K-Type2CutoffType": "2",
+            "Opt-H2K-Type2CutoffTemp": "-22",
+            "Opt-H2K-CoolOperWindow": "4"
+          }
+        },
+        "costs": {
+          "custom-costs": {
+          },
+          "components": [
+            {
+              "H2KHouseInfo.HVAC/ASHP/capacity_kW": {
+                "per?13": "ccashp:3_ton:13.5_kw_@_-25oc:incl._ecm_air_handler_w/coil:staging_controls:tank:aux._heater_&_tstat"
+              }
+            },            
+            "ducting:central_forced_air",
+            "install_200a_service_instead_of_100a_service"
+          ]
+        }
+      },
+	  "CCASHP-NEEP-Conservative-CZ7a": {
+        "h2kMap": {
+          "base": {
+            "Opt-H2K-SysType1": "Baseboards",
+            "Opt-H2K-SysType2": "AirHeatPump",
+            "Opt-H2K-Type1Fuel": "NA",
+            "Opt-H2K-Type1EqpType": "NA",
+            "Opt-H2K-Type1CapOpt": "2",
+            "Opt-H2K-Type1CapVal": "NA",
+            "Opt-H2K-Type1EffType": "true",
+            "Opt-H2K-Type1EffVal": "100",
+            "Opt-H2K-Type1FanCtl": "1",
+            "Opt-H2K-Type1EEMotor": "true",
+            "Opt-H2K-Type2CCaseH": "60",
+            "Opt-H2K-Type2Func": "2",
+            "Opt-H2K-Type2Type": "1",
+            "Opt-H2K-Type2CapOpt": "2",
+            "Opt-H2K-Type2CapVal": "NA",
+            "Opt-H2K-Type2HeatCOP": "3.34",
+            "Opt-H2K-Type2RatingTemp": "8.3",            
+            "Opt-H2K-CoolSpecType": "SEER",
+            "Opt-H2K-Type2CoolCOP": "17",
+            "Opt-H2K-Type2CutoffType": "2",
+            "Opt-H2K-Type2CutoffTemp": "-22",
+            "Opt-H2K-CoolOperWindow": "4"
+          }
+        },
+        "costs": {
+          "custom-costs": {
+          },
+          "components": [
+            {
+              "H2KHouseInfo.HVAC/ASHP/capacity_kW": {
+                "per?13": "ccashp:3_ton:13.5_kw_@_-25oc:incl._ecm_air_handler_w/coil:staging_controls:tank:aux._heater_&_tstat"
+              }
+            },            
+            "ducting:central_forced_air",
+            "install_200a_service_instead_of_100a_service"
+          ]
+        }
+      },
+	  "CCASHP-NEEP-Conservative-CZ7b": {
+        "h2kMap": {
+          "base": {
+            "Opt-H2K-SysType1": "Baseboards",
+            "Opt-H2K-SysType2": "AirHeatPump",
+            "Opt-H2K-Type1Fuel": "NA",
+            "Opt-H2K-Type1EqpType": "NA",
+            "Opt-H2K-Type1CapOpt": "2",
+            "Opt-H2K-Type1CapVal": "NA",
+            "Opt-H2K-Type1EffType": "true",
+            "Opt-H2K-Type1EffVal": "100",
+            "Opt-H2K-Type1FanCtl": "1",
+            "Opt-H2K-Type1EEMotor": "true",
+            "Opt-H2K-Type2CCaseH": "60",
+            "Opt-H2K-Type2Func": "2",
+            "Opt-H2K-Type2Type": "1",
+            "Opt-H2K-Type2CapOpt": "2",
+            "Opt-H2K-Type2CapVal": "NA",
+            "Opt-H2K-Type2HeatCOP": "3.09",
+            "Opt-H2K-Type2RatingTemp": "8.3",            
+            "Opt-H2K-CoolSpecType": "SEER",
+            "Opt-H2K-Type2CoolCOP": "17",
+            "Opt-H2K-Type2CutoffType": "2",
+            "Opt-H2K-Type2CutoffTemp": "-22",
+            "Opt-H2K-CoolOperWindow": "4"
+          }
+        },
+        "costs": {
+          "custom-costs": {
+          },
+          "components": [
+            {
+              "H2KHouseInfo.HVAC/ASHP/capacity_kW": {
+                "per?13": "ccashp:3_ton:13.5_kw_@_-25oc:incl._ecm_air_handler_w/coil:staging_controls:tank:aux._heater_&_tstat"
+              }
+            },            
+            "ducting:central_forced_air",
+            "install_200a_service_instead_of_100a_service"
+          ]
+        }
+      },
+	  "CCASHP-NEEP-Conservative-CZ8": {
+        "h2kMap": {
+          "base": {
+            "Opt-H2K-SysType1": "Baseboards",
+            "Opt-H2K-SysType2": "AirHeatPump",
+            "Opt-H2K-Type1Fuel": "NA",
+            "Opt-H2K-Type1EqpType": "NA",
+            "Opt-H2K-Type1CapOpt": "2",
+            "Opt-H2K-Type1CapVal": "NA",
+            "Opt-H2K-Type1EffType": "true",
+            "Opt-H2K-Type1EffVal": "100",
+            "Opt-H2K-Type1FanCtl": "1",
+            "Opt-H2K-Type1EEMotor": "true",
+            "Opt-H2K-Type2CCaseH": "60",
+            "Opt-H2K-Type2Func": "2",
+            "Opt-H2K-Type2Type": "1",
+            "Opt-H2K-Type2CapOpt": "2",
+            "Opt-H2K-Type2CapVal": "NA",
+            "Opt-H2K-Type2HeatCOP": "3.03",
+            "Opt-H2K-Type2RatingTemp": "8.3",            
+            "Opt-H2K-CoolSpecType": "SEER",
+            "Opt-H2K-Type2CoolCOP": "17",
+            "Opt-H2K-Type2CutoffType": "2",
+            "Opt-H2K-Type2CutoffTemp": "-22",
+            "Opt-H2K-CoolOperWindow": "4"
+          }
+        },
+        "costs": {
+          "custom-costs": {
+          },
+          "components": [
+            {
+              "H2KHouseInfo.HVAC/ASHP/capacity_kW": {
+                "per?13": "ccashp:3_ton:13.5_kw_@_-25oc:incl._ecm_air_handler_w/coil:staging_controls:tank:aux._heater_&_tstat"
+              }
+            },            
+            "ducting:central_forced_air",
+            "install_200a_service_instead_of_100a_service"
+          ]
+        }
+      },
+	  "CCASHP-NEEP-Generic-CZ4": {
+        "h2kMap": {
+          "base": {
+            "Opt-H2K-SysType1": "Baseboards",
+            "Opt-H2K-SysType2": "AirHeatPump",
+            "Opt-H2K-Type1Fuel": "NA",
+            "Opt-H2K-Type1EqpType": "NA",
+            "Opt-H2K-Type1CapOpt": "2",
+            "Opt-H2K-Type1CapVal": "NA",
+            "Opt-H2K-Type1EffType": "true",
+            "Opt-H2K-Type1EffVal": "100",
+            "Opt-H2K-Type1FanCtl": "1",
+            "Opt-H2K-Type1EEMotor": "true",
+            "Opt-H2K-Type2CCaseH": "60",
+            "Opt-H2K-Type2Func": "2",
+            "Opt-H2K-Type2Type": "1",
+            "Opt-H2K-Type2CapOpt": "2",
             "Opt-H2K-Type2CapVal": "NA",
             "Opt-H2K-Type2HeatCOP": "3.50",
-            "Opt-H2K-Type2RatingTemp": "8.3",            
-            "Opt-H2K-CoolSpecType": "SEER",
-            "Opt-H2K-Type2CoolCOP": "20",
-            "Opt-H2K-Type2CutoffType": "2",
-            "Opt-H2K-Type2CutoffTemp": "-25",
-            "Opt-H2K-CoolOperWindow": "4"
-          }
-        },
-        "costs": {
-          "custom-costs": {
-          },
-          "components": [
-            {
-              "H2KHouseInfo.HVAC/ASHP/capacity_kW": {
-                "per?13": "ccashp:3_ton:13.5_kw_@_-25oc:incl._ecm_air_handler_w/coil:staging_controls:tank:aux._heater_&_tstat"
-              }
-            },            
-            "ducting:central_forced_air",
-            "install_200a_service_instead_of_100a_service"
-          ]
-        }
-      },
-	  "CCASHP-400": {
-        "h2kMap": {
-          "base": {
-            "Opt-H2K-SysType1": "Baseboards",
-            "Opt-H2K-SysType2": "AirHeatPump",
-            "Opt-H2K-Type1Fuel": "NA",
-            "Opt-H2K-Type1EqpType": "NA",
-            "Opt-H2K-Type1CapOpt": "2",
-            "Opt-H2K-Type1CapVal": "NA",
-            "Opt-H2K-Type1EffType": "true",
-            "Opt-H2K-Type1EffVal": "100",
-            "Opt-H2K-Type1FanCtl": "1",
-            "Opt-H2K-Type1EEMotor": "true",
-            "Opt-H2K-Type2CCaseH": "60",
-            "Opt-H2K-Type2Func": "2",
-            "Opt-H2K-Type2Type": "1",
-            "Opt-H2K-Type2CapOpt": "3",
-            "Opt-H2K-Type2CapVal": "NA",
-            "Opt-H2K-Type2HeatCOP": "4.00",
             "Opt-H2K-Type2RatingTemp": "8.3",            
             "Opt-H2K-CoolSpecType": "SEER",
             "Opt-H2K-Type2CoolCOP": "21",
             "Opt-H2K-Type2CutoffType": "2",
-            "Opt-H2K-Type2CutoffTemp": "-25",
+            "Opt-H2K-Type2CutoffTemp": "-22",
             "Opt-H2K-CoolOperWindow": "4"
           }
         },
@@ -10633,7 +10592,7 @@
           ]
         }
       },
-	  "CCASHP-450": {
+	  "CCASHP-NEEP-Generic-CZ5": {
         "h2kMap": {
           "base": {
             "Opt-H2K-SysType1": "Baseboards",
@@ -10649,14 +10608,14 @@
             "Opt-H2K-Type2CCaseH": "60",
             "Opt-H2K-Type2Func": "2",
             "Opt-H2K-Type2Type": "1",
-            "Opt-H2K-Type2CapOpt": "3",
+            "Opt-H2K-Type2CapOpt": "2",
             "Opt-H2K-Type2CapVal": "NA",
-            "Opt-H2K-Type2HeatCOP": "4.50",
+            "Opt-H2K-Type2HeatCOP": "3.47",
             "Opt-H2K-Type2RatingTemp": "8.3",            
             "Opt-H2K-CoolSpecType": "SEER",
-            "Opt-H2K-Type2CoolCOP": "22",
+            "Opt-H2K-Type2CoolCOP": "21",
             "Opt-H2K-Type2CutoffType": "2",
-            "Opt-H2K-Type2CutoffTemp": "-25",
+            "Opt-H2K-Type2CutoffTemp": "-22",
             "Opt-H2K-CoolOperWindow": "4"
           }
         },
@@ -10674,7 +10633,7 @@
           ]
         }
       },
-	  "CCASHP-500": {
+	  "CCASHP-NEEP-Generic-CZ6": {
         "h2kMap": {
           "base": {
             "Opt-H2K-SysType1": "Baseboards",
@@ -10690,14 +10649,14 @@
             "Opt-H2K-Type2CCaseH": "60",
             "Opt-H2K-Type2Func": "2",
             "Opt-H2K-Type2Type": "1",
-            "Opt-H2K-Type2CapOpt": "3",
+            "Opt-H2K-Type2CapOpt": "2",
             "Opt-H2K-Type2CapVal": "NA",
-            "Opt-H2K-Type2HeatCOP": "5.00",
+            "Opt-H2K-Type2HeatCOP": "3.46",
             "Opt-H2K-Type2RatingTemp": "8.3",            
             "Opt-H2K-CoolSpecType": "SEER",
-            "Opt-H2K-Type2CoolCOP": "23",
+            "Opt-H2K-Type2CoolCOP": "21",
             "Opt-H2K-Type2CutoffType": "2",
-            "Opt-H2K-Type2CutoffTemp": "-25",
+            "Opt-H2K-Type2CutoffTemp": "-22",
             "Opt-H2K-CoolOperWindow": "4"
           }
         },
@@ -10715,7 +10674,7 @@
           ]
         }
       },
-	  "CCASHP-600": {
+	  "CCASHP-NEEP-Generic-CZ7a": {
         "h2kMap": {
           "base": {
             "Opt-H2K-SysType1": "Baseboards",
@@ -10731,14 +10690,14 @@
             "Opt-H2K-Type2CCaseH": "60",
             "Opt-H2K-Type2Func": "2",
             "Opt-H2K-Type2Type": "1",
-            "Opt-H2K-Type2CapOpt": "3",
+            "Opt-H2K-Type2CapOpt": "2",
             "Opt-H2K-Type2CapVal": "NA",
-            "Opt-H2K-Type2HeatCOP": "6.00",
+            "Opt-H2K-Type2HeatCOP": "3.46",
             "Opt-H2K-Type2RatingTemp": "8.3",            
             "Opt-H2K-CoolSpecType": "SEER",
-            "Opt-H2K-Type2CoolCOP": "24",
+            "Opt-H2K-Type2CoolCOP": "21",
             "Opt-H2K-Type2CutoffType": "2",
-            "Opt-H2K-Type2CutoffTemp": "-25",
+            "Opt-H2K-Type2CutoffTemp": "-22",
             "Opt-H2K-CoolOperWindow": "4"
           }
         },
@@ -10756,7 +10715,7 @@
           ]
         }
       },
-	  "CCASHP-700": {
+	  "CCASHP-NEEP-Generic-CZ7b": {
         "h2kMap": {
           "base": {
             "Opt-H2K-SysType1": "Baseboards",
@@ -10772,14 +10731,14 @@
             "Opt-H2K-Type2CCaseH": "60",
             "Opt-H2K-Type2Func": "2",
             "Opt-H2K-Type2Type": "1",
-            "Opt-H2K-Type2CapOpt": "3",
+            "Opt-H2K-Type2CapOpt": "2",
             "Opt-H2K-Type2CapVal": "NA",
-            "Opt-H2K-Type2HeatCOP": "7.00",
+            "Opt-H2K-Type2HeatCOP": "3.41",
             "Opt-H2K-Type2RatingTemp": "8.3",            
             "Opt-H2K-CoolSpecType": "SEER",
-            "Opt-H2K-Type2CoolCOP": "25",
+            "Opt-H2K-Type2CoolCOP": "21",
             "Opt-H2K-Type2CutoffType": "2",
-            "Opt-H2K-Type2CutoffTemp": "-25",
+            "Opt-H2K-Type2CutoffTemp": "-22",
             "Opt-H2K-CoolOperWindow": "4"
           }
         },
@@ -10797,7 +10756,7 @@
           ]
         }
       },
-	  "CCASHP-900": {
+	  "CCASHP-NEEP-Generic-CZ8": {
         "h2kMap": {
           "base": {
             "Opt-H2K-SysType1": "Baseboards",
@@ -10813,137 +10772,14 @@
             "Opt-H2K-Type2CCaseH": "60",
             "Opt-H2K-Type2Func": "2",
             "Opt-H2K-Type2Type": "1",
-            "Opt-H2K-Type2CapOpt": "3",
+            "Opt-H2K-Type2CapOpt": "2",
             "Opt-H2K-Type2CapVal": "NA",
-            "Opt-H2K-Type2HeatCOP": "9.00",
+            "Opt-H2K-Type2HeatCOP": "3.39",
             "Opt-H2K-Type2RatingTemp": "8.3",            
             "Opt-H2K-CoolSpecType": "SEER",
-            "Opt-H2K-Type2CoolCOP": "26",
+            "Opt-H2K-Type2CoolCOP": "21",
             "Opt-H2K-Type2CutoffType": "2",
-            "Opt-H2K-Type2CutoffTemp": "-25",
-            "Opt-H2K-CoolOperWindow": "4"
-          }
-        },
-        "costs": {
-          "custom-costs": {
-          },
-          "components": [
-            {
-              "H2KHouseInfo.HVAC/ASHP/capacity_kW": {
-                "per?13": "ccashp:3_ton:13.5_kw_@_-25oc:incl._ecm_air_handler_w/coil:staging_controls:tank:aux._heater_&_tstat"
-              }
-            },            
-            "ducting:central_forced_air",
-            "install_200a_service_instead_of_100a_service"
-          ]
-        }
-      },	  
-	  "CCASHP-NEEP-Generic": {
-        "h2kMap": {
-          "base": {
-            "Opt-H2K-SysType1": "Baseboards",
-            "Opt-H2K-SysType2": "AirHeatPump",
-            "Opt-H2K-Type1Fuel": "NA",
-            "Opt-H2K-Type1EqpType": "NA",
-            "Opt-H2K-Type1CapOpt": "2",
-            "Opt-H2K-Type1CapVal": "NA",
-            "Opt-H2K-Type1EffType": "true",
-            "Opt-H2K-Type1EffVal": "100",
-            "Opt-H2K-Type1FanCtl": "1",
-            "Opt-H2K-Type1EEMotor": "true",
-            "Opt-H2K-Type2CCaseH": "60",
-            "Opt-H2K-Type2Func": "2",
-            "Opt-H2K-Type2Type": "1",
-            "Opt-H2K-Type2CapOpt": "3",
-            "Opt-H2K-Type2CapVal": "NA",
-            "Opt-H2K-Type2HeatCOP": "3.50",
-            "Opt-H2K-Type2RatingTemp": "-6.3",            
-            "Opt-H2K-CoolSpecType": "SEER",
-            "Opt-H2K-Type2CoolCOP": "17",
-            "Opt-H2K-Type2CutoffType": "2",
-            "Opt-H2K-Type2CutoffTemp": "-25",
-            "Opt-H2K-CoolOperWindow": "4"
-          }
-        },
-        "costs": {
-          "custom-costs": {
-          },
-          "components": [
-            {
-              "H2KHouseInfo.HVAC/ASHP/capacity_kW": {
-                "per?13": "ccashp:3_ton:13.5_kw_@_-25oc:incl._ecm_air_handler_w/coil:staging_controls:tank:aux._heater_&_tstat"
-              }
-            },            
-            "ducting:central_forced_air",
-            "install_200a_service_instead_of_100a_service"
-          ]
-        }
-      },
-	  "CCASHP-NEEP-Generic-83": {
-        "h2kMap": {
-          "base": {
-            "Opt-H2K-SysType1": "Baseboards",
-            "Opt-H2K-SysType2": "AirHeatPump",
-            "Opt-H2K-Type1Fuel": "NA",
-            "Opt-H2K-Type1EqpType": "NA",
-            "Opt-H2K-Type1CapOpt": "2",
-            "Opt-H2K-Type1CapVal": "NA",
-            "Opt-H2K-Type1EffType": "true",
-            "Opt-H2K-Type1EffVal": "100",
-            "Opt-H2K-Type1FanCtl": "1",
-            "Opt-H2K-Type1EEMotor": "true",
-            "Opt-H2K-Type2CCaseH": "60",
-            "Opt-H2K-Type2Func": "2",
-            "Opt-H2K-Type2Type": "1",
-            "Opt-H2K-Type2CapOpt": "3",
-            "Opt-H2K-Type2CapVal": "NA",
-            "Opt-H2K-Type2HeatCOP": "3.50",
-            "Opt-H2K-Type2RatingTemp": "8.3",            
-            "Opt-H2K-CoolSpecType": "SEER",
-            "Opt-H2K-Type2CoolCOP": "17",
-            "Opt-H2K-Type2CutoffType": "2",
-            "Opt-H2K-Type2CutoffTemp": "-25",
-            "Opt-H2K-CoolOperWindow": "4"
-          }
-        },
-        "costs": {
-          "custom-costs": {
-          },
-          "components": [
-            {
-              "H2KHouseInfo.HVAC/ASHP/capacity_kW": {
-                "per?13": "ccashp:3_ton:13.5_kw_@_-25oc:incl._ecm_air_handler_w/coil:staging_controls:tank:aux._heater_&_tstat"
-              }
-            },            
-            "ducting:central_forced_air",
-            "install_200a_service_instead_of_100a_service"
-          ]
-        }
-      },
-	  "CCASHP-NEEP-Generic-83-Cap": {
-        "h2kMap": {
-          "base": {
-            "Opt-H2K-SysType1": "Baseboards",
-            "Opt-H2K-SysType2": "AirHeatPump",
-            "Opt-H2K-Type1Fuel": "NA",
-            "Opt-H2K-Type1EqpType": "NA",
-            "Opt-H2K-Type1CapOpt": "2",
-            "Opt-H2K-Type1CapVal": "NA",
-            "Opt-H2K-Type1EffType": "true",
-            "Opt-H2K-Type1EffVal": "100",
-            "Opt-H2K-Type1FanCtl": "1",
-            "Opt-H2K-Type1EEMotor": "true",
-            "Opt-H2K-Type2CCaseH": "60",
-            "Opt-H2K-Type2Func": "2",
-            "Opt-H2K-Type2Type": "1",
-            "Opt-H2K-Type2CapOpt": "1",
-            "Opt-H2K-Type2CapVal": "20",
-            "Opt-H2K-Type2HeatCOP": "3.50",
-            "Opt-H2K-Type2RatingTemp": "8.3",            
-            "Opt-H2K-CoolSpecType": "SEER",
-            "Opt-H2K-Type2CoolCOP": "17",
-            "Opt-H2K-Type2CutoffType": "2",
-            "Opt-H2K-Type2CutoffTemp": "-25",
+            "Opt-H2K-Type2CutoffTemp": "-22",
             "Opt-H2K-CoolOperWindow": "4"
           }
         },
