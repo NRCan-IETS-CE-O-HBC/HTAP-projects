@@ -50,7 +50,7 @@ Upgrades_START
 
    Opt-VentSystem       = NA 
    Opt-DHWSystem        = NA
-   Opt-Heating-Cooling  = NA, ASHP, CCASHP, CCASHP-NECB, *CZ8 
+   Opt-Heating-Cooling  = NA, ASHP, CCASHP, ASHP-NECB, *CZ8 
    Opt-H2K-PV           = NA
 
    Opt-Baseloads        = ERS-Single-regular-19.5kWh&190_per_day

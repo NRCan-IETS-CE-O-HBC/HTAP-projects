@@ -16,7 +16,7 @@ RunParameters_END
 ! run in mesh, even if an optimization mode is added in the future.
 RunScope_START
 
-  archetypes                        = *.h2k 
+  archetypes                        = *cz4.h2k 
   locations                         = NA
   rulesets                          = ArchetypeRoadmapping_elec, ArchetypeRoadmapping_oil, ArchetypeRoadmapping_gas
 
@@ -50,7 +50,7 @@ Upgrades_START
 
    Opt-VentSystem       = NA 
    Opt-DHWSystem        = NA
-   Opt-Heating-Cooling  = NA, ASHP, CCASHP, CCASHP-NECB, *CZ4 
+   Opt-Heating-Cooling  = NA, ASHP, CCASHP, ASHP-NECB, *CZ4 
    Opt-H2K-PV           = NA
 
    Opt-Baseloads        = ERS-Single-regular-19.5kWh&190_per_day
